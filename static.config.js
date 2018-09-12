@@ -3,7 +3,7 @@ import { siteRoot } from './src/config'
 import webpack from './webpack.config'
 
 export default {
-  preact: true,
+  plugins: ['react-static-plugin-preact'],
   siteRoot: siteRoot,
   bundleAnalyzer: !!process.env.BUNDLE_ANALYZE,
   Document,
@@ -14,7 +14,7 @@ export default {
         component: 'src/pages/home',
       },
       {
-        is404: true,
+        path: '404',
         component: 'src/pages/404',
       },
     ]

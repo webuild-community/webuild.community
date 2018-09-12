@@ -1,6 +1,7 @@
 import React from 'react'
 import { siteRoot } from './config'
 
+const siteName = 'WeBuild'
 const defaultTitle = 'WeBuild'
 const defaultDesc = 'WeBuild Website'
 const keywords = ['your keywords', 'keywords'].join(',')
@@ -19,7 +20,7 @@ const Document = ({ Html, Head, Body, children, routeInfo, siteData }) => {
         <meta property="og:url" content={siteRoot} />
         <meta property="og:title" content={defaultTitle} />
         <meta property="og:description" content={defaultDesc} />
-        <meta property="og:site_name" content="My site" />
+        <meta property="og:site_name" content={siteName} />
         <meta property="og:locale" content="en_US" />
         <meta property="ia:markup_url" content={siteRoot} />
 

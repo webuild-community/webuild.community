@@ -1,9 +1,8 @@
 import path from 'path'
 import autoprefixer from 'autoprefixer'
-import ExtractTextPlugin from 'extract-text-webpack-plugin'
+import MiniCssExtractPlugin from 'mini-css-extract-plugin'
 import postcssFlexbugsFixes from 'postcss-flexbugs-fixes'
 import tailwindcss from 'tailwindcss'
-
 import PurgecssPlugin from './purgecss.config'
 
 const getPostCSSLoader = ({ isDev = true }) => ({
@@ -42,19 +41,21 @@ function getLoaderTest({ isCssModules = false, lang = 'css' }) {
   }
 }
 
+const isDev = stage => stage === 'dev'
+
 function getCSSLoader({
   stage,
   lang = 'css',
   modules = false,
   loaders: extraLoaders = [],
 }) {
-  const isDev = stage === 'dev'
+  const _isDev = isDev(stage)
   // loaders
   const cssLoader = {
     loader: 'css-loader',
     options: {
-      sourceMap: isDev,
-      minimize: !isDev,
+      sourceMap: _isDev,
+      minimize: !_isDev,
       importLoaders: 1,
       modules,
       localIdentName: modules
@@ -62,24 +63,14 @@ function getCSSLoader({
         : '[hash:base64]',
     },
   }
-  let loaders = [cssLoader, getPostCSSLoader({ isDev }), ...extraLoaders]
-  if (stage === 'dev') {
-    loaders = ['style-loader', ...loaders]
-  } else if (stage === 'prod') {
-    loaders = ExtractTextPlugin.extract({
-      fallback: {
-        loader: 'style-loader',
-        options: {
-          sourceMap: false,
-          hmr: false,
-        },
-      },
-      use: loaders,
-    })
-  }
+  const loaders = [
+    _isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
+    cssLoader,
+    getPostCSSLoader({ isDev: _isDev }),
+    ...extraLoaders,
+  ]
 
   return {
-    include: path.resolve(__dirname, './src'),
     test: getLoaderTest({ isCssModules: modules, lang }),
     use: loaders,
   }
@@ -101,11 +92,12 @@ function getSASSLoader({ stage, modules = false }) {
   })
 }
 
-export default (config, { stage, defaultLoaders }) => {
+export default (config, { stage, defaultLoaders = {} }) => {
   const cssLoader = getCSSLoader({ stage, lang: 'css', modules: false })
   const cssModulesLoader = getCSSLoader({ stage, lang: 'css', modules: true })
   const scssLoader = getSASSLoader({ stage, modules: false })
   const scssModulesLoader = getSASSLoader({ stage, modules: true })
+  const _isDev = isDev(stage)
 
   config.module.rules = [
     {
@@ -116,16 +108,22 @@ export default (config, { stage, defaultLoaders }) => {
         cssLoader,
         cssModulesLoader,
         defaultLoaders.fileLoader,
-      ],
+      ].filter(Boolean),
     },
   ]
-
-  config.plugins.push(PurgecssPlugin)
 
   config.resolve.alias = {
     ...config.resolve.alias,
     '@': path.join(__dirname, 'src'),
   }
+
+  config.plugins.push(
+    new MiniCssExtractPlugin({
+      filename: _isDev ? '[name].css' : '[name].[hash:8].css',
+      chunkFilename: _isDev ? '[id].css' : '[id].[hash:8].css',
+    }),
+    PurgecssPlugin
+  )
 
   return config
 }
