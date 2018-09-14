@@ -6589,7 +6589,7 @@ postcss@^7.0.0, postcss@^7.0.2:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-preact-compat@^3.18.0, preact-compat@^3.18.2, preact-compat@^3.18.3:
+preact-compat@^3.18.0, preact-compat@^3.18.3:
   version "3.18.4"
   resolved "https://registry.yarnpkg.com/preact-compat/-/preact-compat-3.18.4.tgz#fbe76ddd30356c68e3ccde608107104946f2cf8d"
   dependencies:
@@ -6609,7 +6609,7 @@ preact-transition-group@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/preact-transition-group/-/preact-transition-group-1.1.1.tgz#f0a49327ea515ece34ea2be864c4a7d29e5d6e10"
 
-preact@^8.2.9, preact@^8.3.0, preact@^8.3.1:
+preact@^8.2.9, preact@^8.3.1:
   version "8.3.1"
   resolved "https://registry.yarnpkg.com/preact/-/preact-8.3.1.tgz#ed34f79d09edc5efd32a378a3416ef5dc531e3ac"
 
@@ -7453,12 +7453,6 @@ sass-loader@^7.1.0:
 sax@>=0.6.0, sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
-
-schedule@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/schedule/-/schedule-0.4.0.tgz#fa20cfd0bfbf91c47d02272fd7096780d3170bbb"
-  dependencies:
-    object-assign "^4.1.1"
 
 schema-utils@^0.4.4, schema-utils@^0.4.5:
   version "0.4.7"

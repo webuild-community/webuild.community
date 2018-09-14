@@ -85,7 +85,10 @@ function getSASSLoader({ stage, modules = false }) {
       {
         loader: 'sass-loader',
         options: {
-          includePaths: ['src/'],
+          includePaths: [
+            path.resolve(process.env.PWD, './src'),
+            path.resolve(process.env.PWD, './node_modules'),
+          ],
         },
       },
     ],
@@ -114,7 +117,7 @@ export default (config, { stage, defaultLoaders = {} }) => {
 
   config.resolve.alias = {
     ...config.resolve.alias,
-    '@': path.join(__dirname, 'src'),
+    '@': path.join(process.env.PWD, 'src'),
   }
 
   config.plugins.push(

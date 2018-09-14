@@ -11,11 +11,15 @@ export default {
     return [
       {
         path: '/',
-        component: 'src/pages/home',
+        component: 'src/containers/home',
+      },
+      {
+        path: '/chat',
+        component: 'src/containers/chat',
       },
       {
         path: '404',
-        component: 'src/pages/404',
+        component: 'src/containers/404',
       },
     ]
   },

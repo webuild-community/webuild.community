@@ -81,3 +81,18 @@
 .pin-l-1\/2 {
   left: 50%;
 }
+
+.bw-hover {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  transition: filter 0.3s ease;
+}
+
+.bw-hover:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+
+a {
+  transition: color 0.3s ease;
+}

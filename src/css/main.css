@@ -9,16 +9,12 @@ html {
   --white-25: rgba(255, 255, 255, 0.25);
 
   --black: #22292f;
-  --black-75: rgba(0, 0, 0, 0.75);
+  --black-70: rgba(0, 0, 0, 0.7);
   --black-50: rgba(0, 0, 0, 0.5);
   --black-25: rgba(0, 0, 0, 0.25);
 
-  --primary: #e13f5e;
-  --error: #d0021b;
-
-  --gutter: 2rem; /* 32px */
+  --gutter: 2.5rem;
 }
-
 
 body {
   font-size: 16px;
@@ -43,6 +39,7 @@ a {
   text-decoration: none;
 }
 
-input[disabled], button[disabled] {
+input[disabled],
+button[disabled] {
   cursor: not-allowed;
 }
