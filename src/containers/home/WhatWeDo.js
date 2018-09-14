@@ -9,7 +9,7 @@ const cards = [
     desc:
       'Discuss all topics related to software development and life of a developer.',
     linkText: 'Visit our Slack',
-    link: '#',
+    link: 'https://chat.webuild.community/',
   },
   {
     img: 'events',

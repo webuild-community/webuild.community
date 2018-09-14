@@ -1,6 +1,5 @@
 // External
 import React from 'react'
-import { Link } from 'react-static'
 
 // Internal
 import Logo from '@/components/svg/Logo'
@@ -9,15 +8,13 @@ const Header = () => (
   <header className="border-b border-grey-lighter">
     <div className="container">
       <div className="flex items-center justify-between py-4">
-        <Link to="/">
-          <Logo className="logo" />
-        </Link>
-        <Link
-          to="/chat"
+        <Logo className="logo" />
+        <a
+          href="https://chat.webuild.community/"
           className="text-white bg-black px-8 py-2 font-medium leading-normal"
         >
           Join Us
-        </Link>
+        </a>
       </div>
     </div>
   </header>
