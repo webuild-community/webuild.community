@@ -16,7 +16,7 @@ const Supporters = () => (
           <a href="#" target="_blank">
             <img
               className="bw-hover"
-              width="116px"
+              width="116"
               src="/images/tiki.png"
               srcSet="/images/tiki@2x.png 2x"
             />
@@ -26,7 +26,7 @@ const Supporters = () => (
           <a href="#" target="_blank">
             <img
               className="bw-hover"
-              width="149px"
+              width="149"
               src="/images/chotot.png"
               srcSet="/images/chotot@2x.png 2x"
             />

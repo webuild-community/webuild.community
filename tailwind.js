@@ -45,6 +45,8 @@ let colors = {
   current: 'currentColor',
   transparent: 'transparent',
 
+  primary: 'var(--primary)',
+
   black: 'var(--black)',
   'black-70': 'var(--black-70)',
   'black-50': 'var(--black-50)',

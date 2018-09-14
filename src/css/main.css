@@ -3,6 +3,7 @@ html {
 }
 
 :root {
+  --primary: #e13f5e;
   --white: #ffffff;
   --white-75: rgba(255, 255, 255, 0.75);
   --white-50: rgba(255, 255, 255, 0.5);

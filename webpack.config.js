@@ -85,10 +85,7 @@ function getSASSLoader({ stage, modules = false }) {
       {
         loader: 'sass-loader',
         options: {
-          includePaths: [
-            path.resolve(process.env.PWD, './src'),
-            path.resolve(process.env.PWD, './node_modules'),
-          ],
+          includePaths: ['src/'],
         },
       },
     ],
