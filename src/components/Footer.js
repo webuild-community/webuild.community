@@ -28,8 +28,7 @@ const Footer = () => (
 
           <div className="mt-5">
             <a
-              target="_blank"
-              href="#"
+              href="https://github.com/webuild-community"
               className="text-grey-dark hover:text-black"
             >
               <GithubIcon
