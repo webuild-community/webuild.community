@@ -25,24 +25,26 @@ const CommunitySection = () => (
         </div>
         <div className="col sm:w-1/5 w-1/2 lg:text-center sm:text-left text-center mb-20">
           <img
-            className="bw-hover"
-            width="135"
+            alt="GoLang Vietnam"
+            className="bw-hover lg:mr-5"
+            width="80"
             src="/images/go.png"
             srcSet="/images/go@2x.png 2x"
           />
         </div>
         <div className="col sm:w-1/5 w-1/2 lg:text-center sm:text-left text-center">
           <img
-            className="bw-hover"
+            className="bw-hover sm:ml-5"
             width="73"
             src="/images/android.png"
             srcSet="/images/android@2x.png 2x"
           />
         </div>
-        <div className="col sm:w-1/5 w-1/2 lg:text-right mb-20">
+        <div className="col sm:w-1/5 w-1/2 text lg:text-right text-center mb-20">
           <img
+            alt="Elixir Vietnam"
             className="bw-hover"
-            width="136"
+            width="80"
             src="/images/elixir.png"
             srcSet="/images/elixir@2x.png 2x"
           />
@@ -55,16 +57,18 @@ const CommunitySection = () => (
             srcSet="/images/geeky@2x.png 2x"
           />
         </div>
-        <div className="col sm:w-1/5 w-1/2 mb-20">
+        <div className="col sm:w-1/5 w-1/2 mb-20 sm:text-left text-center">
           <img
             className="bw-hover"
             width="84"
-            src="/images/java.png"
-            srcSet="/images/java@2x.png 2x"
+            alt="JavaScript Vietnam"
+            src="/images/javascript.png"
+            srcSet="/images/javascript@2x.png 2x"
           />
         </div>
         <div className="col sm:w-4/5 w-full mb-20 sm:text-left text-center">
           <img
+            alt="Google Developer Group Vietnam"
             width="273"
             className="mt-5 bw-hover"
             src="/images/GDG.png"

@@ -6,7 +6,7 @@ import { Head } from 'react-static'
 import { siteRoot } from '@/config'
 
 const PageHead = ({
-  title = 'WeBuild ',
+  title = 'WeBuild Community',
   desc = 'WeBuild Community is a platform that connects developers in Vietnam, where they can share their knowledge and experience, while working, learning, and building cool stuffs together.',
   path = '',
   ogImagePath = 'webuild-og.png',
