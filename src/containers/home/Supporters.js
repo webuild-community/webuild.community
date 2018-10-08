@@ -40,7 +40,7 @@ const Supporters = () => (
         </div>
         <div className="col sm:w-1/4 w-1/2 mb-20 text-center">
           <a
-            href="https://beta.dwarves.foundation/"
+            href="https://dwarves.foundation/"
             target="_blank"
             rel="noopener noreferrer"
           >
