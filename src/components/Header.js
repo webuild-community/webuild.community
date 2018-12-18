@@ -5,12 +5,14 @@ import React from 'react'
 import Logo from '@/components/svg/Logo'
 
 const Header = () => (
-  <header className="border-b border-grey-lighter">
+  <header className="border-b border-grey-lighter relative z-10">
     <div className="container">
       <div className="flex items-center justify-between py-4">
-        <Logo className="logo" />
+        <a href="/">
+          <Logo className="logo" />
+        </a>
         <a
-          href="https://chat.webuild.community/"
+          href="/chat"
           className="text-white bg-black px-8 py-2 font-medium leading-normal"
         >
           Join Us
