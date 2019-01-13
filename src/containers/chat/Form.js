@@ -7,7 +7,8 @@ const ChatForm = () => (
       <iframe
         scrolling="no"
         className={iframe}
-        src="https://daedstack.herokuapp.com/"
+        src="https://chat.webuild.community/"
+        // src="https://daedstack.herokuapp.com/"
       />
     </div>
   </section>
