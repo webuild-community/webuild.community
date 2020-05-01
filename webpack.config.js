@@ -14,11 +14,10 @@ const getPostCSSLoader = ({ isDev = true }) => ({
     sourceMap: isDev,
     plugins: () => [
       postcssFlexbugsFixes,
+      tailwindcss(path.resolve(__dirname, './tailwind.js')),
       autoprefixer({
-        browsers: ['>0.25%', 'not ie 11', 'not op_mini all'],
         flexbox: 'no-2009',
       }),
-      tailwindcss(path.resolve(__dirname, './tailwind.js')),
     ],
   },
 })
@@ -115,6 +114,7 @@ export default (config, { stage, defaultLoaders = {} }) => {
   config.resolve.alias = {
     ...config.resolve.alias,
     '@': path.join(process.env.PWD, 'src'),
+    $sources: path.join(process.env.PWD, 'sources'),
   }
 
   config.plugins.push(
