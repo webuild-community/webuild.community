@@ -13,7 +13,7 @@
     "lint:fix": "eslint --fix --ext .js,.jsx --ignore-path .gitignore ."
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.18.1",
     "nprogress": "^0.2.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
