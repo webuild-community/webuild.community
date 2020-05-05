@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "dayjs": "^1.8.26",
     "nprogress": "^0.2.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
@@ -21,6 +22,7 @@
     "react-static": "^6.0.0-beta.16"
   },
   "devDependencies": {
+    "autoprefixer": "^9.7.6",
     "babel-eslint": "^8.2.2",
     "babel-plugin-macros": "^2.3.0",
     "babel-plugin-transform-imports": "^1.5.0",
@@ -47,5 +49,10 @@
   "resolutions": {
     "react": "16.4.2",
     "react-dom": "16.4.2"
-  }
+  },
+  "browserslist": [
+    ">0.25%",
+    "not ie 11",
+    "not op_mini all"
+  ]
 }
