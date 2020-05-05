@@ -1,6 +1,8 @@
 # WeBuild
 
-This is the official repo for webuild.community webiste. 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ba693dc5-f63b-4eef-a2b5-e36687dc8cca/deploy-status)](https://app.netlify.com/sites/webuild-community/deploys)
+
+This is the official repo for webuild.community webiste.
 
 It was built using [react-static](https://github.com/nozzle/react-static), a progressive static-site generator for React. The output is a static website hosted in Netlify.
 
@@ -17,20 +19,20 @@ to get started:
 When you open a pull request, we'd appreciate if you follow some basic
 guidelines:
 
-* Describe what you're changing, and more importantly _why_ you're changing it
-* Keep the pull request focused on one thing - if you make two different,
+- Describe what you're changing, and more importantly _why_ you're changing it
+- Keep the pull request focused on one thing - if you make two different,
   unrelated changes, please separate them into two pull requests
-* Some pull requests won't get merged. All changes are reviewed by a committee
+- Some pull requests won't get merged. All changes are reviewed by a committee
   member, and sometimes changes don't fit with the organisation's vision.
-  
+
 ## Build Instructions
 
 Building and deploying the site is done via `yarn`
 
-* `yarn` installs dependencies
-* `yarn dev` runs webpack dev server for development mode
-* `yarn build` builds source code to static files for production
-* `yarn serve` serves compiled static files on local
+- `yarn` installs dependencies
+- `yarn dev` runs webpack dev server for development mode
+- `yarn build` builds source code to static files for production
+- `yarn serve` serves compiled static files on local
 
 ## License
 
