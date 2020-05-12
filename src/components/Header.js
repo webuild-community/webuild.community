@@ -2,7 +2,7 @@
 import React from 'react'
 
 // Internal
-import Logo from '@/components/svg/Logo'
+import Logo from '~/components/svg/Logo'
 
 const Header = () => (
   <header className="border-b border-grey-lighter relative z-10">
@@ -23,3 +23,4 @@ const Header = () => (
 )
 
 export default Header
+
