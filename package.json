@@ -1,58 +1,64 @@
 {
   "name": "webuild",
-  "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "version": "2.0.0",
+  "author": "",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "dayjs": "^1.8.26",
+    "gatsby": "2.21.20",
+    "gatsby-alias-imports": "^1.0.4",
+    "gatsby-plugin-manifest": "2.4.2",
+    "gatsby-plugin-offline": "3.2.1",
+    "gatsby-plugin-postcss": "^2.3.1",
+    "gatsby-plugin-react-helmet": "3.3.1",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-sharp": "2.6.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-helmet": "6.0.0"
+  },
   "license": "MIT",
   "scripts": {
-    "dev": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "rm -rf dist; react-static build",
-    "build:analyze": "BUNDLE_ANALYZE=1 react-static build",
-    "serve": "serve dist -l 8000",
-    "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
-    "lint:fix": "eslint --fix --ext .js,.jsx --ignore-path .gitignore ."
-  },
-  "dependencies": {
-    "axios": "^0.16.2",
-    "dayjs": "^1.8.26",
-    "nprogress": "^0.2.0",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-router": "^4.2.0",
-    "react-static": "^6.0.0-beta.16"
+    "analyze:lint": "eslint --ext .jsx --ext .js .",
+    "analyze": "yarn analyze:lint && yarn analyze:prettier",
+    "fix": "yarn fix:lint && yarn fix:prettier",
+    "build": "gatsby build",
+    "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "dev": "yarn develop",
+    "start": "yarn develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "prettify": "prettier -c --write \"*/**\""
   },
   "devDependencies": {
-    "autoprefixer": "^9.7.6",
-    "babel-eslint": "^8.2.2",
-    "babel-plugin-macros": "^2.3.0",
-    "babel-plugin-transform-imports": "^1.5.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-react": "^7.7.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "lqip.macro": "^0.1.5",
-    "mini-css-extract-plugin": "^0.4.2",
-    "node-sass": "^4.9.3",
-    "prettier": "^1.12.1",
-    "purgecss-webpack-plugin": "^0.22.0",
-    "purgecss-whitelister": "^1.2.0",
-    "react-hot-loader": "^4.2.0",
-    "react-static-plugin-preact": "^1.0.3",
-    "sass-loader": "^7.1.0",
-    "serve": "^9.4.2",
-    "tailwindcss": "^0.5.2"
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@tailwindcss/custom-forms": "0.2.1",
+    "autoprefixer": "9.7.6",
+    "babel-eslint": "10.1.0",
+    "cssnano": "4.1.10",
+    "eslint": "6.8.0",
+    "eslint-loader": "3.0.4",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-react": "7.19.0",
+    "gatsby-plugin-eslint": "2.0.8",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.2",
+    "prettier": "^2.0.5",
+    "tailwindcss": "1.4.5"
   },
-  "resolutions": {
-    "react": "16.4.2",
-    "react-dom": "16.4.2"
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
   },
-  "browserslist": [
-    ">0.25%",
-    "not ie 11",
-    "not op_mini all"
-  ]
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
 }

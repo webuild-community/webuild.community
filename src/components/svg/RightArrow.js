@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const SvgComponent = props => (
   <svg width={60} height={120} {...props} viewBox="0 0 60 120">
@@ -7,6 +7,6 @@ const SvgComponent = props => (
       <path d="M0 119l60-48.626V46L0 94.626zM45 34.413L29.88 46 0 23.174V0z" />
     </g>
   </svg>
-)
+);
 
-export default SvgComponent
+export default SvgComponent;

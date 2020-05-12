@@ -1,14 +1,9 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"],
-      "$sources": ["sources/*"]
-    },
-    "target": "ES6",
-    "module": "commonjs",
-    "allowSyntheticDefaultImports": true
+      "$sources": ["./sources"]
+    }
   },
-  "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }

@@ -4,7 +4,7 @@
 
 This is the official repo for webuild.community webiste.
 
-It was built using [react-static](https://github.com/nozzle/react-static), a progressive static-site generator for React. The output is a static website hosted in Netlify.
+It was built using [gatsby](https://github.com/gatsbyjs/gatsby), a progressive static-site generator for React. The output is a static website hosted in Netlify.
 
 ## How to Contribute
 
