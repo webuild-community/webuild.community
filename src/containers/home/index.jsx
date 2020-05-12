@@ -13,8 +13,8 @@ const Home = () => (
     <HeroBanner />
     <WhatWeDo />
     <Jobs />
-    <Community />
     <Supporters />
+    <Community />
   </DefaultLayout>
 );
 
