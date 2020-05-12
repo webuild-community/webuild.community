@@ -31,7 +31,7 @@ const Header = () => (
         </ul>
 
         <Link to="/chat">
-          <Button>Join Us</Button>
+          <Button>Join us</Button>
         </Link>
       </div>
     </Container>
