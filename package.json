@@ -6,7 +6,7 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "dayjs": "^1.8.26",
-    "gatsby": "2.21.20",
+    "gatsby": "2.21.23",
     "gatsby-plugin-manifest": "2.4.2",
     "gatsby-plugin-offline": "3.2.1",
     "gatsby-plugin-postcss": "^2.3.1",
@@ -23,7 +23,7 @@
     "analyze:lint": "eslint --ext .jsx --ext .js .",
     "analyze": "yarn analyze:lint && yarn analyze:prettier",
     "build": "gatsby build",
-    "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "develop": "gatsby develop",
     "dev": "yarn develop",
     "start": "yarn develop",
     "serve": "gatsby serve",
@@ -34,7 +34,6 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@tailwindcss/custom-forms": "0.2.1",
     "autoprefixer": "^9.7.6",
     "babel-eslint": "10.1.0",
     "cssnano": "4.1.10",
@@ -46,7 +45,7 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.2",
     "prettier": "^2.0.5",
-    "tailwindcss": "1.4.5"
+    "tailwindcss": "1.4.6"
   },
   "husky": {
     "hooks": {

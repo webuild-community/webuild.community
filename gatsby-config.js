@@ -61,11 +61,12 @@ module.exports = {
         ]
       }
     },
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
     {
       resolve: 'gatsby-plugin-root-import',
       options: {
         sources: path.join(__dirname, 'sources/'),
+        root: path.join(__dirname, 'src/'),
         containers: path.join(__dirname, 'src/containers'),
         components: path.join(__dirname, 'src/components'),
         utils: path.join(__dirname, 'src/utils'),

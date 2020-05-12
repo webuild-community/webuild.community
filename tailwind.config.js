@@ -1,9 +1,6 @@
 // See https://tailwindcss.com/docs/configuration for details
 module.exports = {
-  purge: {
-    enabled: true,
-    content: ['./src/**/*.html', './src/**/*.jsx', './src/**/*.js']
-  },
+  purge: ['./src/**/*.html', './src/**/*.jsx', './src/**/*.js'],
   theme: {
     container: {
       center: true
@@ -51,6 +48,7 @@ module.exports = {
       lg: '1.125rem', // 18px
       xl: '1.25rem', // 20px
       '2xl': '1.5rem', // 24px
+      '28px': '1.75rem', // 28px
       '3xl': '2rem', // 32px
       '4xl': '2.25rem', // 36px
       '5xl': '3rem', // 48px
@@ -81,6 +79,18 @@ module.exports = {
       tight: '-0.05em',
       normal: '0',
       wide: '0.05em'
+    },
+
+    opacity: {
+      0: '0',
+      10: '0.1',
+      25: '0.25',
+      30: '0.3',
+      50: '0.5',
+      70: '0.7',
+      75: '0.75',
+      80: '0.8',
+      100: '1'
     },
 
     textColor: theme => theme('colors'),
@@ -224,70 +234,45 @@ module.exports = {
       '3xl': '80rem',
       '4xl': '90rem',
       '5xl': '100rem',
-      full: '100%'
+      full: '100%',
+      container: '1014px' //'982 + 16*2'
     },
     maxHeight: {
       full: '100%',
       screen: '100vh'
     },
 
-    padding: {
+    spacing: {
       px: '1px',
-      '0': '0',
-      '1': '0.25rem', // 4px
-      '2': '0.5rem', // 8px
-      '3': '0.75rem', // 12px
-      '4': '1rem', // 16px
-      '5': '1.25rem', // 20px
-      '6': '1.5rem', // 24px
-      '8': '2rem', // 32px
-      '9': '2.25rem', // 36px
-      '10': '2.5rem', // 40px
-      '11': '2.75rem', // 44px
-      '12': '3rem', // 48px
-      '13': '3.25rem', // 52px
-      '16': '4rem', // 64px
-      '20': '5rem', // 80px
-      '24': '6rem', // 96px
-      '25': '6.25rem', // 100px
-      '26': '6.5rem', // 104px
-      '32': '8rem', // 128px
-      '40': '10rem' // 160px
+      '2px': '2px',
+      0: '0',
+      1: '0.25rem',
+      2: '0.5rem',
+      3: '0.75rem',
+      4: '1rem',
+      5: '1.25rem',
+      6: '1.5rem',
+      7: '1.75rem',
+      8: '2rem',
+      10: '2.5rem',
+      12: '3rem',
+      14: '3.5rem',
+      16: '4rem',
+      20: '5rem',
+      24: '6rem',
+      32: '8rem',
+      40: '10rem',
+      48: '12rem',
+      56: '14rem',
+      64: '16rem'
     },
 
-    margin: {
+    padding: theme => theme('spacing'),
+    margin: (theme, { negative }) => ({
       auto: 'auto',
-      px: '1px',
-      '0': '0',
-      '1': '0.25rem', // 4px
-      '2': '0.5rem', // 8px
-      '3': '0.75rem', // 12px
-      '4': '1rem', // 16px
-      '5': '1.25rem', // 20px
-      '6': '1.5rem', // 24px
-      '7': '1.75rem',
-      '8': '2rem',
-      '10': '2.5rem',
-      '12': '3rem',
-      '14': '3.5rem',
-      '16': '4rem',
-      '20': '5rem',
-      '24': '6rem',
-      '25': '6.25rem',
-      '28': '7rem',
-      '32': '8rem',
-      '36': '9rem',
-      '40': '10rem',
-      // negativeMargin
-      '-px': '1px',
-      '=0': '0',
-      '-1': '0.25rem',
-      '-2': '0.5rem',
-      '-3': '0.75rem',
-      '-4': '1rem',
-      '-6': '1.5rem',
-      '-8': '2rem'
-    },
+      ...theme('spacing'),
+      ...negative(theme('spacing'))
+    }),
 
     boxShadow: {
       default: '0 2px 4px 0 rgba(0,0,0,0.10)',
@@ -375,57 +360,5 @@ module.exports = {
     wordBreak: ['responsive'],
     width: ['responsive'],
     zIndex: ['responsive']
-  },
-
-  plugins: [
-    require('@tailwindcss/custom-forms'),
-
-    function ({ addUtilities }) {
-      addUtilities(
-        {
-          '.object-fill': {
-            objectFit: 'fill'
-          },
-          '.object-contain': {
-            objectFit: 'contain'
-          },
-          '.object-cover': {
-            objectFit: 'cover'
-          }
-        },
-        ['responsive']
-      );
-      addUtilities(
-        {
-          '.-z-1': {
-            zIndex: -1
-          }
-        },
-        ['responsive']
-      );
-      addUtilities(
-        {
-          '.outline-none': {
-            outline: 'none'
-          }
-        },
-        ['focus']
-      );
-      addUtilities({
-        '.translate-center': {
-          transform: 'translateX(-50%) translateY(-50%)'
-        }
-      });
-      addUtilities({
-        '.overflow-x-hidden': {
-          overflowX: 'hidden'
-        }
-      });
-      addUtilities({
-        '.contain-strict': {
-          contain: 'strict'
-        }
-      });
-    }
-  ]
+  }
 };

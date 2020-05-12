@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
-      "sources": ["./sources"]
-    }
-  },
-  "exclude": ["node_modules"]
+      "*": ["src/*"]
+    },
+    "jsx": "react"
+  }
 }

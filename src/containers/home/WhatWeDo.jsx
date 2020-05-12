@@ -1,8 +1,8 @@
-// External
 import React from 'react';
+import Container from 'components/Container';
+import { H3, H5 } from 'components/typography';
 
-// Internal
-const cards = [
+const items = [
   {
     img: 'slack',
     title: 'Slack Channel',
@@ -29,33 +29,27 @@ const cards = [
 ];
 
 const WhatWeDoSection = () => (
-  <section id="what-we-do" className="pt-24">
-    <div className="container">
-      <div className="row">
-        <div className="col">
-          <h4 className="uppercase mb-10 sm:text-left text-center">
-            What we do
-          </h4>
-        </div>
-      </div>
-      <div className="row flex flex-wrap">
-        {cards.map(({ img, title, desc, linkText, link }) => (
-          <div className="col sm:w-1/3 mb-10 text-center" key={title}>
+  <section id="what-we-do" className="pt-12">
+    <Container>
+      <H3 className="mb-6">What we do</H3>
+      <div className="-mx-3 flex flex-wrap">
+        {items.map(({ img, title, desc, linkText, link }) => (
+          <div className="w-full sm:w-1/3 mb-10 text-center px-3" key={title}>
             <div className="shadow">
               <img
                 src={`/images/${img}.png`}
                 srcSet={`/images/${img}@2x.png 2x`}
               />
               <div
-                className="lg:px-10 px-6 lg:py-8 py-6 flex flex-col items-center justify-between"
+                className="lg:px-10 px-6 lg:py-8 py-6"
                 style={{ minHeight: '220px' }}
               >
-                <div className="mb-4">
-                  <h5 className="text-xl">{title}</h5>
-                  <p className="text-grey-darker mt-3">{desc}</p>
-                </div>
-
-                <a className="text-primary font-medium" href={link}>
+                <H5 className="mb-1">{title}</H5>
+                <p className="mb-2 text-gray-700">{desc}</p>
+                <a
+                  className="text-primary underline font-bold text-base"
+                  href={link}
+                >
                   {linkText}
                 </a>
               </div>
@@ -63,7 +57,7 @@ const WhatWeDoSection = () => (
           </div>
         ))}
       </div>
-    </div>
+    </Container>
   </section>
 );
 

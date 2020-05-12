@@ -1581,15 +1581,6 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tailwindcss/custom-forms@0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@tailwindcss/custom-forms/-/custom-forms-0.2.1.tgz#40e5ed1fff6d29d8ed1c508a0b2aaf8da96962e0"
-  integrity sha512-XdP5XY6kxo3x5o50mWUyoYWxOPV16baagLoZ5uM41gh6IhXzhz/vJYzqrTb/lN58maGIKlpkxgVsQUNSsbAS3Q==
-  dependencies:
-    lodash "^4.17.11"
-    mini-svg-data-uri "^1.0.3"
-    traverse "^0.6.6"
-
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -6023,10 +6014,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gatsby-cli@^2.12.14:
-  version "2.12.16"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.12.16.tgz#b91b89e5aebf68f73862ad7a2c13e56b16eee165"
-  integrity sha512-XSaIRKUaRbHN+ACaBVbYkM7JPcP0ZyoCMKHfzIan6Yyx3Ic8coG+7sc/NJx5mzmAKcnAlK4/492pAcsxnaxlWw==
+gatsby-cli@^2.12.17:
+  version "2.12.17"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.12.17.tgz#0b33fcf5ee7bbf17791e3bd7d56db6b6a1e8cb46"
+  integrity sha512-uZKs8rcjZPQ5dmK8pwrxxPaTi+SDbijGyg9t8qdF8gDQwW/xvgndK0VKUiBzjoVTO8jAvplUSw+RWUwdSwHTvA==
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/runtime" "^7.9.6"
@@ -6294,7 +6285,7 @@ gatsby-recipes@^0.1.15:
     ws "^7.2.5"
     xstate "^4.9.1"
 
-gatsby-telemetry@^1.3.2, gatsby-telemetry@^1.3.3:
+gatsby-telemetry@^1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-1.3.3.tgz#3a7e3cd6a33b7701d032c3d94091e3cfd0f1a386"
   integrity sha512-D9dGRXx3n3xHjmtLbg6+19HV5fnyBLJbKhzvfDt89x1sofxCMvwXnyFTIcE4Xg2ybemr0CU2jFwg7Bcy4B9QjA==
@@ -6317,10 +6308,10 @@ gatsby-telemetry@^1.3.2, gatsby-telemetry@^1.3.3:
     stack-utils "1.0.2"
     uuid "3.4.0"
 
-gatsby@2.21.20:
-  version "2.21.20"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.21.20.tgz#f00a12a34f46263b0a47723d5a1a82940e6f2b7f"
-  integrity sha512-0K4ZQXzkhOVfIEeQGrhUWLYHScVPKCvF/kJiW6TLeZFq4pr4KWdh+Hq899cmzLh5Ma+AWo1cvnb33Ksu8JKGbA==
+gatsby@2.21.23:
+  version "2.21.23"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.21.23.tgz#7c34167a66f6b8034a3856f22f9ec3d0a97a6a24"
+  integrity sha512-dJ01bJtuK7I8YyvAqs0P4jRAJaWOE/g7BC4VhuwE6A23BGmezPkhNKNzOytrz74+11wkJRUw9iBO8ojMSbfmFQ==
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/core" "^7.9.6"
@@ -6383,14 +6374,14 @@ gatsby@2.21.20:
     flat "^4.1.0"
     fs-exists-cached "1.0.0"
     fs-extra "^8.1.0"
-    gatsby-cli "^2.12.14"
+    gatsby-cli "^2.12.17"
     gatsby-core-utils "^1.2.1"
     gatsby-graphiql-explorer "^0.4.1"
     gatsby-link "^2.4.2"
     gatsby-plugin-page-creator "^2.3.1"
     gatsby-plugin-typescript "^2.4.2"
     gatsby-react-router-scroll "^3.0.0"
-    gatsby-telemetry "^1.3.2"
+    gatsby-telemetry "^1.3.3"
     glob "^7.1.6"
     got "8.3.2"
     graphql "^14.6.0"
@@ -6406,9 +6397,9 @@ gatsby@2.21.20:
     json-stringify-safe "^5.0.1"
     latest-version "5.1.0"
     lodash "^4.17.15"
-    lokijs "^1.5.8"
     md5 "^2.2.1"
     md5-file "^3.2.3"
+    meant "^1.0.1"
     micromatch "^3.1.10"
     mime "^2.4.5"
     mini-css-extract-plugin "^0.8.2"
@@ -8788,11 +8779,6 @@ loglevel@^1.6.8:
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.8.tgz#8a25fb75d092230ecd4457270d80b54e28011171"
   integrity sha512-bsU7+gc9AJ2SqpzxwU3+1fedl8zAntbtC5XYlt3s2j1hJcn2PsXSmgN8TaLG/J1/2mod4+cE/3vNL70/c1RNCA==
 
-lokijs@^1.5.8:
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/lokijs/-/lokijs-1.5.8.tgz#9296f288edb2147389ec692fc972c428c59179d1"
-  integrity sha512-D8E3TBrY35o1ELnonp2MF8b3wKu2tVNl2TqRjvS+95oPMMe7OoIAxNY1qr+5BEZwnWn2V4ErAjVt000DonM+FA==
-
 longest-streak@^2.0.1:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/longest-streak/-/longest-streak-2.0.4.tgz#b8599957da5b5dab64dee3fe316fa774597d90e4"
@@ -9218,7 +9204,7 @@ mini-css-extract-plugin@^0.8.2:
     schema-utils "^1.0.0"
     webpack-sources "^1.1.0"
 
-mini-svg-data-uri@^1.0.3, mini-svg-data-uri@^1.1.3:
+mini-svg-data-uri@^1.1.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/mini-svg-data-uri/-/mini-svg-data-uri-1.2.3.tgz#e16baa92ad55ddaa1c2c135759129f41910bc39f"
   integrity sha512-zd6KCAyXgmq6FV1mR10oKXYtvmA9vRoB6xPSTUJTbFApCtkefDnYueVR1gkof3KcdLZo1Y8mjF2DFmQMIxsHNQ==
@@ -13101,10 +13087,10 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tailwindcss@1.4.5:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.4.5.tgz#893ccddd226dc264f2bd53acd11e58077149e11d"
-  integrity sha512-MJW96Rz3G3RrFDbDuQCU893y4bf5hMWeVbMgcCqUfLNPbO9wRogDibCEvdKitD6aX9Y90SDT2FOKD17+WmIFLQ==
+tailwindcss@1.4.6:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.4.6.tgz#17b37166ccda08d7e7f9ca995ea48ce1e0089700"
+  integrity sha512-qV0qInUq1FWih39Bc5CWECdgObSzRrbjGD4ke4kAPSIq6WXrPhv0wwOcUWJgJ66ltT9j+XnSRYikG8WNRU/fTQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "^2.1.2"
     autoprefixer "^9.4.5"
@@ -13373,7 +13359,7 @@ tough-cookie@~2.5.0:
     psl "^1.1.28"
     punycode "^2.1.1"
 
-traverse@0.6.6, traverse@^0.6.6:
+traverse@0.6.6:
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/traverse/-/traverse-0.6.6.tgz#cbdf560fd7b9af632502fed40f918c157ea97137"
   integrity sha1-y99WD9e5r2MlAv7UD5GMFX6pcTc=
