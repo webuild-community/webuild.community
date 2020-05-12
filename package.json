@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
-  "version": "4.0.0",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "name": "webuild",
+  "description": "",
+  "version": "2.0.0",
+  "author": "",
   "dependencies": {
     "dayjs": "^1.8.26",
     "gatsby": "2.21.20",
@@ -17,12 +17,6 @@
     "react-dom": "16.13.1",
     "react-helmet": "6.0.0"
   },
-  "keywords": [
-    "gatsby",
-    "tailwind",
-    "tailwindcss",
-    "purgecss"
-  ],
   "license": "MIT",
   "scripts": {
     "analyze:lint": "eslint --ext .jsx --ext .js .",
