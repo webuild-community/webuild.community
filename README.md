@@ -1,110 +1,39 @@
-# Gatsby Starter Tailwind
+# WeBuild
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ba693dc5-f63b-4eef-a2b5-e36687dc8cca/deploy-status)](https://app.netlify.com/sites/webuild-community/deploys)
 
-<div align="center">
-  <img src="https://image.ibb.co/cJjPN7/gatsby_tailwind.png" alt="Gatsby and Tailwind CSS logos">
-</div>
+This is the official repo for webuild.community webiste.
 
-<div align="center">
-  <strong>A <a href="https://www.gatsbyjs.org/">Gatsby</a> starter styled using <a href="https://tailwindcss.com/">Tailwind CSS</a>, a utility-first CSS framework.</strong><br />
-  Uses <a href="https://www.purgecss.com/">PurgeCSS</a> to remove unused CSS.<br />
-  Illustrations by <a href="https://undraw.co/">unDraw</a>.
-  <br />
-  <br />
-</div>
-  
-![alt text](https://image.ibb.co/jv6FC7/gatsby_starter_tailwind.png "Screenshot of Gatsby Starter Tailwind homepage")
-  
-<p align="center">View demo <a href="https://gatsby-starter-tailwind.oddstronaut.com/">here</a>.</p>
+It was built using [gatsby](https://github.com/gatsbyjs/gatsby), a progressive static-site generator for React. The output is a static website hosted in Netlify.
 
-## What is Tailwind CSS?
+## How to Contribute
 
-> "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces."
-> –[Tailwind CSS](https://tailwindcss.com)
+Want to help? Sweet! We like help. Pull requests are very welcome. Here's how
+to get started:
 
-## What is Gatsby?
+1. Fork the repository
+2. Make some changes (see _Build Instructions_ below)
+3. Push your changes to your fork
+4. Open a pull request
 
-> "Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps." -[Gatsby](https://www.gatsbyjs.org/)
+When you open a pull request, we'd appreciate if you follow some basic
+guidelines:
 
-## Get started
+- Describe what you're changing, and more importantly _why_ you're changing it
+- Keep the pull request focused on one thing - if you make two different,
+  unrelated changes, please separate them into two pull requests
+- Some pull requests won't get merged. All changes are reviewed by a committee
+  member, and sometimes changes don't fit with the organisation's vision.
 
-Install the Gatsby CLI:
+## Build Instructions
 
-```sh
-npm i --global gatsby-cli
-```
+Building and deploying the site is done via `yarn`
 
-Create a new Gatsby project using this starter:
-
-```sh
-gatsby new my-new-website https://github.com/taylorbryant/gatsby-starter-tailwind
-```
-
-Build a stylesheet from your Tailwind CSS config and run the project in development mode:
-
-```sh
-cd my-new-website
-npm run develop
-```
-
-## Format and lint
-
-- `npm run analyze` - See what ESLint and Prettier can fix
-- `npm run fix` - Run Prettier and ESLint with the `--fix` option
-
-## Build your site
-
-Use `npm run build` to build your site for production.
-
-## Deployment
-
-### Netlify
-
-#### 1. Deploy this repo
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/taylorbryant/gatsby-starter-tailwind)
-
-#### 2. Update the build settings
-
-![alt text](https://i.ibb.co/whvDmxY/Screenshot-2020-01-26-11-06-15.png "Example Netlify build settings")
-
-## Resources
-
-- [Gatsby documentation](https://www.gatsbyjs.org/docs/)
-- [Tailwind documentation](https://tailwindcss.com/docs/what-is-tailwind/)
-- [Prettier documentation](https://prettier.io/docs/en/index.html)
-- [ESLint documentation](https://eslint.org/docs/user-guide/configuring)
+- `yarn` installs dependencies
+- `yarn dev` runs webpack dev server for development mode
+- `yarn build` builds source code to static files for production
+- `yarn serve` serves compiled static files on local
 
 ## License
 
-[MIT](https://github.com/taylorbryant/gatsby-starter-tailwind/blob/master/LICENSE.md)
-
-## How you can help
-
-Enjoying Gatsby Starter Tailwind and want to help? You can:
-
-- [Create an issue](https://github.com/taylorbryant/gatsby-starter-tailwind/issues/new) with some constructive criticism
-- [Submit a pull request](https://github.com/taylorbryant/gatsby-starter-tailwind/compare) with some improvements to the project
-
-## Contributors
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table>
-  <tr>
-    <td align="center"><a href="http://impuls.dev"><img src="https://avatars3.githubusercontent.com/u/8146736?v=4" width="100px;" alt="impulse"/><br /><sub><b>impulse</b></sub></a><br /><a href="https://github.com/taylorbryant/gatsby-starter-tailwind/commits?author=impulse" title="Code">💻</a></td>
-    <td align="center"><a href="https://gandreadis.com"><img src="https://avatars3.githubusercontent.com/u/5272244?v=4" width="100px;" alt="Georgios Andreadis"/><br /><sub><b>Georgios Andreadis</b></sub></a><br /><a href="https://github.com/taylorbryant/gatsby-starter-tailwind/commits?author=gandreadis" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/altruisticsoftware"><img src="https://avatars3.githubusercontent.com/u/12105346?v=4" width="100px;" alt="Chris"/><br /><sub><b>Chris</b></sub></a><br /><a href="https://github.com/taylorbryant/gatsby-starter-tailwind/commits?author=altruisticsoftware" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/dalwadani"><img src="https://avatars1.githubusercontent.com/u/4618082?v=4" width="100px;" alt="Dhaifallah Alwadani"/><br /><sub><b>Dhaifallah Alwadani</b></sub></a><br /><a href="https://github.com/taylorbryant/gatsby-starter-tailwind/commits?author=dalwadani" title="Code">💻</a></td>
-    <td align="center"><a href="http://nigelball.org"><img src="https://avatars2.githubusercontent.com/u/815408?v=4" width="100px;" alt="Nigel Ball"/><br /><sub><b>Nigel Ball</b></sub></a><br /><a href="#ideas-nigelb135" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/taylorbryant/gatsby-starter-tailwind/commits?author=nigelb135" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/monte-hayward"><img src="https://avatars3.githubusercontent.com/u/3780422?v=4" width="100px;" alt="Monte Hayward"/><br /><sub><b>Monte Hayward</b></sub></a><br /><a href="https://github.com/taylorbryant/gatsby-starter-tailwind/commits?author=monte-hayward" title="Code">💻</a></td>
-    <td align="center"><a href="https://lukebennett.com.au"><img src="https://avatars0.githubusercontent.com/u/3422401?v=4" width="100px;" alt="Luke Bennett"/><br /><sub><b>Luke Bennett</b></sub></a><br /><a href="https://github.com/taylorbryant/gatsby-starter-tailwind/commits?author=lukebennett88" title="Code">💻</a></td>
-  </tr>
-</table>
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">WeBuild Community website</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://webuild.community" property="cc:attributionName" rel="cc:attributionURL">WeBuild Community</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.<br />

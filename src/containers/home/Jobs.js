@@ -1,8 +1,8 @@
 import React from 'react'
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime'
-import Select from '@/components/Select'
-import Button from '@/components/Button'
+import Select from '~/components/Select'
+import Button from '~/components/Button'
 import jobData from '$sources/jobs/index.json'
 
 dayjs.extend(relativeTime)

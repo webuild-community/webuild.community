@@ -2,8 +2,8 @@
 import React from 'react'
 
 // Internal
-import DefaultLayout from '@/components/DefaultLayout'
-import PageHead from '@/components/PageHead'
+import DefaultLayout from '~/components/DefaultLayout'
+import SEO from '~/components/SEO'
 import HeroBanner from './HeroBanner'
 import WhatWeDo from './WhatWeDo'
 import Jobs from './Jobs'
@@ -12,7 +12,7 @@ import Supporters from './Supporters'
 
 const Home = () => (
   <DefaultLayout>
-    <PageHead />
+    <SEO keywords={[`WeBuild`]} title="Home" />
     <HeroBanner />
     <WhatWeDo />
     <Jobs />

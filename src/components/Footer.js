@@ -2,8 +2,8 @@
 import React from 'react'
 
 // Internal
-import GithubIcon from '@/components/svg/Github'
-import EmailIcon from '@/components/svg/Email'
+import GithubIcon from '~/components/svg/Github'
+import EmailIcon from '~/components/svg/Email'
 
 const Footer = () => (
   <footer className="bg-grey-lighter">

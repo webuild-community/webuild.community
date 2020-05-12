@@ -2,8 +2,8 @@
 import React from 'react'
 
 // Internal
-import LeftArrow from '@/components/svg/LeftArrow'
-import RightArrow from '@/components/svg/RightArrow'
+import LeftArrow from '~/components/svg/LeftArrow'
+import RightArrow from '~/components/svg/RightArrow'
 
 const HeroBannerSection = () => (
   <section

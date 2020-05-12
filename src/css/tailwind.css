@@ -1,0 +1,46 @@
+/*! purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/*! purgecss end ignore */
+@import 'fonts.css';
+@import 'main.css';
+@tailwind utilities;
+@responsive {
+  .row {
+    margin-left: calc(-1 * var(--gutter) / 2);
+    margin-right: calc(-1 * var(--gutter) / 2);
+  }
+  .col {
+    padding-left: calc(var(--gutter) / 2);
+    padding-right: calc(var(--gutter) / 2);
+  }
+}
+
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+.top-0-1\/2 {
+  top: 50%;
+}
+
+.left-0-1\/2 {
+  left: 50%;
+}
+
+.bw-hover {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  transition: filter 0.3s ease;
+}
+
+.bw-hover:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+
+a {
+  transition: color 0.3s ease;
+}
+

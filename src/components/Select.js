@@ -1,5 +1,5 @@
 import React from 'react'
-import DownArrow from '@/components/svg/DownArrow'
+import DownArrow from '~/components/svg/DownArrow'
 
 const CustomSelect = ({ options, onChange, value, name, ...rest }) => (
   <div {...rest} className="w-full relative flex items-center">
