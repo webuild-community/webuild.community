@@ -32,14 +32,27 @@ module.exports = {
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/sources`,
+        name: 'sources'
+      }
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: []
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        // name: `gatsby-starter-tailwind`,
-        // short_name: `starter`,
-        // start_url: `/`,
-        // background_color: fullConfig.theme.colors.white,
-        // theme_color: fullConfig.theme.colors.teal['400'],
-        // display: `minimal-ui`,
+        name: `Webuild Vietname`,
+        short_name: `webuild`,
+        start_url: `/`,
+        background_color: '#ffffff',
+        theme_color: '#34785C',
+        display: `minimal-ui`,
         icon: `src/assets/favicons/favicon.png`
       }
     },
