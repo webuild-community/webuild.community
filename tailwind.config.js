@@ -1,9 +1,12 @@
 // See https://tailwindcss.com/docs/configuration for details
 module.exports = {
-  purge: ['./src/**/*.js'],
+  purge: {
+    enabled: true,
+    content: ['./src/**/*.html', './src/**/*.jsx', './src/**/*.js']
+  },
   theme: {
     container: {
-      center: true,
+      center: true
     },
     colors: {
       current: 'currentColor',
@@ -16,15 +19,15 @@ module.exports = {
         500: '#9B9B9B',
         700: '#333333',
         800: '#2C2D32',
-        900: '#1D1D1D',
-      },
+        900: '#1D1D1D'
+      }
     },
 
     screens: {
       sm: '576px',
       md: '768px',
       lg: '992px',
-      xl: '1200px',
+      xl: '1200px'
     },
 
     fontFamily: {
@@ -36,8 +39,8 @@ module.exports = {
         'Consolas',
         'Liberation Mono',
         'Courier New',
-        'monospace',
-      ],
+        'monospace'
+      ]
     },
 
     fontSize: {
@@ -51,7 +54,7 @@ module.exports = {
       '3xl': '2rem', // 32px
       '4xl': '2.25rem', // 36px
       '5xl': '3rem', // 48px
-      '6xl': '3.5rem', // 56px
+      '6xl': '3.5rem' // 56px
     },
 
     fontWeight: {
@@ -63,7 +66,7 @@ module.exports = {
       semibold: 600,
       bold: 700,
       extrabold: 800,
-      black: 900,
+      black: 900
     },
 
     lineHeight: {
@@ -71,24 +74,24 @@ module.exports = {
       none: 1,
       tight: 1.25,
       normal: 1.5,
-      loose: 2,
+      loose: 2
     },
 
     letterSpacing: {
       tight: '-0.05em',
       normal: '0',
-      wide: '0.05em',
+      wide: '0.05em'
     },
 
-    textColor: (theme) => theme('colors'),
+    textColor: theme => theme('colors'),
 
-    backgroundColor: (theme) => theme('colors'),
+    backgroundColor: theme => theme('colors'),
 
     // backgroundSize
     backgroundSize: {
       auto: 'auto',
       cover: 'cover',
-      contain: 'contain',
+      contain: 'contain'
     },
 
     borderWidth: {
@@ -96,12 +99,12 @@ module.exports = {
       '0': '0',
       '2': '2px',
       '4': '4px',
-      '8': '8px',
+      '8': '8px'
     },
 
-    borderColor: (theme) => ({
+    borderColor: theme => ({
       default: theme('colors.grey-light'),
-      ...theme('colors'),
+      ...theme('colors')
     }),
     borderRadius: {
       none: '0',
@@ -110,7 +113,7 @@ module.exports = {
       lg: '.5rem',
       xl: '.75rem',
       '2xl': '1rem',
-      full: '9999px',
+      full: '9999px'
     },
 
     width: {
@@ -154,7 +157,7 @@ module.exports = {
       '11/12': '91.6666%',
       full: '100%',
       screen: '100vw',
-      'screen-90': '90vw',
+      'screen-90': '90vw'
     },
 
     height: {
@@ -178,12 +181,12 @@ module.exports = {
       '48': '12rem',
       '64': '16rem',
       full: '100%',
-      screen: '100vh',
+      screen: '100vh'
     },
 
     minWidth: {
       '0': '0',
-      full: '100%',
+      full: '100%'
     },
 
     minHeight: {
@@ -207,7 +210,7 @@ module.exports = {
       '48': '12rem',
       '64': '16rem',
       full: '100%',
-      screen: '100vh',
+      screen: '100vh'
     },
 
     maxWidth: {
@@ -221,11 +224,11 @@ module.exports = {
       '3xl': '80rem',
       '4xl': '90rem',
       '5xl': '100rem',
-      full: '100%',
+      full: '100%'
     },
     maxHeight: {
       full: '100%',
-      screen: '100vh',
+      screen: '100vh'
     },
 
     padding: {
@@ -249,7 +252,7 @@ module.exports = {
       '25': '6.25rem', // 100px
       '26': '6.5rem', // 104px
       '32': '8rem', // 128px
-      '40': '10rem', // 160px
+      '40': '10rem' // 160px
     },
 
     margin: {
@@ -283,7 +286,7 @@ module.exports = {
       '-3': '0.75rem',
       '-4': '1rem',
       '-6': '1.5rem',
-      '-8': '2rem',
+      '-8': '2rem'
     },
 
     boxShadow: {
@@ -291,7 +294,7 @@ module.exports = {
       md: '0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08)',
       lg: '0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08)',
       inner: 'inset 0 2px 4px 0 rgba(0,0,0,0.06)',
-      none: 'none',
+      none: 'none'
     },
 
     zIndex: {
@@ -301,15 +304,15 @@ module.exports = {
       '20': 20,
       '30': 30,
       '40': 40,
-      '50': 50,
+      '50': 50
     },
     fill: {
-      current: 'currentColor',
+      current: 'currentColor'
     },
 
     stroke: {
-      current: 'currentColor',
-    },
+      current: 'currentColor'
+    }
   },
 
   variants: {
@@ -371,7 +374,7 @@ module.exports = {
     whitespace: ['responsive'],
     wordBreak: ['responsive'],
     width: ['responsive'],
-    zIndex: ['responsive'],
+    zIndex: ['responsive']
   },
 
   plugins: [
@@ -381,48 +384,48 @@ module.exports = {
       addUtilities(
         {
           '.object-fill': {
-            objectFit: 'fill',
+            objectFit: 'fill'
           },
           '.object-contain': {
-            objectFit: 'contain',
+            objectFit: 'contain'
           },
           '.object-cover': {
-            objectFit: 'cover',
-          },
+            objectFit: 'cover'
+          }
         },
-        ['responsive'],
+        ['responsive']
       );
       addUtilities(
         {
           '.-z-1': {
-            zIndex: -1,
-          },
+            zIndex: -1
+          }
         },
-        ['responsive'],
+        ['responsive']
       );
       addUtilities(
         {
           '.outline-none': {
-            outline: 'none',
-          },
+            outline: 'none'
+          }
         },
-        ['focus'],
+        ['focus']
       );
       addUtilities({
         '.translate-center': {
-          transform: 'translateX(-50%) translateY(-50%)',
-        },
+          transform: 'translateX(-50%) translateY(-50%)'
+        }
       });
       addUtilities({
         '.overflow-x-hidden': {
-          overflowX: 'hidden',
-        },
+          overflowX: 'hidden'
+        }
       });
       addUtilities({
         '.contain-strict': {
-          contain: 'strict',
-        },
+          contain: 'strict'
+        }
       });
-    },
-  ],
+    }
+  ]
 };

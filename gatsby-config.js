@@ -1,7 +1,5 @@
-// const resolveConfig = require('tailwindcss/resolveConfig')
-const tailwindConfig = require('./tailwind.config.js')
-
-// const fullConfig = resolveConfig(tailwindConfig)
+const tailwindConfig = require('./tailwind.config.js');
+const path = require('path');
 
 const siteRoot = (() => {
   // handles conditional `siteRoot` on Netlify environment
@@ -9,16 +7,16 @@ const siteRoot = (() => {
     // get Netlify deploy urls
     switch (context) {
       default:
-        return process.env.URL
+        return process.env.URL;
       case 'production':
-        return process.env.URL
+        return process.env.URL;
       case 'branch-deploy':
       case 'deploy-preview':
-        return process.env.DEPLOY_PRIME_URL
+        return process.env.DEPLOY_PRIME_URL;
     }
   }
-  return getSiteRoot(process.env.CONTEXT) || process.env.SITE_ROOT || ''
-})()
+  return getSiteRoot(process.env.CONTEXT) || process.env.SITE_ROOT || '';
+})();
 
 module.exports = {
   siteMetadata: {
@@ -27,7 +25,7 @@ module.exports = {
     siteName: 'WeBuild',
     siteRoot,
     keywords: [],
-    meta: [],
+    meta: []
   },
   plugins: [
     `gatsby-plugin-postcss`,
@@ -42,16 +40,16 @@ module.exports = {
         // background_color: fullConfig.theme.colors.white,
         // theme_color: fullConfig.theme.colors.teal['400'],
         // display: `minimal-ui`,
-        icon: `src/assets/favicons/favicon.png`,
-      },
+        icon: `src/assets/favicons/favicon.png`
+      }
     },
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
-          include: /svg\/.*\.svg/,
-        },
-      },
+          include: /svg\/.*\.svg/
+        }
+      }
     },
     {
       resolve: `gatsby-plugin-postcss`,
@@ -59,21 +57,21 @@ module.exports = {
         postCssPlugins: [
           require(`tailwindcss`)(tailwindConfig),
           require(`autoprefixer`),
-          ...(process.env.NODE_ENV === `production`
-            ? [require(`cssnano`)]
-            : []),
-        ],
-      },
+          ...(process.env.NODE_ENV === `production` ? [require(`cssnano`)] : [])
+        ]
+      }
     },
     `gatsby-plugin-offline`,
     {
-      resolve: `gatsby-alias-imports`,
+      resolve: 'gatsby-plugin-root-import',
       options: {
-        aliases: {
-          '~': `./src`,
-          $sources: `./sources`,
-        },
-      },
-    },
-  ],
-}
+        sources: path.join(__dirname, 'sources/'),
+        containers: path.join(__dirname, 'src/containers'),
+        components: path.join(__dirname, 'src/components'),
+        utils: path.join(__dirname, 'src/utils'),
+        assets: path.join(__dirname, 'src/assets'),
+        css: path.join(__dirname, 'src/css')
+      }
+    }
+  ]
+};

@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "$sources": ["./sources"]
+      "sources": ["./sources"]
     }
   },
   "exclude": ["node_modules"]
