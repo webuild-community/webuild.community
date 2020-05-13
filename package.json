@@ -1,6 +1,6 @@
 {
   "name": "webuild",
-  "description": "",
+  "description": "Website for https://webuild.community/",
   "version": "2.0.0",
   "author": "",
   "dependencies": {
