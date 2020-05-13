@@ -1,14 +1,11 @@
-// External
 import React from 'react';
-
-// Internal
-import DefaultLayout from '@/components/DefaultLayout';
+import ChatLayout from 'components/ChatLayout';
 import Form from './Form';
 
 const Chat = () => (
-  <DefaultLayout>
+  <ChatLayout>
     <Form />
-  </DefaultLayout>
+  </ChatLayout>
 );
 
 export default Chat;

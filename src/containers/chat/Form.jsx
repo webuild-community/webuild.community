@@ -1,14 +1,13 @@
 import React from 'react';
-import { iframe, box, section } from './style.module.scss';
+import './chat.css';
 
 const ChatForm = () => (
-  <section className={section}>
-    <div className={box}>
+  <section className="chat-section">
+    <div className="chat-box">
       <iframe
         scrolling="no"
-        className={iframe}
+        className="chat-iframe"
         src="https://chat.webuild.community/"
-        // src="https://daedstack.herokuapp.com/"
       />
     </div>
   </section>
