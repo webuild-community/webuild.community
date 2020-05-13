@@ -23,7 +23,7 @@ const items = [
     img: 'jobs',
     title: 'Awesome Jobs',
     desc: 'Check out our job posting board that encourages good HR practices.',
-    linkText: 'Go to Awesome Jobs',
+    linkText: 'Post a job',
     link: 'https://github.com/awesome-jobs/vietnam/issues'
   }
 ];
@@ -35,11 +35,11 @@ const WhatWeDoSection = () => (
       <div className="-mx-3 flex flex-wrap">
         {items.map(({ img, title, desc, linkText, link }) => (
           <div className="w-full sm:w-1/3 mb-10 text-center px-3" key={title}>
-            <div className="shadow">
-              <img
-                src={`/images/${img}.png`}
-                srcSet={`/images/${img}@2x.png 2x`}
-              />
+            <img
+              src={`/images/${img}.png`}
+              srcSet={`/images/${img}@2x.png 2x`}
+            />
+            <div className="border border-gray-200">
               <div
                 className="lg:px-10 px-6 lg:py-8 py-6"
                 style={{ minHeight: '220px' }}

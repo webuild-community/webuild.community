@@ -360,5 +360,6 @@ module.exports = {
     wordBreak: ['responsive'],
     width: ['responsive'],
     zIndex: ['responsive']
-  }
+  },
+  plugins: [require('tailwindcss-transitions')]
 };

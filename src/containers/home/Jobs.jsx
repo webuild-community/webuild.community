@@ -1,139 +1,169 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import Select from 'components/Select';
 import Button from 'components/Button';
-import jobData from 'sources/jobs/index.json';
+import Container from 'components/Container';
+import { H3, H6 } from 'components/typography';
+import classnames from 'classnames';
+import { graphql, StaticQuery } from 'gatsby';
+
+const jobQuery = graphql`
+  {
+    data: allMarkdownRemark(filter: { frontmatter: { key: { eq: "jobs" } } }) {
+      edges {
+        node {
+          id
+          frontmatter {
+            list {
+              company
+              date
+              desc
+              isOpened
+              linkURL
+              location
+              title
+              type
+            }
+          }
+        }
+      }
+    }
+  }
+`;
 
 dayjs.extend(relativeTime);
 
-const jobTitleOptions = [
-  { value: 'all', text: 'All Positions' },
-  // get unique job titles to show as options
-  ...jobData
-    .map(({ job_title }) => job_title)
-    .sort()
-    .filter((jobTitle, i, array) => array.indexOf(jobTitle) === i)
-    .map(jobTitle => ({ value: jobTitle, text: jobTitle }))
-];
-
-const jobLocationOptions = [
-  { value: 'all', text: 'All Locations' },
-  // get unique job locations to show as options
-  ...jobData
-    .map(({ location }) => location)
-    .sort()
-    .filter((location, i, array) => array.indexOf(location) === i)
-    .map(location => ({ value: location, text: location }))
-];
-
-export default class Jobs extends React.Component {
-  state = {
-    filterKeys: {
-      // key must match JSON key so that we can filter later
-      job_title: 'all',
-      location: 'all'
-    }
-  };
-
-  handleSelectChange = ({ target: { value, name } }) =>
-    this.setState(prev => ({
-      ...prev,
-      filterKeys: {
-        ...prev.filterKeys,
-        [name]: value
+const Jobs = () => (
+  <StaticQuery
+    query={jobQuery}
+    render={({ data }) => {
+      if (!data) {
+        return null;
       }
-    }));
+      const { list } = data.edges[0].node.frontmatter;
 
-  render() {
-    const { filterKeys } = this.state;
-    const handleSelectChange = this.handleSelectChange;
+      return <JobsInternal items={list} />;
+    }}
+  />
+);
+
+const JobsInternal = ({ items }) => {
+  const [titleFilter, setTitleFilter] = useState('all');
+  const [locationFilter, setLocationFilter] = useState('all');
+
+  const titleOptions = useMemo(
+    () => [
+      { value: 'all', text: 'All Positions' },
+      // get unique job titles to show as options
+      ...items
+        .filter(
+          ({ location }) =>
+            locationFilter === 'all' || location === locationFilter
+        )
+        .map(({ title }) => title)
+        .sort()
+        .filter((jobTitle, i, array) => array.indexOf(jobTitle) === i)
+        .map(jobTitle => ({ value: jobTitle, text: jobTitle }))
+    ],
+    [items, locationFilter]
+  );
+
+  const locationOptions = useMemo(
+    () => [
+      { value: 'all', text: 'All Locations' },
+      // get unique job locations to show as options
+      ...items
+        .filter(({ title }) => titleFilter === 'all' || title === titleFilter)
+        .map(({ location }) => location)
+        .sort()
+        .filter((location, i, array) => array.indexOf(location) === i)
+        .map(location => ({ value: location, text: location }))
+    ],
+    [items, titleFilter]
+  );
+
+  const filterList = items.filter(({ location, title }) => {
     return (
-      <section id="jobs-section" className="pt-24">
-        <div className="container">
-          <div id="job-section-header" className="row">
-            <div className="col flex items-center flex-wrap sm:flex-no-wrap">
-              <h4 className="uppercase text-center sm:text-left w-full sm:w-auto">
-                Openings
-              </h4>
-              <div className="ml-10 w-32">
-                <Select
-                  name="job_title"
-                  value={filterKeys.job_title}
-                  onChange={handleSelectChange}
-                  options={jobTitleOptions}
-                />
-              </div>
-              <div className="ml-8 w-32">
-                <Select
-                  name="location"
-                  value={filterKeys.location}
-                  options={jobLocationOptions}
-                  onChange={handleSelectChange}
-                />
-              </div>
-              <div className="w-32 flex-grow text-right">
-                <Button>Post a job</Button>
-              </div>
-            </div>
-          </div>
+      (titleFilter === 'all' ||
+        (titleFilter !== 'all' && titleFilter === title)) &&
+      (locationFilter === 'all' ||
+        (locationFilter !== 'all' && locationFilter === location))
+    );
+  });
 
-          <div id="job-section-content" className="row mt-8">
-            <div className="col">
-              {jobData
-                .filter(item => {
-                  const allKeys = Object.keys(filterKeys);
-                  // if filter[key] === all, ignore it from filter rules
-                  const excludeKeys = allKeys.filter(
-                    key => filterKeys[key] === 'all'
-                  );
-                  const includedKeys = allKeys.filter(
-                    key => !excludeKeys.includes(key)
-                  );
-                  // filter using includedKeys, filter out all unmatched values
-                  return includedKeys.every(
-                    key => item[key] === filterKeys[key]
-                  );
-                })
-                .map(
-                  (
-                    {
-                      number,
-                      company_name,
-                      job_title,
-                      location,
-                      job_type,
-                      created_at
-                    },
-                    index
-                  ) => {
-                    return (
-                      <div key={number}>
-                        <div className="row col py-4 flex justify-between">
-                          <div className="flex flex-col justify-center">
-                            <span>
-                              #{number} {company_name}
-                            </span>
-                            <span className="font-bold">{job_title}</span>
-                          </div>
-                          <div className="flex flex-col justify-center text-sm text-right">
-                            <span className="font-bold">
-                              {location} - {job_type}
-                            </span>
-                            <span>{dayjs().to(dayjs(created_at))}</span>
-                          </div>
-                        </div>
-                        {index !== jobData.length - 1 && (
-                          <hr className="w-full bg-grey border-grey border-t" />
-                        )}
-                      </div>
-                    );
-                  }
-                )}
-            </div>
+  return (
+    <section id="jobs-section" className="mt-24">
+      <Container>
+        <div className="flex items-center flex-wrap sm:flex-no-wrap">
+          <div className="flex items-center">
+            <H3>Openings</H3>
+            <Select
+              className="ml-10"
+              name="title"
+              value={titleFilter}
+              onChange={e => {
+                setTitleFilter(e.target.value);
+              }}
+              options={titleOptions}
+            />
+            <Select
+              className="ml-8"
+              name="location"
+              value={locationFilter}
+              options={locationOptions}
+              onChange={e => {
+                setLocationFilter(e.target.value);
+              }}
+            />
+          </div>
+          <div className="w-32 flex-grow text-right">
+            <Button>Post a job</Button>
           </div>
         </div>
-      </section>
-    );
-  }
-}
+
+        <div className="mt-8">
+          {filterList.map(
+            (
+              { number, company, title, location, type, date, linkURL },
+              index
+            ) => {
+              return (
+                <div
+                  key={index}
+                  className={classnames(
+                    'flex py-4 items-center justify-between',
+                    {
+                      'border-b border-gray-200': index < filterList.length - 1
+                    }
+                  )}
+                >
+                  <div className="text-gray-800">
+                    <div>
+                      #{number} {company}
+                    </div>
+                    <a href={linkURL} target="_blank" rel="noopener noreferrer">
+                      <H6 className="hover:text-primary transition-colors duration-200">
+                        {title}
+                      </H6>
+                    </a>
+                  </div>
+                  <div className="text-sm text-right">
+                    <div className="font-bold mb-1 text-gray-700">
+                      {location} - {type}
+                    </div>
+                    <div className="text-gray-500">
+                      {dayjs().to(dayjs(date))}
+                    </div>
+                  </div>
+                </div>
+              );
+            }
+          )}
+        </div>
+      </Container>
+    </section>
+  );
+};
+
+export default Jobs;

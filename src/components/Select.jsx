@@ -1,21 +1,35 @@
 import React from 'react';
-import DownArrow from 'components/svg/DownArrow';
+import classnames from 'classnames';
+import DownArrow from 'assets/svg/down-arrow.svg';
 
-const CustomSelect = ({ options, onChange, value, name, ...rest }) => (
-  <div {...rest} className="w-full relative flex items-center">
+const CustomSelect = ({
+  options,
+  onChange,
+  value,
+  name,
+  className,
+  ...rest
+}) => (
+  <div
+    {...rest}
+    className={classnames(
+      'relative flex items-center justify-between',
+      className
+    )}
+  >
     <select
       name={name}
       value={value}
       onChange={onChange}
-      className="w-full appearance-none bg-white pr-8"
+      className="appearance-none bg-white pr-8 outline-none inline-block"
     >
       {options.map(({ text, value }) => (
-        <option key={value} value={value}>
+        <option key={value} value={value} className="truncate">
           {text}
         </option>
       ))}
     </select>
-    <div className="pointer-events-none h-full absolute pin-y pin-r flex items-center">
+    <div className="pointer-events-none h-full absolute inset-y right-0 flex items-center">
       <DownArrow />
     </div>
   </div>

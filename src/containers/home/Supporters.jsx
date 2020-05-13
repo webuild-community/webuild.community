@@ -1,16 +1,11 @@
-// External
 import React from 'react';
-
-// Internal
+import { H3 } from 'components/typography';
+import Container from 'components/Container';
 
 const Supporters = () => (
-  <section id="supporters" className="pb-10">
-    <div className="container sm:text-left text-center">
-      <div className="row mb-12">
-        <div className="col">
-          <h4 className="uppercase">With support from</h4>
-        </div>
-      </div>
+  <section id="supporters" className="mt-24">
+    <Container className="text-center">
+      <H3 className="mb-7">Special Sponsors</H3>
       <div className="row flex flex-wrap">
         <div className="col sm:w-1/4 w-1/2 mb-20">
           <a href="https://tiki.vn/" target="_blank" rel="noopener noreferrer">
@@ -69,7 +64,7 @@ const Supporters = () => (
           </a>
         </div>
       </div>
-    </div>
+    </Container>
   </section>
 );
 

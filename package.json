@@ -18,7 +18,8 @@
     "gatsby-transformer-remark": "^2.8.7",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-helmet": "6.0.0"
+    "react-helmet": "6.0.0",
+    "tailwindcss-transitions": "^2.2.0"
   },
   "license": "MIT",
   "scripts": {
