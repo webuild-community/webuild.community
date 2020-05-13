@@ -93,7 +93,7 @@ const JobsInternal = ({ items }) => {
   });
 
   return (
-    <section id="jobs-section" className="mt-24">
+    <section id="jobs-section" className="mt-24 pt-8 pb-10">
       <Container>
         <div className="flex items-center flex-wrap sm:flex-no-wrap">
           <div className="flex items-center">
@@ -122,7 +122,7 @@ const JobsInternal = ({ items }) => {
           </div>
         </div>
 
-        <div className="mt-8">
+        <div className="mt-7">
           {filterList.length === 0 ? (
             <div className="pt-6 border-t border-gray-200">
               There is no available position

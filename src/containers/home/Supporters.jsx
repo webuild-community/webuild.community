@@ -18,9 +18,10 @@ import quoineImg from 'assets/images/sponsors/quoine.jpg';
 import dwarvesImg from 'assets/images/sponsors/dwarves.jpg';
 import topdevImg from 'assets/images/sponsors/topdev.jpg';
 import codershoolImg from 'assets/images/sponsors/codershool.jpg';
+import Button from 'components/Button';
 
 const Supporters = () => (
-  <section id="supporters" className="mt-24">
+  <section id="supporters" className="mt-24 mb-10">
     <Container className="text-center">
       <H3 className="mb-6">Special Sponsors</H3>
       <Gallery
@@ -86,12 +87,12 @@ const Supporters = () => (
           {
             title: 'Quoine',
             imgUrl: quoineImg,
-            href: 'https://www.chotot.vn/'
+            href: 'https://www.liquid.com/'
           },
           {
             title: 'Dwarves Foundation',
             imgUrl: dwarvesImg,
-            href: 'https://www.d.foundation/'
+            href: 'https://dwarves.foundation/'
           },
           {
             title: 'TopDev',
@@ -105,6 +106,10 @@ const Supporters = () => (
           }
         ]}
       ></Gallery>
+
+      <div className="mt-16">
+        <Button>Supporting WeBuild</Button>
+      </div>
     </Container>
   </section>
 );
