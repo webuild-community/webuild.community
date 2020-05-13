@@ -32,9 +32,12 @@ const items = [
 ];
 
 const WhatWeDoSection = () => (
-  <section id="what-we-do" className="pt-12">
+  <section
+    id="what-we-do"
+    className="sm:pt-12 pt-10 sm:border-none border-t border-gray-200"
+  >
     <Container>
-      <H3 className="mb-6">What we do</H3>
+      <H3 className="mb-6">What We Do</H3>
       <div className="-mx-3 flex flex-wrap">
         {items.map(({ img, title, desc, linkText, link }) => (
           <div className="w-full sm:w-1/3 mb-10 text-center px-3" key={title}>

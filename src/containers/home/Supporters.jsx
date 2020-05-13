@@ -21,7 +21,10 @@ import codershoolImg from 'assets/images/sponsors/codershool.jpg';
 import Button from 'components/Button';
 
 const Supporters = () => (
-  <section id="supporters" className="mt-24 mb-10">
+  <section
+    id="supporters"
+    className="sm:mt-24 mt-5 sm:pt-0 pt-10 mb-10 sm:border-none border-t border-gray-200"
+  >
     <Container className="text-center">
       <H3 className="mb-6">Special Sponsors</H3>
       <Gallery
@@ -35,7 +38,7 @@ const Supporters = () => (
         ]}
       ></Gallery>
 
-      <H3 className="mb-6 mt-12">Sponsors</H3>
+      <H3 className="mb-6 sm:mt-12 mt-10">Sponsors</H3>
       <Gallery
         items={[
           {
@@ -66,7 +69,7 @@ const Supporters = () => (
         ]}
       ></Gallery>
 
-      <H3 className="mb-6 mt-12">Backers</H3>
+      <H3 className="mb-6 sm:mt-12 mt-10">Backers</H3>
       <Gallery
         items={[
           {
@@ -107,8 +110,8 @@ const Supporters = () => (
         ]}
       ></Gallery>
 
-      <div className="mt-16">
-        <Button>Supporting WeBuild</Button>
+      <div className="sm:mt-16 mt-10">
+        <Button>Support WeBuild</Button>
       </div>
     </Container>
   </section>

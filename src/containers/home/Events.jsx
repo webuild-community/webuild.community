@@ -51,11 +51,14 @@ const Events = () => {
         });
 
         return (
-          <section id="upcoming-events" className="my-12 lg:my-24">
+          <section
+            id="upcoming-events"
+            className="sm:my-12 sm:pt-0 pt-10 lg:my-24 sm:border-none border-t border-gray-200"
+          >
             <Container>
-              <div className="flex justify-between items-start mb-4">
+              <div className="flex sm:flex-row flex-col justify-between items-start mb-4">
                 <H3>Upcoming Events</H3>
-                <Button className="mt-1">Add event</Button>
+                <Button className="mt-5 sm:mt-1">Add event</Button>
               </div>
 
               {fortcoming.length === 0 ? (
