@@ -37,8 +37,8 @@ const Header = () => {
         </div>
       </Container>
 
-      <Container className="sm:hidden block border-b border-t border-gray-200 mt-4 bg-gray-100">
-        <ul className="flex whitespace-no-wrap py-4 justify-center">
+      <Container className="sm:hidden block border-b border-gray-200 mt-3">
+        <ul className="flex whitespace-no-wrap py-3 justify-center">
           <li className="px-6">
             <Link className="font-bold text-gray-800" to="/">
               Jobs

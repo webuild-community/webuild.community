@@ -14,14 +14,11 @@ import javascriptImg from 'assets/images/communities/js.jpg';
 import gdgVietnamImg from 'assets/images/communities/gdg.jpg';
 
 const CommunitySection = () => (
-  <section
-    id="community"
-    className="sm:py-12 pt-10 lg:py-24 lg:mb-24 mb-8 sm:border-none border-t border-gray-200"
-  >
+  <section id="community" className="sm:py-12 py-10 lg:py-24 lg:mb-24 mb-8">
     <Container>
       <div className="text-center mb-10">
-        <H3 className="mb-1">Community</H3>
-        <p className="text-gray-700 text-lg">
+        <H3 className="mb-2">Community</H3>
+        <p className="text-gray-700 sm:text-lg px-3">
           We started as many different meetup groups
         </p>
       </div>

@@ -32,10 +32,7 @@ const items = [
 ];
 
 const WhatWeDoSection = () => (
-  <section
-    id="what-we-do"
-    className="sm:pt-12 pt-10 sm:border-none border-t border-gray-200"
-  >
+  <section id="what-we-do" className="sm:pt-12 pt-10">
     <Container>
       <H3 className="mb-6">What We Do</H3>
       <div className="-mx-3 flex flex-wrap">

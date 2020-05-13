@@ -95,7 +95,7 @@ const JobsInternal = ({ items }) => {
   return (
     <section
       id="jobs-section"
-      className="sm:mt-12 mt-4 lg:mt-24 pt-10 lg:pb-10 sm:border-none border-t border-gray-200"
+      className="sm:mt-12 mt-4 lg:mt-24 pt-10 lg:pb-10"
     >
       <Container>
         <div className="flex items-center flex-wrap sm:flex-no-wrap">
@@ -106,7 +106,7 @@ const JobsInternal = ({ items }) => {
                 Post a job
               </Button>
             </H3>
-            <div className="flex items-center justify-between sm:w-auto w-full sm:mt-0 mt-5 sm:border-none border-t border-b border-gray-200 sm:py-0 py-5">
+            <div className="flex items-center justify-between sm:w-auto w-full sm:mt-0 mt-5 sm:border-none border-t border-b border-gray-200 sm:py-0 py-4">
               <Select
                 className="sm:ml-10"
                 name="title"

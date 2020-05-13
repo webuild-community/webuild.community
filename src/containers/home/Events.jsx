@@ -53,7 +53,7 @@ const Events = () => {
         return (
           <section
             id="upcoming-events"
-            className="sm:my-12 sm:pt-0 pt-10 lg:my-24 sm:border-none border-t border-gray-200"
+            className="sm:my-12 sm:pt-0 pt-10 lg:my-24"
           >
             <Container>
               <div className="flex sm:flex-row flex-col justify-between items-start mb-4">

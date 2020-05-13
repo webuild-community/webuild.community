@@ -21,10 +21,7 @@ import codershoolImg from 'assets/images/sponsors/codershool.jpg';
 import Button from 'components/Button';
 
 const Supporters = () => (
-  <section
-    id="supporters"
-    className="sm:mt-24 mt-5 sm:pt-0 pt-10 mb-10 sm:border-none border-t border-gray-200"
-  >
+  <section id="supporters" className="sm:mt-24 mt-5 sm:pt-0 pt-10 mb-10">
     <Container className="text-center">
       <H3 className="mb-6">Special Sponsors</H3>
       <Gallery
