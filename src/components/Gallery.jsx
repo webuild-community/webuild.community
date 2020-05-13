@@ -13,7 +13,7 @@ const Gallery = ({ items, center, clasName }) => (
         key={imgUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="w-1/5 -mt-px -mr-px border border-gray-200"
+        className="w-1/2 sm:w-1/3 lg:w-1/5 -mt-px -mr-px border border-gray-200"
       >
         <img src={imgUrl} alt={title} className="w-full block" />
       </a>

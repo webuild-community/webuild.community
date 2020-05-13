@@ -51,7 +51,7 @@ const Events = () => {
         });
 
         return (
-          <section id="upcoming-events" className="my-24">
+          <section id="upcoming-events" className="my-12 lg:my-24">
             <Container>
               <div className="flex justify-between items-start mb-4">
                 <H3>Upcoming Events</H3>

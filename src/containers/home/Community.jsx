@@ -14,7 +14,7 @@ import javascriptImg from 'assets/images/communities/js.jpg';
 import gdgVietnamImg from 'assets/images/communities/gdg.jpg';
 
 const CommunitySection = () => (
-  <section id="community" className="pt-24 pb-24 mb-24">
+  <section id="community" className="py-12 lg:py-24 lg:mb-24 mb-8">
     <Container>
       <div className="text-center mb-10">
         <H3 className="mb-1">Community</H3>

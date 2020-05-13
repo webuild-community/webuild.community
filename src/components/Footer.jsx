@@ -7,7 +7,7 @@ const Footer = () => (
   <footer className="bg-gray-900 pt-14">
     <Container>
       <div className="flex flex-wrap -mx-3">
-        <div className="w-full sm:w-1/3 px-3">
+        <div className="w-full sm:w-1/2 lg:w-1/3 px-3">
           <h6 className="text-base font-bold text-white mb-2">About us</h6>
           <p className="text-gray-500">
             WeBuild Community is a platform for developers in Vietnam to connect
@@ -15,9 +15,9 @@ const Footer = () => (
             activities.
           </p>
         </div>
-        <div className="w-full sm:w-1/3 px-3"></div>
-        <div className="w-full sm:w-1/3 px-3">
-          <div className="flex items-center">
+        <div className="lg:block hidden sm:w-1/3 px-3"></div>
+        <div className="w-full sm:w-1/2 lg:w-1/3 px-3">
+          <div className="flex items-center lg:justify-start sm:justify-end justify-center">
             <a href="https://github.com/webuild-community" className="mr-5">
               <GithubIcon fill="currentColor" />
             </a>

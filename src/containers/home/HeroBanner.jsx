@@ -3,7 +3,7 @@ import Container from 'components/Container';
 import LogoSymbol from 'assets/svg/logo-symbol.svg';
 
 const HeroBannerSection = () => (
-  <section id="hero" className="py-24">
+  <section id="hero" className="py-16 lg:py-24">
     <Container>
       <div className="flex flex-wrap -mx-4">
         <div className="px-4 w-1/2">
