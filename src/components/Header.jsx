@@ -6,7 +6,7 @@ import Container from './Container';
 
 const Header = () => {
   return (
-    <header className="relative z-10 py-6">
+    <header className="relative z-10 sm:py-6 py-4">
       <Container className="flex items-center justify-between">
         <Link to="/">
           <Logo />
@@ -37,7 +37,7 @@ const Header = () => {
         </div>
       </Container>
 
-      <Container className="sm:hidden block border-b border-t border-gray-200 mt-5 bg-gray-100">
+      <Container className="sm:hidden block border-b border-t border-gray-200 mt-4 bg-gray-100">
         <ul className="flex whitespace-no-wrap py-4 justify-center">
           <li className="px-6">
             <Link className="font-bold text-gray-800" to="/">

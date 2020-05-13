@@ -3,7 +3,12 @@ import classnames from 'classnames';
 
 export const H3 = ({ className, children }) => {
   return (
-    <h3 className={classnames('text-28px font-bold text-black', className)}>
+    <h3
+      className={classnames(
+        'text-28px font-bold text-black leading-tight',
+        className
+      )}
+    >
       {children}
     </h3>
   );
