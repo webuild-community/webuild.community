@@ -1,6 +1,6 @@
 import React from 'react';
 import DefaultLayout from 'components/DefaultLayout';
-import SEO from 'components/SEO';
+import SEO from 'components/seo';
 import HeroBanner from './HeroBanner';
 import WhatWeDo from './WhatWeDo';
 import Events from './Events';
