@@ -38,18 +38,18 @@ const Header = () => {
       </Container>
 
       <Container className="sm:hidden block border-b border-gray-200 mt-2">
-        <ul className="flex whitespace-no-wrap py-3 justify-center">
-          <li className="px-4">
+        <ul className="flex whitespace-no-wrap py-3">
+          <li className="pr-8">
             <Link className="font-bold text-gray-800" to="/">
               Jobs
             </Link>
           </li>
-          <li className="px-4">
+          <li className="pr-8">
             <Link className="text-gray-700" to="/">
               Events
             </Link>
           </li>
-          <li className="px-4">
+          <li>
             <Link className="text-gray-700" to="/">
               Build @ Weekend
             </Link>
