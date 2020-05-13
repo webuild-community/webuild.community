@@ -4,7 +4,7 @@ import EmailIcon from 'assets/svg/mail.svg';
 import Container from './Container';
 
 const Footer = () => (
-  <footer className="bg-gray-900 pt-14">
+  <footer className="bg-gray-900 sm:pt-14 pt-10">
     <Container>
       <div className="flex flex-wrap -mx-3">
         <div className="w-full sm:w-1/2 lg:w-1/3 px-3">
@@ -16,8 +16,8 @@ const Footer = () => (
           </p>
         </div>
         <div className="lg:block hidden sm:w-1/3 px-3"></div>
-        <div className="w-full sm:w-1/2 lg:w-1/3 px-3">
-          <div className="flex items-center lg:justify-start sm:justify-end justify-center">
+        <div className="w-full sm:w-1/2 lg:w-1/3 px-3 sm:mt-0 mt-10">
+          <div className="flex items-center lg:justify-start sm:justify-end justify-start">
             <a href="https://github.com/webuild-community" className="mr-5">
               <GithubIcon fill="currentColor" />
             </a>
@@ -32,7 +32,7 @@ const Footer = () => (
           </div>
         </div>
       </div>
-      <div className="border-t border-gray-800 py-6 mt-20">
+      <div className="border-t border-gray-800 py-6 sm:mt-20 mt-5">
         <p className="text-gray-500 text-sm text-center">
           WeBuild Community © {new Date().getFullYear()} All rights reserved.
         </p>

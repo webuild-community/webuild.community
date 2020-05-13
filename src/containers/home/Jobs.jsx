@@ -96,28 +96,32 @@ const JobsInternal = ({ items }) => {
     <section id="jobs-section" className="mt-12 lg:mt-24 pt-8 lg:pb-10">
       <Container>
         <div className="flex items-center flex-wrap sm:flex-no-wrap">
-          <div className="flex items-center">
-            <H3>Openings</H3>
-            <Select
-              className="ml-10"
-              name="title"
-              value={titleFilter}
-              onChange={e => {
-                setTitleFilter(e.target.value);
-              }}
-              options={titleOptions}
-            />
-            <Select
-              className="ml-8"
-              name="location"
-              value={locationFilter}
-              options={locationOptions}
-              onChange={e => {
-                setLocationFilter(e.target.value);
-              }}
-            />
+          <div className="flex sm:items-center sm:flex-row flex-col w-full">
+            <H3 className="flex items-center justify-between">
+              Openings <Button className="sm:hidden block">Post a job</Button>
+            </H3>
+            <div className="flex items-center justify-between sm:w-auto w-full sm:mt-0 mt-5 sm:border-none border-t border-b border-gray-200 sm:py-0 py-5">
+              <Select
+                className="sm:ml-10"
+                name="title"
+                value={titleFilter}
+                onChange={e => {
+                  setTitleFilter(e.target.value);
+                }}
+                options={titleOptions}
+              />
+              <Select
+                className="sm:ml-8"
+                name="location"
+                value={locationFilter}
+                options={locationOptions}
+                onChange={e => {
+                  setLocationFilter(e.target.value);
+                }}
+              />
+            </div>
           </div>
-          <div className="w-32 flex-grow text-right">
+          <div className="w-32 flex-grow text-right sm:block hidden">
             <Button>Post a job</Button>
           </div>
         </div>

@@ -3,10 +3,10 @@ import DefaultLayout from 'components/DefaultLayout';
 import SEO from 'components/SEO';
 import HeroBanner from './HeroBanner';
 import WhatWeDo from './WhatWeDo';
-import Jobs from './Jobs';
-import Community from './Community';
-import Supporters from './Supporters';
 import Events from './Events';
+import Jobs from './Jobs';
+import Supporters from './Supporters';
+import Community from './Community';
 
 const Home = () => (
   <DefaultLayout>

@@ -236,7 +236,7 @@ module.exports = {
       '4xl': '90rem',
       '5xl': '100rem',
       full: '100%',
-      container: '1030' //'982 + 24*2'
+      container: '1030px' //'982 + 24*2'
     },
     maxHeight: {
       full: '100%',

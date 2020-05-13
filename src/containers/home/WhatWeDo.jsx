@@ -1,10 +1,13 @@
 import React from 'react';
 import Container from 'components/Container';
 import { H3, H5 } from 'components/typography';
+import slackImg from 'assets/images/wwd/slack.jpg';
+import eventsImg from 'assets/images/wwd/events.jpg';
+import jobsImg from 'assets/images/wwd/jobs.jpg';
 
 const items = [
   {
-    img: 'slack',
+    img: slackImg,
     title: 'Slack Channel',
     desc:
       'Discuss all topics related to software development and life of a developer.',
@@ -12,7 +15,7 @@ const items = [
     link: 'https://chat.webuild.community/'
   },
   {
-    img: 'events',
+    img: eventsImg,
     title: 'Events',
     desc:
       'Join our wide ranges of offline events, from meetups to workshop and Hackathon.',
@@ -20,7 +23,7 @@ const items = [
     link: '#'
   },
   {
-    img: 'jobs',
+    img: jobsImg,
     title: 'Awesome Jobs',
     desc: 'Check out our job posting board that encourages good HR practices.',
     linkText: 'Post a job',
@@ -35,15 +38,9 @@ const WhatWeDoSection = () => (
       <div className="-mx-3 flex flex-wrap">
         {items.map(({ img, title, desc, linkText, link }) => (
           <div className="w-full sm:w-1/3 mb-10 text-center px-3" key={title}>
-            <img
-              src={`/images/${img}.png`}
-              srcSet={`/images/${img}@2x.png 2x`}
-            />
-            <div className="border border-gray-200">
-              <div
-                className="lg:px-10 px-6 lg:py-8 py-6"
-                style={{ minHeight: '220px' }}
-              >
+            <img src={img} />
+            <div className="border border-gray-200 pb-4">
+              <div className="lg:px-10 px-6 lg:py-8 py-6">
                 <H5 className="mb-1">{title}</H5>
                 <p className="mb-2 text-gray-700">{desc}</p>
                 <a
