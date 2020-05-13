@@ -50,23 +50,6 @@ const Events = () => {
           }
         });
 
-        console.log(list);
-
-        // const { numOfOpen, numOfClosed } = list.reduce(
-        //   (a, { isOpened }) => {
-        //     if (isOpened) {
-        //       a.numOfOpen = a.numOfOpen + 1;
-        //     } else {
-        //       a.numOfClosed = a.numOfClosed + 1;
-        //     }
-        //     return a;
-        //   },
-        //   {
-        //     numOfOpen: 0,
-        //     numOfClosed: 0
-        //   }
-        // );
-
         return (
           <section id="upcoming-events" className="my-24">
             <Container>
@@ -75,25 +58,35 @@ const Events = () => {
                 <Button className="mt-1">Add event</Button>
               </div>
 
-              {list.map(({ location, date, guests, name, link }, index) => (
-                <div
-                  key={link}
-                  className={classnames('py-3', {
-                    'border-b border-gray-200': index < list.length - 1
-                  })}
-                >
-                  <a href={link} target="_blank" rel="noopener noreferrer">
-                    <H6 className="hover:text-primary transition-colors duration-200">
-                      {name}
-                    </H6>
-                  </a>
-                  <div className="text-sm my-1 text-gray-700">
-                    {dayjs(date).format('MMM DD, YYYY')} at{' '}
-                    {dayjs(date).format('hh:mm a')} - {name} - {guests} guests
-                  </div>
-                  <div className="text-base text-gray-800">{location}</div>
+              {fortcoming.length === 0 ? (
+                <div className="pt-6 border-t border-gray-200 mt-7">
+                  There is no upcoming event
                 </div>
-              ))}
+              ) : (
+                fortcoming.map(
+                  ({ location, date, guests, name, link }, index) => (
+                    <div
+                      key={link}
+                      className={classnames('py-3', {
+                        'border-b border-gray-200':
+                          index < fortcoming.length - 1
+                      })}
+                    >
+                      <a href={link} target="_blank" rel="noopener noreferrer">
+                        <H6 className="hover:text-primary transition-colors duration-200">
+                          {name}
+                        </H6>
+                      </a>
+                      <div className="text-sm my-1 text-gray-700">
+                        {dayjs(date).format('MMM DD, YYYY')} at{' '}
+                        {dayjs(date).format('hh:mm a')} - {name} - {guests}{' '}
+                        guests
+                      </div>
+                      <div className="text-base text-gray-800">{location}</div>
+                    </div>
+                  )
+                )
+              )}
             </Container>
           </section>
         );

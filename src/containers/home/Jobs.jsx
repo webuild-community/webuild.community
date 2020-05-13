@@ -123,42 +123,53 @@ const JobsInternal = ({ items }) => {
         </div>
 
         <div className="mt-8">
-          {filterList.map(
-            (
-              { number, company, title, location, type, date, linkURL },
-              index
-            ) => {
-              return (
-                <div
-                  key={index}
-                  className={classnames(
-                    'flex py-4 items-center justify-between',
-                    {
-                      'border-b border-gray-200': index < filterList.length - 1
-                    }
-                  )}
-                >
-                  <div className="text-gray-800">
-                    <div>
-                      #{number} {company}
+          {filterList.length === 0 ? (
+            <div className="pt-6 border-t border-gray-200">
+              There is no available position
+            </div>
+          ) : (
+            filterList.map(
+              (
+                { number, company, title, location, type, date, linkURL },
+                index
+              ) => {
+                return (
+                  <div
+                    key={index}
+                    className={classnames(
+                      'flex py-4 items-center justify-between',
+                      {
+                        'border-b border-gray-200':
+                          index < filterList.length - 1
+                      }
+                    )}
+                  >
+                    <div className="text-gray-800">
+                      <div>
+                        #{number} {company}
+                      </div>
+                      <a
+                        href={linkURL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <H6 className="hover:text-primary transition-colors duration-200">
+                          {title}
+                        </H6>
+                      </a>
                     </div>
-                    <a href={linkURL} target="_blank" rel="noopener noreferrer">
-                      <H6 className="hover:text-primary transition-colors duration-200">
-                        {title}
-                      </H6>
-                    </a>
+                    <div className="text-sm text-right">
+                      <div className="font-bold mb-1 text-gray-700">
+                        {location} - {type}
+                      </div>
+                      <div className="text-gray-500">
+                        {dayjs().to(dayjs(date))}
+                      </div>
+                    </div>
                   </div>
-                  <div className="text-sm text-right">
-                    <div className="font-bold mb-1 text-gray-700">
-                      {location} - {type}
-                    </div>
-                    <div className="text-gray-500">
-                      {dayjs().to(dayjs(date))}
-                    </div>
-                  </div>
-                </div>
-              );
-            }
+                );
+              }
+            )
           )}
         </div>
       </Container>

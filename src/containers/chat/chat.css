@@ -31,6 +31,8 @@
     margin-top: 0;
     width: 400px;
     box-shadow: none;
+    background-color: transparent;
+    border: none;
   }
 
   .chat-section {
