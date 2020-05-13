@@ -32,8 +32,8 @@ const Footer = () => (
           </div>
         </div>
       </div>
-      <div className="border-t border-gray-800 py-6 sm:mt-20 mt-5">
-        <p className="text-gray-500 text-sm text-center">
+      <div className="border-t border-gray-800 sm:py-6 pt-6 sm:mt-20 mt-5 pb-14">
+        <p className="text-gray-500 text-sm sm:text-center">
           WeBuild Community © {new Date().getFullYear()} All rights reserved.
         </p>
       </div>
