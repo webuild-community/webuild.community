@@ -45,3 +45,29 @@
     width: 100%;
   }
 }
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 50%;
+  border-top: 3px solid #34785c;
+  border-right: 3px solid #34785c;
+  border-bottom: 3px solid #34785c;
+  border-left: 3px solid transparent;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  animation: rotate 0.8s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
