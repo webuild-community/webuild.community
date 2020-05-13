@@ -1,69 +1,110 @@
 import React from 'react';
 import { H3 } from 'components/typography';
 import Container from 'components/Container';
+import Gallery from 'components/Gallery';
+
+import notionImg from 'assets/images/sponsors/notion.jpg';
+
+import tikiImg from 'assets/images/sponsors/tiki.jpg';
+import lazadaImg from 'assets/images/sponsors/lazada.jpg';
+import shopeeImg from 'assets/images/sponsors/shopee.jpg';
+import chototImg from 'assets/images/sponsors/chotot.jpg';
+import grabImg from 'assets/images/sponsors/grab.jpg';
+
+import googleImg from 'assets/images/sponsors/google.jpg';
+import microsoftImg from 'assets/images/sponsors/microsoft.jpg';
+import fptImg from 'assets/images/sponsors/fpt.jpg';
+import quoineImg from 'assets/images/sponsors/quoine.jpg';
+import dwarvesImg from 'assets/images/sponsors/dwarves.jpg';
+import topdevImg from 'assets/images/sponsors/topdev.jpg';
+import codershoolImg from 'assets/images/sponsors/codershool.jpg';
 
 const Supporters = () => (
   <section id="supporters" className="mt-24">
     <Container className="text-center">
-      <H3 className="mb-7">Special Sponsors</H3>
-      <div className="row flex flex-wrap">
-        <div className="col sm:w-1/4 w-1/2 mb-20">
-          <a href="https://tiki.vn/" target="_blank" rel="noopener noreferrer">
-            <img
-              alt="tiki.vn"
-              className="bw-hover"
-              width="116"
-              src="/images/tiki.png"
-              srcSet="/images/tiki@2x.png 2x"
-            />
-          </a>
-        </div>
-        <div className="col sm:w-1/4 w-1/2 mb-20">
-          <a
-            href="https://www.chotot.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              alt="chotot.com"
-              className="bw-hover"
-              width="149"
-              src="/images/chotot.png"
-              srcSet="/images/chotot@2x.png 2x"
-            />
-          </a>
-        </div>
-        <div className="col sm:w-1/4 w-1/2 mb-20 text-center">
-          <a
-            href="https://dwarves.foundation/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              alt="dwarves.foundation"
-              className="bw-hover"
-              width="199"
-              src="/images/dwarves.png"
-              srcSet="/images/dwarves@2x.png 2x"
-            />
-          </a>
-        </div>
-        <div className="col sm:w-1/4 w-1/2 mb-20 sm:text-right text-center">
-          <a
-            href="https://envato.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              alt="envato.com"
-              className="bw-hover"
-              width="173"
-              src="/images/envato.png"
-              srcSet="/images/envato@2x.png 2x"
-            />
-          </a>
-        </div>
-      </div>
+      <H3 className="mb-6">Special Sponsors</H3>
+      <Gallery
+        center
+        items={[
+          {
+            title: 'Notion',
+            imgUrl: notionImg,
+            href: 'https://www.notion.so/'
+          }
+        ]}
+      ></Gallery>
+
+      <H3 className="mb-6 mt-12">Sponsors</H3>
+      <Gallery
+        items={[
+          {
+            title: 'Tiki',
+            imgUrl: tikiImg,
+            href: 'https://www.tiki.vn/'
+          },
+          {
+            title: 'Lazada',
+            imgUrl: lazadaImg,
+            href: 'https://www.lazada.vn/'
+          },
+          {
+            title: 'Shopee',
+            imgUrl: shopeeImg,
+            href: 'https://shopee.vn/'
+          },
+          {
+            title: 'Chotot',
+            imgUrl: chototImg,
+            href: 'https://www.chotot.com/'
+          },
+          {
+            title: 'grab',
+            imgUrl: grabImg,
+            href: 'https://www.grab.com/'
+          }
+        ]}
+      ></Gallery>
+
+      <H3 className="mb-6 mt-12">Backers</H3>
+      <Gallery
+        items={[
+          {
+            title: 'Google',
+            imgUrl: googleImg,
+            href: 'https://www.google.com/'
+          },
+          {
+            title: 'Microsoft',
+            imgUrl: microsoftImg,
+            href: 'https://www.microsoft.com/'
+          },
+          {
+            title: 'fpt',
+            imgUrl: fptImg,
+            href: 'https://www.fpt.vn/'
+          },
+          {
+            title: 'Quoine',
+            imgUrl: quoineImg,
+            href: 'https://www.chotot.vn/'
+          },
+          {
+            title: 'Dwarves Foundation',
+            imgUrl: dwarvesImg,
+            href: 'https://www.d.foundation/'
+          },
+          {
+            title: 'TopDev',
+            imgUrl: topdevImg,
+            href: 'https://topdev.vn/'
+          },
+          {
+            title: 'Codershool',
+            imgUrl: codershoolImg,
+            href: 'https://www.coderschool.vn/'
+          }
+        ]}
+      ></Gallery>
     </Container>
   </section>
 );
