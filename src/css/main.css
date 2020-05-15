@@ -1,20 +1,16 @@
-html {
-  scroll-behavior: smooth;
+/*! purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/*! purgecss end ignore */
+@tailwind utilities;
+
+html,
+body {
+  background-color: #fefcf8;
 }
 
-:root {
-  --primary: #e13f5e;
-  --white: #ffffff;
-  --white-75: rgba(255, 255, 255, 0.75);
-  --white-50: rgba(255, 255, 255, 0.5);
-  --white-25: rgba(255, 255, 255, 0.25);
-
-  --black: #22292f;
-  --black-70: rgba(0, 0, 0, 0.7);
-  --black-50: rgba(0, 0, 0, 0.5);
-  --black-25: rgba(0, 0, 0, 0.25);
-
-  --gutter: 2.5rem;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
