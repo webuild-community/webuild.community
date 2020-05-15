@@ -51,6 +51,7 @@ module.exports = {
       xl: '1.25rem', // 20px
       '2xl': '1.5rem', // 24px
       '28px': '1.75rem', // 28px
+      '30px': '30px', // 30px
       '3xl': '2rem', // 32px
       '4xl': '2.25rem', // 36px
       '5xl': '3rem', // 48px
@@ -74,6 +75,7 @@ module.exports = {
       none: 1,
       tight: 1.25,
       normal: 1.5,
+      medium: 1.626,
       loose: 2
     },
 

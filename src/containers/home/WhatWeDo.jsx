@@ -41,7 +41,7 @@ const WhatWeDoSection = () => (
             <img src={img} />
             <div className="border border-gray-200 pb-4 bg-white">
               <div className="lg:px-10 px-6 lg:py-8 py-6">
-                <H5 className="mb-1">{title}</H5>
+                <H5 className="mb-2">{title}</H5>
                 <p className="mb-2 text-gray-700">{desc}</p>
                 <a
                   className="text-primary underline font-bold text-base"
