@@ -38,7 +38,7 @@ const CommunitySection = () => (
           {
             title: 'Rust Vietnam',
             imgUrl: rustImg,
-            href: 'https://www.facebook.com/vietnam.ruby/'
+            href: '#'
           },
           {
             title: 'Android Cafein',
@@ -48,7 +48,7 @@ const CommunitySection = () => (
           {
             title: 'Swift',
             imgUrl: swiftImg,
-            href: 'https://www.facebook.com/swift/'
+            href: 'https://www.facebook.com/swift.org.vn/'
           },
           {
             title: 'Elixir Vietnam',

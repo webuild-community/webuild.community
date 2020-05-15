@@ -95,7 +95,7 @@ const JobsInternal = ({ items }) => {
   return (
     <section
       id="jobs-section"
-      className="sm:mt-12 mt-4 lg:mt-24 pt-10 lg:pb-10"
+      className="sm:mt-10 mt-2 lg:mt-24 pt-10 lg:pb-10"
     >
       <Container>
         <div className="flex items-center flex-wrap sm:flex-no-wrap">
@@ -128,7 +128,13 @@ const JobsInternal = ({ items }) => {
             </div>
           </div>
           <div className="w-32 flex-grow text-right sm:block hidden">
-            <Button>Post a job</Button>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/awesome-jobs/vietnam/issues"
+            >
+              <Button>Post a job</Button>
+            </a>
           </div>
         </div>
 

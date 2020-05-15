@@ -15,20 +15,20 @@ const Header = () => {
         <div className="items-center flex">
           <ul className="pr-6 sm:flex hidden">
             <li className="px-6">
-              <Link className="font-bold text-gray-800" to="/">
+              <Link className="font-bold text-gray-800" to="#jobs-section">
                 Jobs
               </Link>
             </li>
             <li className="px-6">
-              <Link className="text-gray-700" to="/">
+              <Link className="text-gray-700" to="#upcoming-events">
                 Events
               </Link>
             </li>
-            <li className="px-6">
+            {/* <li className="px-6">
               <Link className="text-gray-700" to="/">
                 Build @ Weekend
               </Link>
-            </li>
+            </li> */}
           </ul>
 
           <Link to="/chat">
@@ -49,11 +49,11 @@ const Header = () => {
               Events
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="text-gray-700" to="/">
               Build @ Weekend
             </Link>
-          </li>
+          </li> */}
         </ul>
       </Container>
     </header>

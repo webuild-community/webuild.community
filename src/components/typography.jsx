@@ -5,7 +5,7 @@ export const H3 = ({ className, children }) => {
   return (
     <h3
       className={classnames(
-        'text-2xl sm:text-28px font-bold text-black leading-tight',
+        'text-2xl font-bold text-black leading-tight',
         className
       )}
     >

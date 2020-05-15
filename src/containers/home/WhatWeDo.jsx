@@ -39,7 +39,7 @@ const WhatWeDoSection = () => (
         {items.map(({ img, title, desc, linkText, link }) => (
           <div className="w-full sm:w-1/3 mb-10 text-center px-3" key={title}>
             <img src={img} />
-            <div className="border border-gray-200 pb-4">
+            <div className="border border-gray-200 pb-4 bg-white">
               <div className="lg:px-10 px-6 lg:py-8 py-6">
                 <H5 className="mb-1">{title}</H5>
                 <p className="mb-2 text-gray-700">{desc}</p>

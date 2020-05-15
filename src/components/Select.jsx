@@ -21,7 +21,7 @@ const CustomSelect = ({
       name={name}
       value={value}
       onChange={onChange}
-      className="appearance-none bg-white pr-8 outline-none inline-block"
+      className="appearance-none bg-transparent pr-8 outline-none inline-block"
     >
       {options.map(({ text, value }) => (
         <option key={value} value={value} className="truncate">

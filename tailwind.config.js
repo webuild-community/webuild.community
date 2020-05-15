@@ -8,6 +8,7 @@ module.exports = {
     colors: {
       current: 'currentColor',
       transparent: 'transparent',
+      foreground: '#fefcf8',
       white: '#ffffff',
       black: '#000000',
       primary: '#34785C',
@@ -29,7 +30,7 @@ module.exports = {
     },
 
     fontFamily: {
-      sans: ['Helvetica Neue', 'Helvetica', 'Aria', 'system-ui', 'sans-serif'],
+      sans: ['barlow', 'sans-serif'],
       serif: ['Georgia', 'serif'],
       mono: [
         'Menlo',

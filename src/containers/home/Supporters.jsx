@@ -108,7 +108,13 @@ const Supporters = () => (
       ></Gallery>
 
       <div className="sm:mt-16 mt-10">
-        <Button>Support WeBuild</Button>
+        <a
+          href="https://opencollective.com/webuild"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button>Support WeBuild</Button>
+        </a>
       </div>
     </Container>
   </section>

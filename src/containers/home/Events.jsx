@@ -51,14 +51,17 @@ const Events = () => {
         });
 
         return (
-          <section
-            id="upcoming-events"
-            className="sm:my-12 sm:pt-0 pt-10 lg:my-24"
-          >
+          <section id="upcoming-events" className="sm:my-8 pt-10 lg:my-12">
             <Container>
               <div className="flex sm:flex-row flex-col justify-between items-start mb-4">
                 <H3>Upcoming Events</H3>
-                <Button className="mt-5 sm:mt-1">Add event</Button>
+                <a
+                  href="https://airtable.com/shrAzFFFgoaZ83l5d"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="mt-5 sm:mt-1">Add event</Button>
+                </a>
               </div>
 
               {fortcoming.length === 0 ? (
