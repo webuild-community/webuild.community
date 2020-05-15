@@ -3,7 +3,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 function SEO({
-  title: titleProps = 'WeBuild Community',
+  title: titleProps = 'WeBuild Community - Vietnam Alliance hub of Developers & Makers',
   description: descriptionProps = 'WeBuild Community is a platform that connects developers in Vietnam, where they can share their knowledge and experience, while working, learning, and building cool stuffs together.',
   lang = 'en',
   meta = [],
@@ -107,7 +107,6 @@ function SEO({
         )
         .concat(meta)}
       title={title}
-      titleTemplate={`%s | ${title}`}
     />
   );
 }

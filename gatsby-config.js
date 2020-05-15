@@ -47,13 +47,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Webuild Vietname`,
+        name: `Webuild Vietnam`,
         short_name: `webuild`,
         start_url: `/`,
         background_color: '#ffffff',
         theme_color: '#34785C',
         display: `minimal-ui`,
-        icon: `src/assets/favicons/favicon.png`
+        icon: `src/assets/favicons/favicon-v2.png`
       }
     },
     {

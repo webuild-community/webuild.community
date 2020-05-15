@@ -10,7 +10,7 @@ import Community from './Community';
 
 const Home = () => (
   <DefaultLayout>
-    <SEO keywords={[`WeBuild`]} title="Home" />
+    <SEO />
     <HeroBanner />
     <WhatWeDo />
     <Events />
