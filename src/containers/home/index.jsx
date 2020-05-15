@@ -15,10 +15,8 @@ const Home = () => (
     <WhatWeDo />
     <Events />
     <Jobs />
-    <div className="bg-white border-t border-gray-200 pb-px">
-      <Supporters />
-      <Community />
-    </div>
+    <Supporters />
+    <Community />
   </DefaultLayout>
 );
 
