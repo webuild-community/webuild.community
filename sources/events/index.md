@@ -2,7 +2,7 @@
 key: events
 list:
   - date: '2019-04-23T18:30:00+0700'
-    guests: '211'
+    guests: '0'
     location: 'VNG Corporation, 182 Lê Đại Hành, Phường 15, Quận 11, Ho Chi Minh City, Vietnam'
     name: 'Golang & CloudNative Vietnam Meetup #16'
     link: 'https://www.facebook.com/events/278326139744023'
@@ -27,7 +27,7 @@ list:
     name: 'Golang New Year Meetup 2020 #13'
     link: 'https://facebook.com/events/561603874191479'
   - date: '2020-09-06T18:30:00+0700'
-    guests: '217'
+    guests: '0'
     location: 'Tinypulse, Vietnam, Ho Chi Minh City, Lvl 18, 72 Le Thanh Ton, Phuong Ben Nghe, Q1'
     name: 'Golang Vietnam Meetup #12'
     link: 'https://facebook.com/events/146312662623943'

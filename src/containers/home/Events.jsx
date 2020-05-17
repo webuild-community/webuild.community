@@ -70,27 +70,42 @@ const Events = () => {
                 </div>
               ) : (
                 fortcoming.map(
-                  ({ location, date, guests, name, link }, index) => (
-                    <div
-                      key={link}
-                      className={classnames('py-3', {
-                        'border-b border-gray-200':
-                          index < fortcoming.length - 1
-                      })}
-                    >
-                      <a href={link} target="_blank" rel="noopener noreferrer">
-                        <H6 className="hover:text-primary transition-colors duration-200">
-                          {name}
-                        </H6>
-                      </a>
-                      <div className="text-sm my-1 text-gray-700">
-                        {dayjs(date).format('MMM DD, YYYY')} at{' '}
-                        {dayjs(date).format('hh:mm a')} - {name} - {guests}{' '}
-                        guests
+                  ({ location, date, guests, name, link }, index) => {
+                    const info = [
+                      `${dayjs(date).format('MMM DD, YYYY')} at ${dayjs(
+                        date
+                      ).format('hh:mm a')}`,
+                      name
+                    ];
+                    if (guests > 0) {
+                      info.push(`${guests} guests`);
+                    }
+                    return (
+                      <div
+                        key={link}
+                        className={classnames('py-3', {
+                          'border-b border-gray-200':
+                            index < fortcoming.length - 1
+                        })}
+                      >
+                        <a
+                          href={link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <H6 className="hover:text-primary transition-colors duration-200">
+                            {name}
+                          </H6>
+                        </a>
+                        <div className="text-sm my-1 text-gray-700">
+                          {info.join(' - ')}
+                        </div>
+                        <div className="text-base text-gray-800">
+                          {location}
+                        </div>
                       </div>
-                      <div className="text-base text-gray-800">{location}</div>
-                    </div>
-                  )
+                    );
+                  }
                 )
               )}
             </Container>
