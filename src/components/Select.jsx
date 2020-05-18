@@ -12,16 +12,22 @@ const CustomSelect = ({
 }) => (
   <div
     {...rest}
+    style={{ maxWidth: 150 }}
     className={classnames(
-      'relative flex items-center justify-between',
+      'relative flex items-center justify-between w-full',
       className
     )}
   >
+    <div className="pr-6 w-full">
+      <span style={{ maxWidth: 135 }} className="truncate w-full block">
+        {options.filter(o => o.value === value)[0].text}
+      </span>
+    </div>
     <select
       name={name}
       value={value}
       onChange={onChange}
-      className="appearance-none bg-transparent pr-8 outline-none inline-block font-medium"
+      className="absolute inset-0 appearance-none bg-transparent pr-8 outline-none inline-block font-medium opacity-0 w-full"
     >
       {options.map(({ text, value }) => (
         <option key={value} value={value} className="truncate">

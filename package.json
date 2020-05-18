@@ -18,6 +18,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-helmet": "6.0.0",
+    "smoothscroll-polyfill": "^0.4.4",
     "tailwindcss-transitions": "^2.2.0",
     "typeface-barlow": "^0.0.71"
   },
