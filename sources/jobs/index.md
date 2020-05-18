@@ -1,36 +1,84 @@
 ---
 key: jobs
 list:
-  - company: Grab
-    date: 2019-03-07T14:43:09.832Z
-    desc: Grab is more than just the leading ride-hailing app in Southeast Asia. We use data and technology to improve everything from transportation to payments and logistics across Southeast Asia.
-    isOpened: true
-    linkURL: 'https://github.com/golang-vietnam/job_board/issues/14'
-    location: Saigon
-    title: Backend Engineer
+  - company: 'DongA'
+    date: '2020-05-15T04:02:59+0000'
+    desc: 'Python Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1983'
+    location: 'Saigon, District 10'
+    title: 'Python Developer'
     type: Fulltime
-  - company: Facebook
-    date: 2019-03-07T14:43:09.832Z
-    desc: Grab is more than just the leading ride-hailing app in Southeast Asia. We use data and technology to improve everything from transportation to payments and logistics across Southeast Asia.
-    isOpened: true
-    linkURL: 'https://github.com/golang-vietnam/job_board/issues/14'
-    location: Singapore
-    title: Backend Engineer
+  - company: 'LARION'
+    date: '2020-05-15T03:53:20+0000'
+    desc: 'IT Business Analyst'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1982'
+    location: 'Saigon'
+    title: 'IT Business Analyst'
     type: Fulltime
-  - company: Dwarves Foundation
-    date: 2019-04-02T02:29:07.004Z
-    desc: Be the person stands behind all the cool products. We seek for dynamic, proactive, open-minded and passionate talents who are committed to making the best impact ever.
-    isOpened: true
-    linkURL: 'https://dwarves.careers/job/golang-engineer--dwarves-foundation--saigon'
-    location: Saigon
-    title: Golang Engineer
+  - company: 'LARION'
+    date: '2020-05-15T03:53:14+0000'
+    desc: 'Senior NodeJS Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1981'
+    location: 'Saigon'
+    title: 'Senior NodeJS Developer'
     type: Fulltime
-  - company: Dwarves Foundation
-    date: 2020-04-02T02:29:07.004Z
-    desc: Be the person stands behind all the cool products. We seek for dynamic, proactive, open-minded and passionate talents who are committed to making the best impact ever.
-    isOpened: true
-    linkURL: 'https://dwarves.careers/job/golang-engineer--dwarves-foundation--saigon'
-    location: Hanoi
-    title: UI Engineer
-    type: Parttime
+  - company: 'Fetch Technology'
+    date: '2020-05-12T07:38:19+0000'
+    desc: 'Senior Ruby on Rails'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1979'
+    location: 'Onsite Singapore'
+    title: 'Senior Ruby on Rails'
+    type: Fulltime
+  - company: 'Fetch Technology'
+    date: '2020-05-12T07:32:49+0000'
+    desc: 'PHP Laravel'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1978'
+    location: 'HN'
+    title: 'PHP Laravel'
+    type: Fulltime
+  - company: 'Fetch Technology'
+    date: '2020-05-12T07:16:02+0000'
+    desc: 'FULLSTACK NODEJS'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1977'
+    location: 'HCM/HN'
+    title: 'FULLSTACK NODEJS'
+    type: Fulltime
+  - company: 'HR1'
+    date: '2020-05-08T04:25:30+0000'
+    desc: 'Software Embedded Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1976'
+    location: 'Up to $2k'
+    title: 'Software Embedded Engineer'
+    type: HCMC
+  - company: 'rakumo'
+    date: '2020-05-08T03:47:04+0000'
+    desc: 'Python Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1975'
+    location: 'HCM'
+    title: 'Python Developer'
+    type: Fulltime
+  - company: 'Rakuna'
+    date: '2020-05-07T09:43:02+0000'
+    desc: 'Front End/Javascript Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1973'
+    location: 'HN/HCM'
+    title: 'Front End/Javascript Developer'
+    type: Fulltime
+  - company: 'UNIT CORP'
+    date: '2020-05-05T03:17:32+0000'
+    desc: '.NET DEVELOPER'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1969'
+    location: 'HCM'
+    title: '.NET DEVELOPER'
+    type: Fulltime
 ---
