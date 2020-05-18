@@ -20,7 +20,7 @@ const items = [
     desc:
       'Join our wide ranges of offline events, from meetups to workshop and Hackathon.',
     linkText: 'Look up coming events',
-    link: '#'
+    link: '#upcoming-events'
   },
   {
     img: jobsImg,
