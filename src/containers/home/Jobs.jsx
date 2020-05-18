@@ -106,25 +106,27 @@ const JobsInternal = ({ items }) => {
                 Post a job
               </Button>
             </H3>
-            <div className="flex items-center justify-between sm:w-auto w-full sm:mt-0 mt-5 sm:border-none border-t border-b border-gray-200 sm:py-0 py-4">
-              <Select
-                className="sm:ml-10"
-                name="title"
-                value={titleFilter}
-                onChange={e => {
-                  setTitleFilter(e.target.value);
-                }}
-                options={titleOptions}
-              />
-              <Select
-                className="sm:ml-8"
-                name="location"
-                value={locationFilter}
-                options={locationOptions}
-                onChange={e => {
-                  setLocationFilter(e.target.value);
-                }}
-              />
+            <div className="flex items-center justify-between sm:w-auto w-full sm:mt-0 mt-5 sm:border-none border-t border-b border-gray-200 sm:py-0 py-4 sm:-mx-5 sm:pl-10">
+              <div className="w-1/2 sm:w-48 sm:px-5 pr-3">
+                <Select
+                  name="title"
+                  value={titleFilter}
+                  onChange={e => {
+                    setTitleFilter(e.target.value);
+                  }}
+                  options={titleOptions}
+                />
+              </div>
+              <div className="w-1/2 sm:w-48 sm:px-5 pl-3">
+                <Select
+                  name="location"
+                  value={locationFilter}
+                  options={locationOptions}
+                  onChange={e => {
+                    setLocationFilter(e.target.value);
+                  }}
+                />
+              </div>
             </div>
           </div>
           <div className="w-32 flex-grow text-right sm:block hidden">
