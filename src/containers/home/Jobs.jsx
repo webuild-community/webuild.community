@@ -93,10 +93,7 @@ const JobsInternal = ({ items }) => {
   });
 
   return (
-    <section
-      id="jobs-section"
-      className="sm:mt-10 mt-2 lg:mt-24 pt-10 lg:pb-10"
-    >
+    <section id="jobs" className="sm:mt-10 mt-2 lg:mt-24 pt-10 lg:pb-10">
       <Container>
         <div className="flex items-center flex-wrap sm:flex-no-wrap">
           <div className="flex sm:items-center sm:flex-row flex-col w-full">

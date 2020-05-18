@@ -20,7 +20,7 @@ const Header = () => {
         <div className="items-center flex">
           <ul className="pr-6 sm:flex hidden">
             <li className="px-6">
-              <Link className="font-bold text-gray-800" to="#jobs-section">
+              <Link className="font-bold text-gray-800" to="#jobs">
                 Jobs
               </Link>
             </li>
@@ -40,7 +40,7 @@ const Header = () => {
       <Container className="sm:hidden block border-b border-gray-200 mt-2">
         <ul className="flex whitespace-no-wrap py-3">
           <li className="pr-8">
-            <Link className="font-bold text-gray-800" to="#jobs-section">
+            <Link className="font-bold text-gray-800" to="#jobs">
               Jobs
             </Link>
           </li>
