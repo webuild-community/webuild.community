@@ -107,105 +107,9 @@ const Supporters = () => (
         ]}
       ></Gallery>
 
-      <H3 className="mb-6 sm:mt-12 mt-10">Supporters</H3>
-
+      {/* <H3 className="mb-6 sm:mt-12 mt-10">Supporters</H3>
       <div className="flex justify-center flex-wrap">
         {[
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
-          {
-            name: 'Name',
-            link: '#',
-            img: 'https://avatars3.githubusercontent.com/u/47828630?s=88&v=4'
-          },
           {
             name: 'Name',
             link: '#',
@@ -222,7 +126,7 @@ const Supporters = () => (
             title={name}
           />
         ))}
-      </div>
+      </div> */}
 
       <div className="sm:mt-12 mt-4">
         <a
