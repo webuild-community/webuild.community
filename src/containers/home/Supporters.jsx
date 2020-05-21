@@ -128,7 +128,7 @@ const Supporters = () => (
         ))}
       </div> */}
 
-      <div className="sm:mt-12 mt-4">
+      <div className="sm:mt-16 mt-10">
         <a
           href="https://opencollective.com/webuild"
           target="_blank"
