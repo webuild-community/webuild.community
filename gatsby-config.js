@@ -27,6 +27,7 @@ module.exports = {
     keywords: [],
     meta: []
   },
+  pathPrefix: `/img`,
   plugins: [
     `gatsby-plugin-postcss`,
     `gatsby-plugin-eslint`,
