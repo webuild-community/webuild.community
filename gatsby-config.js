@@ -31,6 +31,7 @@ module.exports = {
     `gatsby-plugin-postcss`,
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-preact`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
