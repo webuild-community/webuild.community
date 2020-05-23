@@ -1,4 +1,4 @@
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, withPrefix } from 'gatsby';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
@@ -9,7 +9,7 @@ function SEO({
   meta = [],
   keywords = ['WeBuild', 'commutity', 'connect', 'developer', 'Vietnam'],
   path = '',
-  ogImagePath = '../assets/images/webuild-og.png',
+  ogImagePath = withPrefix(`/img/webuild-og.jpg`),
   fbAppId = '',
   fbPages = ''
 }) {
@@ -74,7 +74,7 @@ function SEO({
         },
         {
           name: `og:image:height`,
-          content: '680'
+          content: '628'
         },
         {
           name: `og:image:alt`,
@@ -82,7 +82,7 @@ function SEO({
         },
         {
           name: `og:locale`,
-          content: 'en_GB'
+          content: 'vi_VN'
         },
         {
           name: `fb:app_id`,
