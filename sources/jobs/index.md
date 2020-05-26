@@ -1,6 +1,22 @@
 ---
 key: jobs
 list:
+  - company: 'LINE Vietnam'
+    date: '2020-05-21T15:50:14Z'
+    desc: 'Frontend Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1990'
+    location: 'HCM'
+    title: 'Frontend Engineer'
+    type: Fulltime
+  - company: 'LINE Vietnam'
+    date: '2020-05-21T15:41:02Z'
+    desc: 'Backend Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1989'
+    location: 'HCM'
+    title: 'Backend Engineer'
+    type: Fulltime
   - company: 'NAB VDC'
     date: '2020-05-19T15:52:00Z'
     desc: 'Technical Architect (Nodejs/Reactjs)'
@@ -64,21 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1981'
     location: 'HCM'
     title: 'Senior NodeJS Developer'
-    type: Fulltime
-  - company: 'Fetch Technology'
-    date: '2020-05-12T07:38:19Z'
-    desc: 'Senior Ruby on Rails'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1979'
-    location: 'Others'
-    title: 'Senior Ruby on Rails'
-    type: Fulltime
-  - company: 'Fetch Technology'
-    date: '2020-05-12T07:32:49Z'
-    desc: 'PHP Laravel'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1978'
-    location: 'HN'
-    title: 'PHP Laravel'
     type: Fulltime
 ---
