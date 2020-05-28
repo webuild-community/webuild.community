@@ -57,14 +57,6 @@ list:
     location: 'HCM'
     title: 'Sr/Jr/Fr/Big Data Engineer (Scala, Hadoop Ecosystem)'
     type: Fulltime
-  - company: 'DongA'
-    date: '2020-05-15T04:02:59Z'
-    desc: 'Python Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1983'
-    location: 'HCM'
-    title: 'Python Developer'
-    type: Fulltime
   - company: 'LARION'
     date: '2020-05-15T03:53:20Z'
     desc: 'IT Business Analyst'
@@ -80,5 +72,13 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1981'
     location: 'HCM'
     title: 'Senior NodeJS Developer'
+    type: Fulltime
+  - company: 'Fetch Technology'
+    date: '2020-05-12T07:38:19Z'
+    desc: 'Senior Ruby on Rails'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1979'
+    location: 'Others'
+    title: 'Senior Ruby on Rails'
     type: Fulltime
 ---
