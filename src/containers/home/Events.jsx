@@ -38,17 +38,23 @@ const Events = () => {
           return null;
         }
         const { list } = data.edges[0].node.frontmatter;
+        const sortedList = [...list].sort((a, b) =>
+          dayjs(a.date).isAfter(dayjs(b.date))
+        );
         const fortcoming = [];
         const past = [];
         const now = Date.now();
 
-        list.forEach(event => {
+        sortedList.forEach(event => {
           if (dayjs(event.date).isBefore(dayjs(now))) {
-            past.unshift(event);
+            past.push(event);
           } else {
-            fortcoming.unshift(event);
+            fortcoming.push(event);
           }
         });
+
+        // show last 2 outdated events + all upcoming events
+        const listToShow = fortcoming.concat(past.slice(0, 2));
 
         return (
           <section id="upcoming-events" className="sm:my-8 pt-10 lg:my-12">
@@ -64,12 +70,12 @@ const Events = () => {
                 </a>
               </div>
 
-              {fortcoming.length === 0 ? (
+              {listToShow.length === 0 ? (
                 <div className="pt-6 border-t border-gray-200 mt-7">
                   There is no upcoming event
                 </div>
               ) : (
-                fortcoming.map(
+                listToShow.map(
                   ({ location, date, guests, name, link }, index) => {
                     const info = [
                       `${dayjs(date).format('MMM DD, YYYY')} at ${dayjs(
