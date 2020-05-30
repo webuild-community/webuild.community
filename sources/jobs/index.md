@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Freelensia'
+    date: '2020-05-30T06:36:38Z'
+    desc: 'CTO/Rails Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1995'
+    location: 'HCM'
+    title: 'CTO/Rails Developer'
+    type: FT/PT
   - company: 'LINE Vietnam'
     date: '2020-05-21T15:50:14Z'
     desc: 'Frontend Engineer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1981'
     location: 'HCM'
     title: 'Senior NodeJS Developer'
-    type: Fulltime
-  - company: 'Fetch Technology'
-    date: '2020-05-12T07:38:19Z'
-    desc: 'Senior Ruby on Rails'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1979'
-    location: 'Others'
-    title: 'Senior Ruby on Rails'
     type: Fulltime
 ---
