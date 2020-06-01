@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Perifit'
+    date: '2020-06-01T15:49:58Z'
+    desc: 'React Native Software Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1996'
+    location: 'Others'
+    title: 'React Native Software Engineer'
+    type: Fulltime
   - company: 'Freelensia'
     date: '2020-05-30T06:36:38Z'
     desc: 'CTO/Rails Developer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1982'
     location: 'HCM'
     title: 'IT Business Analyst'
-    type: Fulltime
-  - company: 'LARION'
-    date: '2020-05-15T03:53:14Z'
-    desc: 'Senior NodeJS Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1981'
-    location: 'HCM'
-    title: 'Senior NodeJS Developer'
     type: Fulltime
 ---
