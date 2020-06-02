@@ -1,6 +1,38 @@
 ---
 key: jobs
 list:
+  - company: 'Dinovative'
+    date: '2020-06-02T10:27:49Z'
+    desc: 'Ruby on Rails Developer (Mid/ Senior)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2001'
+    location: 'HCM'
+    title: 'Ruby on Rails Developer (Mid/ Senior)'
+    type: Fulltime
+  - company: 'Dinovative'
+    date: '2020-06-02T04:54:14Z'
+    desc: 'Python junior'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1999'
+    location: 'Others'
+    title: 'Python junior'
+    type: Fulltime
+  - company: 'Dinovative'
+    date: '2020-06-02T04:35:18Z'
+    desc: 'Ruby on Rails Dev'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1998'
+    location: 'Others'
+    title: 'Ruby on Rails Dev'
+    type: Fulltime
+  - company: 'BTaskee'
+    date: '2020-06-02T03:23:59Z'
+    desc: 'Golang Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1997'
+    location: 'HCM'
+    title: 'Golang Developer'
+    type: Ft
   - company: 'Perifit'
     date: '2020-06-01T15:49:58Z'
     desc: 'React Native Software Engineer'
@@ -48,37 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1987'
     location: 'HCM'
     title: 'Senior Front End Reactjs Engineer'
-    type: Fulltime
-  - company: 'Yojee'
-    date: '2020-05-19T05:54:39Z'
-    desc: 'DevOps Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1986'
-    location: 'HCM'
-    title: 'DevOps Engineer'
-    type: Fulltime
-  - company: 'FPT Telecom'
-    date: '2020-05-19T04:42:51Z'
-    desc: 'Fullstack Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1985'
-    location: 'HCM'
-    title: 'Fullstack Engineer'
-    type: Fulltime
-  - company: 'FPT Telecom'
-    date: '2020-05-19T03:01:07Z'
-    desc: 'Sr/Jr/Fr/Big Data Engineer (Scala, Hadoop Ecosystem)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1984'
-    location: 'HCM'
-    title: 'Sr/Jr/Fr/Big Data Engineer (Scala, Hadoop Ecosystem)'
-    type: Fulltime
-  - company: 'LARION'
-    date: '2020-05-15T03:53:20Z'
-    desc: 'IT Business Analyst'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1982'
-    location: 'HCM'
-    title: 'IT Business Analyst'
     type: Fulltime
 ---
