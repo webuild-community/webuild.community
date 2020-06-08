@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Koidra'
+    date: '2020-06-08T02:43:38Z'
+    desc: 'Fullstack Software Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2007'
+    location: 'HCM'
+    title: 'Fullstack Software Engineer'
+    type: Fulltime
   - company: 'STS'
     date: '2020-06-05T11:41:13Z'
     desc: 'SQL Developer'
@@ -73,12 +81,4 @@ list:
     location: 'HCM'
     title: 'Golang Developer'
     type: Ft
-  - company: 'Perifit'
-    date: '2020-06-01T15:49:58Z'
-    desc: 'React Native Software Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1996'
-    location: 'Others'
-    title: 'React Native Software Engineer'
-    type: Fulltime
 ---
