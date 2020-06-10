@@ -1,6 +1,11 @@
 ---
 key: events
 list:
+  - date: '2020-06-08T04:30:00Z'
+    guests: '0'
+    location: 'Live Video by TopDev'
+    name: 'Ra mắt nền tảng tuyển dụng đầu tiên tích hợp đánh giá developer' 
+    link: 'https://www.facebook.com/events/2544742085742868'
   - date: '2020-05-23T10:00:00Z'
     guests: '0'
     location: 'Online Event'
@@ -46,9 +51,4 @@ list:
     location: 'Zoom Webinar and Live on Youtube'
     name: 'GDG Webinar #7 Machine Learning with TensorFlow on Google Cloud' 
     link: 'https://www.facebook.com/events/240623517329815'
-  - date: '2020-03-07T03:00:00Z'
-    guests: '0'
-    location: 'Grokking Vietnam'
-    name: 'Grokking Vietnam' 
-    link: 'https://www.facebook.com/events/1266879006988585'
 ---
