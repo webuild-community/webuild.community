@@ -1,6 +1,30 @@
 ---
 key: jobs
 list:
+  - company: 'Nimble'
+    date: '2020-06-10T09:30:59Z'
+    desc: 'Technical Product Owner'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2010'
+    location: 'HCM'
+    title: 'Technical Product Owner'
+    type: Fulltime
+  - company: 'Nimble'
+    date: '2020-06-10T09:28:01Z'
+    desc: 'Senior Web Developer (PHP/Ruby)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2009'
+    location: 'HCM'
+    title: 'Senior Web Developer (PHP/Ruby)'
+    type: Fulltime
+  - company: 'Nimble'
+    date: '2020-06-10T09:18:08Z'
+    desc: 'Senior UX/UI Designer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2008'
+    location: 'HCM'
+    title: 'Senior UX/UI Designer'
+    type: Fulltime
   - company: 'Koidra'
     date: '2020-06-08T02:43:38Z'
     desc: 'Fullstack Software Engineer'
@@ -57,28 +81,4 @@ list:
     location: 'HCM'
     title: 'Ruby on Rails Developer (Mid/ Senior)'
     type: Fulltime
-  - company: 'Dinovative'
-    date: '2020-06-02T04:54:14Z'
-    desc: 'Python junior'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1999'
-    location: 'Others'
-    title: 'Python junior'
-    type: Fulltime
-  - company: 'Dinovative'
-    date: '2020-06-02T04:35:18Z'
-    desc: 'Ruby on Rails Dev'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1998'
-    location: 'Others'
-    title: 'Ruby on Rails Dev'
-    type: Fulltime
-  - company: 'BTaskee'
-    date: '2020-06-02T03:23:59Z'
-    desc: 'Golang Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/1997'
-    location: 'HCM'
-    title: 'Golang Developer'
-    type: Ft
 ---
