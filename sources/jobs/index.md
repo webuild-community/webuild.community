@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Scommerce'
+    date: '2020-06-11T08:51:46Z'
+    desc: 'Senior Golang Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2011'
+    location: 'HCM'
+    title: 'Senior Golang Developer'
+    type: Fulltime
   - company: 'Nimble'
     date: '2020-06-10T09:30:59Z'
     desc: 'Technical Product Owner'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2002'
     location: 'HCM'
     title: 'Fullstack Engineer'
-    type: Fulltime
-  - company: 'Dinovative'
-    date: '2020-06-02T10:27:49Z'
-    desc: 'Ruby on Rails Developer (Mid/ Senior)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2001'
-    location: 'HCM'
-    title: 'Ruby on Rails Developer (Mid/ Senior)'
     type: Fulltime
 ---
