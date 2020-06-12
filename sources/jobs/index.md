@@ -1,6 +1,38 @@
 ---
 key: jobs
 list:
+  - company: 'Lecle Vietnam'
+    date: '2020-06-12T09:12:32Z'
+    desc: 'Senior Frontend Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2015'
+    location: 'HCM'
+    title: 'Senior Frontend Developer'
+    type: Fulltime
+  - company: 'CodeLink'
+    date: '2020-06-12T07:35:37Z'
+    desc: 'Senior Web Developer (Go / Rails / React)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2014'
+    location: 'HCM'
+    title: 'Senior Web Developer (Go / Rails / React)'
+    type: Fulltime
+  - company: 'Fetch Technology'
+    date: '2020-06-12T06:47:29Z'
+    desc: 'Fullstack Javascript'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2013'
+    location: 'HCM'
+    title: 'Fullstack Javascript'
+    type: Fulltime
+  - company: 'Fetch Technology'
+    date: '2020-06-12T06:39:21Z'
+    desc: 'Senior Ruby on Rails'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2012'
+    location: 'Others'
+    title: 'Senior Ruby on Rails'
+    type: Fulltime
   - company: 'Scommerce'
     date: '2020-06-11T08:51:46Z'
     desc: 'Senior Golang Developer'
@@ -49,36 +81,4 @@ list:
     location: 'HCM'
     title: 'SQL Developer'
     type: $1800 NET
-  - company: 'Stably'
-    date: '2020-06-05T06:02:23Z'
-    desc: 'Senior Software Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2005'
-    location: 'HCM'
-    title: 'Senior Software Developer'
-    type: Fulltime
-  - company: 'Yojee'
-    date: '2020-06-05T04:02:40Z'
-    desc: 'Senior Backend Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2004'
-    location: 'HCM'
-    title: 'Senior Backend Engineer'
-    type: Fulltime
-  - company: 'Yojee'
-    date: '2020-06-05T03:56:16Z'
-    desc: 'Data Analyst'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2003'
-    location: 'HCM'
-    title: 'Data Analyst'
-    type: Fulltime
-  - company: 'Yojee'
-    date: '2020-06-05T03:21:37Z'
-    desc: 'Fullstack Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2002'
-    location: 'HCM'
-    title: 'Fullstack Engineer'
-    type: Fulltime
 ---
