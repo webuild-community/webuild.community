@@ -4,7 +4,7 @@ list:
   - date: '2020-06-08T04:30:00Z'
     guests: '0'
     location: 'Live Video by TopDev'
-    name: 'Ra mắt nền tảng tuyển dụng đầu tiên tích hợp đánh giá developer' 
+    name: 'Ra mắt nền tảng tuyển dụng đầu tiên tích hợp đánh giá developer' 
     link: 'https://www.facebook.com/events/2544742085742868'
   - date: '2020-05-23T10:00:00Z'
     guests: '0'
