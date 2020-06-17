@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Saigon Technology Solutions'
+    date: '2020-06-17T10:52:10Z'
+    desc: 'Fullstack NodeJS/ReactJS (MERN Stack)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2016'
+    location: 'HCM'
+    title: 'Fullstack NodeJS/ReactJS (MERN Stack)'
+    type: Fulltime
   - company: 'Lecle Vietnam'
     date: '2020-06-12T09:12:32Z'
     desc: 'Senior Frontend Developer'
@@ -73,12 +81,4 @@ list:
     location: 'HCM'
     title: 'Fullstack Software Engineer'
     type: Fulltime
-  - company: 'STS'
-    date: '2020-06-05T11:41:13Z'
-    desc: 'SQL Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2006'
-    location: 'HCM'
-    title: 'SQL Developer'
-    type: $1800 NET
 ---
