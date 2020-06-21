@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'OnPoint'
+    date: '2020-06-21T12:14:24Z'
+    desc: 'Senior/Junior FullStack Dev'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2018'
+    location: 'HCM'
+    title: 'Senior/Junior FullStack Dev'
+    type: Fulltime
   - company: 'Saigon Technology Solutions'
     date: '2020-06-17T10:52:10Z'
     desc: 'Fullstack NodeJS/ReactJS (MERN Stack)'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2008'
     location: 'HCM'
     title: 'Senior UX/UI Designer'
-    type: Fulltime
-  - company: 'Koidra'
-    date: '2020-06-08T02:43:38Z'
-    desc: 'Fullstack Software Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2007'
-    location: 'HCM'
-    title: 'Fullstack Software Engineer'
     type: Fulltime
 ---
