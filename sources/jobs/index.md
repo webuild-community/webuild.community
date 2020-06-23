@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'CodeLink'
+    date: '2020-06-23T04:37:38Z'
+    desc: 'Rails developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2019'
+    location: 'HCM'
+    title: 'Rails developer'
+    type: Fulltime
   - company: 'OnPoint'
     date: '2020-06-21T12:14:24Z'
     desc: 'Senior/Junior FullStack Dev'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2009'
     location: 'HCM'
     title: 'Senior Web Developer (PHP/Ruby)'
-    type: Fulltime
-  - company: 'Nimble'
-    date: '2020-06-10T09:18:08Z'
-    desc: 'Senior UX/UI Designer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2008'
-    location: 'HCM'
-    title: 'Senior UX/UI Designer'
     type: Fulltime
 ---
