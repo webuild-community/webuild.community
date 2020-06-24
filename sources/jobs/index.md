@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Grab VN'
+    date: '2020-06-23T05:00:53Z'
+    desc: 'Senior Backend Engineer (Golang)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2020'
+    location: 'HCM'
+    title: 'Senior Backend Engineer (Golang)'
+    type: Fulltime
   - company: 'CodeLink'
     date: '2020-06-23T04:37:38Z'
     desc: 'Rails developer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2010'
     location: 'HCM'
     title: 'Technical Product Owner'
-    type: Fulltime
-  - company: 'Nimble'
-    date: '2020-06-10T09:28:01Z'
-    desc: 'Senior Web Developer (PHP/Ruby)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2009'
-    location: 'HCM'
-    title: 'Senior Web Developer (PHP/Ruby)'
     type: Fulltime
 ---
