@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'dataPlor'
+    date: '2020-06-25T00:10:50Z'
+    desc: 'Full Stack Rails Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2021'
+    location: 'Others'
+    title: 'Full Stack Rails Developer'
+    type: Fulltime
   - company: 'Grab VN'
     date: '2020-06-23T05:00:53Z'
     desc: 'Senior Backend Engineer (Golang)'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2011'
     location: 'HCM'
     title: 'Senior Golang Developer'
-    type: Fulltime
-  - company: 'Nimble'
-    date: '2020-06-10T09:30:59Z'
-    desc: 'Technical Product Owner'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2010'
-    location: 'HCM'
-    title: 'Technical Product Owner'
     type: Fulltime
 ---
