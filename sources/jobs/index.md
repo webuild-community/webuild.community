@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'VieON'
+    date: '2020-06-26T11:21:43Z'
+    desc: 'R&D Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2025'
+    location: 'HCM'
+    title: 'R&D Engineer'
+    type: Fulltime
   - company: 'dataPlor'
     date: '2020-06-25T00:10:50Z'
     desc: 'Full Stack Rails Developer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2012'
     location: 'Others'
     title: 'Senior Ruby on Rails'
-    type: Fulltime
-  - company: 'Scommerce'
-    date: '2020-06-11T08:51:46Z'
-    desc: 'Senior Golang Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2011'
-    location: 'HCM'
-    title: 'Senior Golang Developer'
     type: Fulltime
 ---
