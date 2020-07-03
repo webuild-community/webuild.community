@@ -1,6 +1,38 @@
 ---
 key: jobs
 list:
+  - company: 'Fetch'
+    date: '2020-07-03T04:05:46Z'
+    desc: 'Frontend Developer (ReactJS)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2039'
+    location: 'HCM'
+    title: 'Frontend Developer (ReactJS)'
+    type: Fulltime
+  - company: 'Fetch'
+    date: '2020-07-03T04:01:16Z'
+    desc: 'Senior NodeJS developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2038'
+    location: 'HCM'
+    title: 'Senior NodeJS developer'
+    type: Fulltime
+  - company: 'Fetch'
+    date: '2020-07-03T03:55:30Z'
+    desc: 'Junior Frontend Developer (ReactJS)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2037'
+    location: 'HCM'
+    title: 'Junior Frontend Developer (ReactJS)'
+    type: Fulltime
+  - company: 'Fetch'
+    date: '2020-07-03T03:46:49Z'
+    desc: 'Frontend Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2036'
+    location: 'HCM'
+    title: 'Frontend Developer'
+    type: Fulltime
   - company: 'VieON'
     date: '2020-06-26T11:21:43Z'
     desc: 'R&D Engineer'
@@ -35,11 +67,11 @@ list:
     type: Fulltime
   - company: 'OnPoint'
     date: '2020-06-21T12:14:24Z'
-    desc: 'Senior/Junior FullStack Dev'
+    desc: 'Senior/Junior FullStack (Elixir)'
     isOpened: 'true'
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2018'
     location: 'HCM'
-    title: 'Senior/Junior FullStack Dev'
+    title: 'Senior/Junior FullStack (Elixir)'
     type: Fulltime
   - company: 'Saigon Technology Solutions'
     date: '2020-06-17T10:52:10Z'
@@ -48,37 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2016'
     location: 'HCM'
     title: 'Fullstack NodeJS/ReactJS (MERN Stack)'
-    type: Fulltime
-  - company: 'Lecle Vietnam'
-    date: '2020-06-12T09:12:32Z'
-    desc: 'Senior Frontend Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2015'
-    location: 'HCM'
-    title: 'Senior Frontend Developer'
-    type: Fulltime
-  - company: 'CodeLink'
-    date: '2020-06-12T07:35:37Z'
-    desc: 'Senior Web Developer (Go / Rails / React)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2014'
-    location: 'HCM'
-    title: 'Senior Web Developer (Go / Rails / React)'
-    type: Fulltime
-  - company: 'Fetch Technology'
-    date: '2020-06-12T06:47:29Z'
-    desc: 'Fullstack Javascript'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2013'
-    location: 'HCM'
-    title: 'Fullstack Javascript'
-    type: Fulltime
-  - company: 'Fetch Technology'
-    date: '2020-06-12T06:39:21Z'
-    desc: 'Senior Ruby on Rails'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2012'
-    location: 'Others'
-    title: 'Senior Ruby on Rails'
     type: Fulltime
 ---
