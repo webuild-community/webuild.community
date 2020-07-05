@@ -33,6 +33,14 @@ list:
     location: 'HCM'
     title: 'Frontend Developer'
     type: Fulltime
+  - company: 'Dinovative'
+    date: '2020-07-01T09:13:21Z'
+    desc: 'Python Developer (middle level)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2034'
+    location: 'Others'
+    title: 'Python Developer (middle level)'
+    type: Fulltime
   - company: 'VieON'
     date: '2020-06-26T11:21:43Z'
     desc: 'R&D Engineer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2018'
     location: 'HCM'
     title: 'Senior/Junior FullStack (Elixir)'
-    type: Fulltime
-  - company: 'Saigon Technology Solutions'
-    date: '2020-06-17T10:52:10Z'
-    desc: 'Fullstack NodeJS/ReactJS (MERN Stack)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2016'
-    location: 'HCM'
-    title: 'Fullstack NodeJS/ReactJS (MERN Stack)'
     type: Fulltime
 ---
