@@ -1,10 +1,15 @@
 ---
 key: events
 list:
+  - date: '2020-07-05T12:30:00Z'
+    guests: '0'
+    location: 'Online eventhttps://www.youtube.com/topdevtv'
+    name: 'TopDev TV-20|Mất bao lâu để chạm đến vị trí Senior Frontend Dev?' 
+    link: 'https://www.facebook.com/events/1196582774067680'
   - date: '2020-06-08T04:30:00Z'
     guests: '0'
     location: 'Live Video by TopDev'
-    name: 'Ra mắt nền tảng tuyển dụng đầu tiên tích hợp đánh giá developer' 
+    name: 'Ra mắt nền tảng tuyển dụng đầu tiên tích hợp đánh giá developer' 
     link: 'https://www.facebook.com/events/2544742085742868'
   - date: '2020-05-23T10:00:00Z'
     guests: '0'
@@ -46,9 +51,4 @@ list:
     location: 'Online Webinar'
     name: 'Friendly Backends with ktor and Kotlin' 
     link: 'https://www.facebook.com/events/279552619731920'
-  - date: '2020-03-28T11:00:00Z'
-    guests: '0'
-    location: 'Zoom Webinar and Live on Youtube'
-    name: 'GDG Webinar #7 Machine Learning with TensorFlow on Google Cloud' 
-    link: 'https://www.facebook.com/events/240623517329815'
 ---
