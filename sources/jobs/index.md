@@ -1,6 +1,38 @@
 ---
 key: jobs
 list:
+  - company: 'Nimble'
+    date: '2020-07-06T06:29:23Z'
+    desc: 'Senior Android Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2043'
+    location: 'HCM'
+    title: 'Senior Android Developer'
+    type: Fulltime
+  - company: 'Nimble'
+    date: '2020-07-06T06:26:30Z'
+    desc: 'Senior iOS Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2042'
+    location: 'HCM'
+    title: 'Senior iOS Developer'
+    type: Fulltime
+  - company: 'Nimble'
+    date: '2020-07-06T06:22:00Z'
+    desc: 'Senior Web Developer (Ruby/JavaScript)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2041'
+    location: 'HCM'
+    title: 'Senior Web Developer (Ruby/JavaScript)'
+    type: Fulltime
+  - company: 'Nimble'
+    date: '2020-07-06T06:17:22Z'
+    desc: 'Technical Product Owner'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2040'
+    location: 'HCM'
+    title: 'Technical Product Owner'
+    type: Fulltime
   - company: 'Fetch'
     date: '2020-07-03T04:05:46Z'
     desc: 'Frontend Developer (ReactJS)'
@@ -48,37 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2025'
     location: 'HCM'
     title: 'R&D Engineer'
-    type: Fulltime
-  - company: 'dataPlor'
-    date: '2020-06-25T00:10:50Z'
-    desc: 'Full Stack Rails Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2021'
-    location: 'Others'
-    title: 'Full Stack Rails Developer'
-    type: Fulltime
-  - company: 'Grab VN'
-    date: '2020-06-23T05:00:53Z'
-    desc: 'Senior Backend Engineer (Golang)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2020'
-    location: 'HCM'
-    title: 'Senior Backend Engineer (Golang)'
-    type: Fulltime
-  - company: 'CodeLink'
-    date: '2020-06-23T04:37:38Z'
-    desc: 'Rails developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2019'
-    location: 'HCM'
-    title: 'Rails developer'
-    type: Fulltime
-  - company: 'OnPoint'
-    date: '2020-06-21T12:14:24Z'
-    desc: 'Senior/Junior FullStack (Elixir)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2018'
-    location: 'HCM'
-    title: 'Senior/Junior FullStack (Elixir)'
     type: Fulltime
 ---
