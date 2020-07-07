@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Trobz'
+    date: '2020-07-07T10:30:58Z'
+    desc: 'Odoo/ERP developers'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2044'
+    location: 'HCM'
+    title: 'Odoo/ERP developers'
+    type: Fulltime
   - company: 'Nimble'
     date: '2020-07-06T06:29:23Z'
     desc: 'Senior Android Developer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2034'
     location: 'Others'
     title: 'Python Developer (middle level)'
-    type: Fulltime
-  - company: 'VieON'
-    date: '2020-06-26T11:21:43Z'
-    desc: 'R&D Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2025'
-    location: 'HCM'
-    title: 'R&D Engineer'
     type: Fulltime
 ---
