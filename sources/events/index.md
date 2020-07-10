@@ -1,6 +1,11 @@
 ---
 key: events
 list:
+  - date: '2020-07-28T02:00:00Z'
+    guests: '0'
+    location: 'Floor 2, M-Building, No.9, road 8, South Sai Gon new town, Tan Phu ward, District 7, HCMC'
+    name: 'How to build career path with World-class Organization' 
+    link: 'https://www.facebook.com/events/317465932592196'
   - date: '2020-07-05T12:30:00Z'
     guests: '0'
     location: 'Online eventhttps://www.youtube.com/topdevtv'
@@ -46,9 +51,4 @@ list:
     location: 'Online Webinar'
     name: 'Webinar #04: How To Prepare & Succeed In A Coding Interview' 
     link: 'https://www.facebook.com/events/149304453158246'
-  - date: '2020-04-18T09:00:00Z'
-    guests: '0'
-    location: 'Online Webinar'
-    name: 'Friendly Backends with ktor and Kotlin' 
-    link: 'https://www.facebook.com/events/279552619731920'
 ---
