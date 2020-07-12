@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Pump Up The Jam'
+    date: '2020-07-12T04:02:43Z'
+    desc: 'FS Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2046'
+    location: 'Others'
+    title: 'FS Developer'
+    type: Fulltime
   - company: 'Trobz'
     date: '2020-07-07T10:30:58Z'
     desc: 'Odoo/ERP developers'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2036'
     location: 'HCM'
     title: 'Frontend Developer'
-    type: Fulltime
-  - company: 'Dinovative'
-    date: '2020-07-01T09:13:21Z'
-    desc: 'Python Developer (middle level)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2034'
-    location: 'Others'
-    title: 'Python Developer (middle level)'
     type: Fulltime
 ---
