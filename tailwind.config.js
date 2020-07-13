@@ -6,6 +6,7 @@ module.exports = {
       center: true
     },
     colors: {
+      'semi-transparent': 'rgba(255, 255, 255, 0.5)',
       current: 'currentColor',
       transparent: 'transparent',
       foreground: '#fefcf8',
