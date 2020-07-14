@@ -110,7 +110,7 @@ const Events = () => {
                             </H6>
                           </a>
                           {isPast && (
-                            <span className="w-1/12 sm:w-auto relative opacity-90 z-50 transform translate-y-4">
+                            <span className="w-1/12 sm:w-auto relative opacity-90 z-50 transform translate-y-4 pointer-events-none">
                               <PastStamp className="absolute transform -translate-x-1/2 -translate-y-1/2" />
                             </span>
                           )}
