@@ -100,7 +100,7 @@ const Events = () => {
                         )}
                         <div className="flex">
                           <a
-                            className="w-5/6 sm:w-auto "
+                            className="w-11/12 sm:w-auto"
                             href={link}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -110,8 +110,8 @@ const Events = () => {
                             </H6>
                           </a>
                           {isPast && (
-                            <span className="w-1/6 sm:w-auto relative flex items-center">
-                              <PastStamp className="absolute z-50" />
+                            <span className="w-1/12 sm:w-auto relative opacity-90 z-50 transform translate-y-4">
+                              <PastStamp className="absolute transform -translate-x-1/2 -translate-y-1/2" />
                             </span>
                           )}
                         </div>
