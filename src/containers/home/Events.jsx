@@ -96,23 +96,24 @@ const Events = () => {
                         })}
                       >
                         {isPast && (
-                          <div className="absolute h-full w-full bg-semi-transparent z-10 pointer-events-none" />
+                          <div className="absolute h-full w-full bg-foreground opacity-50 z-10 pointer-events-none" />
                         )}
-                        <div className="flex items-center">
+                        <div className="flex">
                           <a
+                            className="w-5/6 sm:w-auto "
                             href={link}
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <H6 className="inline hover:text-primary transition-colors duration-200">
+                            <H6 className="hover:text-primary transition-colors duration-200">
                               {name}
                             </H6>
-                            {isPast && (
-                              <span className="relative flex items-center">
-                                <PastStamp className="absolute z-50" />{' '}
-                              </span>
-                            )}
                           </a>
+                          {isPast && (
+                            <span className="w-1/6 sm:w-auto relative flex items-center">
+                              <PastStamp className="absolute z-50" />
+                            </span>
+                          )}
                         </div>
                         <div className="text-sm my-1 text-gray-700">
                           {info.join(' - ')}
