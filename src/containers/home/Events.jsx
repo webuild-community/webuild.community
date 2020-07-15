@@ -81,8 +81,7 @@ const Events = () => {
                     const info = [
                       `${dayjs(date).format('MMM DD, YYYY')} at ${dayjs(
                         date
-                      ).format('hh:mm a')}`,
-                      name
+                      ).format('hh:mm a')}`
                     ];
                     if (guests > 0) {
                       info.push(`${guests} guests`);
@@ -98,9 +97,9 @@ const Events = () => {
                         {isPast && (
                           <div className="absolute h-full w-full bg-foreground opacity-50 z-10 pointer-events-none" />
                         )}
-                        <div className="flex">
+                        <div className="flex pt-2">
                           <a
-                            className="w-11/12 sm:w-auto"
+                            style={{ maxWidth: 'calc(100% - 5rem)' }}
                             href={link}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -110,8 +109,8 @@ const Events = () => {
                             </H6>
                           </a>
                           {isPast && (
-                            <span className="w-1/12 sm:w-auto relative opacity-90 z-50 transform translate-y-4 pointer-events-none">
-                              <PastStamp className="absolute transform -translate-x-1/2 -translate-y-1/2" />
+                            <span className="w-20 relative opacity-90 z-50 pointer-events-none">
+                              <PastStamp className="w-20 h-20 absolute transform -translate-y-6" />
                             </span>
                           )}
                         </div>
