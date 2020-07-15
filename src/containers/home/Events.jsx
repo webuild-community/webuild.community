@@ -89,7 +89,7 @@ const Events = () => {
                     return (
                       <div
                         key={link}
-                        className={classnames('py-3 relative', {
+                        className={classnames('py-5 relative', {
                           'border-b border-gray-200':
                             index < listToShow.length - 1
                         })}
@@ -97,7 +97,7 @@ const Events = () => {
                         {isPast && (
                           <div className="absolute h-full w-full bg-foreground opacity-50 z-10 pointer-events-none" />
                         )}
-                        <div className="flex pt-2">
+                        <div className="flex">
                           <a
                             style={{ maxWidth: 'calc(100% - 5rem)' }}
                             href={link}
@@ -109,7 +109,7 @@ const Events = () => {
                             </H6>
                           </a>
                           {isPast && (
-                            <span className="w-20 relative opacity-90 z-50 pointer-events-none">
+                            <span className="w-20 relative z-50 pointer-events-none">
                               <PastStamp className="w-20 h-20 absolute transform -translate-y-6" />
                             </span>
                           )}
