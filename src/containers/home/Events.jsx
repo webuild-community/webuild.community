@@ -5,6 +5,7 @@ import dayjs from 'dayjs';
 import { H3, H6 } from 'components/typography';
 import Button from 'components/Button';
 import classnames from 'classnames';
+import PastStamp from 'assets/svg/past-stamp.svg';
 
 const eventsQuery = graphql`
   {
@@ -47,9 +48,9 @@ const Events = () => {
 
         sortedList.forEach(event => {
           if (dayjs(event.date).isBefore(dayjs(now))) {
-            past.push(event);
+            past.push({ ...event, isPast: true });
           } else {
-            fortcoming.push(event);
+            fortcoming.push({ ...event, isPast: false });
           }
         });
 
@@ -76,12 +77,11 @@ const Events = () => {
                 </div>
               ) : (
                 listToShow.map(
-                  ({ location, date, guests, name, link }, index) => {
+                  ({ location, date, guests, name, link, isPast }, index) => {
                     const info = [
                       `${dayjs(date).format('MMM DD, YYYY')} at ${dayjs(
                         date
-                      ).format('hh:mm a')}`,
-                      name
+                      ).format('hh:mm a')}`
                     ];
                     if (guests > 0) {
                       info.push(`${guests} guests`);
@@ -89,20 +89,31 @@ const Events = () => {
                     return (
                       <div
                         key={link}
-                        className={classnames('py-3', {
+                        className={classnames('py-5 relative', {
                           'border-b border-gray-200':
-                            index < fortcoming.length - 1
+                            index < listToShow.length - 1
                         })}
                       >
-                        <a
-                          href={link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <H6 className="hover:text-primary transition-colors duration-200">
-                            {name}
-                          </H6>
-                        </a>
+                        {isPast && (
+                          <div className="absolute h-full w-full bg-foreground opacity-50 z-10 pointer-events-none" />
+                        )}
+                        <div className="flex">
+                          <a
+                            style={{ maxWidth: 'calc(100% - 5rem)' }}
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <H6 className="hover:text-primary transition-colors duration-200">
+                              {name}
+                            </H6>
+                          </a>
+                          {isPast && (
+                            <span className="w-20 relative z-50 pointer-events-none">
+                              <PastStamp className="w-20 h-20 absolute transform -translate-y-6" />
+                            </span>
+                          )}
+                        </div>
                         <div className="text-sm my-1 text-gray-700">
                           {info.join(' - ')}
                         </div>
@@ -121,5 +132,4 @@ const Events = () => {
     />
   );
 };
-
 export default Events;
