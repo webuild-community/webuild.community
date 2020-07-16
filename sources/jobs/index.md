@@ -1,6 +1,30 @@
 ---
 key: jobs
 list:
+  - company: 'CodeLink'
+    date: '2020-07-16T07:07:10Z'
+    desc: 'Java backend developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2056'
+    location: 'HCM'
+    title: 'Java backend developer'
+    type: Fulltime
+  - company: 'Koidra'
+    date: '2020-07-15T23:04:52Z'
+    desc: 'Frontend Software Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2055'
+    location: 'HCM'
+    title: 'Frontend Software Engineer'
+    type: Fulltime
+  - company: 'Koidra'
+    date: '2020-07-15T22:56:33Z'
+    desc: 'IoT Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2054'
+    location: 'HCM'
+    title: 'IoT Engineer'
+    type: Fulltime
   - company: 'Pump Up The Jam'
     date: '2020-07-12T04:02:43Z'
     desc: 'FS Developer'
@@ -56,29 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2039'
     location: 'HCM'
     title: 'Frontend Developer (ReactJS)'
-    type: Fulltime
-  - company: 'Fetch'
-    date: '2020-07-03T04:01:16Z'
-    desc: 'Senior NodeJS developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2038'
-    location: 'HCM'
-    title: 'Senior NodeJS developer'
-    type: Fulltime
-  - company: 'Fetch'
-    date: '2020-07-03T03:55:30Z'
-    desc: 'Junior Frontend Developer (ReactJS)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2037'
-    location: 'HCM'
-    title: 'Junior Frontend Developer (ReactJS)'
-    type: Fulltime
-  - company: 'Fetch'
-    date: '2020-07-03T03:46:49Z'
-    desc: 'Frontend Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2036'
-    location: 'HCM'
-    title: 'Frontend Developer'
     type: Fulltime
 ---
