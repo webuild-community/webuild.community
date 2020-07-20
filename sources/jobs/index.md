@@ -1,6 +1,22 @@
 ---
 key: jobs
 list:
+  - company: 'Fetch'
+    date: '2020-07-20T06:46:53Z'
+    desc: 'Backend Developer (Python)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2059'
+    location: 'HCM'
+    title: 'Backend Developer (Python)'
+    type: Fulltime
+  - company: 'Fetch'
+    date: '2020-07-20T06:42:27Z'
+    desc: 'Senior Backend Developer (RoR)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2058'
+    location: 'HCM'
+    title: 'Senior Backend Developer (RoR)'
+    type: Fulltime
   - company: 'CodeLink'
     date: '2020-07-16T07:07:10Z'
     desc: 'Java backend developer'
@@ -64,21 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2041'
     location: 'HCM'
     title: 'Senior Web Developer (Ruby/JavaScript)'
-    type: Fulltime
-  - company: 'Nimble'
-    date: '2020-07-06T06:17:22Z'
-    desc: 'Technical Product Owner'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2040'
-    location: 'HCM'
-    title: 'Technical Product Owner'
-    type: Fulltime
-  - company: 'Fetch'
-    date: '2020-07-03T04:05:46Z'
-    desc: 'Frontend Developer (ReactJS)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2039'
-    location: 'HCM'
-    title: 'Frontend Developer (ReactJS)'
     type: Fulltime
 ---
