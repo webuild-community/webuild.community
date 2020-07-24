@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Orange Logic'
+    date: '2020-07-24T03:37:16Z'
+    desc: 'Software Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2063'
+    location: 'HCM'
+    title: 'Software Engineer'
+    type: Fulltime
   - company: 'Fetch'
     date: '2020-07-20T06:46:53Z'
     desc: 'Backend Developer (Python)'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2042'
     location: 'HCM'
     title: 'Senior iOS Developer'
-    type: Fulltime
-  - company: 'Nimble'
-    date: '2020-07-06T06:22:00Z'
-    desc: 'Senior Web Developer (Ruby/JavaScript)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2041'
-    location: 'HCM'
-    title: 'Senior Web Developer (Ruby/JavaScript)'
     type: Fulltime
 ---
