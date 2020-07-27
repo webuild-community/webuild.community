@@ -1,6 +1,22 @@
 ---
 key: jobs
 list:
+  - company: 'A stealth startup'
+    date: '2020-07-27T05:25:07Z'
+    desc: 'Software Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2065'
+    location: 'HCM'
+    title: 'Software Engineer'
+    type: Fulltime
+  - company: 'Uiza'
+    date: '2020-07-27T04:23:33Z'
+    desc: 'Techical Writer (Fresh/Junior/Senior)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2064'
+    location: 'HCM'
+    title: 'Techical Writer (Fresh/Junior/Senior)'
+    type: Fulltime
   - company: 'Orange Logic'
     date: '2020-07-24T03:37:16Z'
     desc: 'Software Engineer'
@@ -64,21 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2044'
     location: 'HCM'
     title: 'Odoo/ERP developers'
-    type: Fulltime
-  - company: 'Nimble'
-    date: '2020-07-06T06:29:23Z'
-    desc: 'Senior Android Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2043'
-    location: 'HCM'
-    title: 'Senior Android Developer'
-    type: Fulltime
-  - company: 'Nimble'
-    date: '2020-07-06T06:26:30Z'
-    desc: 'Senior iOS Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2042'
-    location: 'HCM'
-    title: 'Senior iOS Developer'
     type: Fulltime
 ---
