@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'FETCH'
+    date: '2020-07-29T06:43:21Z'
+    desc: 'Devops Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2066'
+    location: 'HCM'
+    title: 'Devops Engineer'
+    type: Fulltime
   - company: 'A stealth startup'
     date: '2020-07-27T05:25:07Z'
     desc: 'Software Engineer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2046'
     location: 'Others'
     title: 'FS Developer'
-    type: Fulltime
-  - company: 'Trobz'
-    date: '2020-07-07T10:30:58Z'
-    desc: 'Odoo/ERP developers'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2044'
-    location: 'HCM'
-    title: 'Odoo/ERP developers'
     type: Fulltime
 ---
