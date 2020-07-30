@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'TAPTAP'
+    date: '2020-07-30T10:55:39Z'
+    desc: 'Senior Mobile Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2067'
+    location: 'HCM'
+    title: 'Senior Mobile Developer'
+    type: Fulltime
   - company: 'FETCH'
     date: '2020-07-29T06:43:21Z'
     desc: 'Devops Engineer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2054'
     location: 'HCM'
     title: 'IoT Engineer'
-    type: Fulltime
-  - company: 'Pump Up The Jam'
-    date: '2020-07-12T04:02:43Z'
-    desc: 'FS Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2046'
-    location: 'Others'
-    title: 'FS Developer'
     type: Fulltime
 ---
