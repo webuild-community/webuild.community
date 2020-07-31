@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Raksul Vietnam'
+    date: '2020-07-31T03:45:51Z'
+    desc: 'Senior / Lead VueJS Frontend Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2068'
+    location: 'HCM'
+    title: 'Senior / Lead VueJS Frontend Engineer'
+    type: Fulltime
   - company: 'TAPTAP'
     date: '2020-07-30T10:55:39Z'
     desc: 'Senior Mobile Developer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2055'
     location: 'HCM'
     title: 'Frontend Software Engineer'
-    type: Fulltime
-  - company: 'Koidra'
-    date: '2020-07-15T22:56:33Z'
-    desc: 'IoT Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2054'
-    location: 'HCM'
-    title: 'IoT Engineer'
     type: Fulltime
 ---
