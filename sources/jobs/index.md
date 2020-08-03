@@ -9,14 +9,6 @@ list:
     location: 'HCM'
     title: 'Senior / Lead VueJS Frontend Engineer'
     type: Fulltime
-  - company: 'TAPTAP'
-    date: '2020-07-30T10:55:39Z'
-    desc: 'Senior Mobile Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2067'
-    location: 'HCM'
-    title: 'Senior Mobile Developer'
-    type: Fulltime
   - company: 'FETCH'
     date: '2020-07-29T06:43:21Z'
     desc: 'Devops Engineer'
@@ -80,5 +72,13 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2055'
     location: 'HCM'
     title: 'Frontend Software Engineer'
+    type: Fulltime
+  - company: 'Koidra'
+    date: '2020-07-15T22:56:33Z'
+    desc: 'IoT Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2054'
+    location: 'HCM'
+    title: 'IoT Engineer'
     type: Fulltime
 ---
