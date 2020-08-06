@@ -1,6 +1,30 @@
 ---
 key: jobs
 list:
+  - company: 'SCS Solutions'
+    date: '2020-08-06T11:15:34Z'
+    desc: 'Technical Architect (.NET)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2073'
+    location: 'HCM'
+    title: 'Technical Architect (.NET)'
+    type: Fulltime
+  - company: 'Agency Revolution'
+    date: '2020-08-06T08:30:08Z'
+    desc: 'Dev Team Lead'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2072'
+    location: 'HCM'
+    title: 'Dev Team Lead'
+    type:  FT
+  - company: 'Orange Logic'
+    date: '2020-08-06T03:41:28Z'
+    desc: 'Software Engineering Intern'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2071'
+    location: 'HCM'
+    title: 'Software Engineering Intern'
+    type: Fulltime
   - company: 'Raksul Vietnam'
     date: '2020-07-31T03:45:51Z'
     desc: 'Senior / Lead VueJS Frontend Engineer'
@@ -56,29 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2058'
     location: 'HCM'
     title: 'Senior Backend Developer (RoR)'
-    type: Fulltime
-  - company: 'CodeLink'
-    date: '2020-07-16T07:07:10Z'
-    desc: 'Java backend developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2056'
-    location: 'HCM'
-    title: 'Java backend developer'
-    type: Fulltime
-  - company: 'Koidra'
-    date: '2020-07-15T23:04:52Z'
-    desc: 'Frontend Software Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2055'
-    location: 'HCM'
-    title: 'Frontend Software Engineer'
-    type: Fulltime
-  - company: 'Koidra'
-    date: '2020-07-15T22:56:33Z'
-    desc: 'IoT Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2054'
-    location: 'HCM'
-    title: 'IoT Engineer'
     type: Fulltime
 ---
