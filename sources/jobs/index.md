@@ -2,6 +2,14 @@
 key: jobs
 list:
   - company: 'SCS Solutions'
+    date: '2020-08-07T04:05:59Z'
+    desc: '.NET Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2074'
+    location: 'HCM'
+    title: '.NET Developer'
+    type: Fulltime
+  - company: 'SCS Solutions'
     date: '2020-08-06T11:15:34Z'
     desc: 'Technical Architect (.NET)'
     isOpened: 'true'
@@ -11,11 +19,11 @@ list:
     type: Fulltime
   - company: 'Agency Revolution'
     date: '2020-08-06T08:30:08Z'
-    desc: 'Dev Team Lead'
+    desc: 'Dev Team Lead (.NET)'
     isOpened: 'true'
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2072'
     location: 'HCM'
-    title: 'Dev Team Lead'
+    title: 'Dev Team Lead (.NET)'
     type:  FT
   - company: 'Orange Logic'
     date: '2020-08-06T03:41:28Z'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2059'
     location: 'HCM'
     title: 'Backend Developer (Python)'
-    type: Fulltime
-  - company: 'Fetch'
-    date: '2020-07-20T06:42:27Z'
-    desc: 'Senior Backend Developer (RoR)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2058'
-    location: 'HCM'
-    title: 'Senior Backend Developer (RoR)'
     type: Fulltime
 ---
