@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Spiderbox Design'
+    date: '2020-08-10T04:41:42Z'
+    desc: 'Full Stack Senior Developer (Rails + Angular)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2075'
+    location: 'HCM'
+    title: 'Full Stack Senior Developer (Rails + Angular)'
+    type: Fulltime
   - company: 'SCS Solutions'
     date: '2020-08-07T04:05:59Z'
     desc: '.NET Developer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2063'
     location: 'HCM'
     title: 'Software Engineer'
-    type: Fulltime
-  - company: 'Fetch'
-    date: '2020-07-20T06:46:53Z'
-    desc: 'Backend Developer (Python)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2059'
-    location: 'HCM'
-    title: 'Backend Developer (Python)'
     type: Fulltime
 ---
