@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Early Start'
+    date: '2020-08-12T07:02:29Z'
+    desc: 'Project Manager'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2079'
+    location: 'HN'
+    title: 'Project Manager'
+    type: Fulltime
   - company: 'Spiderbox Design'
     date: '2020-08-10T04:41:42Z'
     desc: 'Full Stack Senior Developer (Rails + Angular)'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2064'
     location: 'HCM'
     title: 'Techical Writer (Fresh/Junior/Senior)'
-    type: Fulltime
-  - company: 'Orange Logic'
-    date: '2020-07-24T03:37:16Z'
-    desc: 'Software Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2063'
-    location: 'HCM'
-    title: 'Software Engineer'
     type: Fulltime
 ---
