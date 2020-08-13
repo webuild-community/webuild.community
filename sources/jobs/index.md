@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Rakuna'
+    date: '2020-08-13T03:44:47Z'
+    desc: 'Software Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2080'
+    location: 'HCM'
+    title: 'Software Developer'
+    type: Fulltime
   - company: 'Early Start'
     date: '2020-08-12T07:02:29Z'
     desc: 'Project Manager'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2065'
     location: 'HCM'
     title: 'Software Engineer'
-    type: Fulltime
-  - company: 'Uiza'
-    date: '2020-07-27T04:23:33Z'
-    desc: 'Techical Writer (Fresh/Junior/Senior)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2064'
-    location: 'HCM'
-    title: 'Techical Writer (Fresh/Junior/Senior)'
     type: Fulltime
 ---
