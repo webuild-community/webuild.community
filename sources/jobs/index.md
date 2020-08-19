@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Lecle Vietnam'
+    date: '2020-08-19T11:30:59Z'
+    desc: 'Back'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2084'
+    location: 'Others'
+    title: 'Back'
+    type: HCMC
   - company: 'Rakuna'
     date: '2020-08-13T03:44:47Z'
     desc: 'Software Developer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2066'
     location: 'HCM'
     title: 'Devops Engineer'
-    type: Fulltime
-  - company: 'A stealth startup'
-    date: '2020-07-27T05:25:07Z'
-    desc: 'Software Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2065'
-    location: 'HCM'
-    title: 'Software Engineer'
     type: Fulltime
 ---
