@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Yojee'
+    date: '2020-08-20T03:33:40Z'
+    desc: 'Senior Solutions Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2085'
+    location: 'HCM'
+    title: 'Senior Solutions Engineer'
+    type: Fulltime
   - company: 'Lecle Vietnam'
     date: '2020-08-19T11:30:59Z'
     desc: 'Back'
@@ -9,14 +17,6 @@ list:
     location: 'Others'
     title: 'Back'
     type: HCMC
-  - company: 'Rakuna'
-    date: '2020-08-13T03:44:47Z'
-    desc: 'Software Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2080'
-    location: 'HCM'
-    title: 'Software Developer'
-    type: Fulltime
   - company: 'Early Start'
     date: '2020-08-12T07:02:29Z'
     desc: 'Project Manager'
