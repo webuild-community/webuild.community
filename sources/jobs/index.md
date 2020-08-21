@@ -1,6 +1,30 @@
 ---
 key: jobs
 list:
+  - company: 'FETCH TECHNOLOGY'
+    date: '2020-08-21T09:08:24Z'
+    desc: 'Junior PHP Developer (Magento)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2091'
+    location: 'HCM'
+    title: 'Junior PHP Developer (Magento)'
+    type: Fulltime
+  - company: 'FETCH TECHNOLOGY'
+    date: '2020-08-21T08:53:04Z'
+    desc: 'Junior Fullstack Developer (.NET, React)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2090'
+    location: 'Others'
+    title: 'Junior Fullstack Developer (.NET, React)'
+    type: HCM
+  - company: 'Yojee'
+    date: '2020-08-21T04:28:11Z'
+    desc: 'Product Manager'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2089'
+    location: 'HCM'
+    title: 'Product Manager'
+    type: Fulltime
   - company: 'Yojee'
     date: '2020-08-20T03:33:40Z'
     desc: 'Senior Solutions Engineer'
@@ -57,28 +81,4 @@ list:
     location: 'HCM'
     title: 'Dev Team Lead (.NET)'
     type:  FT
-  - company: 'Orange Logic'
-    date: '2020-08-06T03:41:28Z'
-    desc: 'Software Engineering Intern'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2071'
-    location: 'HCM'
-    title: 'Software Engineering Intern'
-    type: Fulltime
-  - company: 'Raksul Vietnam'
-    date: '2020-07-31T03:45:51Z'
-    desc: 'Senior / Lead VueJS Frontend Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2068'
-    location: 'HCM'
-    title: 'Senior / Lead VueJS Frontend Engineer'
-    type: Fulltime
-  - company: 'FETCH'
-    date: '2020-07-29T06:43:21Z'
-    desc: 'Devops Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2066'
-    location: 'HCM'
-    title: 'Devops Engineer'
-    type: Fulltime
 ---
