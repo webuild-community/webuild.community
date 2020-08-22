@@ -33,14 +33,6 @@ list:
     location: 'HCM'
     title: 'Senior Solutions Engineer'
     type: Fulltime
-  - company: 'Lecle Vietnam'
-    date: '2020-08-19T11:30:59Z'
-    desc: 'Back'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2084'
-    location: 'Others'
-    title: 'Back'
-    type: HCMC
   - company: 'Early Start'
     date: '2020-08-12T07:02:29Z'
     desc: 'Project Manager'
@@ -81,4 +73,12 @@ list:
     location: 'HCM'
     title: 'Dev Team Lead (.NET)'
     type:  FT
+  - company: 'Orange Logic'
+    date: '2020-08-06T03:41:28Z'
+    desc: 'Software Engineering Intern'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2071'
+    location: 'HCM'
+    title: 'Software Engineering Intern'
+    type: Fulltime
 ---
