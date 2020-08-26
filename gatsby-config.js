@@ -29,6 +29,7 @@ module.exports = {
   },
   pathPrefix: `/img`,
   plugins: [
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
