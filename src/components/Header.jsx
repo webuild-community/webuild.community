@@ -31,9 +31,9 @@ const Header = () => {
             </li>
           </ul>
 
-          <Link to="/chat">
+          <a href="https://we-build-vn.slack.com/join/shared_invite/zt-gh7pb9o1-eUEruSdfycMEkKfk5Bkdww#/">
             <Button>Join us</Button>
-          </Link>
+          </a>
         </div>
       </Container>
 
