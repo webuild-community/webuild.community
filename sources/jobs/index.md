@@ -1,6 +1,22 @@
 ---
 key: jobs
 list:
+  - company: 'NAB VDC'
+    date: '2020-08-26T06:16:04Z'
+    desc: 'Senior Penetration Tester'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2097'
+    location: 'HCM'
+    title: 'Senior Penetration Tester'
+    type: Fulltime
+  - company: 'Groove Technology'
+    date: '2020-08-26T02:34:30Z'
+    desc: 'Mid level React native'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2096'
+    location: 'Others'
+    title: 'Mid level React native'
+    type: Fulltime
   - company: 'FETCH TECHNOLOGY'
     date: '2020-08-21T09:08:24Z'
     desc: 'Junior PHP Developer (Magento)'
@@ -64,21 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2073'
     location: 'HCM'
     title: 'Technical Architect (.NET)'
-    type: Fulltime
-  - company: 'Agency Revolution'
-    date: '2020-08-06T08:30:08Z'
-    desc: 'Dev Team Lead (.NET)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2072'
-    location: 'HCM'
-    title: 'Dev Team Lead (.NET)'
-    type:  FT
-  - company: 'Orange Logic'
-    date: '2020-08-06T03:41:28Z'
-    desc: 'Software Engineering Intern'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2071'
-    location: 'HCM'
-    title: 'Software Engineering Intern'
     type: Fulltime
 ---
