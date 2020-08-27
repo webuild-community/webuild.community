@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'DAC DATA SCIENCE'
+    date: '2020-08-27T07:21:53Z'
+    desc: 'BRIDGE SYSTEM ENGINEER'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2100'
+    location: 'Others'
+    title: 'BRIDGE SYSTEM ENGINEER'
+    type: HN
   - company: 'NAB VDC'
     date: '2020-08-26T06:16:04Z'
     desc: 'Senior Penetration Tester'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2074'
     location: 'HCM'
     title: '.NET Developer'
-    type: Fulltime
-  - company: 'SCS Solutions'
-    date: '2020-08-06T11:15:34Z'
-    desc: 'Technical Architect (.NET)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2073'
-    location: 'HCM'
-    title: 'Technical Architect (.NET)'
     type: Fulltime
 ---
