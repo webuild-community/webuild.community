@@ -1,14 +1,6 @@
 ---
 key: jobs
 list:
-  - company: 'DAC DATA SCIENCE'
-    date: '2020-08-27T07:21:53Z'
-    desc: 'BRIDGE SYSTEM ENGINEER'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2100'
-    location: 'Others'
-    title: 'BRIDGE SYSTEM ENGINEER'
-    type: HN
   - company: 'NAB VDC'
     date: '2020-08-26T06:16:04Z'
     desc: 'Senior Penetration Tester'
@@ -25,22 +17,6 @@ list:
     location: 'Others'
     title: 'Mid level React native'
     type: Fulltime
-  - company: 'FETCH TECHNOLOGY'
-    date: '2020-08-21T09:08:24Z'
-    desc: 'Junior PHP Developer (Magento)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2091'
-    location: 'HCM'
-    title: 'Junior PHP Developer (Magento)'
-    type: Fulltime
-  - company: 'FETCH TECHNOLOGY'
-    date: '2020-08-21T08:53:04Z'
-    desc: 'Junior Fullstack Developer (.NET, React)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2090'
-    location: 'Others'
-    title: 'Junior Fullstack Developer (.NET, React)'
-    type: HCM
   - company: 'Yojee'
     date: '2020-08-21T04:28:11Z'
     desc: 'Product Manager'
@@ -57,14 +33,6 @@ list:
     location: 'HCM'
     title: 'Senior Solutions Engineer'
     type: Fulltime
-  - company: 'Early Start'
-    date: '2020-08-12T07:02:29Z'
-    desc: 'Project Manager'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2079'
-    location: 'HN'
-    title: 'Project Manager'
-    type: Fulltime
   - company: 'Spiderbox Design'
     date: '2020-08-10T04:41:42Z'
     desc: 'Full Stack Senior Developer (Rails + Angular)'
@@ -80,5 +48,37 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2074'
     location: 'HCM'
     title: '.NET Developer'
+    type: Fulltime
+  - company: 'SCS Solutions'
+    date: '2020-08-06T11:15:34Z'
+    desc: 'Technical Architect (.NET)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2073'
+    location: 'HCM'
+    title: 'Technical Architect (.NET)'
+    type: Fulltime
+  - company: 'Agency Revolution'
+    date: '2020-08-06T08:30:08Z'
+    desc: 'Dev Team Lead (.NET)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2072'
+    location: 'HCM'
+    title: 'Dev Team Lead (.NET)'
+    type:  FT
+  - company: 'Orange Logic'
+    date: '2020-08-06T03:41:28Z'
+    desc: 'Software Engineering Intern'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2071'
+    location: 'HCM'
+    title: 'Software Engineering Intern'
+    type: Fulltime
+  - company: 'Raksul Vietnam'
+    date: '2020-07-31T03:45:51Z'
+    desc: 'Senior / Lead VueJS Frontend Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2068'
+    location: 'HCM'
+    title: 'Senior / Lead VueJS Frontend Engineer'
     type: Fulltime
 ---
