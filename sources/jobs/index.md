@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'GHN'
+    date: '2020-09-01T02:41:05Z'
+    desc: 'Senior Developer (Golang/Java)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2104'
+    location: 'HCM'
+    title: 'Senior Developer (Golang/Java)'
+    type: Fulltime
   - company: 'NAB VDC'
     date: '2020-08-26T06:16:04Z'
     desc: 'Senior Penetration Tester'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2071'
     location: 'HCM'
     title: 'Software Engineering Intern'
-    type: Fulltime
-  - company: 'Raksul Vietnam'
-    date: '2020-07-31T03:45:51Z'
-    desc: 'Senior / Lead VueJS Frontend Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2068'
-    location: 'HCM'
-    title: 'Senior / Lead VueJS Frontend Engineer'
     type: Fulltime
 ---
