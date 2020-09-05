@@ -9,6 +9,14 @@ list:
     location: 'HCM'
     title: 'Senior Developer (Golang/Java)'
     type: Fulltime
+  - company: 'QUOD AI'
+    date: '2020-08-30T17:06:55Z'
+    desc: 'Data Analyst Intern'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2102'
+    location: 'Others'
+    title: 'Data Analyst Intern'
+    type: Fulltime
   - company: 'NAB VDC'
     date: '2020-08-26T06:16:04Z'
     desc: 'Senior Penetration Tester'
@@ -73,12 +81,4 @@ list:
     location: 'HCM'
     title: 'Dev Team Lead (.NET)'
     type:  FT
-  - company: 'Orange Logic'
-    date: '2020-08-06T03:41:28Z'
-    desc: 'Software Engineering Intern'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2071'
-    location: 'HCM'
-    title: 'Software Engineering Intern'
-    type: Fulltime
 ---
