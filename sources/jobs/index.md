@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'FETCH TECHNOLOGY'
+    date: '2020-09-09T07:09:19Z'
+    desc: 'Junior/Senior React JS'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2107'
+    location: 'HCM'
+    title: 'Junior/Senior React JS'
+    type: Fulltime
   - company: 'GHN'
     date: '2020-09-01T02:41:05Z'
     desc: 'Senior Developer (Golang/Java)'
@@ -73,12 +81,4 @@ list:
     location: 'HCM'
     title: 'Technical Architect (.NET)'
     type: Fulltime
-  - company: 'Agency Revolution'
-    date: '2020-08-06T08:30:08Z'
-    desc: 'Dev Team Lead (.NET)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2072'
-    location: 'HCM'
-    title: 'Dev Team Lead (.NET)'
-    type:  FT
 ---
