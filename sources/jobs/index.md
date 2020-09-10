@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Cinnamon AI'
+    date: '2020-09-10T08:10:52Z'
+    desc: 'Project Manager'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2112'
+    location: 'HCM'
+    title: 'Project Manager'
+    type: Fulltime
   - company: 'FETCH TECHNOLOGY'
     date: '2020-09-09T07:09:19Z'
     desc: 'Junior/Senior React JS'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2074'
     location: 'HCM'
     title: '.NET Developer'
-    type: Fulltime
-  - company: 'SCS Solutions'
-    date: '2020-08-06T11:15:34Z'
-    desc: 'Technical Architect (.NET)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2073'
-    location: 'HCM'
-    title: 'Technical Architect (.NET)'
     type: Fulltime
 ---
