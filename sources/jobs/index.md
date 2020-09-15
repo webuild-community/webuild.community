@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'VHEC'
+    date: '2020-09-15T10:52:36Z'
+    desc: 'Java Leader'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2114'
+    location: 'HN'
+    title: 'Java Leader'
+    type: Fulltime
   - company: 'Cinnamon AI'
     date: '2020-09-10T08:10:52Z'
     desc: 'Project Manager'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2075'
     location: 'HCM'
     title: 'Full Stack Senior Developer (Rails + Angular)'
-    type: Fulltime
-  - company: 'SCS Solutions'
-    date: '2020-08-07T04:05:59Z'
-    desc: '.NET Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2074'
-    location: 'HCM'
-    title: '.NET Developer'
     type: Fulltime
 ---
