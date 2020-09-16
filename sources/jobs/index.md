@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'AdvaHealth Solutions'
+    date: '2020-09-16T03:16:51Z'
+    desc: 'QA Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2115'
+    location: 'Others'
+    title: 'QA Engineer'
+    type: Fulltime
   - company: 'VHEC'
     date: '2020-09-15T10:52:36Z'
     desc: 'Java Leader'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2085'
     location: 'HCM'
     title: 'Senior Solutions Engineer'
-    type: Fulltime
-  - company: 'Spiderbox Design'
-    date: '2020-08-10T04:41:42Z'
-    desc: 'Full Stack Senior Developer (Rails + Angular)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2075'
-    location: 'HCM'
-    title: 'Full Stack Senior Developer (Rails + Angular)'
     type: Fulltime
 ---
