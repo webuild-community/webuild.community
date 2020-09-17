@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Lecle Vietnam'
+    date: '2020-09-17T06:31:24Z'
+    desc: 'Senior Front'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2116'
+    location: 'Others'
+    title: 'Senior Front'
+    type: HCMC
   - company: 'AdvaHealth Solutions'
     date: '2020-09-16T03:16:51Z'
     desc: 'QA Engineer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2089'
     location: 'HCM'
     title: 'Product Manager'
-    type: Fulltime
-  - company: 'Yojee'
-    date: '2020-08-20T03:33:40Z'
-    desc: 'Senior Solutions Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2085'
-    location: 'HCM'
-    title: 'Senior Solutions Engineer'
     type: Fulltime
 ---
