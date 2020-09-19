@@ -1,6 +1,38 @@
 ---
 key: jobs
 list:
+  - company: 'Fonos'
+    date: '2020-09-19T12:57:06Z'
+    desc: 'React Native Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2122'
+    location: 'HCM'
+    title: 'React Native Developer'
+    type: Fulltime
+  - company: 'Fonos'
+    date: '2020-09-19T12:51:40Z'
+    desc: 'Lead Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2121'
+    location: 'HCM'
+    title: 'Lead Developer'
+    type: Fulltime
+  - company: 'Parcel Perform'
+    date: '2020-09-18T04:21:59Z'
+    desc: 'QA/QC Engineer (Manual Tester)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2120'
+    location: 'HCM'
+    title: 'QA/QC Engineer (Manual Tester)'
+    type: Fulltime
+  - company: 'Parcel Perform'
+    date: '2020-09-18T03:58:43Z'
+    desc: 'DevOps Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2119'
+    location: 'HCM'
+    title: 'DevOps Engineer'
+    type: Fulltime
   - company: 'Lecle Vietnam'
     date: '2020-09-17T06:31:24Z'
     desc: 'Senior Front'
@@ -48,37 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2104'
     location: 'HCM'
     title: 'Senior Developer (Golang/Java)'
-    type: Fulltime
-  - company: 'QUOD AI'
-    date: '2020-08-30T17:06:55Z'
-    desc: 'Data Analyst Intern'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2102'
-    location: 'Others'
-    title: 'Data Analyst Intern'
-    type: Fulltime
-  - company: 'NAB VDC'
-    date: '2020-08-26T06:16:04Z'
-    desc: 'Senior Penetration Tester'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2097'
-    location: 'HCM'
-    title: 'Senior Penetration Tester'
-    type: Fulltime
-  - company: 'Groove Technology'
-    date: '2020-08-26T02:34:30Z'
-    desc: 'Mid level React native'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2096'
-    location: 'Others'
-    title: 'Mid level React native'
-    type: Fulltime
-  - company: 'Yojee'
-    date: '2020-08-21T04:28:11Z'
-    desc: 'Product Manager'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2089'
-    location: 'HCM'
-    title: 'Product Manager'
     type: Fulltime
 ---
