@@ -1,6 +1,22 @@
 ---
 key: jobs
 list:
+  - company: 'QUOD AI'
+    date: '2020-09-22T10:51:49Z'
+    desc: 'Full Stack Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2126'
+    location: 'HCM'
+    title: 'Full Stack Engineer'
+    type: Fulltime
+  - company: 'FETCH TECHNOLOGY'
+    date: '2020-09-22T10:11:21Z'
+    desc: 'Senior Backend (Python)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2123'
+    location: 'HCM'
+    title: 'Senior Backend (Python)'
+    type: Fulltime
   - company: 'Fonos'
     date: '2020-09-19T12:57:06Z'
     desc: 'React Native Developer'
@@ -64,21 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2112'
     location: 'HCM'
     title: 'Project Manager'
-    type: Fulltime
-  - company: 'FETCH TECHNOLOGY'
-    date: '2020-09-09T07:09:19Z'
-    desc: 'Junior/Senior React JS'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2107'
-    location: 'HCM'
-    title: 'Junior/Senior React JS'
-    type: Fulltime
-  - company: 'GHN'
-    date: '2020-09-01T02:41:05Z'
-    desc: 'Senior Developer (Golang/Java)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2104'
-    location: 'HCM'
-    title: 'Senior Developer (Golang/Java)'
     type: Fulltime
 ---
