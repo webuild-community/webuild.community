@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'InterGreat Education Group'
+    date: '2020-09-23T07:58:57Z'
+    desc: 'Senior Drupal Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2127'
+    location: 'HN'
+    title: 'Senior Drupal Developer'
+    type: Fulltime
   - company: 'QUOD AI'
     date: '2020-09-22T10:51:49Z'
     desc: 'Full Stack Engineer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2114'
     location: 'HN'
     title: 'Java Leader'
-    type: Fulltime
-  - company: 'Cinnamon AI'
-    date: '2020-09-10T08:10:52Z'
-    desc: 'Project Manager'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2112'
-    location: 'HCM'
-    title: 'Project Manager'
     type: Fulltime
 ---
