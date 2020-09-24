@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Yojee'
+    date: '2020-09-24T03:54:51Z'
+    desc: 'Senior Mobile Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2128'
+    location: 'HCM'
+    title: 'Senior Mobile Developer'
+    type: Fulltime
   - company: 'InterGreat Education Group'
     date: '2020-09-23T07:58:57Z'
     desc: 'Senior Drupal Developer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2115'
     location: 'Others'
     title: 'QA Engineer'
-    type: Fulltime
-  - company: 'VHEC'
-    date: '2020-09-15T10:52:36Z'
-    desc: 'Java Leader'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2114'
-    location: 'HN'
-    title: 'Java Leader'
     type: Fulltime
 ---
