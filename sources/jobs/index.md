@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Quick Vietnam'
+    date: '2020-09-25T07:51:03Z'
+    desc: 'Web Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2129'
+    location: 'Others'
+    title: 'Web Developer'
+    type: Fulltime
   - company: 'Yojee'
     date: '2020-09-24T03:54:51Z'
     desc: 'Senior Mobile Developer'
@@ -73,12 +81,4 @@ list:
     location: 'Others'
     title: 'Senior Front'
     type: HCMC
-  - company: 'AdvaHealth Solutions'
-    date: '2020-09-16T03:16:51Z'
-    desc: 'QA Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2115'
-    location: 'Others'
-    title: 'QA Engineer'
-    type: Fulltime
 ---
