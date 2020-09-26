@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Injective Protocol (Blockchain)'
+    date: '2020-09-25T23:37:30Z'
+    desc: 'Senior Golang/Backend Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2130'
+    location: 'Others'
+    title: 'Senior Golang/Backend Engineer'
+    type: Fulltime
   - company: 'Quick Vietnam'
     date: '2020-09-25T07:51:03Z'
     desc: 'Web Developer'
@@ -73,12 +81,4 @@ list:
     location: 'HCM'
     title: 'DevOps Engineer'
     type: Fulltime
-  - company: 'Lecle Vietnam'
-    date: '2020-09-17T06:31:24Z'
-    desc: 'Senior Front'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2116'
-    location: 'Others'
-    title: 'Senior Front'
-    type: HCMC
 ---
