@@ -1,6 +1,22 @@
 ---
 key: jobs
 list:
+  - company: 'NAB VDC'
+    date: '2020-09-30T05:52:18Z'
+    desc: 'Senior Engineer (Chatbot, Azure)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2134'
+    location: 'HCM'
+    title: 'Senior Engineer (Chatbot, Azure)'
+    type: Fulltime
+  - company: 'NAB VDC'
+    date: '2020-09-30T04:50:51Z'
+    desc: 'Senior Penetration Tester'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2133'
+    location: 'Others'
+    title: 'Senior Penetration Tester'
+    type: time Saigon
   - company: 'Injective Protocol (Blockchain)'
     date: '2020-09-25T23:37:30Z'
     desc: 'Senior Golang/Backend Engineer'
@@ -64,21 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2121'
     location: 'HCM'
     title: 'Lead Developer'
-    type: Fulltime
-  - company: 'Parcel Perform'
-    date: '2020-09-18T04:21:59Z'
-    desc: 'QA/QC Engineer (Manual Tester)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2120'
-    location: 'HCM'
-    title: 'QA/QC Engineer (Manual Tester)'
-    type: Fulltime
-  - company: 'Parcel Perform'
-    date: '2020-09-18T03:58:43Z'
-    desc: 'DevOps Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2119'
-    location: 'HCM'
-    title: 'DevOps Engineer'
     type: Fulltime
 ---
