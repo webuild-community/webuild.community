@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'AS White Vietnam'
+    date: '2020-10-01T07:39:17Z'
+    desc: 'Software Technical Manager (C#, MVC, NET Core)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2135'
+    location: 'Others'
+    title: 'Software Technical Manager (C#, MVC, NET Core)'
+    type: Fulltime
   - company: 'NAB VDC'
     date: '2020-09-30T05:52:18Z'
     desc: 'Senior Engineer (Chatbot, Azure)'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2122'
     location: 'HCM'
     title: 'React Native Developer'
-    type: Fulltime
-  - company: 'Fonos'
-    date: '2020-09-19T12:51:40Z'
-    desc: 'Lead Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2121'
-    location: 'HCM'
-    title: 'Lead Developer'
     type: Fulltime
 ---
