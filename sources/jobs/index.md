@@ -1,6 +1,22 @@
 ---
 key: jobs
 list:
+  - company: 'Code Engine Studio'
+    date: '2020-10-06T09:19:43Z'
+    desc: 'Senior Java Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2138'
+    location: 'Da Nang'
+    title: 'Senior Java Developer'
+    type: Fulltime
+  - company: 'DocSpring'
+    date: '2020-10-06T08:18:26Z'
+    desc: 'Full Stack Rails Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2137'
+    location: 'Others'
+    title: 'Full Stack Rails Developer'
+    type: Fulltime
   - company: 'AS White Vietnam'
     date: '2020-10-01T07:39:17Z'
     desc: 'Software Technical Manager (C#, MVC, NET Core)'
@@ -64,21 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2126'
     location: 'HCM'
     title: 'Full Stack Engineer'
-    type: Fulltime
-  - company: 'FETCH TECHNOLOGY'
-    date: '2020-09-22T10:11:21Z'
-    desc: 'Senior Backend (Python)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2123'
-    location: 'HCM'
-    title: 'Senior Backend (Python)'
-    type: Fulltime
-  - company: 'Fonos'
-    date: '2020-09-19T12:57:06Z'
-    desc: 'React Native Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2122'
-    location: 'HCM'
-    title: 'React Native Developer'
     type: Fulltime
 ---
