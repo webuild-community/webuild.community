@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Kaopiz'
+    date: '2020-10-08T01:36:08Z'
+    desc: 'Angular || Ruby || React || PM || BrSE || Tester'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2141'
+    location: 'HN'
+    title: 'Angular || Ruby || React || PM || BrSE || Tester'
+    type: Fulltime
   - company: 'DocSpring'
     date: '2020-10-06T08:18:26Z'
     desc: 'Full Stack Rails Developer'
@@ -33,14 +41,6 @@ list:
     location: 'Others'
     title: 'Senior Golang/Backend Engineer'
     type: Fulltime
-  - company: 'Quick Vietnam'
-    date: '2020-09-25T07:51:03Z'
-    desc: 'Web Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2129'
-    location: 'Others'
-    title: 'Web Developer'
-    type: Fulltime
   - company: 'Yojee'
     date: '2020-09-24T03:54:51Z'
     desc: 'Senior Mobile Developer'
@@ -48,14 +48,6 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2128'
     location: 'HCM'
     title: 'Senior Mobile Developer'
-    type: Fulltime
-  - company: 'InterGreat Education Group'
-    date: '2020-09-23T07:58:57Z'
-    desc: 'Senior Drupal Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2127'
-    location: 'HN'
-    title: 'Senior Drupal Developer'
     type: Fulltime
   - company: 'QUOD AI'
     date: '2020-09-22T10:51:49Z'
@@ -80,5 +72,13 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2122'
     location: 'HCM'
     title: 'React Native Developer'
+    type: Fulltime
+  - company: 'Fonos'
+    date: '2020-09-19T12:51:40Z'
+    desc: 'Lead Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2121'
+    location: 'HCM'
+    title: 'Lead Developer'
     type: Fulltime
 ---
