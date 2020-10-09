@@ -1,6 +1,30 @@
 ---
 key: jobs
 list:
+  - company: 'FETCH TECHNOLOGY'
+    date: '2020-10-09T03:20:36Z'
+    desc: 'Search Engine Marketing Specialist'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2144'
+    location: 'HCM'
+    title: 'Search Engine Marketing Specialist'
+    type: Fulltime
+  - company: 'FETCH TECHNOLOGY'
+    date: '2020-10-09T02:57:52Z'
+    desc: 'Senior Cocos2D Game Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2143'
+    location: 'HCM'
+    title: 'Senior Cocos2D Game Developer'
+    type: Fulltime
+  - company: 'FETCH TECHNOLOGY'
+    date: '2020-10-09T02:24:49Z'
+    desc: 'Senior Node JS Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2142'
+    location: 'HCM'
+    title: 'Senior Node JS Developer'
+    type: Fulltime
   - company: 'Kaopiz'
     date: '2020-10-08T01:36:08Z'
     desc: 'Angular || Ruby || React || PM || BrSE || Tester'
@@ -56,29 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2126'
     location: 'HCM'
     title: 'Full Stack Engineer'
-    type: Fulltime
-  - company: 'FETCH TECHNOLOGY'
-    date: '2020-09-22T10:11:21Z'
-    desc: 'Senior Backend (Python)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2123'
-    location: 'HCM'
-    title: 'Senior Backend (Python)'
-    type: Fulltime
-  - company: 'Fonos'
-    date: '2020-09-19T12:57:06Z'
-    desc: 'React Native Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2122'
-    location: 'HCM'
-    title: 'React Native Developer'
-    type: Fulltime
-  - company: 'Fonos'
-    date: '2020-09-19T12:51:40Z'
-    desc: 'Lead Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2121'
-    location: 'HCM'
-    title: 'Lead Developer'
     type: Fulltime
 ---
