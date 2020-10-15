@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Quod AI'
+    date: '2020-10-15T10:02:09Z'
+    desc: 'Junior DevOps Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2159'
+    location: 'HCM'
+    title: 'Junior DevOps Engineer'
+    type: Fulltime
   - company: 'Grab Platform/Gateway'
     date: '2020-10-13T08:39:57Z'
     desc: 'Senior Software Engineer, Backend'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2142'
     location: 'HCM'
     title: 'Senior Node JS Developer'
-    type: Fulltime
-  - company: 'Kaopiz'
-    date: '2020-10-08T01:36:08Z'
-    desc: 'Angular || Ruby || React || PM || BrSE || Tester'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2141'
-    location: 'HN'
-    title: 'Angular || Ruby || React || PM || BrSE || Tester'
     type: Fulltime
 ---
