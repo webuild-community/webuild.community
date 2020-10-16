@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Micas'
+    date: '2020-10-16T07:20:26Z'
+    desc: 'Golang backend developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2161'
+    location: 'Others'
+    title: 'Golang backend developer'
+    type: Fulltime
   - company: 'Quod AI'
     date: '2020-10-15T10:02:09Z'
     desc: 'Junior DevOps Engineer'
@@ -33,14 +41,6 @@ list:
     location: 'HCM'
     title: 'Fresher Tester (Manual)'
     type: Fulltime
-  - company: 'FETCH TECHNOLOGY'
-    date: '2020-10-13T04:13:55Z'
-    desc: 'Senior Backend (Ruby/Golang)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/pull/2148'
-    location: 'HCM'
-    title: 'Senior Backend (Ruby/Golang)'
-    type: PT/Freelance
   - company: 'Quod AI'
     date: '2020-10-13T03:45:15Z'
     desc: 'Source Code Data Analyst Intern'
