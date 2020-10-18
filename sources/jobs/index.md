@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'LINE Vietnam'
+    date: '2020-10-17T19:05:10Z'
+    desc: 'Frontend Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2163'
+    location: 'HCM'
+    title: 'Frontend Engineer'
+    type: Fulltime
   - company: 'Micas'
     date: '2020-10-16T07:20:26Z'
     desc: 'Golang backend developer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2143'
     location: 'HCM'
     title: 'Senior Cocos2D Game Developer'
-    type: Fulltime
-  - company: 'FETCH TECHNOLOGY'
-    date: '2020-10-09T02:24:49Z'
-    desc: 'Senior Node JS Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2142'
-    location: 'HCM'
-    title: 'Senior Node JS Developer'
     type: Fulltime
 ---
