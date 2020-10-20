@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Humanly.io'
+    date: '2020-10-20T08:41:04Z'
+    desc: 'Junior Software Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2170'
+    location: 'HCM'
+    title: 'Junior Software Engineer'
+    type: Fulltime
   - company: 'Quod AI'
     date: '2020-10-19T10:48:04Z'
     desc: 'Junior FullStack Engineer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2151'
     location: 'HCM'
     title: 'Senior Software Engineer, Backend'
-    type: Fulltime
-  - company: 'Grab'
-    date: '2020-10-13T08:31:04Z'
-    desc: 'Senior Software Engineer, Backend (Golang)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2150'
-    location: 'HCM'
-    title: 'Senior Software Engineer, Backend (Golang)'
     type: Fulltime
 ---
