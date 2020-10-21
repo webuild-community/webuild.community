@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'LINE Vietnam'
+    date: '2020-10-21T06:42:08Z'
+    desc: 'Mobile Engineer (iOS/Android)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2171'
+    location: 'HCM'
+    title: 'Mobile Engineer (iOS/Android)'
+    type: Fulltime
   - company: 'Humanly.io'
     date: '2020-10-20T08:41:04Z'
     desc: 'Junior Software Engineer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2159'
     location: 'HCM'
     title: 'Junior DevOps Engineer'
-    type: Fulltime
-  - company: 'Grab Platform/Gateway'
-    date: '2020-10-13T08:39:57Z'
-    desc: 'Senior Software Engineer, Backend'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2151'
-    location: 'HCM'
-    title: 'Senior Software Engineer, Backend'
     type: Fulltime
 ---
