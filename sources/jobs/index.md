@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Yojee'
+    date: '2020-10-23T04:16:24Z'
+    desc: 'QA engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2172'
+    location: 'HCM'
+    title: 'QA engineer'
+    type: Fulltime
   - company: 'LINE Vietnam'
     date: '2020-10-21T06:42:08Z'
     desc: 'Mobile Engineer (iOS/Android)'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2161'
     location: 'Others'
     title: 'Golang backend developer'
-    type: Fulltime
-  - company: 'Quod AI'
-    date: '2020-10-15T10:02:09Z'
-    desc: 'Junior DevOps Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2159'
-    location: 'HCM'
-    title: 'Junior DevOps Engineer'
     type: Fulltime
 ---
