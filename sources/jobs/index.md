@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Resola'
+    date: '2020-10-26T07:34:59Z'
+    desc: 'QA Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2175'
+    location: 'Others'
+    title: 'QA Engineer'
+    type: FT/C
   - company: 'Yojee'
     date: '2020-10-23T04:16:24Z'
     desc: 'QA engineer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2163'
     location: 'HCM'
     title: 'Frontend Engineer'
-    type: Fulltime
-  - company: 'Micas'
-    date: '2020-10-16T07:20:26Z'
-    desc: 'Golang backend developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2161'
-    location: 'Others'
-    title: 'Golang backend developer'
     type: Fulltime
 ---
