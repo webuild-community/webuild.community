@@ -1,6 +1,22 @@
 ---
 key: jobs
 list:
+  - company: 'The Talent Shark'
+    date: '2020-10-27T10:51:20Z'
+    desc: 'Senior Developer, Android Mobile'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2177'
+    location: 'Others'
+    title: 'Senior Developer, Android Mobile'
+    type: Fulltime
+  - company: 'CodeLink'
+    date: '2020-10-27T06:40:52Z'
+    desc: 'Technical Leader (Go / Rails / NodeJS / React / Flutter)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2176'
+    location: 'HCM'
+    title: 'Technical Leader (Go / Rails / NodeJS / React / Flutter)'
+    type: Fulltime
   - company: 'Resola'
     date: '2020-10-26T07:34:59Z'
     desc: 'QA Engineer'
@@ -64,21 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2165'
     location: 'HCM'
     title: 'Senior Python Developer'
-    type: Fulltime
-  - company: 'Employmenthero'
-    date: '2020-10-19T06:04:14Z'
-    desc: 'Senior Backend Developer (Ruby)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2164'
-    location: 'HCM'
-    title: 'Senior Backend Developer (Ruby)'
-    type: Fulltime
-  - company: 'LINE Vietnam'
-    date: '2020-10-17T19:05:10Z'
-    desc: 'Frontend Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2163'
-    location: 'HCM'
-    title: 'Frontend Engineer'
     type: Fulltime
 ---
