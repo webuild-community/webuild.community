@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Freelensia'
+    date: '2020-10-28T03:36:05Z'
+    desc: 'CTO/Rails Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2178'
+    location: 'HCM'
+    title: 'CTO/Rails Developer'
+    type: FT/PT
   - company: 'The Talent Shark'
     date: '2020-10-27T10:51:20Z'
     desc: 'Senior Developer, Android Mobile'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2166'
     location: 'HCM'
     title: 'Senior Backend Engineer'
-    type: Fulltime
-  - company: 'LARION'
-    date: '2020-10-19T09:43:44Z'
-    desc: 'Senior Python Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2165'
-    location: 'HCM'
-    title: 'Senior Python Developer'
     type: Fulltime
 ---
