@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Yojee'
+    date: '2020-10-29T05:06:11Z'
+    desc: 'UX/UI Designer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2179'
+    location: 'HCM'
+    title: 'UX/UI Designer'
+    type: Fulltime
   - company: 'Freelensia'
     date: '2020-10-28T03:36:05Z'
     desc: 'CTO/Rails Developer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2167'
     location: 'HCM'
     title: 'IT Business Analyst'
-    type: Fulltime
-  - company: 'GHN'
-    date: '2020-10-19T10:16:38Z'
-    desc: 'Senior Backend Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2166'
-    location: 'HCM'
-    title: 'Senior Backend Engineer'
     type: Fulltime
 ---
