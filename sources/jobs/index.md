@@ -2,6 +2,14 @@
 key: jobs
 list:
   - company: 'Yojee'
+    date: '2020-10-30T04:20:43Z'
+    desc: 'Senior Fullstack Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2180'
+    location: 'HCM'
+    title: 'Senior Fullstack Engineer'
+    type: Fulltime
+  - company: 'Yojee'
     date: '2020-10-29T05:06:11Z'
     desc: 'UX/UI Designer'
     isOpened: 'true'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2168'
     location: 'HCM'
     title: 'Junior FullStack Engineer'
-    type: Fulltime
-  - company: 'GHN'
-    date: '2020-10-19T10:24:48Z'
-    desc: 'IT Business Analyst'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2167'
-    location: 'HCM'
-    title: 'IT Business Analyst'
     type: Fulltime
 ---
