@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Saigon Technology Solutions'
+    date: '2020-11-02T09:09:02Z'
+    desc: 'Mid/Sr .NET Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2181'
+    location: 'HCM'
+    title: 'Mid/Sr .NET Developer'
+    type: Fulltime
   - company: 'Yojee'
     date: '2020-10-30T04:20:43Z'
     desc: 'Senior Fullstack Engineer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2170'
     location: 'HCM'
     title: 'Junior Software Engineer'
-    type: Fulltime
-  - company: 'Quod AI'
-    date: '2020-10-19T10:48:04Z'
-    desc: 'Junior FullStack Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2168'
-    location: 'HCM'
-    title: 'Junior FullStack Engineer'
     type: Fulltime
 ---
