@@ -1,12 +1,28 @@
 ---
 key: jobs
 list:
+  - company: 'iRuuza'
+    date: '2020-11-05T12:34:45Z'
+    desc: 'Full Stack Developer / RoR / React'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2185'
+    location: 'Others'
+    title: 'Full Stack Developer / RoR / React'
+    type: FT/C
+  - company: 'Saigon Technology Solutions'
+    date: '2020-11-05T06:44:11Z'
+    desc: 'Mid/Sr PHP Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2184'
+    location: 'Others'
+    title: 'Mid/Sr PHP Developer'
+    type: Fulltime
   - company: 'Saigon Technology Solutions'
     date: '2020-11-02T09:09:02Z'
     desc: 'Mid/Sr .NET Developer'
     isOpened: 'true'
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2181'
-    location: 'HCM'
+    location: 'Others'
     title: 'Mid/Sr .NET Developer'
     type: Fulltime
   - company: 'Yojee'
@@ -64,21 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2172'
     location: 'HCM'
     title: 'QA engineer'
-    type: Fulltime
-  - company: 'LINE Vietnam'
-    date: '2020-10-21T06:42:08Z'
-    desc: 'Mobile Engineer (iOS/Android)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2171'
-    location: 'HCM'
-    title: 'Mobile Engineer (iOS/Android)'
-    type: Fulltime
-  - company: 'Humanly.io'
-    date: '2020-10-20T08:41:04Z'
-    desc: 'Junior Software Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2170'
-    location: 'HCM'
-    title: 'Junior Software Engineer'
     type: Fulltime
 ---
