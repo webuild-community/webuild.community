@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'CodeLink'
+    date: '2020-11-06T06:45:05Z'
+    desc: 'Senior .NET Core Developer (C# / .NET / ReactJS)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2194'
+    location: 'HCM'
+    title: 'Senior .NET Core Developer (C# / .NET / ReactJS)'
+    type: FT #2176
   - company: 'iRuuza'
     date: '2020-11-05T12:34:45Z'
     desc: 'Full Stack Developer / RoR / React'
@@ -73,12 +81,4 @@ list:
     location: 'Others'
     title: 'QA Engineer'
     type: FT/C
-  - company: 'Yojee'
-    date: '2020-10-23T04:16:24Z'
-    desc: 'QA engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2172'
-    location: 'HCM'
-    title: 'QA engineer'
-    type: Fulltime
 ---
