@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Parcel Perform'
+    date: '2020-11-09T04:36:33Z'
+    desc: 'Infrastructure Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2197'
+    location: 'HCM'
+    title: 'Infrastructure Engineer'
+    type: Fulltime
   - company: 'CodeLink'
     date: '2020-11-06T06:45:05Z'
     desc: 'Senior .NET Core Developer (C# / .NET / ReactJS)'
@@ -73,12 +81,4 @@ list:
     location: 'HCM'
     title: 'Technical Leader (Go / Rails / NodeJS / React / Flutter)'
     type: Fulltime
-  - company: 'Resola'
-    date: '2020-10-26T07:34:59Z'
-    desc: 'QA Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2175'
-    location: 'Others'
-    title: 'QA Engineer'
-    type: FT/C
 ---
