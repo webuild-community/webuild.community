@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'NAB VDC'
+    date: '2020-11-10T06:09:09Z'
+    desc: 'Senior DevOps Engineer (AWS, DBA)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2201'
+    location: 'HCM'
+    title: 'Senior DevOps Engineer (AWS, DBA)'
+    type: Fulltime
   - company: 'Parcel Perform'
     date: '2020-11-09T04:36:33Z'
     desc: 'Infrastructure Engineer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2177'
     location: 'Others'
     title: 'Senior Developer, Android Mobile'
-    type: Fulltime
-  - company: 'CodeLink'
-    date: '2020-10-27T06:40:52Z'
-    desc: 'Technical Leader (Go / Rails / NodeJS / React / Flutter)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2176'
-    location: 'HCM'
-    title: 'Technical Leader (Go / Rails / NodeJS / React / Flutter)'
     type: Fulltime
 ---
