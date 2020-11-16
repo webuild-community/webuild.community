@@ -1,6 +1,38 @@
 ---
 key: jobs
 list:
+  - company: 'JobHopin'
+    date: '2020-11-16T08:40:35Z'
+    desc: 'Senior DevOps Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2205'
+    location: 'HCM'
+    title: 'Senior DevOps Engineer'
+    type: Parttime
+  - company: 'Orange Logic'
+    date: '2020-11-16T08:16:23Z'
+    desc: 'QA Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2204'
+    location: 'HCM'
+    title: 'QA Engineer'
+    type: Fulltime
+  - company: 'Orange Logic'
+    date: '2020-11-16T08:06:47Z'
+    desc: 'Software Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2203'
+    location: 'HCM'
+    title: 'Software Engineer'
+    type: Fulltime
+  - company: 'BoringPPL'
+    date: '2020-11-16T05:01:56Z'
+    desc: 'Mid Fullstack Engineer (NodeJS & ReactJS)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2202'
+    location: 'HCM'
+    title: 'Mid Fullstack Engineer (NodeJS & ReactJS)'
+    type: Fulltime
   - company: 'NAB VDC'
     date: '2020-11-10T06:09:09Z'
     desc: 'Senior DevOps Engineer (AWS, DBA)'
@@ -48,37 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2181'
     location: 'Others'
     title: 'Mid/Sr .NET Developer'
-    type: Fulltime
-  - company: 'Yojee'
-    date: '2020-10-30T04:20:43Z'
-    desc: 'Senior Fullstack Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2180'
-    location: 'HCM'
-    title: 'Senior Fullstack Engineer'
-    type: Fulltime
-  - company: 'Yojee'
-    date: '2020-10-29T05:06:11Z'
-    desc: 'UX/UI Designer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2179'
-    location: 'HCM'
-    title: 'UX/UI Designer'
-    type: Fulltime
-  - company: 'Freelensia'
-    date: '2020-10-28T03:36:05Z'
-    desc: 'CTO/Rails Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2178'
-    location: 'HCM'
-    title: 'CTO/Rails Developer'
-    type: FT/PT
-  - company: 'The Talent Shark'
-    date: '2020-10-27T10:51:20Z'
-    desc: 'Senior Developer, Android Mobile'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2177'
-    location: 'Others'
-    title: 'Senior Developer, Android Mobile'
     type: Fulltime
 ---
