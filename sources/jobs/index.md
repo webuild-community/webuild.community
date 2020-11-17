@@ -1,6 +1,22 @@
 ---
 key: jobs
 list:
+  - company: 'Yojee'
+    date: '2020-11-17T08:26:02Z'
+    desc: 'Fullstack Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2209'
+    location: 'HCM'
+    title: 'Fullstack Engineer'
+    type: Fulltime
+  - company: 'LINE Vietnam'
+    date: '2020-11-17T07:48:59Z'
+    desc: 'Software Engineer Intern (Frontend/Backend)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2208'
+    location: 'HCM'
+    title: 'Software Engineer Intern (Frontend/Backend)'
+    type: FT/PT
   - company: 'JobHopin'
     date: '2020-11-16T08:40:35Z'
     desc: 'Senior DevOps Engineer'
@@ -65,20 +81,4 @@ list:
     location: 'Others'
     title: 'Full Stack Developer / RoR / React'
     type: FT/C
-  - company: 'Saigon Technology Solutions'
-    date: '2020-11-05T06:44:11Z'
-    desc: 'Mid/Sr PHP Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2184'
-    location: 'Others'
-    title: 'Mid/Sr PHP Developer'
-    type: Fulltime
-  - company: 'Saigon Technology Solutions'
-    date: '2020-11-02T09:09:02Z'
-    desc: 'Mid/Sr .NET Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2181'
-    location: 'Others'
-    title: 'Mid/Sr .NET Developer'
-    type: Fulltime
 ---
