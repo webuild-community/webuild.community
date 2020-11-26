@@ -1,6 +1,22 @@
 ---
 key: jobs
 list:
+  - company: 'Resola'
+    date: '2020-11-26T09:56:00Z'
+    desc: 'Mid/Senior Level Full Stack Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2216'
+    location: 'Others'
+    title: 'Mid/Senior Level Full Stack Developer'
+    type: FT/C
+  - company: 'LARION'
+    date: '2020-11-26T09:27:27Z'
+    desc: 'Senior DevOps Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2215'
+    location: 'HCM'
+    title: 'Senior DevOps Engineer'
+    type: Fulltime
   - company: 'FinOS Technology'
     date: '2020-11-20T08:32:48Z'
     desc: 'Senior DevOps and IT Operations Engineer'
@@ -64,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2201'
     location: 'HCM'
     title: 'Senior DevOps Engineer (AWS, DBA)'
-    type: Fulltime
-  - company: 'Parcel Perform'
-    date: '2020-11-09T04:36:33Z'
-    desc: 'Infrastructure Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2197'
-    location: 'HCM'
-    title: 'Infrastructure Engineer'
     type: Fulltime
 ---
