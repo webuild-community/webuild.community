@@ -31,7 +31,7 @@ const Header = () => {
             </li>
             <li className="px-6">
               <Link className="text-gray-700" to="/webuild-day">
-                Events
+                Webuild Day
               </Link>
             </li>
           </ul>
