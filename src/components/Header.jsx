@@ -29,6 +29,11 @@ const Header = () => {
                 Events
               </Link>
             </li>
+            <li className="px-6">
+              <Link className="text-gray-700" to="/webuild-day">
+                Events
+              </Link>
+            </li>
           </ul>
 
           <a href="https://we-build-vn.slack.com/join/shared_invite/zt-gh7pb9o1-eUEruSdfycMEkKfk5Bkdww#/">
@@ -47,6 +52,11 @@ const Header = () => {
           <li className="pr-8">
             <Link className="text-gray-700" to="#upcoming-events">
               Events
+            </Link>
+          </li>
+          <li className="pr-8">
+            <Link className="text-gray-700" to="/webuild-day">
+              WeBuild Day
             </Link>
           </li>
         </ul>
