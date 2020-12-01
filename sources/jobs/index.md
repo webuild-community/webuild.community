@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'LARION'
+    date: '2020-12-01T08:01:37Z'
+    desc: 'Senior Fullstack Python Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2218'
+    location: 'HCM'
+    title: 'Senior Fullstack Python Engineer'
+    type: Fulltime
   - company: 'Resola'
     date: '2020-11-26T09:56:00Z'
     desc: 'Mid/Senior Level Full Stack Developer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2202'
     location: 'HCM'
     title: 'Mid Fullstack Engineer (NodeJS & ReactJS)'
-    type: Fulltime
-  - company: 'NAB VDC'
-    date: '2020-11-10T06:09:09Z'
-    desc: 'Senior DevOps Engineer (AWS, DBA)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2201'
-    location: 'HCM'
-    title: 'Senior DevOps Engineer (AWS, DBA)'
     type: Fulltime
 ---
