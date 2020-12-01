@@ -5,14 +5,16 @@ import Goals from './Goals';
 import TheProgram from './TheProgram';
 import Schedule from './Schedule';
 import Sponsors from './Sponsors';
+import CTASupport from './CTASupport';
 
 const WebuildDay = () => (
-  <DefaultLayout>
+  <DefaultLayout headerVariant="primary">
     <HeroBanner />
     <Goals />
     <TheProgram />
     <Schedule />
     <Sponsors />
+    <CTASupport />
   </DefaultLayout>
 );
 
