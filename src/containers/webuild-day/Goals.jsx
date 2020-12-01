@@ -47,7 +47,7 @@ const Goals = () => {
                   'mr-4': index !== arr.length - 1
                 })}
               >
-                <div className="bg-white flex-shrink-0 w-2 h-2 transform rotate-45 translate-y-2 mr-2" />
+                <div className="bg-white flex-shrink-0 w-2 h-2 transform rotate-45 translate-y-3 mr-2" />
                 <div>
                   <p className="text-lg font-bold mb-1">{title}</p>
                   <p>{description}</p>

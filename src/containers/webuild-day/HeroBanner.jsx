@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from 'components/Container';
+import Button from 'components/Button';
 import BannerImage from 'assets/images/webuild-day/webuild-day-banner.png';
 
 const HeroBanner = () => {
@@ -20,9 +21,9 @@ const HeroBanner = () => {
             <span className="font-bold">December 12th</span>.
           </p>
 
-          <button className="text-primary bg-white font-medium px-4 py-1 rounded-sm">
+          <Button bgClassName="bg-white" textColorClassName="text-primary">
             Register now
-          </button>
+          </Button>
         </div>
         <div>
           <img src={BannerImage} alt="banner webuild day" />

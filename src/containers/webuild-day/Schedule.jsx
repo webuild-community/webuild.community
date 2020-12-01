@@ -1,7 +1,8 @@
 import React from 'react';
 import Container from 'components/Container';
-import Speaker1 from 'assets/images/webuild-day/speakers/1.png';
 import classnames from 'classnames';
+import ticketImg from 'assets/images/webuild-day/ticket.svg';
+import Speaker1 from 'assets/images/webuild-day/speakers/1.png';
 
 const listSchedule = [
   {
@@ -41,9 +42,9 @@ const listSchedule = [
 
 const Schedule = () => {
   return (
-    <section className="py-16 md:py-24 bg-primary text-foreground font-normal">
+    <section className="pt-16 pb-24 md:pt-24 md:pb-32 bg-primary text-foreground font-normal">
       <Container>
-        <div className="md:pr-6 mb-6">
+        <div className="md:pr-6 mb-6 relative">
           <p className="text-lg font-bold">Dec 12th, 2020</p>
           <h1 className="text-3xl font-bold mb-6 md:mb-16">
             Schedule & Agenda
@@ -88,6 +89,11 @@ const Schedule = () => {
               );
             }
           )}
+          <div className="absolute bottom-0 right-0 transfrom transform translate-y-full lg:translate-x-6">
+            <button className="cursor-pointer focus:outline-none">
+              <img src={ticketImg} alt="ticket" />
+            </button>
+          </div>
         </div>
       </Container>
     </section>
