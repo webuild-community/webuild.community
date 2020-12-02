@@ -60,7 +60,16 @@ const Header = ({ variant = 'default' }) => {
           </ul>
 
           <a href="https://we-build-vn.slack.com/join/shared_invite/zt-gh7pb9o1-eUEruSdfycMEkKfk5Bkdww#/">
-            <Button bgClassName="bg-white" textColorClassName="text-primary">
+            <Button
+              bgClassName={classnames({
+                'bg-white': isPrimaryVariant,
+                'bg-primary': !isPrimaryVariant
+              })}
+              textColorClassName={classnames({
+                'text-primary': isPrimaryVariant,
+                'text-white': !isPrimaryVariant
+              })}
+            >
               Join us
             </Button>
           </a>
