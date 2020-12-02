@@ -55,6 +55,7 @@ module.exports = {
       '30px': '30px', // 30px
       '3xl': '2rem', // 32px
       '4xl': '2.25rem', // 36px
+      '40px': '2.5rem', // 40px
       '5xl': '3rem', // 48px
       '6xl': '3.5rem' // 56px
     },
