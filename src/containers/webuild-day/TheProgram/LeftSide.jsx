@@ -2,7 +2,7 @@ import React from 'react';
 
 const LeftSide = () => {
   return (
-    <div className="left-side">
+    <div className="w-full sm:w-1/3">
       <h3 className="text-30px font-extrabold text-foreground leading-tight">
         Details
       </h3>

@@ -7,7 +7,7 @@ export const Tab = ({ index, label, selected, onClick }) => {
       key={`tab-${index}`}
       onClick={() => onClick(index)}
       className={`block mr-12 focus:outline-none ${
-        selected ? 'border-b-2 font-bold border-white' : ''
+        selected ? 'border-b-2 font-bold border-white' : 'text-subprimary'
       }`}
     >
       {label}
