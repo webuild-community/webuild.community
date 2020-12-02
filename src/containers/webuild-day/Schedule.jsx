@@ -1,7 +1,6 @@
 import React from 'react';
 import Container from 'components/Container';
 import classnames from 'classnames';
-import ticketImg from 'assets/images/webuild-day/ticket.svg';
 
 const listSchedule = [
   {
@@ -73,7 +72,7 @@ const Schedule = () => {
   return (
     <section className="pt-16 pb-24 md:pt-24 md:pb-32 bg-primary text-foreground font-normal">
       <Container>
-        <div className="md:pr-6 mb-6 relative">
+        <div className="mb-6 relative">
           <p className="text-lg font-bold">Dec 12th, 2020</p>
           <h2 className="text-3xl font-bold mb-6 md:mb-16">
             Schedule & Agenda
@@ -117,16 +116,6 @@ const Schedule = () => {
               );
             }
           )}
-          <div className="absolute bottom-0 right-0 transfrom translate-y-full lg:translate-x-6">
-            <a
-              className="cursor-pointer focus:outline-none"
-              href="https://ticketbox.vn/event/webuild-day-121220-81060"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={ticketImg} alt="ticket" />
-            </a>
-          </div>
         </div>
       </Container>
     </section>

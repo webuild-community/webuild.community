@@ -21,18 +21,11 @@ const Goals = () => {
   return (
     <section className="py-16 lg:py-24 bg-primary text-gray-100 font-normal">
       <Container>
-        <div className="pr-6 lg:pr-48 mb-6">
+        <div className="mb-6">
           <h2 className="text-3xl font-bold mb-6">Goals of WeBuild Day</h2>
-          <p className="text-lg mb-3">
-            WeBuild Day is a post-COVID-19 initiative to restore the activities
-            among the developer community in Vietnam. Also, December is the best
-            time for the transfer window. It’s a crowded season where candidates
-            start looking for future employers if they want to switch their job
-            early next year.
-          </p>
           <p className="text-lg mb-8">
             As an umbrella community with a broad network from&nbsp;
-            <strong>Golang, Ruby, Rust, Elixir, Mobile, React</strong>
+            <strong>Golang, Ruby, Rust, Elixir, Mobile, JavaScript</strong>
             &nbsp; and with support from Google Developer Group, we want to host
             WeBuild Day with the following objectives:
           </p>
