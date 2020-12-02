@@ -16,9 +16,9 @@ const HeroBanner = () => {
           </p>
           <p className="text-lg mb-6">
             We are planning to organize the first&nbsp;
-            <span className="font-bold">WeBuild Day</span>, an offline full-day
-            event for developers this&nbsp;
-            <span className="font-bold">December 12th</span>.
+            <strong>WeBuild Day</strong>, an offline full-day event for
+            developers this&nbsp;
+            <strong>December 12th</strong>.
           </p>
           <a
             href="https://ticketbox.vn/event/webuild-day-121220-81060"

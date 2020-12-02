@@ -75,9 +75,9 @@ const Schedule = () => {
       <Container>
         <div className="md:pr-6 mb-6 relative">
           <p className="text-lg font-bold">Dec 12th, 2020</p>
-          <h1 className="text-3xl font-bold mb-6 md:mb-16">
+          <h2 className="text-3xl font-bold mb-6 md:mb-16">
             Schedule & Agenda
-          </h1>
+          </h2>
           {listSchedule.map(
             (
               { time, name, position, at, tag, title, description },
@@ -100,7 +100,6 @@ const Schedule = () => {
                     {time}
                   </div>
                   <div className="flex w-3/5 md:ml-8">
-                    {/* <img className="w-12 h-12 mr-4" src={pic} alt={name} /> */}
                     <div>
                       <p className="font-bold">{name}</p>
                       <p className="text-white">{position}</p>
@@ -118,7 +117,7 @@ const Schedule = () => {
               );
             }
           )}
-          <div className="absolute bottom-0 right-0 transfrom transform translate-y-full lg:translate-x-6">
+          <div className="absolute bottom-0 right-0 transfrom translate-y-full lg:translate-x-6">
             <a
               className="cursor-pointer focus:outline-none"
               href="https://ticketbox.vn/event/webuild-day-121220-81060"

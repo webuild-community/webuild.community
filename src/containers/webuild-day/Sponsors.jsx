@@ -9,7 +9,7 @@ const listGoldSponsors = [
   {
     title: 'flodesk',
     imgUrl: flodeskImg,
-    href: ''
+    href: '#'
   }
 ];
 
@@ -17,12 +17,12 @@ const listSilverSponsors = [
   {
     title: 'x',
     imgUrl: xImg,
-    href: ''
+    href: '#'
   },
   {
     title: 'nfq',
     imgUrl: nfqImg,
-    href: ''
+    href: '#'
   }
 ];
 
@@ -34,11 +34,11 @@ const Sponsors = () => {
           <h1 className="text-3xl font-bold mb-10">Sponsors</h1>
           <div className="mb-10">
             <p className="text-2xl font-bold mb-10">Gold</p>
-            <Gallery center items={listGoldSponsors} />
+            <Gallery aClassName="bg-white" center items={listGoldSponsors} />
           </div>
           <div>
             <p className="text-2xl font-bold mb-10">Silver</p>
-            <Gallery center items={listSilverSponsors} />
+            <Gallery aClassName="bg-white" center items={listSilverSponsors} />
           </div>
         </div>
       </Container>
