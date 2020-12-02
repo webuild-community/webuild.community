@@ -20,10 +20,19 @@ const HeroBanner = () => {
             event for developers this&nbsp;
             <span className="font-bold">December 12th</span>.
           </p>
-
-          <Button bgClassName="bg-white" textColorClassName="text-primary">
-            Register now
-          </Button>
+          <a
+            href="https://ticketbox.vn/event/webuild-day-121220-81060"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button
+              className="focus:outline-none"
+              bgClassName="bg-white"
+              textColorClassName="text-primary"
+            >
+              Register now
+            </Button>
+          </a>
         </div>
         <div>
           <img src={BannerImage} alt="banner webuild day" />

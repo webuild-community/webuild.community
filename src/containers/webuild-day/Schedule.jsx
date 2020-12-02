@@ -2,41 +2,70 @@ import React from 'react';
 import Container from 'components/Container';
 import classnames from 'classnames';
 import ticketImg from 'assets/images/webuild-day/ticket.svg';
-import Speaker1 from 'assets/images/webuild-day/speakers/1.png';
 
 const listSchedule = [
   {
-    time: '09:00 - 10:00 AM',
-    pic: Speaker1,
+    time: 'Morning',
     name: 'Thuy Phan',
     position: 'Mobile Developer',
-    at: 'Line',
+    at: '@Line',
     tag: 'Android',
     title: 'Dependency injection with Hilt',
-    description:
-      'Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.'
+    description: ''
   },
   {
-    time: '09:00 - 10:00 AM',
-    pic: Speaker1,
-    name: 'Thuy Phan',
-    position: 'Mobile Developer',
-    at: 'Line',
-    tag: 'Android',
-    title: 'Dependency injection with Hilt2',
-    description:
-      'Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.'
+    time: 'Morning',
+    name: 'Dao Hoang Son',
+    position: '',
+    at: '@Carp Tech',
+    tag: 'Flutter',
+    title: 'Building a beautiful Flutter app',
+    description: ''
   },
   {
-    time: '09:00 - 10:00 AM',
-    pic: Speaker1,
-    name: 'Thuy Phan',
-    position: 'Mobile Developer',
-    at: 'Line',
+    time: 'Morning',
+    name: 'Toan Tran',
+    position: 'VP Mobile Engineering',
+    at: '@Lazada',
     tag: 'Android',
-    title: 'Dependency injection with Hilt3',
-    description:
-      'Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.'
+    title: 'Reactive Android Programming',
+    description: ''
+  },
+  {
+    time: 'Morning',
+    name: 'Le Dien Phuc',
+    position: 'iOS Dev',
+    at: '@Dwarves',
+    tag: 'Swift',
+    title: 'XPC service / iOS',
+    description: ''
+  },
+  {
+    time: 'Noon',
+    name: 'Tu The Hien',
+    position: 'Sr Engineering Director',
+    at: '@beGroup',
+    tag: 'Cloud Native',
+    title: 'Golang monorepo in the wild. A pathway to continuous deployment',
+    description: ''
+  },
+  {
+    time: 'Noon',
+    name: 'Nguyen Mau Quang Vu',
+    position: '',
+    at: '',
+    tag: 'Golang',
+    title: 'Deploy Kubernetes on premise',
+    description: ''
+  },
+  {
+    time: 'Noon',
+    name: 'Vo Hai Bien',
+    position: 'Software Engineer',
+    at: '@Golang Vietnam',
+    tag: 'Golang',
+    title: 'Goroutine Underlying',
+    description: ''
   }
 ];
 
@@ -51,7 +80,7 @@ const Schedule = () => {
           </h1>
           {listSchedule.map(
             (
-              { time, pic, name, position, at, tag, title, description },
+              { time, name, position, at, tag, title, description },
               index,
               arr
             ) => {
@@ -71,11 +100,11 @@ const Schedule = () => {
                     {time}
                   </div>
                   <div className="flex w-3/5 md:ml-8">
-                    <img className="w-12 h-12 mr-4" src={pic} alt={name} />
+                    {/* <img className="w-12 h-12 mr-4" src={pic} alt={name} /> */}
                     <div>
                       <p className="font-bold">{name}</p>
                       <p className="text-white">{position}</p>
-                      <p className="text-white">@{at}</p>
+                      <p className="text-white">{at}</p>
                     </div>
                   </div>
                   <div className="w-full md:ml-16 mt-8 md:mt-0">
@@ -90,9 +119,14 @@ const Schedule = () => {
             }
           )}
           <div className="absolute bottom-0 right-0 transfrom transform translate-y-full lg:translate-x-6">
-            <button className="cursor-pointer focus:outline-none">
+            <a
+              className="cursor-pointer focus:outline-none"
+              href="https://ticketbox.vn/event/webuild-day-121220-81060"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={ticketImg} alt="ticket" />
-            </button>
+            </a>
           </div>
         </div>
       </Container>
