@@ -10,9 +10,15 @@ const CTASupport = () => {
           Interested in joining our roster of the best and brightest sponsors
           around? Drop us a line and we&apos;ll give you the scoop!
         </p>
-        <Button bgClassName="bg-primary" textColorClassName="text-white">
-          Support WeBuild
-        </Button>
+        <a href="mailto:hello@webuild.community">
+          <Button
+            className="focus:outline-none"
+            bgClassName="bg-primary"
+            textColorClassName="text-white"
+          >
+            Support WeBuild
+          </Button>
+        </a>
       </Container>
     </section>
   );
