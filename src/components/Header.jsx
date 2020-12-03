@@ -76,7 +76,12 @@ const Header = ({ variant = 'default' }) => {
         </div>
       </Container>
 
-      <Container className="sm:hidden block border-b border-gray-200 mt-2">
+      <Container
+        className={classnames('sm:hidden block border-b mt-2', {
+          'border-subprimary': isPrimaryVariant,
+          'border-gray-200': !isPrimaryVariant
+        })}
+      >
         <ul className="flex whitespace-no-wrap py-3">
           <li className="pr-8">
             <Link

@@ -89,7 +89,7 @@ const Schedule = () => {
                   key={title}
                   className={classnames(
                     'flex flex-wrap md:flex-no-wrap justify-center py-6',
-                    { 'border-b border-gray-200': !isLast }
+                    { 'border-b border-subprimary': !isLast }
                   )}
                 >
                   <div

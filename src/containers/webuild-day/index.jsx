@@ -1,19 +1,36 @@
+import { withPrefix } from 'gatsby';
 import React from 'react';
 import DefaultLayout from 'components/DefaultLayout';
 import HeroBanner from './HeroBanner';
 import Goals from './Goals';
 import TheProgram from './TheProgram';
+import CTAJoin from './CTAJoin';
 import Schedule from './Schedule';
 import Sponsors from './Sponsors';
 import CTASupport from './CTASupport';
 import ticketImg from 'assets/images/webuild-day/ticket.svg';
+import SEO from 'components/seo';
 
 const WebuildDay = () => (
   <DefaultLayout headerVariant="primary">
+    <SEO
+      title="WeBuild Day 2020"
+      description="WeBuild Day is a post-COVID-19 initiative to restore the activities among the developer community in Vietnam."
+      keywords={[
+        'WeBuild',
+        'WeBuild Day 2020',
+        'commutity',
+        'connect',
+        'developer',
+        'Vietnam'
+      ]}
+      ogImagePath={withPrefix(`/img/webuild-og.jpg`)}
+    />
     <HeroBanner />
     <Goals />
     <TheProgram />
     <Schedule />
+    <CTAJoin />
     <Sponsors />
     <CTASupport />
     <div
