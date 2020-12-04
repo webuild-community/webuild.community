@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Koidra'
+    date: '2020-12-04T07:18:31Z'
+    desc: 'Director of Engineering'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2219'
+    location: 'HCM'
+    title: 'Director of Engineering'
+    type: Fulltime
   - company: 'LARION'
     date: '2020-12-01T08:01:37Z'
     desc: 'Senior Fullstack Python Engineer'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2203'
     location: 'HCM'
     title: 'Software Engineer'
-    type: Fulltime
-  - company: 'BoringPPL'
-    date: '2020-11-16T05:01:56Z'
-    desc: 'Mid Fullstack Engineer (NodeJS & ReactJS)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2202'
-    location: 'HCM'
-    title: 'Mid Fullstack Engineer (NodeJS & ReactJS)'
     type: Fulltime
 ---
