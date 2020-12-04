@@ -24,7 +24,7 @@ const WebuildDay = () => (
         'developer',
         'Vietnam'
       ]}
-      ogImagePath={withPrefix(`/img/webuild-og.jpg`)}
+      ogImagePath={withPrefix(`/img/webuild-day-og.png`)}
     />
     <HeroBanner />
     <Goals />
