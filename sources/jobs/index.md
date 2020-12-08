@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'gumiVietnam'
+    date: '2020-12-08T06:07:33Z'
+    desc: 'Middle Fullstack PHP Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2222'
+    location: 'HCM'
+    title: 'Middle Fullstack PHP Engineer'
+    type: Fulltime
   - company: 'Koidra'
     date: '2020-12-04T07:18:31Z'
     desc: 'Director of Engineering'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2204'
     location: 'HCM'
     title: 'QA Engineer'
-    type: Fulltime
-  - company: 'Orange Logic'
-    date: '2020-11-16T08:06:47Z'
-    desc: 'Software Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2203'
-    location: 'HCM'
-    title: 'Software Engineer'
     type: Fulltime
 ---
