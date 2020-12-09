@@ -43,7 +43,7 @@ const listSchedule = [
     time: '11:20 - 11:50',
     name: 'Le Dien Phuc',
     position: 'iOS Dev',
-    at: '@Dwarves, @Swift Vietnam',
+    at: '@Dwarves, Swift Vietnam',
     tag: '#Swift',
     title: 'XPC service / iOS',
     description: ''
@@ -70,7 +70,7 @@ const listSchedule = [
     time: '14:50 - 15:20',
     name: 'Tu The Hien',
     position: 'Engineering Director',
-    at: '@beGroup, @Cloud Native',
+    at: '@beGroup, Cloud Native',
     tag: '#Cloud Native',
     title: 'Golang monorepo in the wild. A pathway to continuous deployment',
     description: ''
@@ -89,17 +89,35 @@ const listSchedule = [
     name: 'Vo Hai Bien',
     position: 'Software Engineer',
     at: '@Golang Vietnam',
-    tag: 'Golang',
+    tag: '#Golang',
     title: 'Goroutine Underlying',
     description: ''
   },
   {
-    time: '16:35 - 16:55',
+    time: '16:35 - 17:05',
     name: 'Ho Sy Viet Anh',
     position: 'CTO',
-    at: '@Axie Infinity, @Rust Vietnam',
-    tag: 'Rust',
+    at: '@Axie Infinity, Rust Vietnam',
+    tag: '#Rust',
     title: 'Rust Actor model in game development',
+    description: ''
+  },
+  {
+    time: '17:15 - 17:45',
+    name: 'Nguyen Van Quang Huy',
+    position: '',
+    at: '@Holistics, Grokking',
+    tag: '#JavaScript',
+    title: 'TBD',
+    description: ''
+  },
+  {
+    time: '18:00',
+    name: '',
+    position: '',
+    at: '',
+    tag: '',
+    title: 'After Party',
     description: ''
   }
 ];
@@ -129,8 +147,10 @@ const Schedule = () => {
                   )}
                 >
                   <div
-                    className=" ml-0 w-2/5 md:ml-4 mt-3"
-                    style={{ color: '#9CCCB8' }}
+                    className={classnames(
+                      'ml-0 w-2/5 md:ml-4 text-subprimary',
+                      name && 'mt-3'
+                    )}
                   >
                     {time}
                   </div>
