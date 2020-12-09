@@ -23,15 +23,15 @@ const listGoldSponsors = [
     title: 'axie',
     imgUrl: axieImg,
     href: 'https://axieinfinity.com'
-  }
-];
-
-const listSilverSponsors = [
+  },
   {
     title: 'codelink',
     imgUrl: xImg,
     href: 'https://www.codelink.io'
-  },
+  }
+];
+
+const listSilverSponsors = [
   {
     title: 'nfq',
     imgUrl: nfqImg,
