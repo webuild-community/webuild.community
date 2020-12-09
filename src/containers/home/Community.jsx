@@ -74,7 +74,7 @@ const CommunitySection = () => (
           {
             title: 'Grokking',
             imgUrl: grokkingImg,
-            href: 'https://www.grokking.org'
+            href: 'https://www.facebook.com/grokking.vietnam'
           }
         ]}
       />
