@@ -105,10 +105,10 @@ const listSchedule = [
   {
     time: '17:15 - 17:45',
     name: 'Nguyen Van Quang Huy',
-    position: '',
+    position: 'CTO',
     at: '@Holistics, Grokking',
-    tag: '#JavaScript',
-    title: 'TBD',
+    tag: '#Grokking',
+    title: 'Building and running DBML as an open-source project',
     description: ''
   },
   {
