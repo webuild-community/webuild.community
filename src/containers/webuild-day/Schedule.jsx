@@ -23,11 +23,11 @@ const listSchedule = [
   },
   {
     time: '10:00 - 10:30',
-    name: 'Dao Hoang Son',
-    position: '',
-    at: '@Carp Tech',
-    tag: '#Flutter',
-    title: 'Building a beautiful Flutter app',
+    name: 'Andy Ho',
+    position: 'CTO',
+    at: '@Axie Infinity, Rust Vietnam',
+    tag: '#Rust',
+    title: 'Rust Actor model in game development',
     description: ''
   },
   {
@@ -49,6 +49,15 @@ const listSchedule = [
     description: ''
   },
   {
+    time: '',
+    name: '',
+    position: '',
+    at: '',
+    tag: '',
+    title: 'Lunch break',
+    description: ''
+  },
+  {
     time: '13:30 - 14:00',
     name: 'Nguyen An',
     position: 'CTO',
@@ -59,20 +68,20 @@ const listSchedule = [
   },
   {
     time: '14:10 - 14:40',
-    name: 'Nguyen Mau Quang Vu',
-    position: 'Software Engineer',
-    at: '',
-    tag: '#Golang',
-    title: 'Deploy Kubernetes on premise',
+    name: 'Nguyen Van Quang Huy',
+    position: 'CTO',
+    at: '@Holistics, Grokking',
+    tag: '#Grokking',
+    title: 'Building and running DBML as an open-source project',
     description: ''
   },
   {
     time: '14:50 - 15:20',
-    name: 'Tu The Hien',
-    position: 'Engineering Director',
-    at: '@beGroup, Cloud Native',
-    tag: '#Cloud Native',
-    title: 'Golang monorepo in the wild. A pathway to continuous deployment',
+    name: 'Dao Hoang Son',
+    position: '',
+    at: '@Carp Tech',
+    tag: '#Flutter',
+    title: 'Building a beautiful Flutter app',
     description: ''
   },
   {
@@ -86,29 +95,29 @@ const listSchedule = [
   },
   {
     time: '15:55 - 16:25',
+    name: 'Nguyen Mau Quang Vu',
+    position: 'Software Engineer',
+    at: '',
+    tag: '#Golang',
+    title: 'Deploy Kubernetes on premise',
+    description: ''
+  },
+  {
+    time: '16:35 - 17:05',
+    name: 'Tu The Hien',
+    position: 'Engineering Director',
+    at: '@beGroup, Cloud Native',
+    tag: '#Cloud Native',
+    title: 'Golang monorepo in the wild. A pathway to continuous deployment',
+    description: ''
+  },
+  {
+    time: '17:15 - 17:45',
     name: 'Vo Hai Bien',
     position: 'Software Engineer',
     at: '@Golang Vietnam',
     tag: '#Golang',
     title: 'Goroutine Underlying',
-    description: ''
-  },
-  {
-    time: '16:35 - 17:05',
-    name: 'Ho Sy Viet Anh',
-    position: 'CTO',
-    at: '@Axie Infinity, Rust Vietnam',
-    tag: '#Rust',
-    title: 'Rust Actor model in game development',
-    description: ''
-  },
-  {
-    time: '17:15 - 17:45',
-    name: 'Nguyen Van Quang Huy',
-    position: 'CTO',
-    at: '@Holistics, Grokking',
-    tag: '#Grokking',
-    title: 'Building and running DBML as an open-source project',
     description: ''
   },
   {
