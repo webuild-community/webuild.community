@@ -4,31 +4,49 @@ import Gallery from 'components/Gallery';
 import flodeskImg from 'assets/images/webuild-day/sponsors/flodesk.png';
 import xImg from 'assets/images/webuild-day/sponsors/x.png';
 import nfqImg from 'assets/images/webuild-day/sponsors/nfq.png';
+import beImg from 'assets/images/webuild-day/sponsors/be.png';
+import axieImg from 'assets/images/webuild-day/sponsors/axie.png';
+import dwarvesImg from 'assets/images/webuild-day/sponsors/dwarves.png';
 
 const listGoldSponsors = [
   {
     title: 'flodesk',
     imgUrl: flodeskImg,
-    href: '#'
+    href: 'https://flodesk.com'
+  },
+  {
+    title: 'be',
+    imgUrl: beImg,
+    href: 'https://be.com.vn'
+  },
+  {
+    title: 'axie',
+    imgUrl: axieImg,
+    href: 'https://axieinfinity.com'
   }
 ];
 
 const listSilverSponsors = [
   {
-    title: 'x',
+    title: 'codelink',
     imgUrl: xImg,
-    href: '#'
+    href: 'https://www.codelink.io'
   },
   {
     title: 'nfq',
     imgUrl: nfqImg,
-    href: '#'
+    href: 'https://www.nfq.asia'
+  },
+  {
+    title: 'dwarves',
+    imgUrl: dwarvesImg,
+    href: 'https://dwarves.foundation'
   }
 ];
 
 const Sponsors = () => {
   return (
-    <section className="py-16 lg:py-24 text-gray-800 text-center font-normal">
+    <section className="pt-16 lg:pt-24 text-gray-800 text-center font-normal">
       <Container>
         <div className="mb-6">
           <h1 className="text-3xl font-bold mb-10">Sponsors</h1>

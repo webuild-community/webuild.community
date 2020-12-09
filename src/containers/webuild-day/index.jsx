@@ -7,6 +7,7 @@ import TheProgram from './TheProgram';
 import CTAJoin from './CTAJoin';
 import Schedule from './Schedule';
 import Sponsors from './Sponsors';
+import Community from '../home/Community';
 import CTASupport from './CTASupport';
 import ticketImg from 'assets/images/webuild-day/ticket.svg';
 import SEO from 'components/seo';
@@ -32,6 +33,7 @@ const WebuildDay = () => (
     <Schedule />
     <CTAJoin />
     <Sponsors />
+    <Community />
     <CTASupport />
     <div
       className="fixed bottom-0 right-0 z-50"

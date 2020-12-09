@@ -12,6 +12,7 @@ import elixirImg from 'assets/images/communities/elixir.jpg';
 import geekyImg from 'assets/images/communities/geeky.jpg';
 import javascriptImg from 'assets/images/communities/js.jpg';
 import gdgVietnamImg from 'assets/images/communities/gdg.jpg';
+import grokkingImg from 'assets/images/communities/grokking.jpg';
 
 const CommunitySection = () => (
   <section id="community" className="sm:py-12 py-10 lg:py-24 lg:mb-24 mb-8">
@@ -19,7 +20,7 @@ const CommunitySection = () => (
       <div className="text-center mb-10">
         <H3 className="mb-2">Community</H3>
         <p className="text-gray-700 sm:text-lg px-3">
-          We started as many different meetup groups
+          With support from different groups
         </p>
       </div>
 
@@ -38,7 +39,7 @@ const CommunitySection = () => (
           {
             title: 'Rust Vietnam',
             imgUrl: rustImg,
-            href: '#'
+            href: 'https://www.facebook.com/vietnam.rust/'
           },
           {
             title: 'Android Cafein',
@@ -69,6 +70,11 @@ const CommunitySection = () => (
             title: 'Google Developer Group Vietnam',
             imgUrl: gdgVietnamImg,
             href: 'https://www.facebook.com/gdgviet/'
+          },
+          {
+            title: 'Grokking',
+            imgUrl: grokkingImg,
+            href: 'https://www.facebook.com/grokking.vietnam'
           }
         ]}
       />

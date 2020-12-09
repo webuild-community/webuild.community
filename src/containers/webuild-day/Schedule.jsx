@@ -4,66 +4,120 @@ import classnames from 'classnames';
 
 const listSchedule = [
   {
-    time: 'Morning',
+    time: '9:00 - 9:10',
+    name: 'Han Ngo',
+    position: 'Software Engineer',
+    at: '',
+    tag: '#WeBuild',
+    title: 'WeBuild Community in 2020',
+    description: ''
+  },
+  {
+    time: '9:20 - 9:50',
     name: 'Thuy Phan',
     position: 'Mobile Developer',
     at: '@Line',
-    tag: 'Android',
+    tag: '#Android',
     title: 'Dependency injection with Hilt',
     description: ''
   },
   {
-    time: 'Morning',
+    time: '10:00 - 10:30',
     name: 'Dao Hoang Son',
     position: '',
     at: '@Carp Tech',
-    tag: 'Flutter',
+    tag: '#Flutter',
     title: 'Building a beautiful Flutter app',
     description: ''
   },
   {
-    time: 'Morning',
+    time: '10:40 - 11:10',
     name: 'Toan Tran',
     position: 'VP Mobile Engineering',
     at: '@Lazada',
-    tag: 'Android',
+    tag: '#Android',
     title: 'Reactive Android Programming',
     description: ''
   },
   {
-    time: 'Morning',
+    time: '11:20 - 11:50',
     name: 'Le Dien Phuc',
     position: 'iOS Dev',
-    at: '@Dwarves',
-    tag: 'Swift',
+    at: '@Dwarves, Swift Vietnam',
+    tag: '#Swift',
     title: 'XPC service / iOS',
     description: ''
   },
   {
-    time: 'Noon',
-    name: 'Tu The Hien',
-    position: 'Sr Engineering Director',
-    at: '@beGroup',
-    tag: 'Cloud Native',
-    title: 'Golang monorepo in the wild. A pathway to continuous deployment',
+    time: '13:30 - 14:00',
+    name: 'Nguyen An',
+    position: 'CTO',
+    at: '@Prime Data',
+    tag: '#Elixir',
+    title: 'DDD - Bible for Software Development at scale',
     description: ''
   },
   {
-    time: 'Noon',
+    time: '14:10 - 14:40',
     name: 'Nguyen Mau Quang Vu',
-    position: '',
+    position: 'Software Engineer',
     at: '',
-    tag: 'Golang',
+    tag: '#Golang',
     title: 'Deploy Kubernetes on premise',
     description: ''
   },
   {
-    time: 'Noon',
+    time: '14:50 - 15:20',
+    name: 'Tu The Hien',
+    position: 'Engineering Director',
+    at: '@beGroup, Cloud Native',
+    tag: '#Cloud Native',
+    title: 'Golang monorepo in the wild. A pathway to continuous deployment',
+    description: ''
+  },
+  {
+    time: '15:30 - 15:45',
+    name: '',
+    position: '',
+    at: '',
+    tag: '',
+    title: 'Tea break',
+    description: ''
+  },
+  {
+    time: '15:55 - 16:25',
     name: 'Vo Hai Bien',
     position: 'Software Engineer',
     at: '@Golang Vietnam',
-    tag: 'Golang',
+    tag: '#Golang',
     title: 'Goroutine Underlying',
+    description: ''
+  },
+  {
+    time: '16:35 - 17:05',
+    name: 'Ho Sy Viet Anh',
+    position: 'CTO',
+    at: '@Axie Infinity, Rust Vietnam',
+    tag: '#Rust',
+    title: 'Rust Actor model in game development',
+    description: ''
+  },
+  {
+    time: '17:15 - 17:45',
+    name: 'Nguyen Van Quang Huy',
+    position: 'CTO',
+    at: '@Holistics, Grokking',
+    tag: '#Grokking',
+    title: 'Building and running DBML as an open-source project',
+    description: ''
+  },
+  {
+    time: '18:00',
+    name: '',
+    position: '',
+    at: '',
+    tag: '',
+    title: 'After Party',
     description: ''
   }
 ];
@@ -93,8 +147,10 @@ const Schedule = () => {
                   )}
                 >
                   <div
-                    className=" ml-0 w-2/5 md:ml-4 mt-3"
-                    style={{ color: '#9CCCB8' }}
+                    className={classnames(
+                      'ml-0 w-2/5 md:ml-4 text-subprimary',
+                      name && 'mt-3'
+                    )}
                   >
                     {time}
                   </div>
@@ -106,7 +162,7 @@ const Schedule = () => {
                     </div>
                   </div>
                   <div className="w-full md:ml-16 mt-8 md:mt-0">
-                    <p className="text-sm">#{tag}</p>
+                    <p className="text-sm">{tag}</p>
                     <p className="text-lg font-bold">{title}</p>
                     <p className="text-lg" style={{ color: '#C5DFD1' }}>
                       {description}
