@@ -19,7 +19,7 @@ const CommunitySection = () => (
       <div className="text-center mb-10">
         <H3 className="mb-2">Community</H3>
         <p className="text-gray-700 sm:text-lg px-3">
-          We started as many different meetup groups
+          With support from different groups
         </p>
       </div>
 
