@@ -57,7 +57,7 @@ const listSchedule = [
   },
   {
     time: '11:20 - 11:50',
-    name: 'Le Dien Phuc',
+    name: 'Phuc Le',
     position: 'iOS Dev',
     at: '@Dwarves, Swift Vietnam',
     tag: '#Swift',
@@ -76,7 +76,7 @@ const listSchedule = [
   },
   {
     time: '13:30 - 14:00',
-    name: 'Nguyen An',
+    name: 'An Nguyen',
     position: 'CTO',
     at: '@Prime Data',
     tag: '#Elixir',
@@ -86,7 +86,7 @@ const listSchedule = [
   },
   {
     time: '14:10 - 14:40',
-    name: 'Nguyen Van Quang Huy',
+    name: 'Huy Nguyen',
     position: 'CTO',
     at: '@Holistics, Grokking',
     tag: '#Grokking',
@@ -115,7 +115,7 @@ const listSchedule = [
   },
   {
     time: '15:55 - 16:25',
-    name: 'Nguyen Mau Quang Vu',
+    name: 'Vu Nguyen',
     position: 'Software Engineer',
     at: '',
     tag: '#Golang',
@@ -125,7 +125,7 @@ const listSchedule = [
   },
   {
     time: '16:35 - 17:05',
-    name: 'Tu The Hien',
+    name: 'Hien Tu',
     position: 'Engineering Director',
     at: '@beGroup, Cloud Native',
     tag: '#Cloud Native',
@@ -135,7 +135,7 @@ const listSchedule = [
   },
   {
     time: '17:15 - 17:45',
-    name: 'Vo Hai Bien',
+    name: 'Bien Vo',
     position: 'Software Engineer',
     at: '@Golang Vietnam',
     tag: '#Golang',
