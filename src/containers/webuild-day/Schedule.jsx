@@ -189,7 +189,7 @@ const Schedule = () => {
                   <div className="flex w-3/5 md:ml-8">
                     {pic && (
                       <img
-                        className="w-12 h-12 mr-4 rounded-full object-cover"
+                        className="w-12 h-12 mr-4 rounded-full border object-cover"
                         style={{ filter: 'grayscale(100%)' }}
                         src={pic}
                         alt={name}
