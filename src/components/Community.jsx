@@ -13,6 +13,8 @@ import geekyImg from 'assets/images/communities/geeky.jpg';
 import javascriptImg from 'assets/images/communities/js.jpg';
 import gdgVietnamImg from 'assets/images/communities/gdg.jpg';
 import grokkingImg from 'assets/images/communities/grokking.jpg';
+import kipaImg from 'assets/images/communities/kipacast.jpg';
+import fullsnackImg from 'assets/images/communities/thefullsnack.jpg';
 
 const CommunitySection = () => (
   <section id="community" className="sm:py-12 py-10 lg:py-24 lg:mb-24 mb-8">
@@ -75,6 +77,16 @@ const CommunitySection = () => (
             title: 'Grokking',
             imgUrl: grokkingImg,
             href: 'https://www.facebook.com/grokking.vietnam'
+          },
+          {
+            title: 'Kipacast',
+            imgUrl: kipaImg,
+            href: 'https://www.facebook.com/kipacast'
+          },
+          {
+            title: 'Thefullsnack',
+            imgUrl: fullsnackImg,
+            href: 'https://www.facebook.com/thefullsnackblog'
           }
         ]}
       />

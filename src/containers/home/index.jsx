@@ -5,8 +5,8 @@ import HeroBanner from './HeroBanner';
 import WhatWeDo from './WhatWeDo';
 import Events from './Events';
 import Jobs from './Jobs';
+import Community from 'components/Community';
 import Supporters from './Supporters';
-import Community from './Community';
 
 const Home = () => (
   <DefaultLayout>

@@ -18,6 +18,11 @@ import googleImg from 'assets/images/sponsors/google.jpg';
 import dwarvesImg from 'assets/images/sponsors/dwarves.jpg';
 // import topdevImg from 'assets/images/sponsors/topdev.jpg';
 // import codershoolImg from 'assets/images/sponsors/codershool.jpg';
+import flodeskImg from 'assets/images/webuild-day/sponsors/flodesk.png';
+import xImg from 'assets/images/webuild-day/sponsors/x.png';
+import nfqImg from 'assets/images/webuild-day/sponsors/nfq.png';
+import beImg from 'assets/images/webuild-day/sponsors/be.png';
+import axieImg from 'assets/images/webuild-day/sponsors/axie.png';
 import Button from 'components/Button';
 
 const Supporters = () => (
@@ -74,36 +79,36 @@ const Supporters = () => (
             imgUrl: googleImg,
             href: 'https://www.google.com/'
           },
-          // {
-          //   title: 'Microsoft',
-          //   imgUrl: microsoftImg,
-          //   href: 'https://www.microsoft.com/'
-          // },
-          // {
-          //   title: 'fpt',
-          //   imgUrl: fptImg,
-          //   href: 'https://www.fpt.vn/'
-          // },
-          // {
-          //   title: 'Quoine',
-          //   imgUrl: quoineImg,
-          //   href: 'https://www.liquid.com/'
-          // },
           {
             title: 'Dwarves Foundation',
             imgUrl: dwarvesImg,
             href: 'https://dwarves.foundation/'
+          },
+          {
+            title: 'flodesk',
+            imgUrl: flodeskImg,
+            href: 'https://flodesk.com'
+          },
+          {
+            title: 'be',
+            imgUrl: beImg,
+            href: 'https://be.com.vn'
+          },
+          {
+            title: 'axie',
+            imgUrl: axieImg,
+            href: 'https://axieinfinity.com'
+          },
+          {
+            title: 'codelink',
+            imgUrl: xImg,
+            href: 'https://www.codelink.io'
+          },
+          {
+            title: 'nfq',
+            imgUrl: nfqImg,
+            href: 'https://www.nfq.asia'
           }
-          // {
-          //   title: 'TopDev',
-          //   imgUrl: topdevImg,
-          //   href: 'https://topdev.vn/'
-          // },
-          // {
-          //   title: 'Codershool',
-          //   imgUrl: codershoolImg,
-          //   href: 'https://www.coderschool.vn/'
-          // }
         ]}
       ></Gallery>
 
@@ -130,7 +135,7 @@ const Supporters = () => (
 
       <div className="sm:mt-16 mt-10">
         <a
-          href="https://opencollective.com/webuild"
+          href="mailto:hello@webuild.community"
           target="_blank"
           rel="noopener noreferrer"
         >

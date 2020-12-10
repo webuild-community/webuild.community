@@ -23,11 +23,11 @@ const listSchedule = [
   },
   {
     time: '10:00 - 10:30',
-    name: 'Andy Ho',
-    position: 'CTO',
-    at: '@Axie Infinity, Rust Vietnam',
-    tag: '#Rust',
-    title: 'Rust Actor model in game development',
+    name: 'Son Dao',
+    position: '',
+    at: '@Carp Tech',
+    tag: '#Flutter',
+    title: 'Building a beautiful Flutter app',
     description: ''
   },
   {
@@ -77,11 +77,11 @@ const listSchedule = [
   },
   {
     time: '14:50 - 15:20',
-    name: 'Dao Hoang Son',
-    position: '',
-    at: '@Carp Tech',
-    tag: '#Flutter',
-    title: 'Building a beautiful Flutter app',
+    name: 'Andy Ho',
+    position: 'CTO',
+    at: '@Axie Infinity, Rust Vietnam',
+    tag: '#Rust',
+    title: 'Rust Actor model in game development',
     description: ''
   },
   {
