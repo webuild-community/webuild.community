@@ -5,9 +5,8 @@ import HeroBanner from './HeroBanner';
 import WhatWeDo from './WhatWeDo';
 import Events from './Events';
 import Jobs from './Jobs';
-import Sponsors from 'components/Sponsors';
 import Community from 'components/Community';
-import CTASupport from 'components/CTASupport';
+import Supporters from './Supporters';
 
 const Home = () => (
   <DefaultLayout>
@@ -17,9 +16,8 @@ const Home = () => (
     <Events />
     <Jobs />
     <div className="bg-white border-t border-gray-200 pb-px">
-      <Sponsors />
+      <Supporters />
       <Community />
-      <CTASupport />
     </div>
   </DefaultLayout>
 );

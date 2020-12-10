@@ -54,7 +54,7 @@ const Header = ({ variant = 'default' }) => {
                 })}
                 to="/webuild-day"
               >
-                Webuild Day
+                WeBuild Day
               </Link>
             </li>
           </ul>
