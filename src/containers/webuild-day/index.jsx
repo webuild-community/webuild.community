@@ -6,9 +6,9 @@ import Goals from './Goals';
 import TheProgram from './TheProgram';
 import CTAJoin from './CTAJoin';
 import Schedule from './Schedule';
-import Sponsors from './Sponsors';
-import Community from '../home/Community';
-import CTASupport from './CTASupport';
+import Sponsors from 'components/Sponsors';
+import Community from 'components/Community';
+import CTASupport from 'components/CTASupport';
 import ticketImg from 'assets/images/webuild-day/ticket.svg';
 import SEO from 'components/seo';
 
