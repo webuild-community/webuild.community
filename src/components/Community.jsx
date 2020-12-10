@@ -81,12 +81,12 @@ const CommunitySection = () => (
           {
             title: 'Kipacast',
             imgUrl: kipaImg,
-            href: 'https://kipacast.info'
+            href: 'https://www.facebook.com/kipacast'
           },
           {
             title: 'Thefullsnack',
             imgUrl: fullsnackImg,
-            href: 'https://thefullsnack.com/'
+            href: 'https://www.facebook.com/thefullsnackblog'
           }
         ]}
       />

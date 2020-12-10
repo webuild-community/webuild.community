@@ -70,7 +70,7 @@ const Header = ({ variant = 'default' }) => {
                 'text-white': !isPrimaryVariant
               })}
             >
-              Join us
+              Join Slack
             </Button>
           </a>
         </div>
