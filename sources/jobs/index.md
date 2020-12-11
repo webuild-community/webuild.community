@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Zigexn VeNtura'
+    date: '2020-12-10T09:58:15Z'
+    desc: 'Ruby on Rails Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2228'
+    location: 'Others'
+    title: 'Ruby on Rails Developer'
+    type: Fulltime
   - company: 'gumiVietnam'
     date: '2020-12-08T06:07:33Z'
     desc: 'Middle Fullstack PHP Engineer'
@@ -73,12 +81,4 @@ list:
     location: 'HCM'
     title: 'Senior DevOps Engineer'
     type: Parttime
-  - company: 'Orange Logic'
-    date: '2020-11-16T08:16:23Z'
-    desc: 'QA Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2204'
-    location: 'HCM'
-    title: 'QA Engineer'
-    type: Fulltime
 ---
