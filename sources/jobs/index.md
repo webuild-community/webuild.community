@@ -1,6 +1,30 @@
 ---
 key: jobs
 list:
+  - company: 'FETCH TECHNOLOGY'
+    date: '2020-12-15T07:30:49Z'
+    desc: 'Test Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2233'
+    location: 'HCM'
+    title: 'Test Engineer'
+    type: Fulltime
+  - company: 'FETCH TECHNOLOGY'
+    date: '2020-12-15T07:24:22Z'
+    desc: 'Product Manager/ Product Owner'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2231'
+    location: 'HCM'
+    title: 'Product Manager/ Product Owner'
+    type:  FT
+  - company: 'FETCH TECHOLOGY'
+    date: '2020-12-15T07:19:12Z'
+    desc: 'ReactJS Developer (Junior, Senior)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2230'
+    location: 'HCM'
+    title: 'ReactJS Developer (Junior, Senior)'
+    type: Fulltime
   - company: 'Zigexn VeNtura'
     date: '2020-12-10T09:58:15Z'
     desc: 'Ruby on Rails Developer'
@@ -57,28 +81,4 @@ list:
     location: 'HN'
     title: 'Senior DevOps and IT Operations Engineer'
     type: Fulltime
-  - company: 'Yojee'
-    date: '2020-11-17T08:26:02Z'
-    desc: 'Fullstack Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2209'
-    location: 'HCM'
-    title: 'Fullstack Engineer'
-    type: Fulltime
-  - company: 'LINE Vietnam'
-    date: '2020-11-17T07:48:59Z'
-    desc: 'Software Engineer Intern (Frontend/Backend)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2208'
-    location: 'HCM'
-    title: 'Software Engineer Intern (Frontend/Backend)'
-    type: FT/PT
-  - company: 'JobHopin'
-    date: '2020-11-16T08:40:35Z'
-    desc: 'Senior DevOps Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2205'
-    location: 'HCM'
-    title: 'Senior DevOps Engineer'
-    type: Parttime
 ---
