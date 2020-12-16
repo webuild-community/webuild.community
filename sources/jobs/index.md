@@ -1,6 +1,22 @@
 ---
 key: jobs
 list:
+  - company: 'NFQ Asia'
+    date: '2020-12-16T08:36:55Z'
+    desc: 'Senior PHP Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2235'
+    location: 'HCM'
+    title: 'Senior PHP Developer'
+    type: Fulltime
+  - company: 'NFQ Asia'
+    date: '2020-12-16T07:33:34Z'
+    desc: 'Technical Architect'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2234'
+    location: 'HCM'
+    title: 'Technical Architect'
+    type: Fulltime
   - company: 'FETCH TECHNOLOGY'
     date: '2020-12-15T07:30:49Z'
     desc: 'Test Engineer'
@@ -65,20 +81,4 @@ list:
     location: 'Others'
     title: 'Mid/Senior Level Full Stack Developer'
     type: FT/C
-  - company: 'LARION'
-    date: '2020-11-26T09:27:27Z'
-    desc: 'Senior DevOps Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2215'
-    location: 'HCM'
-    title: 'Senior DevOps Engineer'
-    type: Fulltime
-  - company: 'FinOS Technology'
-    date: '2020-11-20T08:32:48Z'
-    desc: 'Senior DevOps and IT Operations Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2211'
-    location: 'HN'
-    title: 'Senior DevOps and IT Operations Engineer'
-    type: Fulltime
 ---
