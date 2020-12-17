@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Danh Khôi'
+    date: '2020-12-17T04:59:56Z'
+    desc: 'Senior Business Analysis'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2236'
+    location: 'HCM'
+    title: 'Senior Business Analysis'
+    type: Fulltime
   - company: 'NFQ Asia'
     date: '2020-12-16T08:36:55Z'
     desc: 'Senior PHP Developer'
@@ -73,12 +81,4 @@ list:
     location: 'HCM'
     title: 'Senior Fullstack Python Engineer'
     type: Fulltime
-  - company: 'Resola'
-    date: '2020-11-26T09:56:00Z'
-    desc: 'Mid/Senior Level Full Stack Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2216'
-    location: 'Others'
-    title: 'Mid/Senior Level Full Stack Developer'
-    type: FT/C
 ---
