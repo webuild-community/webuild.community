@@ -4,7 +4,7 @@ import Footer from 'components/Footer';
 import 'typeface-barlow';
 
 const DefaultLayout = ({ children, headerVariant }) => (
-  <div className="font-sans font-normal leading-medium font-medium">
+  <div className="font-sans leading-medium font-medium">
     <Header variant={headerVariant} />
     <main className="main">{children}</main>
     <Footer />
