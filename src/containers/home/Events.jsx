@@ -57,6 +57,9 @@ const Events = () => {
         // show last 2 outdated events + all upcoming events
         const listToShow = fortcoming.concat(past.slice(0, 2));
 
+        console.log(list);
+        console.log(listToShow);
+
         return (
           <section id="upcoming-events" className="sm:my-8 pt-10 lg:my-12">
             <Container>
