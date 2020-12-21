@@ -67,6 +67,8 @@ const Events = () => {
     return null;
   }
 
+  console.log({ listToShow });
+
   return (
     <section id="upcoming-events" className="sm:my-8 pt-10 lg:my-12">
       <Container>
