@@ -91,7 +91,7 @@ const Events = () => {
                     }
                     return (
                       <div
-                        key={link}
+                        key={link + index}
                         className={classnames('py-5 relative', {
                           'border-b border-gray-200':
                             index < listToShow.length - 1
