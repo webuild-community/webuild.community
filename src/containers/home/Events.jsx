@@ -98,6 +98,7 @@ const Events = () => {
               if (guests > 0) {
                 info.push(`${guests} guests`);
               }
+              console.log({ link, name });
 
               return (
                 <div
