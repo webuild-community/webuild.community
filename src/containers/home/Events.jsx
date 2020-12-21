@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useEffect } from 'react';
+import React, { useMemo } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import Container from 'components/Container';
 import dayjs from 'dayjs';
@@ -32,12 +32,6 @@ const eventsQuery = graphql`
 
 const Events = () => {
   const data = useStaticQuery(eventsQuery);
-  const [, setCount] = useState(0);
-
-  // Force render
-  useEffect(() => {
-    setCount(1);
-  });
 
   const listToShow = useMemo(() => {
     if (!data) {
@@ -60,7 +54,7 @@ const Events = () => {
     });
 
     // show last 2 outdated events + all upcoming events
-    return fortcoming.concat(past.slice(0, 2));
+    return [...fortcoming, past[0], past[1]].filter(Boolean);
   }, [data]);
 
   if (!listToShow) {
