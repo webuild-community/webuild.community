@@ -6,6 +6,8 @@ import { H3, H6 } from 'components/typography';
 import Button from 'components/Button';
 import classnames from 'classnames';
 import PastStamp from 'assets/svg/past-stamp.svg';
+import { useState } from 'react';
+import { useEffect } from 'react';
 
 const eventsQuery = graphql`
   {
@@ -33,7 +35,7 @@ const eventsQuery = graphql`
 const Events = () => {
   const data = useStaticQuery(eventsQuery);
 
-  const listToShow = useMemo(() => {
+  const list = useMemo(() => {
     if (!data) {
       return null;
     }
@@ -54,64 +56,16 @@ const Events = () => {
     });
 
     // show last 2 outdated events + all upcoming events
-    const listToShow = [...fortcoming, past[0], past[1]].filter(Boolean);
-
-    return listToShow.length === 0 ? (
-      <div className="pt-6 border-t border-gray-200 mt-7">
-        There is no upcoming event
-      </div>
-    ) : (
-      listToShow.map(
-        ({ location, date, guests, name, link, isPast }, index) => {
-          const info = [
-            `${dayjs(date).format('MMM DD, YYYY')} at ${dayjs(date).format(
-              'hh:mm a'
-            )}`
-          ];
-          if (guests > 0) {
-            info.push(`${guests} guests`);
-          }
-          console.log({ link, name });
-
-          return (
-            <div
-              key={name}
-              className={classnames('py-5 relative', {
-                'border-b border-gray-200': index < listToShow.length - 1
-              })}
-            >
-              {isPast && (
-                <div className="absolute h-full w-full bg-foreground opacity-50 z-10 pointer-events-none" />
-              )}
-              <div className="flex">
-                <a
-                  style={{ maxWidth: 'calc(100% - 5rem)' }}
-                  href={listToShow[index].link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <H6 className="hover:text-primary transition-colors duration-200">
-                    {name}
-                  </H6>
-                </a>
-                {isPast && (
-                  <span className="w-20 relative z-50 pointer-events-none">
-                    <PastStamp className="w-20 h-20 absolute transform -translate-y-6" />
-                  </span>
-                )}
-              </div>
-              <div className="text-sm my-1 text-gray-700">
-                {info.join(' - ')}
-              </div>
-              <div className="text-base text-gray-800">{location}</div>
-            </div>
-          );
-        }
-      )
-    );
+    return [...fortcoming, past[0], past[1]].filter(Boolean);
   }, [data]);
 
-  if (!listToShow) {
+  const [renderList, setRenderList] = useState(list);
+
+  useEffect(() => {
+    setRenderList([...renderList]);
+  }, []);
+
+  if (!renderList) {
     return null;
   }
 
@@ -129,7 +83,59 @@ const Events = () => {
           </a>
         </div>
 
-        {listToShow}
+        {renderList.length === 0 ? (
+          <div className="pt-6 border-t border-gray-200 mt-7">
+            There is no upcoming event
+          </div>
+        ) : (
+          renderList.map(
+            ({ location, date, guests, name, link, isPast }, index) => {
+              const info = [
+                `${dayjs(date).format('MMM DD, YYYY')} at ${dayjs(date).format(
+                  'hh:mm a'
+                )}`
+              ];
+              if (guests > 0) {
+                info.push(`${guests} guests`);
+              }
+              console.log({ link, name });
+
+              return (
+                <div
+                  key={name}
+                  className={classnames('py-5 relative', {
+                    'border-b border-gray-200': index < renderList.length - 1
+                  })}
+                >
+                  {isPast && (
+                    <div className="absolute h-full w-full bg-foreground opacity-50 z-10 pointer-events-none" />
+                  )}
+                  <div className="flex">
+                    <a
+                      style={{ maxWidth: 'calc(100% - 5rem)' }}
+                      href={link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <H6 className="hover:text-primary transition-colors duration-200">
+                        {name}
+                      </H6>
+                    </a>
+                    {isPast && (
+                      <span className="w-20 relative z-50 pointer-events-none">
+                        <PastStamp className="w-20 h-20 absolute transform -translate-y-6" />
+                      </span>
+                    )}
+                  </div>
+                  <div className="text-sm my-1 text-gray-700">
+                    {info.join(' - ')}
+                  </div>
+                  <div className="text-base text-gray-800">{location}</div>
+                </div>
+              );
+            }
+          )
+        )}
       </Container>
     </section>
   );
