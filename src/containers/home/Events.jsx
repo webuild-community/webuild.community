@@ -62,7 +62,10 @@ const Events = () => {
   const [renderList, setRenderList] = useState(list);
 
   useEffect(() => {
-    setRenderList([...renderList]);
+    setTimeout(() => {
+      console.log('re-render');
+      setRenderList([...renderList]);
+    }, 100);
   }, []);
 
   if (!renderList) {
