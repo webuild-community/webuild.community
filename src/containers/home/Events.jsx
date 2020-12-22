@@ -54,7 +54,7 @@ const Events = () => {
     });
 
     // show last 2 outdated events + all upcoming events
-    return [...fortcoming, ...past];
+    return [...fortcoming, past[0], past[1]].filter(Boolean);
   }, [data]);
 
   if (!listToShow) {
