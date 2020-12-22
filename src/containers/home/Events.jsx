@@ -121,7 +121,7 @@ const Events = () => {
                       rel="noopener noreferrer"
                     >
                       <H6 className="hover:text-primary transition-colors duration-200">
-                        {name}
+                        {name} {link}
                       </H6>
                     </a>
                     {isPast && (
