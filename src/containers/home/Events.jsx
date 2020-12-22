@@ -116,16 +116,11 @@ const Events = () => {
                     <div className="absolute h-full w-full bg-foreground opacity-50 z-10 pointer-events-none" />
                   )}
                   <div className="flex">
-                    <a
-                      style={{ maxWidth: 'calc(100% - 5rem)' }}
-                      href={renderLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <H6 className="hover:text-primary transition-colors duration-200">
+                    <H6 className="hover:text-primary transition-colors duration-200">
+                      <a href={renderLink}>
                         {name} {renderLink}
-                      </H6>
-                    </a>
+                      </a>
+                    </H6>
                     {isPast && (
                       <span className="w-20 relative z-50 pointer-events-none">
                         <PastStamp className="w-20 h-20 absolute transform -translate-y-6" />
