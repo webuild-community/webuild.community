@@ -107,7 +107,7 @@ const Events = () => {
                   <div className="flex">
                     <a
                       style={{ maxWidth: 'calc(100% - 5rem)' }}
-                      href={link}
+                      href={listToShow[index].link}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
