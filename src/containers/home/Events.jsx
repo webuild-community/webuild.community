@@ -103,6 +103,8 @@ const Events = () => {
               }
               console.log({ link, name });
 
+              const renderLink = `${link}`;
+
               return (
                 <div
                   key={name}
@@ -116,12 +118,12 @@ const Events = () => {
                   <div className="flex">
                     <a
                       style={{ maxWidth: 'calc(100% - 5rem)' }}
-                      href={link}
+                      href={renderLink}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <H6 className="hover:text-primary transition-colors duration-200">
-                        {name} {link}
+                        {name} {renderLink}
                       </H6>
                     </a>
                     {isPast && (
