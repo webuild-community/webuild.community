@@ -59,13 +59,10 @@ const Events = () => {
     return [...fortcoming, past[0], past[1]].filter(Boolean);
   }, [data]);
 
-  const [renderList, setRenderList] = useState(list);
+  const [renderList, setRenderList] = useState([]);
 
   useEffect(() => {
-    setTimeout(() => {
-      console.log('re-render');
-      setRenderList([...renderList]);
-    }, 100);
+    setRenderList(list);
   }, []);
 
   if (!renderList) {
