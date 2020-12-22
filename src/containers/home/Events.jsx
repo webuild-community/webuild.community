@@ -1,11 +1,13 @@
-import React from 'react';
-import { graphql, StaticQuery } from 'gatsby';
+import React, { useMemo } from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
 import Container from 'components/Container';
 import dayjs from 'dayjs';
 import { H3, H6 } from 'components/typography';
 import Button from 'components/Button';
 import classnames from 'classnames';
 import PastStamp from 'assets/svg/past-stamp.svg';
+import { useState } from 'react';
+import { useEffect } from 'react';
 
 const eventsQuery = graphql`
   {
@@ -31,105 +33,108 @@ const eventsQuery = graphql`
 `;
 
 const Events = () => {
+  const data = useStaticQuery(eventsQuery);
+
+  const list = useMemo(() => {
+    if (!data) {
+      return null;
+    }
+    const { list } = data.data.edges[0].node.frontmatter;
+    const sortedList = [...list].sort((a, b) =>
+      dayjs(a.date).isAfter(dayjs(b.date))
+    );
+    const fortcoming = [];
+    const past = [];
+    const now = Date.now();
+
+    sortedList.forEach(event => {
+      if (dayjs(event.date).isBefore(dayjs(now))) {
+        past.push({ ...event, isPast: true });
+      } else {
+        fortcoming.push({ ...event, isPast: false });
+      }
+    });
+
+    // show last 2 outdated events + all upcoming events
+    return [...fortcoming, past[0], past[1]].filter(Boolean);
+  }, [data]);
+
+  const [inMemoryList, setInMemoryList] = useState(null);
+
+  // TODO: this trick is used to force the list to rerender rather than
+  // using the view from rehyration which is currently introducing a bug
+  // on Netlify build
+  useEffect(() => {
+    setInMemoryList(list);
+  }, []);
+
+  const renderList = inMemoryList || list;
+
+  if (!renderList) {
+    return null;
+  }
+
   return (
-    <StaticQuery
-      query={eventsQuery}
-      render={({ data }) => {
-        if (!data) {
-          return null;
-        }
-        const { list } = data.edges[0].node.frontmatter;
-        const sortedList = [...list].sort((a, b) =>
-          dayjs(a.date).isAfter(dayjs(b.date))
-        );
-        const fortcoming = [];
-        const past = [];
-        const now = Date.now();
+    <section id="upcoming-events" className="sm:my-8 pt-10 lg:my-12">
+      <Container>
+        <div className="flex sm:flex-row flex-col justify-between items-start mb-4">
+          <H3>Upcoming Events</H3>
+          <a
+            href="https://airtable.com/shrAzFFFgoaZ83l5d"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="mt-5 sm:mt-1">Add event</Button>
+          </a>
+        </div>
 
-        sortedList.forEach(event => {
-          if (dayjs(event.date).isBefore(dayjs(now))) {
-            past.push({ ...event, isPast: true });
-          } else {
-            fortcoming.push({ ...event, isPast: false });
-          }
-        });
+        {renderList.length === 0 ? (
+          <div className="pt-6 border-t border-gray-200 mt-7">
+            There is no upcoming event
+          </div>
+        ) : (
+          renderList.map(
+            ({ location, date, guests, name, link, isPast }, index) => {
+              const info = [
+                `${dayjs(date).format('MMM DD, YYYY')} at ${dayjs(date).format(
+                  'hh:mm a'
+                )}`
+              ];
+              if (guests > 0) {
+                info.push(`${guests} guests`);
+              }
 
-        // show last 2 outdated events + all upcoming events
-        const listToShow = fortcoming.concat(past.slice(0, 2));
-
-        return (
-          <section id="upcoming-events" className="sm:my-8 pt-10 lg:my-12">
-            <Container>
-              <div className="flex sm:flex-row flex-col justify-between items-start mb-4">
-                <H3>Upcoming Events</H3>
-                <a
-                  href="https://airtable.com/shrAzFFFgoaZ83l5d"
-                  target="_blank"
-                  rel="noopener noreferrer"
+              return (
+                <div
+                  key={name}
+                  className={classnames('py-5 relative', {
+                    'border-b border-gray-200': index < renderList.length - 1
+                  })}
                 >
-                  <Button className="mt-5 sm:mt-1">Add event</Button>
-                </a>
-              </div>
-
-              {listToShow.length === 0 ? (
-                <div className="pt-6 border-t border-gray-200 mt-7">
-                  There is no upcoming event
+                  {isPast && (
+                    <div className="absolute h-full w-full bg-foreground opacity-50 z-10 pointer-events-none" />
+                  )}
+                  <div className="flex">
+                    <H6 className="hover:text-primary transition-colors duration-200">
+                      <a href={link}>{name}</a>
+                    </H6>
+                    {isPast && (
+                      <span className="w-20 relative z-50 pointer-events-none">
+                        <PastStamp className="w-20 h-20 absolute transform -translate-y-6" />
+                      </span>
+                    )}
+                  </div>
+                  <div className="text-sm my-1 text-gray-700">
+                    {info.join(' - ')}
+                  </div>
+                  <div className="text-base text-gray-800">{location}</div>
                 </div>
-              ) : (
-                listToShow.map(
-                  ({ location, date, guests, name, link, isPast }, index) => {
-                    const info = [
-                      `${dayjs(date).format('MMM DD, YYYY')} at ${dayjs(
-                        date
-                      ).format('hh:mm a')}`
-                    ];
-                    if (guests > 0) {
-                      info.push(`${guests} guests`);
-                    }
-                    return (
-                      <div
-                        key={link}
-                        className={classnames('py-5 relative', {
-                          'border-b border-gray-200':
-                            index < listToShow.length - 1
-                        })}
-                      >
-                        {isPast && (
-                          <div className="absolute h-full w-full bg-foreground opacity-50 z-10 pointer-events-none" />
-                        )}
-                        <div className="flex">
-                          <a
-                            style={{ maxWidth: 'calc(100% - 5rem)' }}
-                            href={link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <H6 className="hover:text-primary transition-colors duration-200">
-                              {name}
-                            </H6>
-                          </a>
-                          {isPast && (
-                            <span className="w-20 relative z-50 pointer-events-none">
-                              <PastStamp className="w-20 h-20 absolute transform -translate-y-6" />
-                            </span>
-                          )}
-                        </div>
-                        <div className="text-sm my-1 text-gray-700">
-                          {info.join(' - ')}
-                        </div>
-                        <div className="text-base text-gray-800">
-                          {location}
-                        </div>
-                      </div>
-                    );
-                  }
-                )
-              )}
-            </Container>
-          </section>
-        );
-      }}
-    />
+              );
+            }
+          )
+        )}
+      </Container>
+    </section>
   );
 };
 export default Events;
