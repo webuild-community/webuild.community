@@ -9,6 +9,7 @@ import Community from 'components/Community';
 import Supporters from './Supporters';
 import { BlogPostResponse } from 'apis/contentful';
 import { Event } from 'types/schema';
+import TwitterSection from './Twitter';
 
 interface Props {
   events: Event[];
@@ -26,6 +27,7 @@ const Home = ({ events, news }: Props) => (
       <Supporters />
       <Community />
     </div>
+    <TwitterSection />
   </DefaultLayout>
 );
 
