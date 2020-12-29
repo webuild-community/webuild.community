@@ -21,4 +21,4 @@ jobs:
         run: |
           yarn
           yarn build
-          npx netlify-cli deploy --dir=public/ --prod --message='Deployment for ${GITHUB_REF}'
+          npx netlify-cli deploy --dir=public --prod --message='Deployment for ${GITHUB_REF}'
