@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'components/Container';
 
 const Skeleton = () => (
-  <div className="p-10 space-y-10 animate-pulse">
+  <div className="p-10 space-y-10">
     <div className="h-4 w-16 bg-gray-100" />
     <div className="space-y-8">
       <div className="space-y-3">
@@ -25,22 +25,20 @@ const TwitterSection = () => (
   <section id="hero" className="py-16 sm:py-16 lg:py-24">
     <Container>
       <div className="bg-white border-gray-200 border overflow-hidden max-w-sm mx-auto">
-        <script
-          async
-          src="https://platform.twitter.com/widgets.js"
-          charset="utf-8"
-        ></script>
         {/* below html servers as placeholder, they will be replaced once Twitter's script loaded */}
         <a
-          className={[
-            'twitter-timeline' // targeted by Twitter's script
-          ]}
+          className="twitter-timeline"
           data-theme="light"
           href="https://twitter.com/nntruonghan/lists/webuild-community-19282"
           data-height={600}
         >
           <Skeleton />
         </a>
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
       </div>
     </Container>
   </section>
