@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Netlify deployment
         env:
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_APP_ID: ${{ secrets.NETLIFY_APP_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           APP_NAME: 'website'
           APP_STAGE: 'development'
