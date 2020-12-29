@@ -34,7 +34,7 @@ jobs:
           yarn
       - name: Netlify deployment
         env:
-          NETLIFY_APP_ID: '${{ secrets.NETLIFY_APP_ID }}'
+          NETLIFY_SITE_ID: '${{ secrets.NETLIFY_SITE_ID }}'
           NETLIFY_AUTH_TOKEN: '${{ secrets.NETLIFY_AUTH_TOKEN }}'
 
         run: >

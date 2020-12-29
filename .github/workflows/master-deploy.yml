@@ -18,8 +18,6 @@ jobs:
         env:
           NETLIFY_APP_ID: ${{ secrets.NETLIFY_APP_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          APP_NAME: 'website'
-          APP_STAGE: 'development'
         run: |
           yarn
           yarn build
