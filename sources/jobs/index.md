@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Oivan'
+    date: '2021-01-04T06:19:27Z'
+    desc: 'Full Stack Ruby on Rails/NodeJS/Angular Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2238'
+    location: 'Others'
+    title: 'Full Stack Ruby on Rails/NodeJS/Angular Developer'
+    type: Fulltime
   - company: 'Danh Khôi'
     date: '2020-12-17T04:59:56Z'
     desc: 'Senior Business Analysis'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2219'
     location: 'HCM'
     title: 'Director of Engineering'
-    type: Fulltime
-  - company: 'LARION'
-    date: '2020-12-01T08:01:37Z'
-    desc: 'Senior Fullstack Python Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2218'
-    location: 'HCM'
-    title: 'Senior Fullstack Python Engineer'
     type: Fulltime
 ---
