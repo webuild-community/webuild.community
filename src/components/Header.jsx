@@ -30,7 +30,7 @@ const Header = ({ variant = 'default' }) => {
                   'text-subprimary': isPrimaryVariant,
                   'text-gray-800 font-bold': !isPrimaryVariant
                 })}
-                to="#jobs"
+                to="/#jobs"
               >
                 Jobs
               </Link>
@@ -41,7 +41,7 @@ const Header = ({ variant = 'default' }) => {
                   'text-subprimary': isPrimaryVariant,
                   'text-gray-700': !isPrimaryVariant
                 })}
-                to="#upcoming-events"
+                to="/#upcoming-events"
               >
                 Events
               </Link>
@@ -82,7 +82,7 @@ const Header = ({ variant = 'default' }) => {
           'border-gray-200': !isPrimaryVariant
         })}
       >
-        <ul className="flex whitespace-no-wrap py-3">
+        <ul className="flex whitespace-nowrap py-3">
           <li className="pr-8">
             <Link
               className={classnames({
