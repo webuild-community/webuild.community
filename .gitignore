@@ -5,10 +5,15 @@ node_modules
 yarn-error.log
 
 # Build directory
-/public
+.next
+out
+
+# next-on-netlify
+out_publish
+out_functions
 
 # macOS
 .DS_Store
 
-# deployment-specific configs
-now.json
+# env
+.env.local
