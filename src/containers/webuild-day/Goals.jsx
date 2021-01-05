@@ -30,13 +30,11 @@ const Goals = () => {
             WeBuild Day with the following objectives:
           </p>
 
-          <ul className="flex flex-wrap lg:flex-no-wrap">
-            {listContent.map(({ title, description }, index, arr) => (
+          <ul className="flex flex-wrap lg:flex-nowrap -mx-2">
+            {listContent.map(({ title, description }) => (
               <li
                 key={title}
-                className={classnames('flex mb-4 lg:mb-0', {
-                  'mr-4': index !== arr.length - 1
-                })}
+                className={classnames('flex mb-4 lg:mb-0 w-1/2 px-2')}
               >
                 <div className="bg-white flex-shrink-0 w-2 h-2 transform rotate-45 translate-y-3 mr-2" />
                 <div>

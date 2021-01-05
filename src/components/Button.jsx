@@ -11,7 +11,7 @@ const Button = ({
   <button
     {...rest}
     className={classnames(
-      'text-base px-5 py-2 rounded-sm leading-none whitespace-no-wrap font-medium',
+      'text-base px-5 py-2 rounded-sm leading-none whitespace-nowrap font-medium',
       bgClassName,
       textColorClassName,
       className

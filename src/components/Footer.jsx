@@ -24,7 +24,7 @@ const Footer = () => (
 
             <a
               href="mailto:hello@webuild.community"
-              className="flex items-center text-gray-500 text-base font-bold whitespace-no-wrap"
+              className="flex items-center text-gray-500 text-base font-bold whitespace-nowrap"
             >
               <EmailIcon fill="currentColor" />
               <span className="ml-2">hello@webuild.community</span>
