@@ -6,37 +6,14 @@ import Button from 'components/Button';
 import Container from 'components/Container';
 import { H3, H6 } from 'components/typography';
 import classnames from 'classnames';
-// import { graphql, StaticQuery } from 'gatsby';
-
-// const jobQuery = graphql`
-//   {
-//     data: allMarkdownRemark(filter: { frontmatter: { key: { eq: "jobs" } } }) {
-//       edges {
-//         node {
-//           id
-//           frontmatter {
-//             list {
-//               company
-//               date
-//               desc
-//               isOpened
-//               linkURL
-//               location
-//               title
-//               type
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;
 
 dayjs.extend(relativeTime);
 
 const Jobs = () => <JobsInternal items={[]} />;
 
 const JobsInternal = ({ items }) => {
+  const [data] = useState([]);
+
   const [titleFilter, setTitleFilter] = useState('all');
   const [locationFilter, setLocationFilter] = useState('all');
 
@@ -71,7 +48,7 @@ const JobsInternal = ({ items }) => {
     [items, titleFilter]
   );
 
-  const filterList = items.filter(({ location, title }) => {
+  const filterList = data.filter(({ location, title }) => {
     return (
       (titleFilter === 'all' ||
         (titleFilter !== 'all' && titleFilter === title)) &&
@@ -133,7 +110,7 @@ const JobsInternal = ({ items }) => {
           ) : (
             filterList.map(
               (
-                { number, company, title, location, type, date, linkURL },
+                { number, company, title, location, type, date, url },
                 index
               ) => {
                 return (
@@ -151,11 +128,7 @@ const JobsInternal = ({ items }) => {
                       <div>
                         #{number} {company}
                       </div>
-                      <a
-                        href={linkURL}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href={url} target="_blank" rel="noopener noreferrer">
                         <H6 className="hover:text-primary transition-colors duration-200">
                           {title}
                         </H6>

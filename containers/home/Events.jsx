@@ -1,42 +1,38 @@
-import React from 'react';
-// import { graphql, StaticQuery } from 'gatsby';
+import React, { useEffect, useState } from 'react';
 import Container from 'components/Container';
 import dayjs from 'dayjs';
 import { H3, H6 } from 'components/typography';
 import Button from 'components/Button';
 import classnames from 'classnames';
 import { ReactComponent as PastStamp } from '../../assets/svg/past-stamp.svg';
-
-// const eventsQuery = graphql`
-//   {
-//     data: allMarkdownRemark(
-//       filter: { frontmatter: { key: { eq: "events" } } }
-//     ) {
-//       edges {
-//         node {
-//           id
-//           frontmatter {
-//             list {
-//               location
-//               date
-//               guests
-//               name
-//               link
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;
+import { airtable } from 'apis/airtable';
 
 const Events = () => {
-  const list = [];
+  const [data, setData] = useState([]);
 
-  if (!list) {
-    return null;
-  }
-  const sortedList = [...list].sort((a, b) =>
+  useEffect(() => {
+    airtable('Event')
+      .select({
+        view: 'Grid view'
+      })
+      .firstPage(function (err, records) {
+        if (err) {
+          console.error(err);
+          return;
+        }
+
+        setData(
+          records.map(record => ({
+            url: record.get('Event URL'),
+            date: record.get('Date'),
+            name: record.get('Event Name'),
+            location: record.get('Location')
+          }))
+        );
+      });
+  }, []);
+
+  const sortedList = [...data].sort((a, b) =>
     dayjs(a.date).isAfter(dayjs(b.date))
   );
   const fortcoming = [];
@@ -74,7 +70,7 @@ const Events = () => {
           </div>
         ) : (
           listToShow.map(
-            ({ location, date, guests, name, link, isPast }, index) => {
+            ({ location, date, guests, name, url, isPast }, index) => {
               const info = [
                 `${dayjs(date).format('MMM DD, YYYY')} at ${dayjs(date).format(
                   'hh:mm a'
@@ -85,7 +81,7 @@ const Events = () => {
               }
               return (
                 <div
-                  key={link}
+                  key={url}
                   className={classnames('py-5 relative', {
                     'border-b border-gray-200': index < listToShow.length - 1
                   })}
@@ -96,7 +92,7 @@ const Events = () => {
                   <div className="flex">
                     <a
                       style={{ maxWidth: 'calc(100% - 5rem)' }}
-                      href={link}
+                      href={url}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
