@@ -1,6 +1,14 @@
 ---
 key: jobs
 list:
+  - company: 'Ascenda Loyalty'
+    date: '2021-01-06T04:01:17Z'
+    desc: 'Frontend/Backend/QA Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2240'
+    location: 'HCM'
+    title: 'Frontend/Backend/QA Engineer'
+    type: Fulltime
   - company: 'Oivan'
     date: '2021-01-04T06:19:27Z'
     desc: 'Full Stack Ruby on Rails/NodeJS/Angular Developer'
@@ -48,7 +56,7 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2231'
     location: 'HCM'
     title: 'Product Manager/ Product Owner'
-    type: FT
+    type:  FT
   - company: 'FETCH TECHOLOGY'
     date: '2020-12-15T07:19:12Z'
     desc: 'ReactJS Developer (Junior, Senior)'
@@ -72,13 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2222'
     location: 'HCM'
     title: 'Middle Fullstack PHP Engineer'
-    type: Fulltime
-  - company: 'Koidra'
-    date: '2020-12-04T07:18:31Z'
-    desc: 'Director of Engineering'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2219'
-    location: 'HCM'
-    title: 'Director of Engineering'
     type: Fulltime
 ---
