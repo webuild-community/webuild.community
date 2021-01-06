@@ -3,6 +3,7 @@ import Home from 'containers/home';
 import { airtable } from 'apis/airtable';
 
 import { GetStaticProps } from 'next';
+import { NextSeo } from 'next-seo';
 
 export const getStaticProps: GetStaticProps = async () => {
   const records = await airtable('Event')
@@ -25,7 +26,23 @@ export const getStaticProps: GetStaticProps = async () => {
 };
 
 function IndexPage(props) {
-  return <Home events={props.events} />;
+  return (
+    <>
+      <NextSeo
+        openGraph={{
+          images: [
+            {
+              width: 1200,
+              height: 628,
+              url: `/webuild-og.jpg`
+            }
+          ]
+        }}
+      />
+
+      <Home events={props.events} />
+    </>
+  );
 }
 
 export default IndexPage;
