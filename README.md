@@ -32,7 +32,6 @@ Building and deploying the site is done via `yarn`
 - `yarn` installs dependencies
 - `yarn dev` runs webpack dev server for development mode
 - `yarn build` builds source code to static files for production
-- `yarn serve` serves compiled static files on local
 
 ## License
 

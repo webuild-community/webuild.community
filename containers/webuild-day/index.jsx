@@ -12,9 +12,10 @@ import { ReactComponent as TicketImg } from '../../assets/svg/ticket.svg';
 import { NextSeo } from 'next-seo';
 
 const WebuildDay = () => (
-  <DefaultLayout headerVariant="primary">
+  <>
     <NextSeo
       title="WeBuild Day 2020"
+      description="WeBuild Day is a post-COVID-19 initiative to restore the activities among the developer community in Vietnam."
       openGraph={{
         title: 'WeBuild Day 2020',
         description:
@@ -28,28 +29,30 @@ const WebuildDay = () => (
         ]
       }}
     />
-    <HeroBanner />
-    <Goals />
-    <TheProgram />
-    <Schedule />
-    <CTAJoin />
-    <Sponsors />
-    <Community />
-    <CTASupport />
-    <div
-      className="fixed bottom-0 right-0 z-50"
-      style={{ bottom: '5%', right: '5%' }}
-    >
-      <a
-        className="cursor-pointer focus:outline-none"
-        href="https://ticketbox.vn/event/webuild-day-121220-81060"
-        target="_blank"
-        rel="noopener noreferrer"
+    <DefaultLayout headerVariant="primary">
+      <HeroBanner />
+      <Goals />
+      <TheProgram />
+      <Schedule />
+      <CTAJoin />
+      <Sponsors />
+      <Community />
+      <CTASupport />
+      <div
+        className="fixed bottom-0 right-0 z-50"
+        style={{ bottom: '5%', right: '5%' }}
       >
-        <TicketImg />
-      </a>
-    </div>
-  </DefaultLayout>
+        <a
+          className="cursor-pointer focus:outline-none"
+          href="https://ticketbox.vn/event/webuild-day-121220-81060"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <TicketImg />
+        </a>
+      </div>
+    </DefaultLayout>
+  </>
 );
 
 export default WebuildDay;
