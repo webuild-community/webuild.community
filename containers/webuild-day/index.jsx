@@ -9,23 +9,25 @@ import Sponsors from './Sponsors';
 import Community from 'components/Community';
 import CTASupport from 'components/CTASupport';
 import { ReactComponent as TicketImg } from '../../assets/svg/ticket.svg';
-// import SEO from 'components/seo';
+import { NextSeo } from 'next-seo';
 
 const WebuildDay = () => (
   <DefaultLayout headerVariant="primary">
-    {/* <SEO
+    <NextSeo
       title="WeBuild Day 2020"
-      description="WeBuild Day is a post-COVID-19 initiative to restore the activities among the developer community in Vietnam."
-      keywords={[
-        'WeBuild',
-        'WeBuild Day 2020',
-        'commutity',
-        'connect',
-        'developer',
-        'Vietnam'
-      ]}
-      // ogImagePath={withPrefix(`/img/webuild-day-og.png`)}
-    /> */}
+      openGraph={{
+        title: 'WeBuild Day 2020',
+        description:
+          'WeBuild Day is a post-COVID-19 initiative to restore the activities among the developer community in Vietnam.',
+        images: [
+          {
+            url: '/webuild-day-og.png',
+            width: 1200,
+            height: 630
+          }
+        ]
+      }}
+    />
     <HeroBanner />
     <Goals />
     <TheProgram />
