@@ -21,7 +21,7 @@ class MyApp extends App<{
   }
 
   render() {
-    const { Component, pageProps, origin } = this.props;
+    const { Component, pageProps, origin = 'webuild.community' } = this.props;
 
     return (
       <>
@@ -39,7 +39,7 @@ class MyApp extends App<{
               {
                 width: 1200,
                 height: 628,
-                url: `https://${origin}/og-img.png`
+                url: `https://${origin}/webuild-og.jpg`
               }
             ]
           }}
