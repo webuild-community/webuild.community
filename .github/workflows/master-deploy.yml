@@ -18,6 +18,8 @@ jobs:
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_APP_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
         run: |
           yarn
           yarn build
