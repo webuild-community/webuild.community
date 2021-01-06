@@ -34,14 +34,7 @@ class MyApp extends App<{
               'WeBuild Community is a platform that connects developers in Vietnam, where they can share their knowledge and experience, while working, learning, and building cool stuffs together.',
             url: `https://${origin}`,
             site_name: 'WeBuild Community',
-            title: 'WeBuild Community',
-            images: [
-              {
-                width: 1200,
-                height: 628,
-                url: `https://${origin}/webuild-og.jpg`
-              }
-            ]
+            title: 'WeBuild Community'
           }}
           description="WeBuild Community is a platform that connects developers in Vietnam, where they can share their knowledge and experience, while working, learning, and building cool stuffs together."
         />
