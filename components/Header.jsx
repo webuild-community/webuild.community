@@ -6,9 +6,11 @@ import Button from './Button';
 import Container from './Container';
 import smoothscroll from 'smoothscroll-polyfill';
 import classnames from 'classnames';
+import { useRouter } from 'next/router';
 
 const Header = ({ variant = 'default' }) => {
   const isPrimaryVariant = variant === 'primary';
+  const { pathname } = useRouter();
 
   useEffect(() => {
     smoothscroll.polyfill();
@@ -30,7 +32,8 @@ const Header = ({ variant = 'default' }) => {
                 <a
                   className={classnames({
                     'text-subprimary': isPrimaryVariant,
-                    'text-gray-800 font-bold': !isPrimaryVariant
+                    'text-gray-800': !isPrimaryVariant,
+                    'font-bold': pathname === '/'
                   })}
                 >
                   Jobs
@@ -58,6 +61,19 @@ const Header = ({ variant = 'default' }) => {
                   })}
                 >
                   WeBuild Day
+                </a>
+              </Link>
+            </li>
+            <li className="px-6">
+              <Link href="/blog">
+                <a
+                  className={classnames({
+                    'text-subprimary': isPrimaryVariant,
+                    'text-gray-700': !isPrimaryVariant,
+                    'font-bold': pathname.startsWith('/blog')
+                  })}
+                >
+                  Blog
                 </a>
               </Link>
             </li>
@@ -120,6 +136,19 @@ const Header = ({ variant = 'default' }) => {
                 })}
               >
                 WeBuild Day
+              </a>
+            </Link>
+          </li>
+          <li className="pr-8">
+            <Link href="/blog">
+              <a
+                className={classnames({
+                  'text-subprimary': isPrimaryVariant,
+                  'text-gray-700': !isPrimaryVariant,
+                  'font-bold': pathname.startsWith('/blog')
+                })}
+              >
+                Blog
               </a>
             </Link>
           </li>
