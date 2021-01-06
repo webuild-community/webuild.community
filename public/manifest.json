@@ -1,0 +1,7 @@
+{
+  "name": "WeBuild Community",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#34785C",
+  "background_color": "#ffffff"
+}

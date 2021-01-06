@@ -48,7 +48,7 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2231'
     location: 'HCM'
     title: 'Product Manager/ Product Owner'
-    type:  FT
+    type: FT
   - company: 'FETCH TECHOLOGY'
     date: '2020-12-15T07:19:12Z'
     desc: 'ReactJS Developer (Junior, Senior)'

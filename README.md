@@ -2,9 +2,9 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ba693dc5-f63b-4eef-a2b5-e36687dc8cca/deploy-status)](https://app.netlify.com/sites/webuild-community/deploys)
 
-This is the official repo for webuild.community webiste.
+This is the official repo for webuild.community website.
 
-It was built using [gatsby](https://github.com/gatsbyjs/gatsby), a progressive static-site generator for React. The output is a static website hosted in Netlify.
+It was built using [next](https://nextjs.org/), a framework for React to build static and dynamic websites and web applications.
 
 ## How to Contribute
 
