@@ -12,7 +12,6 @@ import {
 import { BLOCKS } from '@contentful/rich-text-types';
 import NotFoundPage from '../../components/NotFoundPage';
 import { NextSeo } from 'next-seo';
-import { useRouter } from 'next/router';
 import DefaultLayout from '../../components/DefaultLayout';
 import Container from '../../components/Container';
 
@@ -71,13 +70,11 @@ const Post: NextPage<{
   data: PostDetailResponse;
   error: string;
 }> = ({ data, error }) => {
-  const { asPath } = useRouter();
-
   if (error) {
     return <NotFoundPage />;
   }
 
-  const seoImages = [];
+  const seoImages: any[] = [];
 
   if (data.heroImage) {
     seoImages.push({

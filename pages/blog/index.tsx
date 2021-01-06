@@ -35,6 +35,7 @@ const Blog: NextPage<{
   blogFeaturedPostResponse: BlogPostResponse;
 }> = ({ blogPostResponse }) => {
   const { entries, limit, skip, total } = blogPostResponse;
+  console.log({ limit, skip, total });
   return (
     <>
       <NextSeo title="Blog | WeBuild" />
