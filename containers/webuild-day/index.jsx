@@ -1,4 +1,3 @@
-// import { withPrefix } from 'gatsby';
 import React from 'react';
 import DefaultLayout from 'components/DefaultLayout';
 import HeroBanner from './HeroBanner';

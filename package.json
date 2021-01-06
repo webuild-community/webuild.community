@@ -6,7 +6,6 @@
     "airtable": "^0.10.1",
     "classnames": "^2.2.6",
     "dayjs": "^1.8.26",
-    "gatsby": "2.29.2",
     "next": "^10.0.4",
     "next-seo": "^4.17.0",
     "preact": "^10.5.7",
@@ -29,9 +28,6 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "prettify": "prettier -c --write \"*/**\""
   },
   "devDependencies": {
@@ -51,7 +47,7 @@
     "eslint-plugin-react": "7.21.5",
     "husky": "^4.3.6",
     "lint-staged": "^10.5.3",
-    "next-on-netlify": "^2.7.0",
+    "next-on-netlify": "^2.6.3",
     "postcss": "^8.2.2",
     "prettier": "^2.2.1",
     "typescript": "^4.1.3"
