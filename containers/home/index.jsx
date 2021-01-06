@@ -8,12 +8,12 @@ import Jobs from './Jobs';
 import Community from 'components/Community';
 import Supporters from './Supporters';
 
-const Home = () => (
+const Home = ({ events }) => (
   <DefaultLayout>
     {/* <SEO /> */}
     <HeroBanner />
     <WhatWeDo />
-    <Events />
+    <Events events={events} />
     <Jobs />
     <div className="bg-white border-t border-gray-200 pb-px">
       <Supporters />

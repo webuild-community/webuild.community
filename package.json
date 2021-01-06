@@ -21,6 +21,8 @@
   },
   "license": "MIT",
   "scripts": {
+    "convert-jobs-data": "node ./scripts/sourceGatsbyMdToJson.ts",
+    "postinstall": "yarn convert-jobs-data",
     "analyze:lint": "eslint --ext .jsx --ext .js .",
     "analyze": "yarn analyze:lint && yarn analyze:prettier",
     "postbuild": "next-on-netlify",

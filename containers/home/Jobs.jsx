@@ -6,14 +6,11 @@ import Button from 'components/Button';
 import Container from 'components/Container';
 import { H3, H6 } from 'components/typography';
 import classnames from 'classnames';
+import items from '../../sources/jobs/index.json';
 
 dayjs.extend(relativeTime);
 
-const Jobs = () => <JobsInternal items={[]} />;
-
-const JobsInternal = ({ items }) => {
-  const [data] = useState([]);
-
+const Jobs = () => {
   const [titleFilter, setTitleFilter] = useState('all');
   const [locationFilter, setLocationFilter] = useState('all');
 
@@ -31,7 +28,7 @@ const JobsInternal = ({ items }) => {
         .filter((jobTitle, i, array) => array.indexOf(jobTitle) === i)
         .map(jobTitle => ({ value: jobTitle, text: jobTitle }))
     ],
-    [items, locationFilter]
+    [locationFilter]
   );
 
   const locationOptions = useMemo(
@@ -45,10 +42,10 @@ const JobsInternal = ({ items }) => {
         .filter((location, i, array) => array.indexOf(location) === i)
         .map(location => ({ value: location, text: location }))
     ],
-    [items, titleFilter]
+    [titleFilter]
   );
 
-  const filterList = data.filter(({ location, title }) => {
+  const filterList = items.filter(({ location, title }) => {
     return (
       (titleFilter === 'all' ||
         (titleFilter !== 'all' && titleFilter === title)) &&

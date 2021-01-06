@@ -1,38 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Container from 'components/Container';
 import dayjs from 'dayjs';
 import { H3, H6 } from 'components/typography';
 import Button from 'components/Button';
 import classnames from 'classnames';
 import { ReactComponent as PastStamp } from '../../assets/svg/past-stamp.svg';
-import { airtable } from 'apis/airtable';
 
-const Events = () => {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    airtable('Event')
-      .select({
-        view: 'Grid view'
-      })
-      .firstPage(function (err, records) {
-        if (err) {
-          console.error(err);
-          return;
-        }
-
-        setData(
-          records.map(record => ({
-            url: record.get('Event URL'),
-            date: record.get('Date'),
-            name: record.get('Event Name'),
-            location: record.get('Location')
-          }))
-        );
-      });
-  }, []);
-
-  const sortedList = [...data].sort((a, b) =>
+const Events = ({ events }) => {
+  const sortedList = [...events].sort((a, b) =>
     dayjs(a.date).isAfter(dayjs(b.date))
   );
   const fortcoming = [];
