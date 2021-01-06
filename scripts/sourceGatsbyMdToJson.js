@@ -1,4 +1,4 @@
-import fs from 'fs';
+const fs = require('fs');
 
 fs.readFile('./sources/jobs/index.md', 'utf8', function (err, data) {
   if (err) {

@@ -17,3 +17,5 @@ out_functions
 
 # env
 .env.local
+
+sources/jobs/index.json
