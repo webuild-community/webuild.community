@@ -1,6 +1,22 @@
 ---
 key: jobs
 list:
+  - company: 'LOOP Smart POS'
+    date: '2021-01-07T10:02:46Z'
+    desc: 'Junior Backend Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2242'
+    location: 'HN'
+    title: 'Junior Backend Developer'
+    type: Fulltime
+  - company: 'LOOP Smart POS'
+    date: '2021-01-07T09:50:53Z'
+    desc: 'Integration Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2241'
+    location: 'HCM'
+    title: 'Integration Engineer'
+    type: Fulltime
   - company: 'Ascenda Loyalty'
     date: '2021-01-06T04:01:17Z'
     desc: 'Frontend/Backend/QA Engineer'
@@ -64,21 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2230'
     location: 'HCM'
     title: 'ReactJS Developer (Junior, Senior)'
-    type: Fulltime
-  - company: 'Zigexn VeNtura'
-    date: '2020-12-10T09:58:15Z'
-    desc: 'Ruby on Rails Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2228'
-    location: 'Others'
-    title: 'Ruby on Rails Developer'
-    type: Fulltime
-  - company: 'gumiVietnam'
-    date: '2020-12-08T06:07:33Z'
-    desc: 'Middle Fullstack PHP Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2222'
-    location: 'HCM'
-    title: 'Middle Fullstack PHP Engineer'
     type: Fulltime
 ---
