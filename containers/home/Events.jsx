@@ -7,9 +7,14 @@ import classnames from 'classnames';
 import { ReactComponent as PastStamp } from '../../assets/svg/past-stamp.svg';
 
 const Events = ({ events }) => {
-  const sortedList = [...events].sort((a, b) =>
-    dayjs(a.date).isAfter(dayjs(b.date))
-  );
+  const sortedList = [...events].sort((a, b) => {
+    return dayjs(a.date).isBefore(dayjs(b.date))
+      ? 1
+      : dayjs(a.date).isAfter(dayjs(b.date))
+      ? -1
+      : 0;
+  });
+
   const fortcoming = [];
   const past = [];
   const now = Date.now();
