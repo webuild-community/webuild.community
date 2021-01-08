@@ -5,6 +5,7 @@ import { NextSeo } from 'next-seo';
 import DefaultLayout from 'components/DefaultLayout';
 import Container from 'components/Container';
 import PostList from 'components/PostList';
+import NotFoundPage from 'components/NotFoundPage';
 
 const POST_PER_PAGE = 10;
 
@@ -24,16 +25,19 @@ export const getServerSideProps: GetServerSideProps = async context => {
     return {
       props: { blogPostResponse }
     };
-  } catch (err) {
-    console.log(err);
-    return { props: {} };
+  } catch (error) {
+    return { props: { error: error.message } };
   }
 };
 
 const Blog: NextPage<{
   blogPostResponse: BlogPostResponse;
-  blogFeaturedPostResponse: BlogPostResponse;
-}> = ({ blogPostResponse }) => {
+  error: string;
+}> = ({ blogPostResponse, error }) => {
+  if (error) {
+    return <NotFoundPage />;
+  }
+
   return (
     <>
       <NextSeo title="Blog | WeBuild" />
