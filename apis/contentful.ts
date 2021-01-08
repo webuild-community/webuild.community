@@ -79,7 +79,7 @@ async function getBlogPostEntries({
       include: 1,
       limit,
       skip,
-      'fields.category.sys.id': tag.id || '',
+      'fields.tags.sys.id': tag.id || '',
       content_type: CONTENT_TYPE_BLOGPOST
     });
     const entries = contents.items.map(({ sys, fields }) => ({
@@ -104,6 +104,7 @@ async function getBlogPostEntries({
       skip
     } as BlogPostResponse;
   } catch (error) {
+    console.log(error);
     return Promise.reject(error);
   }
 }
