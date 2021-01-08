@@ -9,7 +9,7 @@ const HeroBannerSection = ({ news }) => (
     <Container>
       <ul className="list-disc list-inside mb-20 sm:mb-10">
         {news.entries.map(post => (
-          <li className="py-2" key={post.slug}>
+          <li className="py-1" key={post.slug}>
             <Link href={`/blog/${post.slug}`}>
               <a className="text-lg font-bold mb-1 hover:text-primary underline">
                 {post.title}
