@@ -107,7 +107,7 @@ const Jobs = () => {
           ) : (
             filterList.map(
               (
-                { number, company, title, location, type, date, url },
+                { number, company, title, location, type, date, linkURL },
                 index
               ) => {
                 return (
@@ -125,7 +125,11 @@ const Jobs = () => {
                       <div>
                         #{number} {company}
                       </div>
-                      <a href={url} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={linkURL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <H6 className="hover:text-primary transition-colors duration-200">
                           {title}
                         </H6>
