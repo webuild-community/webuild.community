@@ -51,6 +51,7 @@ async function getBlogPostEntries({
       id: sys.id,
       title: fields.title,
       excerpt: fields.excerpt,
+      createdAt: sys.createdAt,
       slug: fields.slug,
       tags: (fields?.tags || []).map(({ fields: { name, slug } }) => ({
         name,
