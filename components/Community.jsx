@@ -52,7 +52,7 @@ const CommunitySection = () => (
           },
           {
             title: 'Geeky Weekend',
-            imgUrl: '/images/communities/gdg.jpg',
+            imgUrl: '/images/communities/geeky.jpg',
             href: 'https://www.facebook.com/geekyweekend/'
           },
           {
