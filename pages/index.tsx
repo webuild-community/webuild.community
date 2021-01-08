@@ -3,7 +3,7 @@ import Home from 'containers/home';
 import { airtable } from 'apis/airtable';
 import ContentfulService from '../apis/contentful';
 
-import { GetStaticProps, GetServerSideProps } from 'next';
+import { GetStaticProps } from 'next';
 import { NextSeo } from 'next-seo';
 
 export const getStaticProps: GetStaticProps = async () => {

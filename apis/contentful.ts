@@ -2,6 +2,7 @@ import { createClient, ContentfulClientApi } from 'contentful';
 import { Tag, Post } from './types/blog';
 
 export const CONTENT_TYPE_BLOGPOST = 'post';
+export const CONTENT_TYPE_TAG = 'tag';
 
 const space = process.env.CONTENTFUL_SPACE || '';
 const accessToken = process.env.CONTENTFUL_TOKEN || '';
@@ -14,6 +15,12 @@ const client = createClient({
   accessToken,
   environment
 });
+
+export interface BlogTag {
+  id: string;
+  name: string;
+  slug: string;
+}
 
 export interface BlogPost {
   id: string;
@@ -33,18 +40,46 @@ export interface BlogPostResponse {
   skip: number;
 }
 
+async function getTagBySlug(slug: string) {
+  try {
+    const contents = await client.getEntries<Tag['fields']>({
+      content_type: CONTENT_TYPE_TAG,
+      'fields.slug': slug
+    });
+
+    const [{ sys, fields }] = contents.items;
+
+    return {
+      id: sys.id,
+      slug: fields.slug,
+      name: fields.name
+    } as BlogTag;
+  } catch (error) {
+    return Promise.reject(error);
+  }
+}
+
 async function getBlogPostEntries({
   limit = 5,
-  skip = 0
+  skip = 0,
+  tagSlug = ''
 }: {
   limit?: number;
   skip?: number;
+  tagSlug?: string;
 } = {}) {
+  let tag = {} as BlogTag;
+
+  if (tagSlug) {
+    tag = await getTagBySlug(tagSlug);
+  }
+
   try {
     const contents = await client.getEntries<Post>({
       include: 1,
       limit,
       skip,
+      'fields.category.sys.id': tag.id || '',
       content_type: CONTENT_TYPE_BLOGPOST
     });
     const entries = contents.items.map(({ sys, fields }) => ({
@@ -52,6 +87,7 @@ async function getBlogPostEntries({
       title: fields.title,
       excerpt: fields.excerpt,
       createdAt: sys.createdAt,
+      updatedAt: sys.updatedAt,
       slug: fields.slug,
       tags: (fields?.tags || []).map(({ fields: { name, slug } }) => ({
         name,

@@ -23,7 +23,9 @@ const Header = ({ variant = 'default' }) => {
       })}
     >
       <Container className="flex items-center justify-between">
-        <Link href="/">{isPrimaryVariant ? <LogoWhite /> : <Logo />}</Link>
+        <Link href="/">
+          <a>{isPrimaryVariant ? <LogoWhite /> : <Logo />}</a>
+        </Link>
 
         <div className="items-center flex">
           <ul className="pr-6 sm:flex hidden">

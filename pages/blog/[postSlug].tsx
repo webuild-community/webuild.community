@@ -83,13 +83,6 @@ const Post: NextPage<{
       height: 628,
       alt: data.title
     });
-  } else {
-    seoImages.push({
-      url: data.thumbnail,
-      width: 300,
-      height: 300,
-      alt: data.title
-    });
   }
 
   return (
