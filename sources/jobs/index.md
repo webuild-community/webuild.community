@@ -1,6 +1,22 @@
 ---
 key: jobs
 list:
+  - company: 'Yojee'
+    date: '2021-01-08T07:35:01Z'
+    desc: 'Fullstack Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2247'
+    location: 'HCM'
+    title: 'Fullstack Engineer'
+    type: Fulltime
+  - company: 'Yojee'
+    date: '2021-01-08T07:31:26Z'
+    desc: 'Senior Backend Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2246'
+    location: 'HCM'
+    title: 'Senior Backend Engineer'
+    type: Fulltime
   - company: 'LOOP Smart POS'
     date: '2021-01-07T10:02:46Z'
     desc: 'Junior Backend Developer'
@@ -64,21 +80,5 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2233'
     location: 'HCM'
     title: 'Test Engineer'
-    type: Fulltime
-  - company: 'FETCH TECHNOLOGY'
-    date: '2020-12-15T07:24:22Z'
-    desc: 'Product Manager/ Product Owner'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2231'
-    location: 'HCM'
-    title: 'Product Manager/ Product Owner'
-    type:  FT
-  - company: 'FETCH TECHOLOGY'
-    date: '2020-12-15T07:19:12Z'
-    desc: 'ReactJS Developer (Junior, Senior)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2230'
-    location: 'HCM'
-    title: 'ReactJS Developer (Junior, Senior)'
     type: Fulltime
 ---
