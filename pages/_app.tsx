@@ -1,27 +1,11 @@
 import React from 'react';
 import '../styles/main.css';
-import App, { AppContext } from 'next/app';
+import App from 'next/app';
 import { DefaultSeo } from 'next-seo';
 
-class MyApp extends App<{
-  origin: string;
-}> {
-  static async getInitialProps(appContext: AppContext) {
-    const {
-      ctx: { req }
-    } = appContext;
-
-    const origin = req?.headers.host;
-    const appProps = await App.getInitialProps(appContext);
-
-    return {
-      ...appProps,
-      origin
-    };
-  }
-
+class MyApp extends App {
   render() {
-    const { Component, pageProps, origin = 'webuild.community' } = this.props;
+    const { Component, pageProps } = this.props;
 
     return (
       <>
@@ -32,7 +16,7 @@ class MyApp extends App<{
             locale: 'vi_VN',
             description:
               'WeBuild Community is a platform that connects developers in Vietnam, where they can share their knowledge and experience, while working, learning, and building cool stuffs together.',
-            url: `https://${origin}`,
+            url: `https://webuild.community`,
             site_name: 'WeBuild Community',
             title: 'WeBuild Community'
           }}

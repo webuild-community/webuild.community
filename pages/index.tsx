@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from 'containers/home';
 import { airtable } from 'apis/airtable';
+import ContentfulService from '../apis/contentful';
 
 import { GetStaticProps } from 'next';
 import { NextSeo } from 'next-seo';
@@ -13,6 +14,11 @@ export const getStaticProps: GetStaticProps = async () => {
     })
     .all();
 
+  const news = await ContentfulService.getBlogPostEntries({
+    skip: 0,
+    limit: 2
+  });
+
   const events = records.map(record => ({
     url: record.get('Event URL') || '',
     date: record.get('Date') || '',
@@ -21,7 +27,7 @@ export const getStaticProps: GetStaticProps = async () => {
   }));
 
   return {
-    props: { events } // will be passed to the page component as props
+    props: { events, news } // will be passed to the page component as props
   };
 };
 
@@ -40,7 +46,7 @@ function IndexPage(props) {
         }}
       />
 
-      <Home events={props.events} />
+      <Home events={props.events} news={props.news} />
     </>
   );
 }
