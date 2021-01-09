@@ -5,6 +5,7 @@ import { H3, H6 } from 'components/typography';
 import Button from 'components/Button';
 import classnames from 'classnames';
 import { ReactComponent as PastStamp } from '../../assets/svg/past-stamp.svg';
+import { formatDatetime } from 'utils/formatDatetime';
 
 const Events = ({ events }) => {
   const sortedList = [...events].sort((a, b) => {
@@ -52,7 +53,8 @@ const Events = ({ events }) => {
           listToShow.map(
             ({ location, date, guests, name, url, isPast }, index) => {
               const info = [
-                `${dayjs(date).format('MMM DD, YYYY')} at ${dayjs(date).format(
+                `${formatDatetime(date, 'MMM DD, YYYY')} at ${formatDatetime(
+                  date,
                   'hh:mm a'
                 )}`
               ];

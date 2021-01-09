@@ -38,3 +38,9 @@ input[disabled],
 button[disabled] {
   cursor: not-allowed;
 }
+
+.prose > ul > li > p,
+.prose > ul > li > p:first-child,
+.prose > ul > li > p:last-child {
+  margin: 0;
+}
