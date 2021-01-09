@@ -23,11 +23,7 @@ const PostList = ({ entries }: BlogListProps) => {
             <div>
               {tags.map(({ name, slug }, index) => (
                 <>
-                  <Link
-                    href="/blog/tag/:tagSlug"
-                    key={name}
-                    as={`/blog/tags/${slug}`}
-                  >
+                  <Link href={`/blog/tags/${slug}`} key={name}>
                     <a className="text-primary uppercase text-xs font-semibold">
                       {name}
                     </a>
