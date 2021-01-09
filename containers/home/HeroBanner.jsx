@@ -7,12 +7,12 @@ import Link from 'next/link';
 const HeroBannerSection = ({ news }) => (
   <section id="hero" className="pb-16 pt-4 sm:py-16 lg:pb-24 lg:pt-20">
     <Container>
-      <div className="flex sm:justify-end mb-20 sm:mb-36">
-        <ul className="list-disc list-inside">
+      <div className="flex mb-20 sm:mb-32">
+        <ul className="list-inside" style={{ listStyleType: 'square' }}>
           {news.entries.map(post => (
             <li className="py-1" key={post.slug}>
               <Link href={`/blog/${post.slug}`}>
-                <a className="text-lg font-bold mb-1 hover:text-primary underline">
+                <a className="text-base font-medium mb-1 hover:text-primary underline">
                   {post.title}
                 </a>
               </Link>

@@ -52,19 +52,21 @@ const Events = ({ events }) => {
         ) : (
           listToShow.map(
             ({ location, date, guests, name, url, isPast }, index) => {
-              const info = [
-                `${formatDatetime(date, 'MMM DD, YYYY')} at ${formatDatetime(
-                  date,
-                  'hh:mm a'
-                )}`
-              ];
+              const info = dayjs(date).isValid()
+                ? [
+                    `${formatDatetime(
+                      date,
+                      'MMM DD, YYYY'
+                    )} at ${formatDatetime(date, 'hh:mm a')}`
+                  ]
+                : [];
               if (guests > 0) {
                 info.push(`${guests} guests`);
               }
               return (
                 <div
                   key={url}
-                  className={classnames('py-5 relative', {
+                  className={classnames('py-5 relative space-y-1', {
                     'border-b border-gray-200': index < listToShow.length - 1
                   })}
                 >
@@ -88,7 +90,7 @@ const Events = ({ events }) => {
                       </span>
                     )}
                   </div>
-                  <div className="text-sm my-1 text-gray-700">
+                  <div className="text-sm text-gray-700">
                     {info.join(' - ')}
                   </div>
                   <div className="text-base text-gray-800">{location}</div>
