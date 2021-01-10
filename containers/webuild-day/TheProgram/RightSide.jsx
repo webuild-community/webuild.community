@@ -1,7 +1,6 @@
 import React from 'react';
 import { Tab, TabPanel } from './Tab';
 import Agenda from './Agenda';
-// import './rightside.css';
 
 const RightSide = () => {
   const [currentTab, setCurrentTab] = React.useState(0);

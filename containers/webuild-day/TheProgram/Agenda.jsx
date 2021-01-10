@@ -1,5 +1,4 @@
 import React from 'react';
-// import './agenda.css';
 
 const Agenda = () => {
   return (

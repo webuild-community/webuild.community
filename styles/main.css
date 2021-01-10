@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import 'containers/webuild-day/TheProgram/agenda.css';
+@import 'containers/webuild-day/TheProgram/rightside.css';
+
 html,
 body {
   background-color: #fefcf8;
