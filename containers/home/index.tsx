@@ -8,7 +8,12 @@ import Jobs from './Jobs';
 import Community from 'components/Community';
 import Supporters from './Supporters';
 
-const Home = ({ events, news }) => (
+interface Props {
+  events: any;
+  news: any;
+}
+
+const Home = ({ events, news }: Props) => (
   <DefaultLayout>
     {/* <SEO /> */}
     <HeroBanner news={news} />
