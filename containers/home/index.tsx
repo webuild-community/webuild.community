@@ -7,10 +7,12 @@ import Events from './Events';
 import Jobs from './Jobs';
 import Community from 'components/Community';
 import Supporters from './Supporters';
+import { BlogPostResponse } from 'apis/contentful';
+import { Event } from 'apis/types/blog';
 
 interface Props {
-  events: any;
-  news: any;
+  events: Event[];
+  news: BlogPostResponse;
 }
 
 const Home = ({ events, news }: Props) => (

@@ -3,9 +3,10 @@ import Container from 'components/Container';
 import { ReactComponent as LogoSymbol } from '../../assets/svg/logo-symbol.svg';
 import { H3 } from 'components/typography';
 import Link from 'next/link';
+import { BlogPostResponse } from 'apis/contentful';
 
 interface Props {
-  news: any;
+  news: BlogPostResponse;
 }
 
 const HeroBannerSection = ({ news }: Props) => (

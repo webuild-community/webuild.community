@@ -3,9 +3,7 @@ import { ReactComponent as Logo } from 'assets/svg/logo.svg';
 import Link from 'next/link';
 import 'typeface-barlow';
 
-interface Props {
-  children: any;
-}
+interface Props extends React.HTMLAttributes<HTMLDivElement> {}
 
 const ChatLayout = ({ children }: Props) => (
   <div className="font-sans font-normal leading-medium min-h-screen font-medium">

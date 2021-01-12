@@ -1,10 +1,7 @@
 import React from 'react';
 import classnames from 'classnames';
 
-interface Props {
-  className?: string;
-  children?: any;
-}
+interface Props extends React.HTMLAttributes<HTMLDivElement> {}
 
 const Container = ({ className, children }: Props) => {
   return (

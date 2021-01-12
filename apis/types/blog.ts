@@ -27,7 +27,7 @@ export interface Post {
 
 export interface Event {
   url: string;
-  date: any;
+  date: string | number | Date;
   name: string;
   location: string;
   guests: number;

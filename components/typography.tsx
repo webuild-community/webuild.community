@@ -1,10 +1,7 @@
 import React from 'react';
 import classnames from 'classnames';
 
-interface Props {
-  className?: string;
-  children: any;
-}
+interface Props extends React.HTMLAttributes<HTMLHeadingElement> {}
 
 export const H3 = ({ className, children }: Props) => {
   return (

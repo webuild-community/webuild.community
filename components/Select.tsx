@@ -2,8 +2,13 @@ import React from 'react';
 import classnames from 'classnames';
 import { ReactComponent as DownArrow } from '../assets/svg/down-arrow.svg';
 
+interface Option {
+  value: string;
+  text: string;
+}
+
 interface Props {
-  options: any;
+  options: Option[];
   onChange: (e: React.ChangeEvent<HTMLSelectElement>) => void;
   value: string;
   name: string;
