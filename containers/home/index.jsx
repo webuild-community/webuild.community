@@ -7,6 +7,7 @@ import Events from './Events';
 import Jobs from './Jobs';
 import Community from 'components/Community';
 import Supporters from './Supporters';
+import TwitterSection from './Twitter';
 
 const Home = ({ events, news }) => (
   <DefaultLayout>
@@ -19,6 +20,7 @@ const Home = ({ events, news }) => (
       <Supporters />
       <Community />
     </div>
+    <TwitterSection />
   </DefaultLayout>
 );
 
