@@ -1,7 +1,12 @@
 import React from 'react';
 import classnames from 'classnames';
 
-export const H3 = ({ className, children }) => {
+interface Props {
+  className?: string;
+  children: any;
+}
+
+export const H3 = ({ className, children }: Props) => {
   return (
     <h3
       className={classnames(
@@ -14,7 +19,7 @@ export const H3 = ({ className, children }) => {
   );
 };
 
-export const H5 = ({ className, children }) => {
+export const H5 = ({ className, children }: Props) => {
   return (
     <h6 className={classnames('text-lg font-bold text-black', className)}>
       {children}
@@ -22,7 +27,7 @@ export const H5 = ({ className, children }) => {
   );
 };
 
-export const H6 = ({ className, children }) => {
+export const H6 = ({ className, children }: Props) => {
   return (
     <h6 className={classnames('text-lg font-bold text-black', className)}>
       {children}

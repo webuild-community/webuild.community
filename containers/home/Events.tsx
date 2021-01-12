@@ -6,8 +6,13 @@ import Button from 'components/Button';
 import classnames from 'classnames';
 import { ReactComponent as PastStamp } from '../../assets/svg/past-stamp.svg';
 import { formatDatetime } from 'utils/formatDatetime';
+import { Event } from 'apis/types/blog';
 
-const Events = ({ events }) => {
+interface Past extends Event {
+  isPast: boolean;
+}
+
+const Events = ({ events }: { events: Event[] }) => {
   const sortedList = [...events].sort((a, b) => {
     return dayjs(a.date).isBefore(dayjs(b.date))
       ? 1
@@ -16,8 +21,8 @@ const Events = ({ events }) => {
       : 0;
   });
 
-  const fortcoming = [];
-  const past = [];
+  const fortcoming: Past[] = [];
+  const past: Past[] = [];
   const now = Date.now();
 
   sortedList.forEach(event => {
