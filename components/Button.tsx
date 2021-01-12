@@ -1,5 +1,12 @@
-import React from 'react';
+import React, { ButtonHTMLAttributes } from 'react';
 import classnames from 'classnames';
+
+interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
+  children: any;
+  className?: string;
+  bgClassName?: string;
+  textColorClassName?: string;
+}
 
 const Button = ({
   children,
@@ -7,7 +14,7 @@ const Button = ({
   bgClassName = 'bg-primary',
   textColorClassName = 'text-white',
   ...rest
-}) => (
+}: Props) => (
   <button
     {...rest}
     className={classnames(
