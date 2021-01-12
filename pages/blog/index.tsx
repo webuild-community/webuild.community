@@ -64,7 +64,7 @@ const Blog: NextPage<{
                 )}
                 {skip > 0 && (
                   <li key="prev" className="inline-block flex-none mx-1">
-                    <Link href="?page=${skip-1}">
+                    <Link href={`?page=${skip - 1}`}>
                       <a className="no-underline text-primary hover:text-black">
                         ‹ Prev
                       </a>
@@ -74,7 +74,7 @@ const Blog: NextPage<{
                 {entries.map((_, i) => (
                   <li key={i} className="inline-block flex-none mx-1">
                     {i + 1 !== skip ? (
-                      <Link href="?page=${skip}">
+                      <Link href={`?page=${skip}`}>
                         <a className="no-underline text-primary hover:text-black">
                           {i + 1}
                         </a>
@@ -86,7 +86,7 @@ const Blog: NextPage<{
                 ))}
                 {skip < entries.length && (
                   <li key="next" className="inline-block flex-none mx-1">
-                    <Link href="?page=${skip+1}">
+                    <Link href={`?page=${skip + 1}`}>
                       <a className="no-underline text-primary hover:text-black">
                         Next ›
                       </a>
@@ -95,7 +95,7 @@ const Blog: NextPage<{
                 )}
                 {skip < entries.length && (
                   <li key="last" className="inline-block flex-none mx-1">
-                    <Link href="?page=${total-1}">
+                    <Link href={`?page=${total}`}>
                       <a className="no-underline text-primary hover:text-black">
                         Last »
                       </a>
