@@ -5,6 +5,8 @@ import ContentfulService from '../apis/contentful';
 
 import { GetStaticProps } from 'next';
 import { NextSeo } from 'next-seo';
+import { Event } from 'apis/types/blog';
+import { BlogPostResponse } from 'apis/contentful';
 
 export const getStaticProps: GetStaticProps = async () => {
   const records = await airtable('Event')
@@ -31,7 +33,12 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-function IndexPage(props) {
+interface Props {
+  events: Event[];
+  news: BlogPostResponse;
+}
+
+function IndexPage(props: Props) {
   return (
     <>
       <NextSeo
