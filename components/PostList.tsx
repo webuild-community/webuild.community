@@ -6,7 +6,7 @@ import Pagination from 'components/Pagination';
 
 interface BlogListProps extends BlogPostResponse {}
 
-const PostList = ({ entries, total, skip }: BlogListProps) => {
+const PostList = ({ entries, total, skip, limit }: BlogListProps) => {
   return (
     <>
       <div className="divide-y divide-gray-200">
@@ -39,7 +39,7 @@ const PostList = ({ entries, total, skip }: BlogListProps) => {
         ))}
       </div>
       {total > 0 ? (
-        <Pagination entries={entries} total={total} skip={skip} />
+        <Pagination pageSize={limit} total={entries.length} current={skip} />
       ) : null}
     </>
   );
