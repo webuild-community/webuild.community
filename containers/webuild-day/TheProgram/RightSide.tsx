@@ -91,7 +91,7 @@ const RightSide = () => {
                 className="w-full h-full"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.541412110838!2d106.72252081443732!3d10.769782592326056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f52c37d93d9%3A0x9847f27c2b3fa166!2sBLOCK71%20Saigon!5e0!3m2!1svi!2sus!4v1606891310585!5m2!1svi!2sus"
                 frameBorder="0"
-                allowFullScreen={undefined}
+                allowFullScreen
                 aria-hidden="false"
                 tabIndex={0}
               />
