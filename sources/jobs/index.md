@@ -1,6 +1,24 @@
 ---
 key: jobs
 list:
+  - company: 'Code Engine Studio'
+    date: '2021-01-13T08:31:03Z'
+    desc: 'Senior Java Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2249'
+    location: 'Others'
+    title: 'Senior Java Developer'
+    type: Fulltime
+    salaryRange: $1000 - $2000/month
+  - company: 'Motorist'
+    date: '2021-01-13T06:29:01Z'
+    desc: 'Web Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2248'
+    location: 'HCM'
+    title: 'Web Developer'
+    type: Fulltime
+    salaryRange: Up to $2000 depending on experience
   - company: 'Yojee'
     date: '2021-01-08T07:35:01Z'
     desc: 'Fullstack Engineer'
@@ -9,6 +27,7 @@ list:
     location: 'HCM'
     title: 'Fullstack Engineer'
     type: Fulltime
+    salaryRange: VND 40m - VND 60m gross per month
   - company: 'Yojee'
     date: '2021-01-08T07:31:26Z'
     desc: 'Senior Backend Engineer'
@@ -17,6 +36,7 @@ list:
     location: 'HCM'
     title: 'Senior Backend Engineer'
     type: Fulltime
+    salaryRange: VND 50m - VND 80m gross per month
   - company: 'LOOP Smart POS'
     date: '2021-01-07T10:02:46Z'
     desc: 'Junior Backend Developer'
@@ -25,6 +45,7 @@ list:
     location: 'HN'
     title: 'Junior Backend Developer'
     type: Fulltime
+    salaryRange: Negotiation
   - company: 'LOOP Smart POS'
     date: '2021-01-07T09:50:53Z'
     desc: 'Integration Engineer'
@@ -33,6 +54,7 @@ list:
     location: 'HCM'
     title: 'Integration Engineer'
     type: Fulltime
+    salaryRange: Negotiation
   - company: 'Ascenda Loyalty'
     date: '2021-01-06T04:01:17Z'
     desc: 'Frontend/Backend/QA Engineer'
@@ -41,6 +63,7 @@ list:
     location: 'HCM'
     title: 'Frontend/Backend/QA Engineer'
     type: Fulltime
+    salaryRange: - fresher-Mid level: $1000 - $2500 / month
   - company: 'Oivan'
     date: '2021-01-04T06:19:27Z'
     desc: 'Full Stack Ruby on Rails/NodeJS/Angular Developer'
@@ -49,6 +72,7 @@ list:
     location: 'Others'
     title: 'Full Stack Ruby on Rails/NodeJS/Angular Developer'
     type: Fulltime
+    salaryRange: $1.500-3.000
   - company: 'Danh Khôi'
     date: '2020-12-17T04:59:56Z'
     desc: 'Senior Business Analysis'
@@ -57,6 +81,7 @@ list:
     location: 'HCM'
     title: 'Senior Business Analysis'
     type: Fulltime
+    salaryRange: Competitive
   - company: 'NFQ Asia'
     date: '2020-12-16T08:36:55Z'
     desc: 'Senior PHP Developer'
@@ -65,20 +90,5 @@ list:
     location: 'HCM'
     title: 'Senior PHP Developer'
     type: Fulltime
-  - company: 'NFQ Asia'
-    date: '2020-12-16T07:33:34Z'
-    desc: 'Technical Architect'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2234'
-    location: 'HCM'
-    title: 'Technical Architect'
-    type: Fulltime
-  - company: 'FETCH TECHNOLOGY'
-    date: '2020-12-15T07:30:49Z'
-    desc: 'Test Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2233'
-    location: 'HCM'
-    title: 'Test Engineer'
-    type: Fulltime
+    salaryRange: Starting from $1000
 ---
