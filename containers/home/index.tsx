@@ -8,7 +8,7 @@ import Jobs from './Jobs';
 import Community from 'components/Community';
 import Supporters from './Supporters';
 import { BlogPostResponse } from 'apis/contentful';
-import { Event } from 'apis/types/blog';
+import { Event } from 'types/schema';
 
 interface Props {
   events: Event[];

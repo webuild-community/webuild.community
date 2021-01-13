@@ -2,7 +2,6 @@ import React, { ButtonHTMLAttributes } from 'react';
 import classnames from 'classnames';
 
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
-  className?: string;
   bgClassName?: string;
   textColorClassName?: string;
 }

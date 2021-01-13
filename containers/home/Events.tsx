@@ -6,7 +6,7 @@ import Button from 'components/Button';
 import classnames from 'classnames';
 import { ReactComponent as PastStamp } from '../../assets/svg/past-stamp.svg';
 import { formatDatetime } from 'utils/formatDatetime';
-import { Event } from 'apis/types/blog';
+import { Event } from 'types/schema';
 
 interface Past extends Event {
   isPast: boolean;

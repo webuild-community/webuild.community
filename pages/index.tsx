@@ -5,7 +5,7 @@ import ContentfulService from '../apis/contentful';
 
 import { GetStaticProps } from 'next';
 import { NextSeo } from 'next-seo';
-import { Event } from 'apis/types/blog';
+import { Event } from 'types/schema';
 import { BlogPostResponse } from 'apis/contentful';
 
 export const getStaticProps: GetStaticProps = async () => {

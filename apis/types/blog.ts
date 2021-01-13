@@ -24,11 +24,3 @@ export interface Post {
   heroImage: Attachment;
   tags: Tag[];
 }
-
-export interface Event {
-  url: string;
-  date: string;
-  name: string;
-  location: string;
-  guests: number;
-}
