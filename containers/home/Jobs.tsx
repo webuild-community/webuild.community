@@ -106,7 +106,10 @@ const Jobs = () => {
             </div>
           ) : (
             filterList.map(
-              ({ company, title, location, type, date, linkURL }, index) => {
+              (
+                { company, title, location, type, date, linkURL, salaryRange },
+                index
+              ) => {
                 return (
                   <div
                     key={index}
@@ -119,7 +122,6 @@ const Jobs = () => {
                     )}
                   >
                     <div className="text-gray-800">
-                      <div># {company}</div>
                       <a
                         href={linkURL}
                         target="_blank"
@@ -129,6 +131,9 @@ const Jobs = () => {
                           {title}
                         </H6>
                       </a>
+                      <div className="space-x-2">
+                        <span># {company}</span> <span>({salaryRange})</span>
+                      </div>
                     </div>
                     <div className="text-sm text-right">
                       <div className="font-bold mb-1 text-gray-700">

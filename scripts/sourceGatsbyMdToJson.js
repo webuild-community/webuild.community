@@ -8,7 +8,7 @@ fs.readFile('./sources/jobs/index.md', 'utf8', function (err, data) {
   const content = data
     // exclude begin and end ---
     .replace(/---/g, '')
-    .split(' - ')
+    .split('  - ')
     // exclude
     // key: jobs
     // list:
