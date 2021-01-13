@@ -106,10 +106,7 @@ const Jobs = () => {
             </div>
           ) : (
             filterList.map(
-              (
-                { number, company, title, location, type, date, linkURL },
-                index
-              ) => {
+              ({ company, title, location, type, date, linkURL }, index) => {
                 return (
                   <div
                     key={index}
@@ -122,9 +119,7 @@ const Jobs = () => {
                     )}
                   >
                     <div className="text-gray-800">
-                      <div>
-                        #{number} {company}
-                      </div>
+                      <div># {company}</div>
                       <a
                         href={linkURL}
                         target="_blank"

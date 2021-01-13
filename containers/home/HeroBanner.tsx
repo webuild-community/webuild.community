@@ -3,8 +3,13 @@ import Container from 'components/Container';
 import { ReactComponent as LogoSymbol } from '../../assets/svg/logo-symbol.svg';
 import { H3 } from 'components/typography';
 import Link from 'next/link';
+import { BlogPostResponse } from 'apis/contentful';
 
-const HeroBannerSection = ({ news }) => (
+interface Props {
+  news: BlogPostResponse;
+}
+
+const HeroBannerSection = ({ news }: Props) => (
   <section id="hero" className="pb-16 pt-4 sm:py-16 lg:pb-24 lg:pt-20">
     <Container>
       <div className="flex mb-20 sm:mb-32">

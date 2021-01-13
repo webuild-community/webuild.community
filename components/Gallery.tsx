@@ -1,9 +1,22 @@
 import React from 'react';
 import classnames from 'classnames';
 
-const Gallery = ({ items, center, clasName, aClassName }) => (
+interface Item {
+  href: string;
+  imgUrl: string;
+  title: string;
+}
+
+interface Props {
+  items: Item[];
+  center?: boolean;
+  className?: string;
+  aClassName?: string;
+}
+
+const Gallery = ({ items, center, className, aClassName }: Props) => (
   <div
-    className={classnames('flex flex-wrap', clasName, {
+    className={classnames('flex flex-wrap', className, {
       'justify-center': center
     })}
   >

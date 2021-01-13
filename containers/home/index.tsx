@@ -7,8 +7,15 @@ import Events from './Events';
 import Jobs from './Jobs';
 import Community from 'components/Community';
 import Supporters from './Supporters';
+import { BlogPostResponse } from 'apis/contentful';
+import { Event } from 'types/schema';
 
-const Home = ({ events, news }) => (
+interface Props {
+  events: Event[];
+  news: BlogPostResponse;
+}
+
+const Home = ({ events, news }: Props) => (
   <DefaultLayout>
     {/* <SEO /> */}
     <HeroBanner news={news} />

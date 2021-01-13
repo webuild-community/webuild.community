@@ -2,6 +2,19 @@ import React from 'react';
 import classnames from 'classnames';
 import { ReactComponent as DownArrow } from '../assets/svg/down-arrow.svg';
 
+interface Option {
+  value: string;
+  text: string;
+}
+
+interface Props {
+  options: Option[];
+  onChange: (e: React.ChangeEvent<HTMLSelectElement>) => void;
+  value: string;
+  name: string;
+  className?: string;
+}
+
 const CustomSelect = ({
   options,
   onChange,
@@ -9,7 +22,7 @@ const CustomSelect = ({
   name,
   className,
   ...rest
-}) => (
+}: Props) => (
   <div
     {...rest}
     style={{ maxWidth: 150 }}
