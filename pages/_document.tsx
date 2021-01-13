@@ -14,7 +14,6 @@ export default class MyDocument extends Document {
           <link rel="icon" href="/favicon-v2.png" type="image/png" />
           <link rel="manifest" href="/manifest.json" />
           <meta name="theme-color" content="#34785C" />
-          <meta name="twitter:widgets:autoload" content="off" />
         </Head>
         <body id="root">
           <Main />
