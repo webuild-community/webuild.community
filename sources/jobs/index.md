@@ -9,7 +9,7 @@ list:
     location: 'Others'
     title: 'Senior Java Developer'
     type: Fulltime
-    salaryRange: $1000 - $2000/month
+    salaryRange: '$1000 - $2000/month'
   - company: 'Motorist'
     date: '2021-01-13T06:29:01Z'
     desc: 'Web Developer'
@@ -18,7 +18,7 @@ list:
     location: 'HCM'
     title: 'Web Developer'
     type: Fulltime
-    salaryRange: Up to $2000 depending on experience
+    salaryRange: 'Up to $2000 depending on experience'
   - company: 'Yojee'
     date: '2021-01-08T07:35:01Z'
     desc: 'Fullstack Engineer'
@@ -27,7 +27,7 @@ list:
     location: 'HCM'
     title: 'Fullstack Engineer'
     type: Fulltime
-    salaryRange: VND 40m - VND 60m gross per month
+    salaryRange: 'VND 40m - VND 60m gross per month'
   - company: 'Yojee'
     date: '2021-01-08T07:31:26Z'
     desc: 'Senior Backend Engineer'
@@ -36,7 +36,7 @@ list:
     location: 'HCM'
     title: 'Senior Backend Engineer'
     type: Fulltime
-    salaryRange: VND 50m - VND 80m gross per month
+    salaryRange: 'VND 50m - VND 80m gross per month'
   - company: 'LOOP Smart POS'
     date: '2021-01-07T10:02:46Z'
     desc: 'Junior Backend Developer'
@@ -45,7 +45,7 @@ list:
     location: 'HN'
     title: 'Junior Backend Developer'
     type: Fulltime
-    salaryRange: Negotiation
+    salaryRange: 'Negotiation'
   - company: 'LOOP Smart POS'
     date: '2021-01-07T09:50:53Z'
     desc: 'Integration Engineer'
@@ -54,7 +54,7 @@ list:
     location: 'HCM'
     title: 'Integration Engineer'
     type: Fulltime
-    salaryRange: Negotiation
+    salaryRange: 'Negotiation'
   - company: 'Ascenda Loyalty'
     date: '2021-01-06T04:01:17Z'
     desc: 'Frontend/Backend/QA Engineer'
@@ -63,7 +63,7 @@ list:
     location: 'HCM'
     title: 'Frontend/Backend/QA Engineer'
     type: Fulltime
-    salaryRange: - fresher-Mid level: $1000 - $2500 / month
+    salaryRange: '- fresher-Mid level: $1000 - $2500 / month'
   - company: 'Oivan'
     date: '2021-01-04T06:19:27Z'
     desc: 'Full Stack Ruby on Rails/NodeJS/Angular Developer'
@@ -72,7 +72,7 @@ list:
     location: 'Others'
     title: 'Full Stack Ruby on Rails/NodeJS/Angular Developer'
     type: Fulltime
-    salaryRange: $1.500-3.000
+    salaryRange: '$1.500-3.000'
   - company: 'Danh Khôi'
     date: '2020-12-17T04:59:56Z'
     desc: 'Senior Business Analysis'
@@ -81,7 +81,7 @@ list:
     location: 'HCM'
     title: 'Senior Business Analysis'
     type: Fulltime
-    salaryRange: Competitive
+    salaryRange: 'Competitive'
   - company: 'NFQ Asia'
     date: '2020-12-16T08:36:55Z'
     desc: 'Senior PHP Developer'
@@ -90,5 +90,5 @@ list:
     location: 'HCM'
     title: 'Senior PHP Developer'
     type: Fulltime
-    salaryRange: Starting from $1000
+    salaryRange: 'Starting from $1000'
 ---
