@@ -29,7 +29,7 @@ const TwitterSection = () => {
   }, []);
 
   return (
-    <section id="hero" className="py-16 sm:py-16 lg:py-24">
+    <section id="twitter" className="pb-16 pt-6 sm:pb-24 lg:pt-2 bg-white">
       <Container>
         <div className="twitter-embed bg-white border-gray-200 border overflow-hidden max-w-xl mx-auto">
           {/* below html servers as placeholder, they will be replaced once Twitter's script loaded */}

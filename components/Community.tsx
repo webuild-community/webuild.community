@@ -4,7 +4,7 @@ import { H3 } from 'components/typography';
 import Gallery from 'components/Gallery';
 
 const CommunitySection = () => (
-  <section id="community" className="sm:py-12 py-10 lg:py-24 lg:mb-24 mb-8">
+  <section id="community" className="sm:py-12 py-10 lg:py-24 lg:mb-10 mb-8">
     <Container>
       <div className="text-center mb-10">
         <H3 className="mb-2">Community</H3>
