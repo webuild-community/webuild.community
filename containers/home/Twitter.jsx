@@ -28,16 +28,14 @@ const TwitterSection = () => (
         {/* below html servers as placeholder, they will be replaced once Twitter's script loaded */}
         <a
           className="twitter-timeline"
-          data-theme="light"
-          href="https://twitter.com/nntruonghan/lists/webuild-community-19282"
-          data-height={600}
+          href="https://twitter.com/nntruonghan/lists/webuild-community-19282?ref_src=twsrc%5Etfw"
         >
           <Skeleton />
-        </a>
+        </a>{' '}
         <script
           async
           src="https://platform.twitter.com/widgets.js"
-          charSet="utf-8"
+          charset="utf-8"
         ></script>
       </div>
     </Container>
