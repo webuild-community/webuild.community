@@ -31,7 +31,7 @@ const TwitterSection = () => {
   return (
     <section id="hero" className="py-16 sm:py-16 lg:py-24">
       <Container>
-        <div className="twitter-embed bg-white border-gray-200 border overflow-hidden max-w-sm mx-auto">
+        <div className="twitter-embed bg-white border-gray-200 border overflow-hidden max-w-xl mx-auto">
           {/* below html servers as placeholder, they will be replaced once Twitter's script loaded */}
           <a
             className="twitter-timeline"
@@ -39,7 +39,7 @@ const TwitterSection = () => {
             href="https://twitter.com/nntruonghan/lists/webuild-community-19282?ref_src=twsrc%5Etfw"
           >
             <Skeleton />
-          </a>{' '}
+          </a>
         </div>
       </Container>
     </section>
