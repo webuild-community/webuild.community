@@ -12,11 +12,6 @@ const Supporters = () => (
       <Gallery
         items={[
           {
-            title: 'Google',
-            imgUrl: '/images/sponsors/google.jpg',
-            href: 'https://www.google.com/'
-          },
-          {
             title: 'Dwarves Foundation',
             imgUrl: '/images/sponsors/dwarves.jpg',
             href: 'https://dwarves.foundation/'
