@@ -12,8 +12,8 @@ const Pagination = ({ total, current, pageSize }: PaginationProps) => {
 
   return (
     <nav>
-      <ul className="list-reset flex justify-center">
-        {current > 0 && (
+      <ul className="list-reset flex justify-center mt-6">
+        {current > 1 && (
           <li key="first" className="inline-block flex-none mx-1">
             <Link href="?page=1">
               <a className="no-underline text-primary hover:text-black">
@@ -22,7 +22,7 @@ const Pagination = ({ total, current, pageSize }: PaginationProps) => {
             </Link>
           </li>
         )}
-        {current > 0 && (
+        {current > 1 && (
           <li key="prev" className="inline-block flex-none mx-1">
             <Link href={`?page=${current - 1}`}>
               <a className="no-underline text-primary hover:text-black">
