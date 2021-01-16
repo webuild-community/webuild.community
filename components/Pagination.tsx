@@ -34,7 +34,7 @@ const Pagination = ({ total, current, pageSize }: PaginationProps) => {
         {[...Array(numberOfPage)].map((_, i) => (
           <li key={i} className="inline-block flex-none mx-1">
             {i + 1 !== current ? (
-              <Link href={`?page=${current}`}>
+              <Link href={`?page=${i + 1}`}>
                 <a className="no-underline text-primary hover:text-black">
                   {i + 1}
                 </a>

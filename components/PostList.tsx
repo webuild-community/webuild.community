@@ -24,14 +24,14 @@ const PostList = ({ entries, total, skip, limit }: BlogListProps) => {
               <span>-</span>
               <div>
                 {tags.map(({ name, slug }, index) => (
-                  <>
-                    <Link href={`/blog/tags/${slug}`} key={name}>
+                  <React.Fragment key={name}>
+                    <Link href={`/blog/tags/${slug}`}>
                       <a className="text-primary uppercase text-xs font-semibold">
                         {name}
                       </a>
                     </Link>
                     {index < tags.length - 1 ? ', ' : ''}
-                  </>
+                  </React.Fragment>
                 ))}
               </div>
             </div>
