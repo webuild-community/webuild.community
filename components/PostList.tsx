@@ -19,7 +19,7 @@ const PostList = ({ entries, total, skip, limit }: BlogListProps) => {
             </Link>
             <div className="flex items-center space-x-2 text-gray-700">
               <span className="mt-1 text-sm font-normal">
-                {formatDatetime(createdAt, 'dddd DD, YYYY')}
+                {formatDatetime(createdAt, 'MMMM DD, YYYY')}
               </span>
               <span>-</span>
               <div>

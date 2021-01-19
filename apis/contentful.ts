@@ -85,7 +85,7 @@ async function getBlogPostEntries({
     const entries = contents.items.map(({ sys, fields }) => ({
       id: sys.id,
       title: fields.title,
-      excerpt: fields.excerpt,
+      excerpt: fields.excerpt || null,
       createdAt: sys.createdAt,
       updatedAt: sys.updatedAt,
       slug: fields.slug,
@@ -159,7 +159,7 @@ async function getPostBySlug(slug: string, viewMode: PostViewMode = 'default') {
       slug: entry.fields.slug,
       title: entry.fields.title,
       content: entry.fields.content,
-      excerpt: entry.fields.excerpt,
+      excerpt: entry.fields.excerpt || null,
       meta: {
         datePublished: entry.sys.createdAt,
         dateModified: entry.sys.updatedAt
