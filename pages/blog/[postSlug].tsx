@@ -14,6 +14,7 @@ import NotFoundPage from '../../components/NotFoundPage';
 import { NextSeo } from 'next-seo';
 import DefaultLayout from '../../components/DefaultLayout';
 import Container from '../../components/Container';
+import PostInfo from 'components/PostInfo';
 
 export const getServerSideProps: GetServerSideProps = async context => {
   const {
@@ -104,10 +105,9 @@ const Post: NextPage<{
       />
       <DefaultLayout>
         <Container className="py-6 sm:py-10">
-          <div className="max-w-xl mx-auto">
-            <h1 className="text-3xl font-bold sm:text-4xl mb-8">
-              {data.title}
-            </h1>
+          <div className="max-w-xl mx-auto mb-8">
+            <h1 className="text-3xl font-bold sm:text-4xl">{data.title}</h1>
+            <PostInfo createdAt={data.createdAt} tags={data.tags} />
           </div>
           <article className="prose max-w-xl mx-auto">
             {documentToReactComponents(data.content, richTextOptions)}
