@@ -107,7 +107,7 @@ const Post: NextPage<{
         <Container className="py-6 sm:py-10">
           <div className="max-w-xl mx-auto mb-8">
             <h1 className="text-3xl font-bold sm:text-4xl">{data.title}</h1>
-            <PostInfo createdAt={data.createdAt} tags={data.tags} />
+            <PostInfo createdAt={data.meta.datePublished} tags={data.tags} />
           </div>
           <article className="prose max-w-xl mx-auto">
             {documentToReactComponents(data.content, richTextOptions)}

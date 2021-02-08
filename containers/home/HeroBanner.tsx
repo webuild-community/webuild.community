@@ -17,7 +17,7 @@ const HeroBannerSection = ({ news }: Props) => (
           {news.entries.map(post => (
             <li className="py-1" key={post.slug}>
               <Link href={`/blog/${post.slug}`}>
-                <a className="text-base font-medium mb-1 hover:text-primary underline">
+                <a className="text-base font-medium mb-1 hover:text-primary">
                   {post.title}
                 </a>
               </Link>

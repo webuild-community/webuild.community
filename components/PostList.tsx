@@ -13,7 +13,7 @@ const PostList = ({ entries, total, skip, limit }: BlogListProps) => {
         {entries.map(({ slug, title, createdAt, tags }) => (
           <div className="py-3" key={slug}>
             <Link href={`/blog/${slug}`}>
-              <a className="text-lg font-bold mb-1 hover:text-primary underline transition-all duration-200">
+              <a className="text-lg font-bold mb-1 hover:text-primary transition-all duration-200">
                 {title}
               </a>
             </Link>

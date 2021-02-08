@@ -80,6 +80,7 @@ async function getBlogPostEntries({
       limit,
       skip,
       'fields.tags.sys.id': tag.id || '',
+      order: '-sys.createdAt',
       content_type: CONTENT_TYPE_BLOGPOST
     });
     const entries = contents.items.map(({ sys, fields }) => ({
