@@ -1,5 +1,5 @@
 import { createClient, ContentfulClientApi } from 'contentful';
-import { Tag, Post } from './types/blog';
+import { Tag, Post } from './types/news';
 
 export const CONTENT_TYPE_BLOGPOST = 'post';
 export const CONTENT_TYPE_TAG = 'tag';

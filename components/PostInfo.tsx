@@ -19,7 +19,7 @@ const PostInfo = ({
       <div>
         {tags.map(({ name, slug }, index) => (
           <React.Fragment key={name}>
-            <Link href={`/blog/tags/${slug}`}>
+            <Link href={`/news/tags/${slug}`}>
               <a className="text-primary uppercase text-xs font-semibold">
                 {name}
               </a>

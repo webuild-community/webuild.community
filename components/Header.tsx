@@ -67,15 +67,15 @@ const Header = ({ variant = 'default' }) => {
               </Link>
             </li>
             <li className="px-6">
-              <Link href="/blog">
+              <Link href="/news">
                 <a
                   className={classnames({
                     'text-subprimary': isPrimaryVariant,
                     'text-gray-700': !isPrimaryVariant,
-                    'font-bold': pathname.startsWith('/blog')
+                    'font-bold': pathname.startsWith('/news')
                   })}
                 >
-                  Blog
+                  News
                 </a>
               </Link>
             </li>
@@ -142,15 +142,15 @@ const Header = ({ variant = 'default' }) => {
             </Link>
           </li>
           <li className="pr-8">
-            <Link href="/blog">
+            <Link href="/news">
               <a
                 className={classnames({
                   'text-subprimary': isPrimaryVariant,
                   'text-gray-700': !isPrimaryVariant,
-                  'font-bold': pathname.startsWith('/blog')
+                  'font-bold': pathname.startsWith('/news')
                 })}
               >
-                Blog
+                News
               </a>
             </Link>
           </li>

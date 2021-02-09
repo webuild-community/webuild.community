@@ -12,7 +12,7 @@ const PostList = ({ entries, total, skip, limit }: BlogListProps) => {
       <div className="divide-y divide-gray-200">
         {entries.map(({ slug, title, createdAt, tags }) => (
           <div className="py-3" key={slug}>
-            <Link href={`/blog/${slug}`}>
+            <Link href={`/news/${slug}`}>
               <a className="text-lg font-bold mb-1 hover:text-primary transition-all duration-200">
                 {title}
               </a>
