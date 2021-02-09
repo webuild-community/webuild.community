@@ -15,7 +15,8 @@ module.exports = {
     AIRTABLE_API_KEY: process.env.AIRTABLE_API_KEY,
     AIRTABLE_BASE_ID: process.env.AIRTABLE_BASE_ID,
     CONTENTFUL_TOKEN: process.env.CONTENTFUL_TOKEN,
-    CONTENTFUL_SPACE: process.env.CONTENTFUL_SPACE
+    CONTENTFUL_SPACE: process.env.CONTENTFUL_SPACE,
+    FACEBOOK_APP_ID: process.env.FACEBOOK_APP_ID
   },
   // Target must be serverless for netlify deployment
   // https://github.com/netlify/next-on-netlify#1-set-nextjs-target-to-serverless

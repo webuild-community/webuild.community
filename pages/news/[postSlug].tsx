@@ -15,6 +15,10 @@ import { NextSeo } from 'next-seo';
 import DefaultLayout from '../../components/DefaultLayout';
 import Container from '../../components/Container';
 import PostInfo from 'components/PostInfo';
+import PostShare from 'components/PostShare';
+import FacebookLikeButton from 'components/FacebookLikeButton';
+import { useRouter } from 'next/router';
+import { ORIGIN } from 'constants/url';
 
 export const getServerSideProps: GetServerSideProps = async context => {
   const {
@@ -71,6 +75,7 @@ const Post: NextPage<{
   data: PostDetailResponse;
   error: string;
 }> = ({ data, error }) => {
+  const { asPath } = useRouter();
   if (error) {
     return <NotFoundPage />;
   }
@@ -112,6 +117,10 @@ const Post: NextPage<{
           <article className="prose max-w-xl mx-auto">
             {documentToReactComponents(data.content, richTextOptions)}
           </article>
+          <div className="flex flex-col items-center justify-center mt-14 mb-5 space-y-2">
+            <FacebookLikeButton href={`${ORIGIN}${asPath}`} />
+            <PostShare title={data.title} href={`${ORIGIN}${asPath}`} />
+          </div>
         </Container>
       </DefaultLayout>
     </>
