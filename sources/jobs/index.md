@@ -9,7 +9,7 @@ list:
     location: 'HCM'
     title: 'Senior/Junior FullStack (Elixir)'
     type: Fulltime
-    salaryRange: Senior up to 2500$/month
+    salaryRange: 'Senior up to 2500$/month'
   - company: 'Magnolia Vietnam'
     date: '2021-02-03T04:29:37Z'
     desc: 'Java Fullstack Engineer (Javascript/ UI)'
@@ -18,7 +18,7 @@ list:
     location: 'Others'
     title: 'Java Fullstack Engineer (Javascript/ UI)'
     type: Fulltime
-    salaryRange: $1400 - $2400 NET/month
+    salaryRange: '$1400 - $2400 NET/month'
   - company: 'Magnolia Vietnam'
     date: '2021-02-03T04:20:00Z'
     desc: 'Technical Support Engineer (Java)'
@@ -27,7 +27,7 @@ list:
     location: 'Others'
     title: 'Technical Support Engineer (Java)'
     type: Fulltime
-    salaryRange: $1400 - $2400 NET/month
+    salaryRange: '$1400 - $2400 NET/month'
   - company: 'Magnolia Vietnam'
     date: '2021-02-03T04:00:19Z'
     desc: 'Senior QA Engineer (Selenium, Java)'
@@ -36,7 +36,7 @@ list:
     location: 'Others'
     title: 'Senior QA Engineer (Selenium, Java)'
     type: Fulltime
-    salaryRange: $1200 - $1700 NET/month
+    salaryRange: '$1200 - $1700 NET/month'
   - company: 'LINE Technology Vietnam'
     date: '2021-02-02T10:01:19Z'
     desc: 'Frontend Engineer (Reactjs / Vuejs)'
@@ -45,7 +45,7 @@ list:
     location: 'HN'
     title: 'Frontend Engineer (Reactjs / Vuejs)'
     type: Fulltime
-    salaryRange: Market-Competitive and very attractive
+    salaryRange: 'Market-Competitive and very attractive'
   - company: 'LINE Technology Vietnam'
     date: '2021-02-02T09:58:16Z'
     desc: 'Java Engineer'
@@ -54,7 +54,7 @@ list:
     location: 'HN'
     title: 'Java Engineer'
     type: Fulltime
-    salaryRange: Market-Competitive and very attractive
+    salaryRange: 'Market-Competitive and very attractive'
   - company: 'LINE Technology Vietnam'
     date: '2021-02-02T09:54:41Z'
     desc: 'Project Lead'
@@ -63,7 +63,7 @@ list:
     location: 'HN'
     title: 'Project Lead'
     type: Fulltime
-    salaryRange: Market-Competitive and very attractive
+    salaryRange: 'Market-Competitive and very attractive'
   - company: 'LINE Vietnam'
     date: '2021-01-29T09:29:17Z'
     desc: 'Mobile Engineer (iOS/Android)'
@@ -72,7 +72,7 @@ list:
     location: 'HCM'
     title: 'Mobile Engineer (iOS/Android)'
     type: Fulltime
-    salaryRange: Market-Competitive and very attractive
+    salaryRange: 'Market-Competitive and very attractive'
   - company: 'Resola'
     date: '2021-01-28T09:54:19Z'
     desc: 'Backend Engineer'
@@ -81,7 +81,7 @@ list:
     location: 'Others'
     title: 'Backend Engineer'
     type: FT/C
-    salaryRange: 
+    salaryRange: ''
   - company: 'Resola'
     date: '2021-01-28T09:53:38Z'
     desc: 'Frontend Engineer'
@@ -90,5 +90,5 @@ list:
     location: 'Others'
     title: 'Frontend Engineer'
     type: FT/C
-    salaryRange: 
+    salaryRange: ''
 ---
