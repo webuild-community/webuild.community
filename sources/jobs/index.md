@@ -1,6 +1,33 @@
 ---
 key: jobs
 list:
+  - company: 'LINAGORA] System Admin Engineer'
+    date: '2021-02-09T11:20:17Z'
+    desc: 'Full'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2281'
+    location: 'Others'
+    title: 'Full'
+    type: Hà Nội
+    salaryRange: 'Up to 45m gross'
+  - company: 'LINAGORA] Javascript Developer'
+    date: '2021-02-09T02:24:19Z'
+    desc: 'Full'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2278'
+    location: 'Others'
+    title: 'Full'
+    type: Hà Nội
+    salaryRange: 'Up to 40m gross'
+  - company: 'LINAGORA] Mobile Developer (iOS, Android, Flutter)'
+    date: '2021-02-09T01:50:55Z'
+    desc: 'Full'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2277'
+    location: 'Others'
+    title: 'Full'
+    type: Hà Nội
+    salaryRange: 'Up to 40m gross'
   - company: 'OnPoint'
     date: '2021-02-03T08:18:58Z'
     desc: 'Senior/Junior FullStack (Elixir)'
@@ -64,31 +91,4 @@ list:
     title: 'Project Lead'
     type: Fulltime
     salaryRange: 'Market-Competitive and very attractive'
-  - company: 'LINE Vietnam'
-    date: '2021-01-29T09:29:17Z'
-    desc: 'Mobile Engineer (iOS/Android)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2269'
-    location: 'HCM'
-    title: 'Mobile Engineer (iOS/Android)'
-    type: Fulltime
-    salaryRange: 'Market-Competitive and very attractive'
-  - company: 'Resola'
-    date: '2021-01-28T09:54:19Z'
-    desc: 'Backend Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2268'
-    location: 'Others'
-    title: 'Backend Engineer'
-    type: FT/C
-    salaryRange: ''
-  - company: 'Resola'
-    date: '2021-01-28T09:53:38Z'
-    desc: 'Frontend Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2267'
-    location: 'Others'
-    title: 'Frontend Engineer'
-    type: FT/C
-    salaryRange: ''
 ---
