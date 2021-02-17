@@ -13,13 +13,15 @@ interface Past extends Event {
 }
 
 const Events = ({ events }: { events: Event[] }) => {
-  const sortedList = [...events].sort((a, b) => {
-    return dayjs(a.date).isBefore(dayjs(b.date))
-      ? 1
-      : dayjs(a.date).isAfter(dayjs(b.date))
-      ? -1
-      : 0;
-  });
+  const sortedList = events
+    .filter(({ date }) => Boolean(date))
+    .sort((a, b) => {
+      return dayjs(a.date).isBefore(dayjs(b.date))
+        ? 1
+        : dayjs(a.date).isAfter(dayjs(b.date))
+        ? -1
+        : 0;
+    });
 
   const fortcoming: Past[] = [];
   const past: Past[] = [];

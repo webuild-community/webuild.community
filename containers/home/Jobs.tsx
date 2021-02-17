@@ -132,7 +132,8 @@ const Jobs = () => {
                         </H6>
                       </a>
                       <div className="space-x-2">
-                        <span># {company}</span> <span>({salaryRange})</span>
+                        <span># {company}</span>{' '}
+                        {salaryRange && <span>({salaryRange})</span>}
                       </div>
                     </div>
                     <div className="text-sm text-right">
