@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { GetServerSideProps, NextPage } from 'next';
 import ContentfulService, {
   PostDetailResponse,
@@ -91,6 +91,15 @@ const Post: NextPage<{
     });
   }
 
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.crossOrigin = 'anonymous';
+    script.src = `https://connect.facebook.net/en_US/sdk.js#xfbml=1&autoLogAppEvents=1&version=v7.0&appId=${process.env.FACEBOOK_APP_ID}`;
+    script.async = true;
+    const fbRoot = document.getElementById('fb-root');
+    fbRoot?.appendChild(script);
+  });
+
   return (
     <>
       <NextSeo
@@ -110,6 +119,8 @@ const Post: NextPage<{
       />
       <DefaultLayout>
         <Container className="py-6 sm:py-10">
+          <div id="fb-root" />
+
           <div className="max-w-xl mx-auto mb-8">
             <h1 className="text-3xl font-bold sm:text-4xl">{data.title}</h1>
             <PostInfo createdAt={data.meta.datePublished} tags={data.tags} />
