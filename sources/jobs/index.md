@@ -1,6 +1,24 @@
 ---
 key: jobs
 list:
+  - company: 'Quod AI'
+    date: '2021-02-22T04:32:18Z'
+    desc: 'Junior FullStack Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2287'
+    location: 'HCM'
+    title: 'Junior FullStack Engineer'
+    type: Fulltime
+    salaryRange: '$1200 - $1500 Gross'
+  - company: 'One of top securities company'
+    date: '2021-02-18T09:32:20Z'
+    desc: 'React Native'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2283'
+    location: 'HCM'
+    title: 'React Native'
+    type: Offer up to $1200
+    salaryRange: '## Requirements'
   - company: 'OnPoint'
     date: '2021-02-03T08:18:58Z'
     desc: 'Senior/Junior FullStack (Elixir)'
@@ -73,22 +91,4 @@ list:
     title: 'Mobile Engineer (iOS/Android)'
     type: Fulltime
     salaryRange: 'Market-Competitive and very attractive'
-  - company: 'Resola'
-    date: '2021-01-28T09:54:19Z'
-    desc: 'Backend Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2268'
-    location: 'Others'
-    title: 'Backend Engineer'
-    type: FT/C
-    salaryRange: ''
-  - company: 'Resola'
-    date: '2021-01-28T09:53:38Z'
-    desc: 'Frontend Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2267'
-    location: 'Others'
-    title: 'Frontend Engineer'
-    type: FT/C
-    salaryRange: ''
 ---
