@@ -22,7 +22,7 @@ const PostList = ({ entries, total, skip, limit }: BlogListProps) => {
           </div>
         ))}
       </div>
-      {total > 0 ? (
+      {total > limit ? (
         <Pagination pageSize={limit} total={entries.length} current={skip} />
       ) : null}
     </>
