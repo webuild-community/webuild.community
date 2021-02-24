@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'Raksul Vietnam'
+    date: '2021-02-23T08:29:47Z'
+    desc: 'Backend Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2288'
+    location: 'HCM'
+    title: 'Backend Engineer'
+    type: Fulltime
+    salaryRange: '$1,000 - 2,000 USD'
   - company: 'Quod AI'
     date: '2021-02-22T04:32:18Z'
     desc: 'Junior FullStack Engineer'
@@ -80,15 +89,6 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2270'
     location: 'HN'
     title: 'Project Lead'
-    type: Fulltime
-    salaryRange: 'Market-Competitive and very attractive'
-  - company: 'LINE Vietnam'
-    date: '2021-01-29T09:29:17Z'
-    desc: 'Mobile Engineer (iOS/Android)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2269'
-    location: 'HCM'
-    title: 'Mobile Engineer (iOS/Android)'
     type: Fulltime
     salaryRange: 'Market-Competitive and very attractive'
 ---
