@@ -1,3 +1,11 @@
+### [1.0.2](https://github.com/webuild-community/webuild.community/compare/v1.0.1...v1.0.2) (2021-02-25)
+
+
+### 🚿 Chores
+
+* cleanup dead code ([5408dbf](https://github.com/webuild-community/webuild.community/commit/5408dbfc4c7c70a2f49db74a0e11cd0ae169afa3))
+* update dev ignore rules ([2711fe7](https://github.com/webuild-community/webuild.community/commit/2711fe7dd53ad062a7d0e7b0e12344f661a9b336))
+
 ### [1.0.1](https://github.com/webuild-community/webuild.community/compare/v1.0.0...v1.0.1) (2021-02-25)
 
 
