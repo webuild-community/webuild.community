@@ -77,10 +77,11 @@ jobs:
             core.setOutput('content', content);
         id: release_info
 
-      - name: Printout release notes
+      - name: Post release notes
         run: >
           curl --request POST \
             --url https://be.fortress.d.foundation/webhook/basecamp/changelog-message \
+            --header 'Authorization: ApiKey ${{ secrets.RELEASE_TOKEN }}' \
             --header 'Content-Type: application/json' \
             --data '{
               "project": "WEBUILD",
