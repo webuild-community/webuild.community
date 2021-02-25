@@ -1,3 +1,10 @@
+### [1.0.1](https://github.com/webuild-community/webuild.community/compare/v1.0.0...v1.0.1) (2021-02-25)
+
+
+### 🔁 CI
+
+* require auth token in release step ([c686c8f](https://github.com/webuild-community/webuild.community/commit/c686c8fb4271c2b7779c37d98aef2151f159115d))
+
 ## 1.0.0 (2021-02-25)
 
 
