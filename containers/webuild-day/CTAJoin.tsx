@@ -7,7 +7,7 @@ const CTAJoin = () => {
     <section className="py-12 bg-gray-800 text-center">
       <Container>
         <div className="px-10 flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center">
-          <p className="text-white text-4xl font-bold font-semibold w-full md:w-auto mb-6 md:mb-0 leading-tight">
+          <p className="text-white text-4xl font-bold w-full md:w-auto mb-6 md:mb-0 leading-tight">
             Join the Conference
           </p>
           <a

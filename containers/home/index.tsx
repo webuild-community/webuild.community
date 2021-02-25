@@ -1,6 +1,5 @@
 import React from 'react';
 import DefaultLayout from 'components/DefaultLayout';
-// import SEO from 'components/seo';
 import HeroBanner from './HeroBanner';
 import WhatWeDo from './WhatWeDo';
 import Events from './Events';
@@ -18,7 +17,6 @@ interface Props {
 
 const Home = ({ events, news }: Props) => (
   <DefaultLayout>
-    {/* <SEO /> */}
     <HeroBanner news={news} />
     <WhatWeDo />
     <Events events={events} />
