@@ -31,7 +31,10 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "prettify": "prettier -c --write \"*/**\""
+    "prettify": "prettier -c --write \"*/**\"",
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
@@ -57,26 +60,21 @@
     "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-react": "7.21.5",
-    "husky": "^5.1.1",
+    "husky": "5",
     "lint-staged": "^10.5.4",
     "next-on-netlify": "^2.6.3",
+    "pinst": "^2.1.6",
     "postcss": "^8.2.2",
     "prettier": "^2.2.1",
     "semantic-release": "^17.3.9",
     "typescript": "^4.1.3"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
-    "src/**/*.{json,css,scss,md}": [
+    "**/*.{json,css,scss,md}": [
       "prettier --write",
       "git add"
     ],
-    "src/**/*.{js,jsx,ts,tsx}": [
+    "**/*.{js,jsx,ts,tsx}": [
       "eslint --fix",
       "prettier --write",
       "git add"

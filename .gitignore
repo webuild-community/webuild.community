@@ -19,4 +19,3 @@ out_functions
 .env.local
 
 sources/jobs/index.json
-.husky
