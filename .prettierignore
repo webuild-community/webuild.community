@@ -2,3 +2,8 @@
 package.json
 package-lock.json
 public
+.next
+out_functions
+out_publish
+node_modules
+.husky

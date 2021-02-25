@@ -5,3 +5,6 @@ out
 types
 tsconfig.json
 tsconfig.build.json
+out_functions
+out_publish
+.next
