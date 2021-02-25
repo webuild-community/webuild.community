@@ -1,0 +1,86 @@
+{
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "angular",
+        "releaseRules": [
+          { "type": "docs", "release": "patch" },
+          { "type": "refactor", "release": "patch" },
+          { "type": "style", "release": "patch" },
+          { "type": "chore", "release": "patch" },
+          { "type": "ci", "release": "patch" },
+          { "type": "build", "release": "patch" },
+          { "type": "test", "release": "patch" }
+        ],
+        "parserOpts": {
+          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
+        }
+      }
+    ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "conventionalcommits",
+        "presetConfig": {
+          "types": [
+            {
+              "type": "feat",
+              "section": "✨ Features",
+              "hidden": false
+            },
+            {
+              "type": "fix",
+              "section": "🐛 Bug Fixes",
+              "hidden": false
+            },
+            {
+              "type": "docs",
+              "section": "📝 Document",
+              "hidden": false
+            },
+            {
+              "type": "style",
+              "section": "💈 Style",
+              "hidden": false
+            },
+            {
+              "type": "refactor",
+              "section": "⚡ Refactor",
+              "hidden": false
+            },
+            {
+              "type": "perf",
+              "section": "🚀 Performance Improvement",
+              "hidden": false
+            },
+            {
+              "type": "test",
+              "section": "👀 Test",
+              "hidden": false
+            },
+            {
+              "type": "ci",
+              "section": "🔁 CI",
+              "hidden": false
+            },
+            {
+              "type": "chore",
+              "section": "🚿 Chores",
+              "hidden": false
+            }
+          ]
+        }
+      }
+    ],
+    "@semantic-release/github"
+  ],
+  "prepare": [
+    "@semantic-release/changelog",
+    {
+      "path": "@semantic-release/git",
+      "assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
+      "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
+    }
+  ]
+}

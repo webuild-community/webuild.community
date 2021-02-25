@@ -15,6 +15,20 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - uses: actions/cache@v2
+        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
       - name: Netlify deployment
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_APP_ID }}
@@ -28,3 +42,47 @@ jobs:
           yarn
           yarn build
           npx netlify-cli deploy --dir=out_publish --functions=out_functions --prod --message='Deployment for ${GITHUB_REF}'
+      - name: Check Commit Type
+        uses: gsactions/commit-message-checker@v1
+        with:
+          pattern: '^(?!cronjob:).*$'
+          flags: 'gm'
+          error: 'Cronjob update so skip the release step'
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
+      - uses: actions/github-script@0.3.0
+        with:
+          github-token: '${{secrets.GITHUB_TOKEN}}'
+          script: |
+            const core = require("@actions/core");
+            const { readFileSync } = require("fs");
+            const changelog = await readFileSync('CHANGELOG.md', 'utf8');
+            const lines = changelog.split(/[\n]/g);
+            const output = [];
+            let count = 0;
+            for(let line of lines){
+              if(/\[\d+\.\d+\.\d+\]/g.test(line)){
+                count++;
+                if(count === 2){
+                  break;
+                }
+              }
+              output.push(line);
+            };
+            output[0] = output[0];
+            const content = output.join('\\n');
+            core.setOutput('content', content);
+        id: release_info
+
+      - name: Printout release notes
+        run: >
+          curl --request POST \
+            --url https://be.fortress.d.foundation/webhook/basecamp/changelog-message \
+            --header 'Content-Type: application/json' \
+            --data '{
+              "project": "WEBUILD",
+              "message": "${{ steps.release_info.outputs.content }}"
+            }'
