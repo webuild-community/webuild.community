@@ -28,12 +28,12 @@ const CodeForVietnam = () => {
             <ul>
               <li>
                 Mobile Application for Salt Cancer Initiatives to help cancer
-                patients in Vietnam
+                patients in Vietnam.
               </li>
-              <li>Setup online donation for The Library Project</li>
+              <li>Setup online donation for The Library Project.</li>
               <li>
                 Building a practical programming course for Dariu Foundation to
-                teach high school students in remote areas of Vietnam
+                teach high school students in remote areas of Vietnam.
               </li>
             </ul>
             <h5>
@@ -42,15 +42,16 @@ const CodeForVietnam = () => {
             <ol>
               <li>
                 <strong>Submission</strong>: Submit this form (AirTable) to tell
-                us about your stories and what you need
+                us about your stories and what you need.
               </li>
               <li>
                 <strong>Ideation</strong>: We will set up a call with you to
-                discuss how we can best support you
+                discuss how we can best support you.
               </li>
               <li>
                 <strong>Kickstart</strong>: We will connect you with the
-                suitable development team or developers to kickstart the project
+                suitable development team or developers to kickstart the
+                project.
               </li>
             </ol>
             <h5>
