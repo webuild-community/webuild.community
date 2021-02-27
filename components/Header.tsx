@@ -55,18 +55,6 @@ const Header = ({ variant = 'default' }) => {
               </Link>
             </li>
             <li className="px-6">
-              <Link href="/webuild-day">
-                <a
-                  className={classnames({
-                    'text-white font-bold': isPrimaryVariant,
-                    'text-gray-700': !isPrimaryVariant
-                  })}
-                >
-                  WeBuild Day
-                </a>
-              </Link>
-            </li>
-            <li className="px-6">
               <Link href="/news">
                 <a
                   className={classnames({
@@ -126,18 +114,6 @@ const Header = ({ variant = 'default' }) => {
                 })}
               >
                 Events
-              </a>
-            </Link>
-          </li>
-          <li className="pr-8">
-            <Link href="/webuild-day">
-              <a
-                className={classnames({
-                  'text-white font-bold': isPrimaryVariant,
-                  'text-gray-700': !isPrimaryVariant
-                })}
-              >
-                WeBuild Day
               </a>
             </Link>
           </li>

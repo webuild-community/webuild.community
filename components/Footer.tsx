@@ -2,6 +2,7 @@ import React from 'react';
 import { ReactComponent as GithubIcon } from '../assets/svg/github.svg';
 import { ReactComponent as EmailIcon } from '../assets/svg/mail.svg';
 import Container from './Container';
+import Link from 'next/link';
 
 const Footer = () => (
   <footer className="bg-gray-900 sm:pt-14 pt-10">
@@ -17,6 +18,18 @@ const Footer = () => (
         </div>
         <div className="lg:block hidden sm:w-1/3 px-3"></div>
         <div className="w-full sm:w-1/2 lg:w-1/3 px-3 sm:mt-0 mt-10">
+          <div className="mb-4">
+            <ul
+              className="list-inside text-gray-500"
+              style={{ listStyleType: 'square' }}
+            >
+              <li>
+                <Link href="/webuild-day">
+                  <a className="text-gray-500 text-base">WeBuild day</a>
+                </Link>
+              </li>
+            </ul>
+          </div>
           <div className="flex items-center lg:justify-start sm:justify-end justify-start">
             <a href="https://github.com/webuild-community" className="mr-5">
               <GithubIcon fill="currentColor" />
