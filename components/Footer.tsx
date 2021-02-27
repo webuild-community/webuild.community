@@ -25,7 +25,7 @@ const Footer = () => (
             >
               <li>
                 <Link href="/webuild-day">
-                  <a className="text-gray-500 text-base">WeBuild day</a>
+                  <a className="text-gray-500 text-base">WeBuild Day</a>
                 </Link>
               </li>
             </ul>
