@@ -2,13 +2,18 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import DefaultLayout from '../components/DefaultLayout';
 import Container from '../components/Container';
+import { H3 } from 'components/typography';
+import Gallery from 'components/Gallery';
 
 const CodeForVietnam = () => {
   return (
     <>
-      <NextSeo title={`Code for Vietnam | WeBuild`} />
+      <NextSeo
+        title={`Code for Vietnam | WeBuild`}
+        description="We connect developers and development teams with NGOs or social causes that need tech solutions."
+      />
       <DefaultLayout>
-        <Container className="py-6 sm:py-10">
+        <Container className="py-6 sm:pt-10 pb-16">
           <div className="max-w-xl mx-auto mb-8">
             <h1 className="text-3xl font-bold sm:text-4xl">About us</h1>
           </div>
@@ -68,6 +73,26 @@ const CodeForVietnam = () => {
             </p>
           </div>
         </Container>
+
+        <section id="partners" className="pb-16 sm:pb-24 sm:pt-10 pt-4">
+          <Container className="text-center">
+            <H3 className="mb-6">Partners</H3>
+            <Gallery
+              items={[
+                {
+                  title: 'Dwarves Foundation',
+                  imgUrl: '/images/sponsors/dwarves.jpg',
+                  href: 'https://dwarves.foundation/'
+                },
+                {
+                  title: 'CodersX',
+                  imgUrl: '/images/sponsors/codersx.jpg',
+                  href: 'https://coders-x.com/'
+                }
+              ]}
+            />
+          </Container>
+        </section>
       </DefaultLayout>
     </>
   );

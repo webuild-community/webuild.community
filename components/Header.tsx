@@ -143,7 +143,7 @@ const Header = ({ variant = 'default' }) => {
               </a>
             </Link>
           </li>
-          <li className="pr-8">
+          <li>
             <Link href="/news">
               <a
                 className={classnames({
