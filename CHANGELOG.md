@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/webuild-community/webuild.community/compare/v1.0.4...v1.1.0) (2021-02-28)
+
+### ✨ Features
+
+- add code-for-vietnam page ([#51](https://github.com/webuild-community/webuild.community/issues/51)) ([0a22e9e](https://github.com/webuild-community/webuild.community/commit/0a22e9e338216dcef3db47400fd20060007f9883))
+
 ### [1.0.4](https://github.com/webuild-community/webuild.community/compare/v1.0.3...v1.0.4) (2021-02-28)
 
 ### 🐛 Bug Fixes
