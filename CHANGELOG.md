@@ -1,3 +1,9 @@
+### [1.0.4](https://github.com/webuild-community/webuild.community/compare/v1.0.3...v1.0.4) (2021-02-28)
+
+### 🐛 Bug Fixes
+
+- move webuild-day link to footer ([#52](https://github.com/webuild-community/webuild.community/issues/52)) ([eb75c78](https://github.com/webuild-community/webuild.community/commit/eb75c784972cc5365d2c46cd13afebad297585cd))
+
 ### [1.0.3](https://github.com/webuild-community/webuild.community/compare/v1.0.2...v1.0.3) (2021-02-25)
 
 ### 🚿 Chores
