@@ -46,8 +46,15 @@ const CodeForVietnam = () => {
             </h5>
             <ol>
               <li>
-                <strong>Submission</strong>: Submit this form (AirTable) to tell
-                us about your stories and what you need.
+                <strong>Submission</strong>:{' '}
+                <a
+                  href="https://forms.gle/c2HhuiZEsEFojGhVA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Submit this form
+                </a>{' '}
+                to tell us about your stories and what you need.
               </li>
               <li>
                 <strong>Ideation</strong>: We will set up a call with you to
