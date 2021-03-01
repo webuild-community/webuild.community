@@ -1,3 +1,9 @@
+### [1.1.1](https://github.com/webuild-community/webuild.community/compare/v1.1.0...v1.1.1) (2021-03-01)
+
+### 🐛 Bug Fixes
+
+- tighten up post title line height ([f59d0ff](https://github.com/webuild-community/webuild.community/commit/f59d0ff89552319ab4197a5df7824a6ac491643b))
+
 ## [1.1.0](https://github.com/webuild-community/webuild.community/compare/v1.0.4...v1.1.0) (2021-02-28)
 
 ### ✨ Features
