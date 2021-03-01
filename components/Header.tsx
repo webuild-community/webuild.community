@@ -8,6 +8,25 @@ import smoothscroll from 'smoothscroll-polyfill';
 import classnames from 'classnames';
 import { useRouter } from 'next/router';
 
+const menuItems = [
+  {
+    href: '/#jobs',
+    name: 'Jobs'
+  },
+  {
+    href: '/#upcoming-event',
+    name: 'Events'
+  },
+  {
+    href: '/news',
+    name: 'news'
+  },
+  {
+    href: '/code-for-vietnam',
+    name: 'Code for Vietnam'
+  }
+];
+
 const Header = ({ variant = 'default' }) => {
   const isPrimaryVariant = variant === 'primary';
   const { pathname } = useRouter();
@@ -29,57 +48,23 @@ const Header = ({ variant = 'default' }) => {
 
         <div className="items-center flex">
           <ul className="pr-6 sm:flex hidden">
-            <li className="px-6">
-              <Link href="/#jobs">
-                <a
-                  className={classnames({
-                    'text-subprimary': isPrimaryVariant,
-                    'text-gray-800': !isPrimaryVariant,
-                    'font-bold': pathname === '/'
-                  })}
-                >
-                  Jobs
-                </a>
-              </Link>
-            </li>
-            <li className="px-6">
-              <Link href="/#upcoming-events">
-                <a
-                  className={classnames({
-                    'text-subprimary': isPrimaryVariant,
-                    'text-gray-700': !isPrimaryVariant
-                  })}
-                >
-                  Events
-                </a>
-              </Link>
-            </li>
-            <li className="px-6">
-              <Link href="/news">
-                <a
-                  className={classnames({
-                    'text-subprimary': isPrimaryVariant,
-                    'text-gray-700': !isPrimaryVariant,
-                    'font-bold': pathname.startsWith('/news')
-                  })}
-                >
-                  News
-                </a>
-              </Link>
-            </li>
-            <li className="px-6">
-              <Link href="/code-for-vietnam">
-                <a
-                  className={classnames({
-                    'text-subprimary': isPrimaryVariant,
-                    'text-gray-700': !isPrimaryVariant,
-                    'font-bold': pathname.startsWith('/code-for-vietnam')
-                  })}
-                >
-                  Code for Vietnam
-                </a>
-              </Link>
-            </li>
+            {menuItems.map(item => (
+              <li className="px-6">
+                <Link href={item.href}>
+                  <a
+                    className={classnames({
+                      'text-subprimary': isPrimaryVariant,
+                      'text-gray-800': !isPrimaryVariant,
+                      'font-bold':
+                        pathname === item.href ||
+                        (pathname === '/' && item.href === '/#jobs')
+                    })}
+                  >
+                    {item.name}
+                  </a>
+                </Link>
+              </li>
+            ))}
           </ul>
 
           <a href="https://we-build-vn.slack.com/join/shared_invite/zt-gh7pb9o1-eUEruSdfycMEkKfk5Bkdww#/">
