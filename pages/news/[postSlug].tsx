@@ -19,6 +19,7 @@ import PostShare from 'components/PostShare';
 import FacebookLikeButton from 'components/FacebookLikeButton';
 import { useRouter } from 'next/router';
 import { ORIGIN } from 'constants/url';
+import { ReactComponent as PdfDownloadIcon } from '../../assets/svg/pdf-download.svg';
 
 export const getServerSideProps: GetServerSideProps = async context => {
   const {
@@ -49,24 +50,39 @@ const richTextOptions: Options = {
   renderNode: {
     [BLOCKS.EMBEDDED_ASSET]: node => {
       const { title, description, file } = node.data.target.fields;
-      const mimeType = file.contentType;
-      const [mimeGroup] = mimeType.split('/');
+      const mimeType = file.contentType as string;
 
-      switch (mimeGroup) {
-        case 'image':
-          return (
-            <figure>
-              <img
-                title={title ? title : null}
-                alt={description ? description : null}
-                src={file.url}
-              />
-              {description && <figcaption>{description}</figcaption>}
-            </figure>
-          );
-        default:
-          return null;
+      if (mimeType.includes('image')) {
+        return (
+          <figure>
+            <img
+              title={title ? title : null}
+              alt={description ? description : null}
+              src={file.url}
+            />
+            {description && <figcaption>{description}</figcaption>}
+          </figure>
+        );
       }
+
+      if (mimeType.includes('pdf')) {
+        return (
+          <div className="my-5">
+            <a
+              href={file.url}
+              className="inline-flex max-w-full items-center space-x-3"
+              target="_blank"
+              title={title.fileName}
+              rel="noopener noreferrer"
+            >
+              <PdfDownloadIcon className="text-2xl opacity-75" />{' '}
+              <span className="truncate w-11/12 block">{file.fileName}</span>
+            </a>
+          </div>
+        );
+      }
+
+      return null;
     }
   }
 };
