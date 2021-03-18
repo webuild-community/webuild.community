@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/webuild-community/webuild.community/compare/v1.1.3...v1.2.0) (2021-03-18)
+
+### ✨ Features
+
+- support pdf mime type for post ([#55](https://github.com/webuild-community/webuild.community/issues/55)) ([5e73403](https://github.com/webuild-community/webuild.community/commit/5e734036554a6881396b89a4241358f07c87f5c2))
+
 ### [1.1.3](https://github.com/webuild-community/webuild.community/compare/v1.1.2...v1.1.3) (2021-03-17)
 
 ### 🚿 Chores
