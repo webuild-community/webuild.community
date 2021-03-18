@@ -6,7 +6,7 @@ import 'typeface-barlow';
 interface Props extends React.HTMLAttributes<HTMLDivElement> {}
 
 const ChatLayout = ({ children }: Props) => (
-  <div className="font-sans font-normal leading-medium min-h-screen font-medium">
+  <div className="font-sans leading-medium min-h-screen font-medium">
     <header className="flex justify-center border-b border-gray-200 sm:py-6 py-4 bg-white">
       <Link href="/">
         <Logo />
