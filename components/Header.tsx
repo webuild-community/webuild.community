@@ -14,12 +14,12 @@ const menuItems = [
     name: 'Jobs'
   },
   {
-    href: '/#upcoming-event',
+    href: '/#upcoming-events',
     name: 'Events'
   },
   {
     href: '/news',
-    name: 'news'
+    name: 'News'
   },
   {
     href: '/code-for-vietnam',
@@ -49,7 +49,7 @@ const Header = ({ variant = 'default' }) => {
         <div className="items-center flex">
           <ul className="pr-6 sm:flex hidden">
             {menuItems.map(item => (
-              <li className="px-6">
+              <li className="px-6" key={item.name}>
                 <Link href={item.href}>
                   <a
                     className={classnames({
