@@ -37,7 +37,8 @@ const Header = ({ variant = 'default' }) => {
 
   const linkRender = (
     item: { href: string; name: string },
-    isPrimaryVariant: boolean
+    isPrimaryVariant: boolean,
+    id: number
   ) => {
     return (
       <Link href={item.href}>
@@ -46,8 +47,7 @@ const Header = ({ variant = 'default' }) => {
             'text-subprimary': isPrimaryVariant,
             'text-gray-800': !isPrimaryVariant,
             'font-bold':
-              pathname === item.href ||
-              (pathname === '/' && item.href === '/#jobs')
+              pathname === item.href || (pathname === '/' && id === 0)
           })}
         >
           {item.name}
@@ -69,9 +69,9 @@ const Header = ({ variant = 'default' }) => {
 
         <div className="items-center flex">
           <ul className="pr-6 sm:flex hidden">
-            {menuItems.map(item => (
+            {menuItems.map((item, idx) => (
               <li className="px-6" key={item.name}>
-                {linkRender(item, isPrimaryVariant)}
+                {linkRender(item, isPrimaryVariant, idx)}
               </li>
             ))}
           </ul>
@@ -105,7 +105,7 @@ const Header = ({ variant = 'default' }) => {
               className={idx === menuItems.length - 1 ? '' : 'pr-8'}
               key={item.name}
             >
-              {linkRender(item, isPrimaryVariant)}
+              {linkRender(item, isPrimaryVariant, idx)}
             </li>
           ))}
         </ul>
