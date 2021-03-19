@@ -35,6 +35,30 @@ const Header = ({ variant = 'default' }) => {
     smoothscroll.polyfill();
   }, []);
 
+  const linkRender = ({
+    item,
+    isPrimaryVariant
+  }: {
+    item: { href: string; name: string };
+    isPrimaryVariant: boolean;
+  }) => {
+    return (
+      <Link href={item.href}>
+        <a
+          className={classnames({
+            'text-subprimary': isPrimaryVariant,
+            'text-gray-800': !isPrimaryVariant,
+            'font-bold':
+              pathname === item.href ||
+              (pathname === '/' && item.href === '/#jobs')
+          })}
+        >
+          {item.name}
+        </a>
+      </Link>
+    );
+  };
+
   return (
     <header
       className={classnames('relative z-10 sm:py-6 py-4', {
@@ -50,19 +74,7 @@ const Header = ({ variant = 'default' }) => {
           <ul className="pr-6 sm:flex hidden">
             {menuItems.map(item => (
               <li className="px-6" key={item.name}>
-                <Link href={item.href}>
-                  <a
-                    className={classnames({
-                      'text-subprimary': isPrimaryVariant,
-                      'text-gray-800': !isPrimaryVariant,
-                      'font-bold':
-                        pathname === item.href ||
-                        (pathname === '/' && item.href === '/#jobs')
-                    })}
-                  >
-                    {item.name}
-                  </a>
-                </Link>
+                {linkRender(item, isPrimaryVariant)}
               </li>
             ))}
           </ul>
@@ -91,56 +103,14 @@ const Header = ({ variant = 'default' }) => {
         })}
       >
         <ul className="flex whitespace-nowrap py-3">
-          <li className="pr-8">
-            <Link href="/#jobs">
-              <a
-                className={classnames({
-                  'text-subprimary': isPrimaryVariant,
-                  'font-bold text-gray-800': !isPrimaryVariant
-                })}
-              >
-                Jobs
-              </a>
-            </Link>
-          </li>
-          <li className="pr-8">
-            <Link href="/#upcoming-events">
-              <a
-                className={classnames({
-                  'text-subprimary': isPrimaryVariant,
-                  'text-gray-700': !isPrimaryVariant
-                })}
-              >
-                Events
-              </a>
-            </Link>
-          </li>
-          <li className="pr-8">
-            <Link href="/news">
-              <a
-                className={classnames({
-                  'text-subprimary': isPrimaryVariant,
-                  'text-gray-700': !isPrimaryVariant,
-                  'font-bold': pathname.startsWith('/news')
-                })}
-              >
-                News
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/news">
-              <a
-                className={classnames({
-                  'text-subprimary': isPrimaryVariant,
-                  'text-gray-700': !isPrimaryVariant,
-                  'font-bold': pathname.startsWith('/code-for-vietnam')
-                })}
-              >
-                Code for Vietnam
-              </a>
-            </Link>
-          </li>
+          {menuItems.map((item, idx) => (
+            <li
+              className={idx === menuItems.length - 1 ? '' : 'pr-8'}
+              key={item.name}
+            >
+              {linkRender(item, isPrimaryVariant)}
+            </li>
+          ))}
         </ul>
       </Container>
     </header>
