@@ -35,13 +35,10 @@ const Header = ({ variant = 'default' }) => {
     smoothscroll.polyfill();
   }, []);
 
-  const linkRender = ({
-    item,
-    isPrimaryVariant
-  }: {
-    item: { href: string; name: string };
-    isPrimaryVariant: boolean;
-  }) => {
+  const linkRender = (
+    item: { href: string; name: string },
+    isPrimaryVariant: boolean
+  ) => {
     return (
       <Link href={item.href}>
         <a
