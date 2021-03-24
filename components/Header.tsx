@@ -8,6 +8,25 @@ import smoothscroll from 'smoothscroll-polyfill';
 import classnames from 'classnames';
 import { useRouter } from 'next/router';
 
+const menuItems = [
+  {
+    href: '/#jobs',
+    name: 'Jobs'
+  },
+  {
+    href: '/#upcoming-events',
+    name: 'Events'
+  },
+  {
+    href: '/news',
+    name: 'News'
+  },
+  {
+    href: '/code-for-vietnam',
+    name: 'Code for Vietnam'
+  }
+];
+
 const Header = ({ variant = 'default' }) => {
   const isPrimaryVariant = variant === 'primary';
   const { pathname } = useRouter();
@@ -15,6 +34,27 @@ const Header = ({ variant = 'default' }) => {
   useEffect(() => {
     smoothscroll.polyfill();
   }, []);
+
+  const linkRender = (
+    item: { href: string; name: string },
+    isPrimaryVariant: boolean,
+    id: number
+  ) => {
+    return (
+      <Link href={item.href}>
+        <a
+          className={classnames({
+            'text-subprimary': isPrimaryVariant,
+            'text-gray-800': !isPrimaryVariant,
+            'font-bold':
+              pathname === item.href || (pathname === '/' && id === 0)
+          })}
+        >
+          {item.name}
+        </a>
+      </Link>
+    );
+  };
 
   return (
     <header
@@ -29,57 +69,11 @@ const Header = ({ variant = 'default' }) => {
 
         <div className="items-center flex">
           <ul className="pr-6 sm:flex hidden">
-            <li className="px-6">
-              <Link href="/#jobs">
-                <a
-                  className={classnames({
-                    'text-subprimary': isPrimaryVariant,
-                    'text-gray-800': !isPrimaryVariant,
-                    'font-bold': pathname === '/'
-                  })}
-                >
-                  Jobs
-                </a>
-              </Link>
-            </li>
-            <li className="px-6">
-              <Link href="/#upcoming-events">
-                <a
-                  className={classnames({
-                    'text-subprimary': isPrimaryVariant,
-                    'text-gray-700': !isPrimaryVariant
-                  })}
-                >
-                  Events
-                </a>
-              </Link>
-            </li>
-            <li className="px-6">
-              <Link href="/news">
-                <a
-                  className={classnames({
-                    'text-subprimary': isPrimaryVariant,
-                    'text-gray-700': !isPrimaryVariant,
-                    'font-bold': pathname.startsWith('/news')
-                  })}
-                >
-                  News
-                </a>
-              </Link>
-            </li>
-            <li className="px-6">
-              <Link href="/code-for-vietnam">
-                <a
-                  className={classnames({
-                    'text-subprimary': isPrimaryVariant,
-                    'text-gray-700': !isPrimaryVariant,
-                    'font-bold': pathname.startsWith('/code-for-vietnam')
-                  })}
-                >
-                  Code for Vietnam
-                </a>
-              </Link>
-            </li>
+            {menuItems.map((item, idx) => (
+              <li className="px-6" key={item.name}>
+                {linkRender(item, isPrimaryVariant, idx)}
+              </li>
+            ))}
           </ul>
 
           <a href="https://we-build-vn.slack.com/join/shared_invite/zt-gh7pb9o1-eUEruSdfycMEkKfk5Bkdww#/">
@@ -106,56 +100,14 @@ const Header = ({ variant = 'default' }) => {
         })}
       >
         <ul className="flex whitespace-nowrap py-3">
-          <li className="pr-8">
-            <Link href="/#jobs">
-              <a
-                className={classnames({
-                  'text-subprimary': isPrimaryVariant,
-                  'font-bold text-gray-800': !isPrimaryVariant
-                })}
-              >
-                Jobs
-              </a>
-            </Link>
-          </li>
-          <li className="pr-8">
-            <Link href="/#upcoming-events">
-              <a
-                className={classnames({
-                  'text-subprimary': isPrimaryVariant,
-                  'text-gray-700': !isPrimaryVariant
-                })}
-              >
-                Events
-              </a>
-            </Link>
-          </li>
-          <li className="pr-8">
-            <Link href="/news">
-              <a
-                className={classnames({
-                  'text-subprimary': isPrimaryVariant,
-                  'text-gray-700': !isPrimaryVariant,
-                  'font-bold': pathname.startsWith('/news')
-                })}
-              >
-                News
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/news">
-              <a
-                className={classnames({
-                  'text-subprimary': isPrimaryVariant,
-                  'text-gray-700': !isPrimaryVariant,
-                  'font-bold': pathname.startsWith('/code-for-vietnam')
-                })}
-              >
-                Code for Vietnam
-              </a>
-            </Link>
-          </li>
+          {menuItems.map((item, idx) => (
+            <li
+              className={idx === menuItems.length - 1 ? '' : 'pr-8'}
+              key={item.name}
+            >
+              {linkRender(item, isPrimaryVariant, idx)}
+            </li>
+          ))}
         </ul>
       </Container>
     </header>
