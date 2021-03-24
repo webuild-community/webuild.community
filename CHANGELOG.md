@@ -1,3 +1,9 @@
+### [1.2.4](https://github.com/webuild-community/webuild.community/compare/v1.2.3...v1.2.4) (2021-03-24)
+
+### 🔁 CI
+
+- set alias for deploy link ([11cb03b](https://github.com/webuild-community/webuild.community/commit/11cb03b540909f8b548dfe5d5c7987fc2e7b644a))
+
 ### [1.2.3](https://github.com/webuild-community/webuild.community/compare/v1.2.2...v1.2.3) (2021-03-24)
 
 ### ⚡ Refactor
