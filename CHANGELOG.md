@@ -1,3 +1,9 @@
+### [1.2.3](https://github.com/webuild-community/webuild.community/compare/v1.2.2...v1.2.3) (2021-03-24)
+
+### ⚡ Refactor
+
+- header menu items ([#53](https://github.com/webuild-community/webuild.community/issues/53)) ([07b7038](https://github.com/webuild-community/webuild.community/commit/07b7038a9067b7103c1b97d902cd07dc27e7bad5))
+
 ### [1.2.2](https://github.com/webuild-community/webuild.community/compare/v1.2.1...v1.2.2) (2021-03-22)
 
 ### 🚿 Chores
