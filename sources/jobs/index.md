@@ -1,6 +1,24 @@
 ---
 key: jobs
 list:
+  - company: 'Loyal Capital'
+    date: '2021-03-23T13:58:51Z'
+    desc: 'Frontend Developer (1 position)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2357'
+    location: 'Others'
+    title: 'Frontend Developer (1 position)'
+    type: Fulltime
+    salaryRange: ''
+  - company: 'Loyal Capital'
+    date: '2021-03-23T13:56:33Z'
+    desc: 'Senior Backend Developer (2 positions)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2356'
+    location: 'Others'
+    title: 'Senior Backend Developer (2 positions)'
+    type: Fulltime
+    salaryRange: ''
   - company: 'Telio'
     date: '2021-03-22T02:53:49Z'
     desc: 'DevOps Engineer'
@@ -71,24 +89,6 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2345'
     location: 'Others'
     title: 'Backend Developer Node.js'
-    type: Fulltime
-    salaryRange: '$1500-$2000'
-  - company: 'Pandigita'
-    date: '2021-03-17T09:19:31Z'
-    desc: 'Frontend Developer React.js'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2344'
-    location: 'Others'
-    title: 'Frontend Developer React.js'
-    type: Fulltime
-    salaryRange: '$1300-$1800'
-  - company: 'Pandigita'
-    date: '2021-03-17T09:11:04Z'
-    desc: 'Fullstack Developer React.js & Node.js'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2343'
-    location: 'Others'
-    title: 'Fullstack Developer React.js & Node.js'
     type: Fulltime
     salaryRange: '$1500-$2000'
 ---
