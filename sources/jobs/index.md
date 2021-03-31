@@ -1,6 +1,33 @@
 ---
 key: jobs
 list:
+  - company: 'Altern8'
+    date: '2021-03-30T05:39:17Z'
+    desc: 'Frontend Software Engineer (Vue.js)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2367'
+    location: 'Others'
+    title: 'Frontend Software Engineer (Vue.js)'
+    type: FT/PT/C
+    salaryRange: 'up to $2,500'
+  - company: 'Koidra'
+    date: '2021-03-28T21:50:26Z'
+    desc: 'Fullstack Software Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2366'
+    location: 'HCM'
+    title: 'Fullstack Software Engineer'
+    type: Fulltime
+    salaryRange: '$1500 - $3000/month'
+  - company: 'Koidra'
+    date: '2021-03-28T21:47:27Z'
+    desc: 'Frontend Software Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2365'
+    location: 'HCM'
+    title: 'Frontend Software Engineer'
+    type: Fulltime
+    salaryRange: '$1500 - $2500/month'
   - company: 'Loyal Capital'
     date: '2021-03-23T13:58:51Z'
     desc: 'Frontend Developer (1 position)'
@@ -64,31 +91,4 @@ list:
     title: 'QA Engineer'
     type: Fulltime
     salaryRange: 'Up to $2,700 USD/month'
-  - company: 'Pod Foods Vietnam'
-    date: '2021-03-17T11:01:46Z'
-    desc: 'UI/UX Designer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2347'
-    location: 'HN'
-    title: 'UI/UX Designer'
-    type: Fulltime
-    salaryRange: '$1000-$1500/negotiable'
-  - company: 'Pod Foods Vietnam'
-    date: '2021-03-17T10:45:51Z'
-    desc: 'Frontend Developer (VueJS)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2346'
-    location: 'HN'
-    title: 'Frontend Developer (VueJS)'
-    type: Fulltime
-    salaryRange: '$1200-$1500/negotiable'
-  - company: 'Pandigita'
-    date: '2021-03-17T09:19:51Z'
-    desc: 'Backend Developer Node.js'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2345'
-    location: 'Others'
-    title: 'Backend Developer Node.js'
-    type: Fulltime
-    salaryRange: '$1500-$2000'
 ---
