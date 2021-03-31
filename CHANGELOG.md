@@ -1,3 +1,9 @@
+### [1.2.6](https://github.com/webuild-community/webuild.community/compare/v1.2.5...v1.2.6) (2021-03-31)
+
+### 🔁 CI
+
+- update condition to cancel creating release note ([dfdacb7](https://github.com/webuild-community/webuild.community/commit/dfdacb707c936917b975c0ea9e3edd4bcabfba6c))
+
 ### [1.2.5](https://github.com/webuild-community/webuild.community/compare/v1.2.4...v1.2.5) (2021-03-25)
 
 ### 🚿 Chores
