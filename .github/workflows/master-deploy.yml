@@ -15,6 +15,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.8.0
+        with:
+          access_token: ${{ github.token }}
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
@@ -42,18 +46,14 @@ jobs:
           yarn
           yarn build
           npx netlify-cli deploy --dir=out_publish --functions=out_functions --prod --message='Deployment for ${GITHUB_REF}'
-      - name: Check Commit Type
-        uses: gsactions/commit-message-checker@v1
-        with:
-          pattern: '^(?!cronjob:).*$'
-          flags: 'gm'
-          error: 'Cronjob update so skip the release step'
       - name: Release
+        if: "!contains(github.event.head_commit.message, 'update jobs')"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
       - uses: actions/github-script@0.3.0
+        if: "!contains(github.event.head_commit.message, 'update jobs')"
         with:
           github-token: '${{secrets.GITHUB_TOKEN}}'
           script: |
@@ -78,6 +78,7 @@ jobs:
         id: release_info
 
       - name: Post release notes
+        if: "!contains(github.event.head_commit.message, 'update jobs')"
         run: >
           curl --request POST \
             --url https://be.fortress.d.foundation/webhook/basecamp/changelog-message \
