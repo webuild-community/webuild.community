@@ -1,3 +1,9 @@
+### [1.2.8](https://github.com/webuild-community/webuild.community/compare/v1.2.7...v1.2.8) (2021-04-06)
+
+### 🚿 Chores
+
+- update jobs ([0b3badd](https://github.com/webuild-community/webuild.community/commit/0b3badde09ec98979dec82692f00593400176841))
+
 ### [1.2.7](https://github.com/webuild-community/webuild.community/compare/v1.2.6...v1.2.7) (2021-03-31)
 
 ### 🚿 Chores
