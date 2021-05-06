@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'KYANON DIGITAL'
+    date: '2021-05-06T04:00:54Z'
+    desc: 'Frontend Developer (HTML/CSS/JS)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2454'
+    location: 'HCM'
+    title: 'Frontend Developer (HTML/CSS/JS)'
+    type: Fulltime
+    salaryRange: ''
   - company: 'Absolute Software Vietnam'
     date: '2021-04-28T10:16:55Z'
     desc: 'Sr. Java Engineers'
@@ -82,13 +91,4 @@ list:
     title: 'REACT NATIVE'
     type: Fulltime
     salaryRange: ''
-  - company: 'Titan Technology'
-    date: '2021-04-19T10:31:22Z'
-    desc: 'ReactJS/.NET Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2430'
-    location: 'HCM'
-    title: 'ReactJS/.NET Developer'
-    type: Fulltime
-    salaryRange: 'Negotiable'
 ---
