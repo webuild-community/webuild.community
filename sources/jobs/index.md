@@ -1,6 +1,24 @@
 ---
 key: jobs
 list:
+  - company: 'LINE Vietnam'
+    date: '2021-05-06T10:57:46Z'
+    desc: 'Frontend Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2456'
+    location: 'HCM'
+    title: 'Frontend Engineer'
+    type: Fulltime
+    salaryRange: 'Market-Competitive and very attractive'
+  - company: 'LINE Vietnam'
+    date: '2021-05-06T10:55:35Z'
+    desc: 'Backend Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2455'
+    location: 'HCM'
+    title: 'Backend Engineer'
+    type: Fulltime
+    salaryRange: 'Market-Competitive and very attractive'
   - company: 'KYANON DIGITAL'
     date: '2021-05-06T04:00:54Z'
     desc: 'Frontend Developer (HTML/CSS/JS)'
@@ -73,22 +91,4 @@ list:
     title: 'Full'
     type: Hà Nội
     salaryRange: 'Up to 40m gross'
-  - company: 'LINAGORA] Java Developer'
-    date: '2021-04-20T11:50:59Z'
-    desc: 'Full'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2437'
-    location: 'Others'
-    title: 'Full'
-    type: Hà Nội
-    salaryRange: 'Up to 40m gross'
-  - company: 'FETCH TECHNOLOGY'
-    date: '2021-04-20T04:00:20Z'
-    desc: 'REACT NATIVE'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2433'
-    location: 'HCM'
-    title: 'REACT NATIVE'
-    type: Fulltime
-    salaryRange: ''
 ---
