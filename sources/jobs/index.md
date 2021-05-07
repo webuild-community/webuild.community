@@ -28,15 +28,6 @@ list:
     title: 'Frontend Developer (HTML/CSS/JS)'
     type: Fulltime
     salaryRange: ''
-  - company: 'Absolute Software Vietnam'
-    date: '2021-04-28T10:16:55Z'
-    desc: 'Sr. Java Engineers'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2449'
-    location: 'HCM'
-    title: 'Sr. Java Engineers'
-    type: Fulltime
-    salaryRange: 'Up to USD 2,500/ month'
   - company: 'FETCH TECHNOLOGY'
     date: '2021-04-28T07:35:59Z'
     desc: 'SENIOR ANDROID DEVELOPER'
@@ -87,6 +78,15 @@ list:
     desc: 'Full'
     isOpened: 'true'
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2438'
+    location: 'Others'
+    title: 'Full'
+    type: Hà Nội
+    salaryRange: 'Up to 40m gross'
+  - company: 'LINAGORA] Java Developer'
+    date: '2021-04-20T11:50:59Z'
+    desc: 'Full'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2437'
     location: 'Others'
     title: 'Full'
     type: Hà Nội
