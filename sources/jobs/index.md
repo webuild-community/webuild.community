@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'FMG Suite'
+    date: '2021-05-07T08:56:05Z'
+    desc: 'Senior Fullstack Node'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2458'
+    location: 'Others'
+    title: 'Senior Fullstack Node'
+    type: Fulltime
+    salaryRange: '$2,000 to $3,500 a month'
   - company: 'LINE Vietnam'
     date: '2021-05-06T10:57:46Z'
     desc: 'Frontend Engineer'
@@ -78,15 +87,6 @@ list:
     desc: 'Full'
     isOpened: 'true'
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2438'
-    location: 'Others'
-    title: 'Full'
-    type: Hà Nội
-    salaryRange: 'Up to 40m gross'
-  - company: 'LINAGORA] Java Developer'
-    date: '2021-04-20T11:50:59Z'
-    desc: 'Full'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2437'
     location: 'Others'
     title: 'Full'
     type: Hà Nội
