@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'Fiahub Exchange'
+    date: '2021-05-10T07:15:25Z'
+    desc: 'Senior IOS/ Android'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2459'
+    location: 'Others'
+    title: 'Senior IOS/ Android'
+    type: Fulltime
+    salaryRange: '2000$ - 2500$ a month'
   - company: 'FMG Suite'
     date: '2021-05-07T08:56:05Z'
     desc: 'Senior Fullstack Node'
@@ -82,13 +91,4 @@ list:
     title: 'Fullstack Engineer'
     type: Fulltime
     salaryRange: 'VND 30m - VND 90m gross per month'
-  - company: 'LINAGORA] Javascript Developer'
-    date: '2021-04-20T11:55:14Z'
-    desc: 'Full'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2438'
-    location: 'Others'
-    title: 'Full'
-    type: Hà Nội
-    salaryRange: 'Up to 40m gross'
 ---
