@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'Money Forward Vietnam'
+    date: '2021-05-11T02:59:12Z'
+    desc: 'Software Engineer (Frontend'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2462'
+    location: 'Others'
+    title: 'Software Engineer (Frontend'
+    type: HCMC
+    salaryRange: 'Very attractive'
   - company: 'Fiahub Exchange'
     date: '2021-05-10T07:15:25Z'
     desc: 'Senior IOS/ Android'
@@ -82,13 +91,4 @@ list:
     title: 'RUBY ON RAILS'
     type: Fulltime
     salaryRange: '25,000,000 - 28,000,000 VND/month'
-  - company: 'Yojee'
-    date: '2021-04-26T04:26:14Z'
-    desc: 'Fullstack Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2441'
-    location: 'HCM'
-    title: 'Fullstack Engineer'
-    type: Fulltime
-    salaryRange: 'VND 30m - VND 90m gross per month'
 ---
