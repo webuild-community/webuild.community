@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'JobSeekervn'
+    date: '2021-05-11T06:58:35Z'
+    desc: 'Senior Front'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2463'
+    location: 'Others'
+    title: 'Senior Front'
+    type: Ha Noi
+    salaryRange: '$1800 - $2400'
   - company: 'Money Forward Vietnam'
     date: '2021-05-11T02:59:12Z'
     desc: 'Software Engineer (Frontend'
@@ -82,13 +91,4 @@ list:
     title: 'Frontend engineer'
     type: Fulltime
     salaryRange: 'USD 1500 - 3500 gross per month'
-  - company: 'CMC Global'
-    date: '2021-04-26T07:27:44Z'
-    desc: 'RUBY ON RAILS'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2442'
-    location: 'HCM'
-    title: 'RUBY ON RAILS'
-    type: Fulltime
-    salaryRange: '25,000,000 - 28,000,000 VND/month'
 ---
