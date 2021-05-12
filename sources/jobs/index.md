@@ -82,13 +82,4 @@ list:
     title: 'SENIOR IOS DEVELOPER'
     type: Fulltime
     salaryRange: ''
-  - company: 'Yojee'
-    date: '2021-04-26T08:29:12Z'
-    desc: 'Frontend engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2443'
-    location: 'HCM'
-    title: 'Frontend engineer'
-    type: Fulltime
-    salaryRange: 'USD 1500 - 3500 gross per month'
 ---
