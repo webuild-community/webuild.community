@@ -82,13 +82,4 @@ list:
     title: 'Backend Engineer'
     type: Fulltime
     salaryRange: 'Market-Competitive and very attractive'
-  - company: 'KYANON DIGITAL'
-    date: '2021-05-06T04:00:54Z'
-    desc: 'Frontend Developer (HTML/CSS/JS)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2454'
-    location: 'HCM'
-    title: 'Frontend Developer (HTML/CSS/JS)'
-    type: Fulltime
-    salaryRange: ''
 ---
