@@ -73,13 +73,4 @@ list:
     title: 'Frontend Engineer'
     type: Fulltime
     salaryRange: 'Market-Competitive and very attractive'
-  - company: 'LINE Vietnam'
-    date: '2021-05-06T10:55:35Z'
-    desc: 'Backend Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2455'
-    location: 'HCM'
-    title: 'Backend Engineer'
-    type: Fulltime
-    salaryRange: 'Market-Competitive and very attractive'
 ---
