@@ -46,31 +46,4 @@ list:
     title: 'Software Engineer (Frontend'
     type: HCMC
     salaryRange: 'Very attractive'
-  - company: 'Fiahub Exchange'
-    date: '2021-05-10T07:15:25Z'
-    desc: 'Senior IOS/ Android'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2459'
-    location: 'Others'
-    title: 'Senior IOS/ Android'
-    type: Fulltime
-    salaryRange: '2000$ - 2500$ a month'
-  - company: 'FMG Suite'
-    date: '2021-05-07T08:56:05Z'
-    desc: 'Senior Fullstack Node'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2458'
-    location: 'Others'
-    title: 'Senior Fullstack Node'
-    type: Fulltime
-    salaryRange: '$2,000 to $3,500 a month'
-  - company: 'LINE Vietnam'
-    date: '2021-05-06T10:57:46Z'
-    desc: 'Frontend Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2456'
-    location: 'HCM'
-    title: 'Frontend Engineer'
-    type: Fulltime
-    salaryRange: 'Market-Competitive and very attractive'
 ---
