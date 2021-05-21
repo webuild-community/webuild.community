@@ -1,6 +1,33 @@
 ---
 key: jobs
 list:
+  - company: 'Pionero'
+    date: '2021-05-21T07:56:22Z'
+    desc: 'Backend Engineer (NodeJS)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2487'
+    location: 'HN'
+    title: 'Backend Engineer (NodeJS)'
+    type: Fulltime
+    salaryRange: '$800~$1700/month'
+  - company: 'Cubicstack Solutions'
+    date: '2021-05-21T05:09:17Z'
+    desc: 'PHP Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2485'
+    location: 'HCM'
+    title: 'PHP Developer'
+    type: Fulltime
+    salaryRange: '$900 to $1,300/month'
+  - company: 'Cubicstack Solutions'
+    date: '2021-05-21T04:54:48Z'
+    desc: 'QA QC Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2484'
+    location: 'HCM'
+    title: 'QA QC Engineer'
+    type: Fulltime
+    salaryRange: '$700 to $1,200/month'
   - company: 'Magnolia Vietnam'
     date: '2021-05-17T09:58:23Z'
     desc: 'Senior QA Engineer (Selenium, Java)'
@@ -28,31 +55,4 @@ list:
     title: 'Java Fullstack Engineer (Javascript/ UI)'
     type: Fulltime
     salaryRange: '$1400 - $2400 NET/month'
-  - company: 'JobSeekervn'
-    date: '2021-05-11T06:58:35Z'
-    desc: 'Senior Front'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2463'
-    location: 'Others'
-    title: 'Senior Front'
-    type: Ha Noi
-    salaryRange: '$1800 - $2400'
-  - company: 'Money Forward Vietnam'
-    date: '2021-05-11T02:59:12Z'
-    desc: 'Software Engineer (Frontend'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2462'
-    location: 'Others'
-    title: 'Software Engineer (Frontend'
-    type: HCMC
-    salaryRange: 'Very attractive'
-  - company: 'Fiahub Exchange'
-    date: '2021-05-10T07:15:25Z'
-    desc: 'Senior IOS/ Android'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2459'
-    location: 'Others'
-    title: 'Senior IOS/ Android'
-    type: Fulltime
-    salaryRange: '2000$ - 2500$ a month'
 ---
