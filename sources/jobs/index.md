@@ -46,4 +46,13 @@ list:
     title: 'Software Engineer (Frontend'
     type: HCMC
     salaryRange: 'Very attractive'
+  - company: 'Fiahub Exchange'
+    date: '2021-05-10T07:15:25Z'
+    desc: 'Senior IOS/ Android'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2459'
+    location: 'Others'
+    title: 'Senior IOS/ Android'
+    type: Fulltime
+    salaryRange: '2000$ - 2500$ a month'
 ---
