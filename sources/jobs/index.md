@@ -37,31 +37,4 @@ list:
     title: 'QA QC Engineer'
     type: Fulltime
     salaryRange: '$700 to $1,200/month'
-  - company: 'Magnolia Vietnam'
-    date: '2021-05-17T09:58:23Z'
-    desc: 'Senior QA Engineer (Selenium, Java)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2477'
-    location: 'Others'
-    title: 'Senior QA Engineer (Selenium, Java)'
-    type: Fulltime
-    salaryRange: '$1200 - $1700 NET/month'
-  - company: 'Magnolia Vietnam'
-    date: '2021-05-17T09:56:53Z'
-    desc: 'Technical Support Engineer (Java)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2476'
-    location: 'Others'
-    title: 'Technical Support Engineer (Java)'
-    type: Fulltime
-    salaryRange: '$1400 - $2400 NET/month'
-  - company: 'Magnolia Vietnam'
-    date: '2021-05-17T09:55:06Z'
-    desc: 'Java Fullstack Engineer (Javascript/ UI)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2475'
-    location: 'Others'
-    title: 'Java Fullstack Engineer (Javascript/ UI)'
-    type: Fulltime
-    salaryRange: '$1400 - $2400 NET/month'
 ---
