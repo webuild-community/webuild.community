@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'The Kirin Lab'
+    date: '2021-05-26T10:05:06Z'
+    desc: 'Backend Developer (Elixir)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2499'
+    location: 'Others'
+    title: 'Backend Developer (Elixir)'
+    type: Fulltime
+    salaryRange: 'Mức lương cạnh tranh'
   - company: 'Mobytelab Solution'
     date: '2021-05-26T07:52:39Z'
     desc: 'Fullstack Javascript Developer'
