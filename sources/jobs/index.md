@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'Mobytelab Solution'
+    date: '2021-05-26T07:52:39Z'
+    desc: 'Fullstack Javascript Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2498'
+    location: 'HCM'
+    title: 'Fullstack Javascript Developer'
+    type: Fulltime
+    salaryRange: '$1500 NET/month'
   - company: 'Star Global'
     date: '2021-05-24T04:22:26Z'
     desc: 'Senior iOS Engineer'
