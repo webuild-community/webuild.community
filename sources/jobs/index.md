@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'SpiritLabs'
+    date: '2021-05-27T15:06:58Z'
+    desc: 'Backend Developer (NodeJS)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2501'
+    location: 'Others'
+    title: 'Backend Developer (NodeJS)'
+    type: Fulltime
+    salaryRange: 'Up to $1500'
   - company: 'The Kirin Lab'
     date: '2021-05-26T10:05:06Z'
     desc: 'Backend Developer (Elixir)'
