@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'CycAI'
+    date: '2021-05-27T21:53:43Z'
+    desc: 'Frontend Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2502'
+    location: 'HCM'
+    title: 'Frontend Developer'
+    type: Fulltime
+    salaryRange: 'Above the market with stock options as long as you are really good.'
   - company: 'SpiritLabs'
     date: '2021-05-27T15:06:58Z'
     desc: 'Backend Developer (NodeJS)'
