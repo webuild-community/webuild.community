@@ -3,11 +3,11 @@ key: jobs
 list:
   - company: 'CycAI'
     date: '2021-05-27T21:53:43Z'
-    desc: 'Frontend Developer'
+    desc: 'Frontend Developer (ReactJS)'
     isOpened: 'true'
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2502'
     location: 'HCM'
-    title: 'Frontend Developer'
+    title: 'Frontend Developer (ReactJS)'
     type: Fulltime
     salaryRange: 'Above the market with stock options as long as you are really good.'
   - company: 'SpiritLabs'
