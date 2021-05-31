@@ -73,13 +73,4 @@ list:
     title: 'Backend Engineer (NodeJS)'
     type: Fulltime
     salaryRange: '$800~$1700/month'
-  - company: 'Cubicstack Solutions'
-    date: '2021-05-21T05:09:17Z'
-    desc: 'PHP Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2485'
-    location: 'HCM'
-    title: 'PHP Developer'
-    type: Fulltime
-    salaryRange: '$900 to $1,300/month'
 ---
