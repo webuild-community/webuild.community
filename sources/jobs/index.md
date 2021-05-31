@@ -1,6 +1,24 @@
 ---
 key: jobs
 list:
+  - company: 'FETCH TECHNOLOGY'
+    date: '2021-05-31T07:53:09Z'
+    desc: 'SENIOR RUBY ON RAILS'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2504'
+    location: 'HCM'
+    title: 'SENIOR RUBY ON RAILS'
+    type: Fulltime
+    salaryRange: ''
+  - company: 'FETCH TECHNOLOGY'
+    date: '2021-05-31T07:32:01Z'
+    desc: 'SENIOR/LEADER RUBY ON RAILS'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2503'
+    location: 'HCM'
+    title: 'SENIOR/LEADER RUBY ON RAILS'
+    type: Fulltime
+    salaryRange: ''
   - company: 'CycAI'
     date: '2021-05-27T21:53:43Z'
     desc: 'Frontend Developer (ReactJS)'
@@ -64,13 +82,4 @@ list:
     title: 'PHP Developer'
     type: Fulltime
     salaryRange: '$900 to $1,300/month'
-  - company: 'Cubicstack Solutions'
-    date: '2021-05-21T04:54:48Z'
-    desc: 'QA QC Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2484'
-    location: 'HCM'
-    title: 'QA QC Engineer'
-    type: Fulltime
-    salaryRange: '$700 to $1,200/month'
 ---
