@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'Raksul Vietnam'
+    date: '2021-06-01T08:27:40Z'
+    desc: 'Frontend Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2508'
+    location: 'HCM'
+    title: 'Frontend Engineer'
+    type: Fulltime
+    salaryRange: '2,500 - 5,000 USD'
   - company: 'FETCH TECHNOLOGY'
     date: '2021-05-31T07:53:09Z'
     desc: 'SENIOR RUBY ON RAILS'
@@ -64,13 +73,4 @@ list:
     title: 'Senior iOS Engineer'
     type: Fulltime
     salaryRange: 'Very impressive - We can't share our range but you can share your expected salary and we'll let you know if that fits in our range of seniority'
-  - company: 'Pionero'
-    date: '2021-05-21T07:56:22Z'
-    desc: 'Backend Engineer (NodeJS)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2487'
-    location: 'HN'
-    title: 'Backend Engineer (NodeJS)'
-    type: Fulltime
-    salaryRange: '$800~$1700/month'
 ---
