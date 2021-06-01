@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'KYANON DIGITAL'
+    date: '2021-06-01T11:15:29Z'
+    desc: 'SENIOR SOFTWARE ENGINEER'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2509'
+    location: 'HCM'
+    title: 'SENIOR SOFTWARE ENGINEER'
+    type: Up to $3000
+    salaryRange: ''
   - company: 'Raksul Vietnam'
     date: '2021-06-01T08:27:40Z'
     desc: 'Frontend Engineer'
