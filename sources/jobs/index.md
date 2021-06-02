@@ -73,13 +73,4 @@ list:
     title: 'Fullstack Javascript Developer'
     type: Fulltime
     salaryRange: '$1500 NET/month'
-  - company: 'Star Global'
-    date: '2021-05-24T04:22:26Z'
-    desc: 'Senior iOS Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2489'
-    location: 'Others'
-    title: 'Senior iOS Engineer'
-    type: Fulltime
-    salaryRange: 'Very impressive - We can't share our range but you can share your expected salary and we'll let you know if that fits in our range of seniority'
 ---
