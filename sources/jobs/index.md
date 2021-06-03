@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: '2Click Solutions'
+    date: '2021-06-03T10:59:52Z'
+    desc: '.NET Software Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2519'
+    location: 'HCM'
+    title: '.NET Software Engineer'
+    type: Fulltime
+    salaryRange: 'Negotiation'
   - company: 'SUTUNAM'
     date: '2021-06-02T12:40:37Z'
     desc: 'Senior PHP superhero🦸(Magento/Symfony/Laravel)'
