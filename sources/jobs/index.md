@@ -9,7 +9,7 @@ list:
     location: 'HN'
     title: 'Senior PHP superhero🦸(Magento/Symfony/Laravel)'
     type: Fulltime
-    salaryRange: 'Up to $3000/month'
+    salaryRange: '$1000 - $2000/month'
   - company: 'KYANON DIGITAL'
     date: '2021-06-01T11:15:29Z'
     desc: 'SENIOR SOFTWARE ENGINEER'
