@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'Yojee'
+    date: '2021-06-04T06:59:42Z'
+    desc: 'QA engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2521'
+    location: 'HCM'
+    title: 'QA engineer'
+    type: Fulltime
+    salaryRange: 'VND 20m - VND 45m gross per month'
   - company: '2Click Solutions'
     date: '2021-06-03T10:59:52Z'
     desc: '.NET Software Engineer'
@@ -73,22 +82,4 @@ list:
     title: 'Backend Developer (NodeJS)'
     type: Fulltime
     salaryRange: 'Up to $1500'
-  - company: 'The Kirin Lab'
-    date: '2021-05-26T10:05:06Z'
-    desc: 'Backend Developer (Elixir)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2499'
-    location: 'Others'
-    title: 'Backend Developer (Elixir)'
-    type: Fulltime
-    salaryRange: 'Mức lương cạnh tranh'
-  - company: 'Mobytelab Solution'
-    date: '2021-05-26T07:52:39Z'
-    desc: 'Fullstack Javascript Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2498'
-    location: 'HCM'
-    title: 'Fullstack Javascript Developer'
-    type: Fulltime
-    salaryRange: '$1500 NET/month'
 ---
