@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'Crypto Project'
+    date: '2021-06-05T16:10:39Z'
+    desc: 'Back End Developer (NodeJS)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2523'
+    location: 'HN'
+    title: 'Back End Developer (NodeJS)'
+    type: Up to $3000
+    salaryRange: '## Requirements'
   - company: 'Yojee'
     date: '2021-06-04T06:59:42Z'
     desc: 'QA engineer'
