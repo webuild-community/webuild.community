@@ -64,31 +64,4 @@ list:
     title: 'SENIOR RUBY ON RAILS'
     type: Fulltime
     salaryRange: ''
-  - company: 'FETCH TECHNOLOGY'
-    date: '2021-05-31T07:32:01Z'
-    desc: 'SENIOR/LEADER RUBY ON RAILS'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2503'
-    location: 'HCM'
-    title: 'SENIOR/LEADER RUBY ON RAILS'
-    type: Fulltime
-    salaryRange: ''
-  - company: 'CycAI'
-    date: '2021-05-27T21:53:43Z'
-    desc: 'Frontend Developer (ReactJS)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2502'
-    location: 'HCM'
-    title: 'Frontend Developer (ReactJS)'
-    type: Fulltime
-    salaryRange: 'Above the market with stock options as long as you are really good.'
-  - company: 'SpiritLabs'
-    date: '2021-05-27T15:06:58Z'
-    desc: 'Backend Developer (NodeJS)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2501'
-    location: 'Others'
-    title: 'Backend Developer (NodeJS)'
-    type: Fulltime
-    salaryRange: 'Up to $1500'
 ---
