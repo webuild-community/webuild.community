@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'Yojee'
+    date: '2021-06-07T03:36:10Z'
+    desc: 'Senior Product Manager'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2527'
+    location: 'HCM'
+    title: 'Senior Product Manager'
+    type: Fulltime
+    salaryRange: 'Negotiate'
   - company: 'Crypto Project'
     date: '2021-06-05T16:10:39Z'
     desc: 'Back End Developer (NodeJS)'
@@ -55,13 +64,4 @@ list:
     title: 'Frontend Engineer'
     type: Fulltime
     salaryRange: '2,500 - 5,000 USD'
-  - company: 'FETCH TECHNOLOGY'
-    date: '2021-05-31T07:53:09Z'
-    desc: 'SENIOR RUBY ON RAILS'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2504'
-    location: 'HCM'
-    title: 'SENIOR RUBY ON RAILS'
-    type: Fulltime
-    salaryRange: ''
 ---
