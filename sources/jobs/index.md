@@ -1,6 +1,42 @@
 ---
 key: jobs
 list:
+  - company: 'FETCH TECHNOLOGY'
+    date: '2021-06-07T11:08:34Z'
+    desc: 'Senior Application Security Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2532'
+    location: 'HCM'
+    title: 'Senior Application Security Engineer'
+    type: Fulltime
+    salaryRange: ''
+  - company: 'FETCH TECHNOLOGY'
+    date: '2021-06-07T11:03:49Z'
+    desc: 'DEVSECOPS ENGINEER'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2531'
+    location: 'HCM'
+    title: 'DEVSECOPS ENGINEER'
+    type: Fulltime
+    salaryRange: ''
+  - company: 'FETCH TECHNOLOGY'
+    date: '2021-06-07T10:53:26Z'
+    desc: 'MIDDLE DEVOPS ENGINEER'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2530'
+    location: 'HCM'
+    title: 'MIDDLE DEVOPS ENGINEER'
+    type: Fulltime
+    salaryRange: ''
+  - company: 'FETCH TECHNOLOGY'
+    date: '2021-06-07T10:46:32Z'
+    desc: 'PYTHON DEVELOPER'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2529'
+    location: 'HCM'
+    title: 'PYTHON DEVELOPER'
+    type: Fulltime
+    salaryRange: ''
   - company: 'Yojee'
     date: '2021-06-07T03:36:10Z'
     desc: 'Senior Product Manager'
@@ -46,22 +82,4 @@ list:
     title: 'Senior PHP superhero🦸(Magento/Symfony/Laravel)'
     type: Fulltime
     salaryRange: '$1000 - $2000/month'
-  - company: 'KYANON DIGITAL'
-    date: '2021-06-01T11:15:29Z'
-    desc: 'SENIOR SOFTWARE ENGINEER'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2509'
-    location: 'HCM'
-    title: 'SENIOR SOFTWARE ENGINEER'
-    type: Up to $3000
-    salaryRange: ''
-  - company: 'Raksul Vietnam'
-    date: '2021-06-01T08:27:40Z'
-    desc: 'Frontend Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2508'
-    location: 'HCM'
-    title: 'Frontend Engineer'
-    type: Fulltime
-    salaryRange: '2,500 - 5,000 USD'
 ---
