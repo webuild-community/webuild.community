@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'Fetch'
+    date: '2021-06-07T13:50:42Z'
+    desc: 'HCM'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2533'
+    location: 'Others'
+    title: 'HCM'
+    type: Upto 2500USD
+    salaryRange: ''
   - company: 'FETCH TECHNOLOGY'
     date: '2021-06-07T11:08:34Z'
     desc: 'Senior Application Security Engineer'
