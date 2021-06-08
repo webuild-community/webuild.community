@@ -1,6 +1,24 @@
 ---
 key: jobs
 list:
+  - company: 'Star Global'
+    date: '2021-06-08T03:30:25Z'
+    desc: 'Android Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2535'
+    location: 'Others'
+    title: 'Android Engineer'
+    type: Fulltime
+    salaryRange: 'Very impressive - We can't share our range but you can share your expected salary and we'll let you know if that fits in our range of Engineer Level'
+  - company: 'Star Global'
+    date: '2021-06-08T03:25:31Z'
+    desc: 'Ruby Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2534'
+    location: 'Others'
+    title: 'Ruby Engineer'
+    type: Fulltime
+    salaryRange: 'Very impressive - We can't share our range but you can share your expected salary and we'll let you know if that fits in our range of Engineer Level'
   - company: 'Fetch'
     date: '2021-06-07T13:50:42Z'
     desc: 'HCM'
@@ -73,22 +91,4 @@ list:
     title: 'QA engineer'
     type: Fulltime
     salaryRange: 'VND 20m - VND 45m gross per month'
-  - company: '2Click Solutions'
-    date: '2021-06-03T10:59:52Z'
-    desc: '.NET Software Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2519'
-    location: 'HCM'
-    title: '.NET Software Engineer'
-    type: Fulltime
-    salaryRange: 'Negotiation'
-  - company: 'SUTUNAM'
-    date: '2021-06-02T12:40:37Z'
-    desc: 'Senior PHP superhero🦸(Magento/Symfony/Laravel)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2517'
-    location: 'HN'
-    title: 'Senior PHP superhero🦸(Magento/Symfony/Laravel)'
-    type: Fulltime
-    salaryRange: '$1000 - $2000/month'
 ---
