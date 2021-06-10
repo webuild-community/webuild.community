@@ -1,6 +1,33 @@
 ---
 key: jobs
 list:
+  - company: 'Titan Technology'
+    date: '2021-06-10T04:23:24Z'
+    desc: 'DevOps Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2543'
+    location: 'HCM'
+    title: 'DevOps Engineer'
+    type: Fulltime
+    salaryRange: 'Negotiable'
+  - company: 'Titan Technology'
+    date: '2021-06-10T04:22:54Z'
+    desc: 'Angular2+ Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2541'
+    location: 'HCM'
+    title: 'Angular2+ Developer'
+    type: Fulltime
+    salaryRange: 'Negotiable'
+  - company: 'Titan Technology'
+    date: '2021-06-10T04:22:45Z'
+    desc: 'Automation QA'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2540'
+    location: 'HCM'
+    title: 'Automation QA'
+    type: Fulltime
+    salaryRange: 'Negotiable'
   - company: 'Star Global'
     date: '2021-06-08T03:30:25Z'
     desc: 'Android Engineer'
@@ -64,31 +91,4 @@ list:
     title: 'PYTHON DEVELOPER'
     type: Fulltime
     salaryRange: ''
-  - company: 'Yojee'
-    date: '2021-06-07T03:36:10Z'
-    desc: 'Senior Product Manager'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2527'
-    location: 'HCM'
-    title: 'Senior Product Manager'
-    type: Fulltime
-    salaryRange: 'Negotiate'
-  - company: 'Crypto Project'
-    date: '2021-06-05T16:10:39Z'
-    desc: 'Back End Developer (NodeJS)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2523'
-    location: 'HN'
-    title: 'Back End Developer (NodeJS)'
-    type: Up to $3000
-    salaryRange: '## Requirements'
-  - company: 'Yojee'
-    date: '2021-06-04T06:59:42Z'
-    desc: 'QA engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2521'
-    location: 'HCM'
-    title: 'QA engineer'
-    type: Fulltime
-    salaryRange: 'VND 20m - VND 45m gross per month'
 ---
