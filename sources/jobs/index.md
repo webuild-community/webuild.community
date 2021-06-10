@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'Weploy'
+    date: '2021-06-10T11:09:50Z'
+    desc: 'Ruby on Rails developers'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2545'
+    location: 'HCM'
+    title: 'Ruby on Rails developers'
+    type: Fulltime
+    salaryRange: '$1000 - $4000'
   - company: 'Titan Technology'
     date: '2021-06-10T04:23:24Z'
     desc: 'DevOps Engineer'
@@ -80,15 +89,6 @@ list:
     linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2530'
     location: 'HCM'
     title: 'MIDDLE DEVOPS ENGINEER'
-    type: Fulltime
-    salaryRange: ''
-  - company: 'FETCH TECHNOLOGY'
-    date: '2021-06-07T10:46:32Z'
-    desc: 'PYTHON DEVELOPER'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2529'
-    location: 'HCM'
-    title: 'PYTHON DEVELOPER'
     type: Fulltime
     salaryRange: ''
 ---
