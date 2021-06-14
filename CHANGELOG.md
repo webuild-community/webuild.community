@@ -1,3 +1,14 @@
+### [1.2.54](https://github.com/webuild-community/webuild.community/compare/v1.2.53...v1.2.54) (2021-06-14)
+
+### 🚿 Chores
+
+- update jobs ([9d62424](https://github.com/webuild-community/webuild.community/commit/9d62424f7b23d0a91b25b3328402526d4615dfee))
+- update jobs ([98d007c](https://github.com/webuild-community/webuild.community/commit/98d007c3fac3d73c929299b57e67fd7b242cac76))
+- update jobs ([838aa1c](https://github.com/webuild-community/webuild.community/commit/838aa1c3740ce8ef02351871a0515165391c05bb))
+- update jobs ([867cf2f](https://github.com/webuild-community/webuild.community/commit/867cf2f1b0fbe12d7094a00082801e7c80e18358))
+- update jobs ([b70e76f](https://github.com/webuild-community/webuild.community/commit/b70e76f97e42e736a9f817b140973e78f9f1a680))
+- update jobs ([db7853b](https://github.com/webuild-community/webuild.community/commit/db7853b9f2ad57b260ce9b50bcb519fa4f66a2d6))
+
 ### [1.2.53](https://github.com/webuild-community/webuild.community/compare/v1.2.52...v1.2.53) (2021-06-13)
 
 ### 🚿 Chores
