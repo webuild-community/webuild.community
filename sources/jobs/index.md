@@ -1,6 +1,24 @@
 ---
 key: jobs
 list:
+  - company: 'LINE Vietnam'
+    date: '2021-06-14T09:16:30Z'
+    desc: 'Software Engineer Intern (Frontend/Backend)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2549'
+    location: 'HCM'
+    title: 'Software Engineer Intern (Frontend/Backend)'
+    type: FT/PT
+    salaryRange: 'Top attractive internship allowance in the market (1000$)'
+  - company: 'LINE Vietnam'
+    date: '2021-06-14T09:16:01Z'
+    desc: 'Mobile Engineer (iOS/Android)'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2548'
+    location: 'HCM'
+    title: 'Mobile Engineer (iOS/Android)'
+    type: Fulltime
+    salaryRange: 'Market-Competitive and very attractive'
   - company: 'Weploy'
     date: '2021-06-10T11:09:50Z'
     desc: 'Ruby on Rails developers'
@@ -63,32 +81,5 @@ list:
     location: 'Others'
     title: 'HCM'
     type: Upto 2500USD
-    salaryRange: ''
-  - company: 'FETCH TECHNOLOGY'
-    date: '2021-06-07T11:08:34Z'
-    desc: 'Senior Application Security Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2532'
-    location: 'HCM'
-    title: 'Senior Application Security Engineer'
-    type: Fulltime
-    salaryRange: ''
-  - company: 'FETCH TECHNOLOGY'
-    date: '2021-06-07T11:03:49Z'
-    desc: 'DEVSECOPS ENGINEER'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2531'
-    location: 'HCM'
-    title: 'DEVSECOPS ENGINEER'
-    type: Fulltime
-    salaryRange: ''
-  - company: 'FETCH TECHNOLOGY'
-    date: '2021-06-07T10:53:26Z'
-    desc: 'MIDDLE DEVOPS ENGINEER'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2530'
-    location: 'HCM'
-    title: 'MIDDLE DEVOPS ENGINEER'
-    type: Fulltime
     salaryRange: ''
 ---
