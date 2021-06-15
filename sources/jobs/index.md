@@ -55,31 +55,4 @@ list:
     title: 'Automation QA'
     type: Fulltime
     salaryRange: 'Negotiable'
-  - company: 'Star Global'
-    date: '2021-06-08T03:30:25Z'
-    desc: 'Android Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2535'
-    location: 'Others'
-    title: 'Android Engineer'
-    type: Fulltime
-    salaryRange: 'Very impressive - We can't share our range but you can share your expected salary and we'll let you know if that fits in our range of Engineer Level'
-  - company: 'Star Global'
-    date: '2021-06-08T03:25:31Z'
-    desc: 'Ruby Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2534'
-    location: 'Others'
-    title: 'Ruby Engineer'
-    type: Fulltime
-    salaryRange: 'Very impressive - We can't share our range but you can share your expected salary and we'll let you know if that fits in our range of Engineer Level'
-  - company: 'Fetch'
-    date: '2021-06-07T13:50:42Z'
-    desc: 'HCM'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2533'
-    location: 'Others'
-    title: 'HCM'
-    type: Upto 2500USD
-    salaryRange: ''
 ---
