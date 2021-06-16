@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'FETCH TECHNOLOGY'
+    date: '2021-06-16T08:05:01Z'
+    desc: 'Java Manager'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2568'
+    location: 'HCM'
+    title: 'Java Manager'
+    type: Fulltime
+    salaryRange: '$1500-$2500/month or range'
   - company: 'Biomatters'
     date: '2021-06-16T04:04:22Z'
     desc: 'Fullstack Engineer'
