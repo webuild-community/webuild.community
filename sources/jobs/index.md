@@ -1,6 +1,33 @@
 ---
 key: jobs
 list:
+  - company: 'Biomatters'
+    date: '2021-06-16T04:04:22Z'
+    desc: 'Fullstack Engineer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2567'
+    location: 'Others'
+    title: 'Fullstack Engineer'
+    type: Fulltime
+    salaryRange: ''
+  - company: 'FETCH TECHNOLOGY'
+    date: '2021-06-16T02:45:59Z'
+    desc: 'Junior DevOps'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2564'
+    location: 'HCM'
+    title: 'Junior DevOps'
+    type: Fulltime
+    salaryRange: '$500-1500/month'
+  - company: 'FETCH TECHNOLOGY'
+    date: '2021-06-16T02:34:52Z'
+    desc: 'Senior Quality Assurance'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2563'
+    location: 'HN'
+    title: 'Senior Quality Assurance'
+    type: Fulltime
+    salaryRange: '700-1500USD/month'
   - company: 'LINE Vietnam'
     date: '2021-06-14T09:16:30Z'
     desc: 'Software Engineer Intern (Frontend/Backend)'
@@ -28,31 +55,4 @@ list:
     title: 'Ruby on Rails developers'
     type: Fulltime
     salaryRange: '$1000 - $4000'
-  - company: 'Titan Technology'
-    date: '2021-06-10T04:23:24Z'
-    desc: 'DevOps Engineer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2543'
-    location: 'HCM'
-    title: 'DevOps Engineer'
-    type: Fulltime
-    salaryRange: 'Negotiable'
-  - company: 'Titan Technology'
-    date: '2021-06-10T04:22:54Z'
-    desc: 'Angular2+ Developer'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2541'
-    location: 'HCM'
-    title: 'Angular2+ Developer'
-    type: Fulltime
-    salaryRange: 'Negotiable'
-  - company: 'Titan Technology'
-    date: '2021-06-10T04:22:45Z'
-    desc: 'Automation QA'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2540'
-    location: 'HCM'
-    title: 'Automation QA'
-    type: Fulltime
-    salaryRange: 'Negotiable'
 ---
