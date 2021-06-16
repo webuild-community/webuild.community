@@ -2,6 +2,15 @@
 key: jobs
 list:
   - company: 'FETCH TECHNOLOGY'
+    date: '2021-06-16T08:36:16Z'
+    desc: 'Senior React Native Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2569'
+    location: 'HN'
+    title: 'Senior React Native Developer'
+    type: Fulltime
+    salaryRange: '$1000-$2500/month or range'
+  - company: 'FETCH TECHNOLOGY'
     date: '2021-06-16T08:05:01Z'
     desc: 'Java Manager'
     isOpened: 'true'
@@ -19,6 +28,15 @@ list:
     title: 'Fullstack Engineer'
     type: Fulltime
     salaryRange: ''
+  - company: 'LocalizeDirect'
+    date: '2021-06-16T03:31:37Z'
+    desc: 'Senior frontend developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2566'
+    location: 'HCM'
+    title: 'Senior frontend developer'
+    type: Fulltime
+    salaryRange: '1,500 - 2,200 USD'
   - company: 'FETCH TECHNOLOGY'
     date: '2021-06-16T02:45:59Z'
     desc: 'Junior DevOps'
@@ -55,13 +73,4 @@ list:
     title: 'Mobile Engineer (iOS/Android)'
     type: Fulltime
     salaryRange: 'Market-Competitive and very attractive'
-  - company: 'Weploy'
-    date: '2021-06-10T11:09:50Z'
-    desc: 'Ruby on Rails developers'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2545'
-    location: 'HCM'
-    title: 'Ruby on Rails developers'
-    type: Fulltime
-    salaryRange: '$1000 - $4000'
 ---
