@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'iRuuza'
+    date: '2021-06-16T14:56:32Z'
+    desc: 'Full Stack Developer / RoR / React'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2571'
+    location: 'Others'
+    title: 'Full Stack Developer / RoR / React'
+    type: Fulltime
+    salaryRange: '$25k-$45k/month'
   - company: 'FETCH TECHNOLOGY'
     date: '2021-06-16T08:36:16Z'
     desc: 'Senior React Native Developer'
