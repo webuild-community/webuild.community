@@ -73,13 +73,4 @@ list:
     title: 'Software Engineer Intern (Frontend/Backend)'
     type: FT/PT
     salaryRange: 'Top attractive internship allowance in the market (1000$)'
-  - company: 'LINE Vietnam'
-    date: '2021-06-14T09:16:01Z'
-    desc: 'Mobile Engineer (iOS/Android)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2548'
-    location: 'HCM'
-    title: 'Mobile Engineer (iOS/Android)'
-    type: Fulltime
-    salaryRange: 'Market-Competitive and very attractive'
 ---
