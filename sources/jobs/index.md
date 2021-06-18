@@ -64,13 +64,4 @@ list:
     title: 'Senior Quality Assurance'
     type: Fulltime
     salaryRange: '700-1500USD/month'
-  - company: 'LINE Vietnam'
-    date: '2021-06-14T09:16:30Z'
-    desc: 'Software Engineer Intern (Frontend/Backend)'
-    isOpened: 'true'
-    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2549'
-    location: 'HCM'
-    title: 'Software Engineer Intern (Frontend/Backend)'
-    type: FT/PT
-    salaryRange: 'Top attractive internship allowance in the market (1000$)'
 ---
