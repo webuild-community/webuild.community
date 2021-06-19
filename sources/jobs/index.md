@@ -1,6 +1,15 @@
 ---
 key: jobs
 list:
+  - company: 'Central Retail VN'
+    date: '2021-06-19T07:19:12Z'
+    desc: 'Full Stack Developer'
+    isOpened: 'true'
+    linkURL: 'https://github.com/awesome-jobs/vietnam/issues/2575'
+    location: 'HCM'
+    title: 'Full Stack Developer'
+    type: Fulltime
+    salaryRange: '$1000 -> $2500/month'
   - company: 'iRuuza'
     date: '2021-06-16T14:56:32Z'
     desc: 'Full Stack Developer / RoR / React'
